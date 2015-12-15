@@ -1,0 +1,27 @@
+var structtype__face_1_1face__t =
+[
+    [ "compute_quadrature_coords", "structtype__face_1_1face__t.html#a0ce8ecf1abb0a8e7eea795c4b5e60e0c", null ],
+    [ "compute_quadrature_metrics", "structtype__face_1_1face__t.html#a45bfebcf95a9fcf67b051a2d9758fd43", null ],
+    [ "compute_quadrature_normals", "structtype__face_1_1face__t.html#a733cb07036f79331cb05d15c3cd354f2", null ],
+    [ "destructor", "structtype__face_1_1face__t.html#aef71d8463c26825e3640e8f6c037ffcb", null ],
+    [ "init_geom", "structtype__face_1_1face__t.html#ab68c5c317fb85e365fd42bcc1117b2a0", null ],
+    [ "init_sol", "structtype__face_1_1face__t.html#aec74665f66ca011203386ee1e159aa83", null ],
+    [ "chiid", "structtype__face_1_1face__t.html#a9503ac5f50f1ba59472ddc7205e9584d", null ],
+    [ "coords", "structtype__face_1_1face__t.html#a601d2eab32400e72751271f575f4bc10", null ],
+    [ "ftype", "structtype__face_1_1face__t.html#ae0e20a906c2c788bc34eca74786894ed", null ],
+    [ "geominitialized", "structtype__face_1_1face__t.html#a3c6c621b7c5720b852d3a75cceaa8e3a", null ],
+    [ "gq", "structtype__face_1_1face__t.html#ad30763005752570b9a6aca97c5998c41", null ],
+    [ "gqmesh", "structtype__face_1_1face__t.html#af040a249f60c85717e50e26d9775ec03", null ],
+    [ "idomain", "structtype__face_1_1face__t.html#ae735e9a5a520d916b92bcf7869638961", null ],
+    [ "iface", "structtype__face_1_1face__t.html#a6c9aa9f1c2910a4b2e7244fa75973ffe", null ],
+    [ "ineighbor", "structtype__face_1_1face__t.html#a806bab1b0737a21f5d636420abbab540", null ],
+    [ "iparent", "structtype__face_1_1face__t.html#a75dbc68a6d3bbe2f5ceace1893e487c5", null ],
+    [ "jinv", "structtype__face_1_1face__t.html#aeb344c916c60d5a899e7fdcf019badf5", null ],
+    [ "metric", "structtype__face_1_1face__t.html#aeb6c88f004eb7c21e05d1a68297c3408", null ],
+    [ "neqns", "structtype__face_1_1face__t.html#aeaf53b04e8c07fcabb4d66881e8d0f9c", null ],
+    [ "norm", "structtype__face_1_1face__t.html#a869066fcf3c737d86db867bac2b1f838", null ],
+    [ "nterms_s", "structtype__face_1_1face__t.html#af5c0d4288e9a2683783a3edd7f01d620", null ],
+    [ "numinitialized", "structtype__face_1_1face__t.html#ab36159ed429ac67f309a13f7c30c8666", null ],
+    [ "quad_pts", "structtype__face_1_1face__t.html#a11f8ba5bab97a825c50f6882209914b5", null ],
+    [ "unorm", "structtype__face_1_1face__t.html#ab6f8b014e0b3c347622a3b67d3778777", null ]
+];

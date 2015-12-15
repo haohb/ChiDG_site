@@ -1,0 +1,4 @@
+var structlineuler__boundary__average__advective__flux__imag_1_1lineuler__boundary__average__advective__flux__imag__t =
+[
+    [ "compute", "structlineuler__boundary__average__advective__flux__imag_1_1lineuler__boundary__average__advective__flux__imag__t.html#a150cd6c1e6ba0314114a675ddd392be2", null ]
+];
