@@ -1,6 +1,15 @@
 var page_codedetails =
 [
-    [ "ChiDG Instance", "subpage_chidg.html", "subpage_chidg" ],
+    [ "ChiDG Instance", "subpage_chidg.html", [
+      [ "Components", "subpage_chidg.html#s_chidg_components", [
+        [ "Data", "subpage_chidg.html#s_chidg_data", null ]
+      ] ],
+      [ "Functionality", "subpage_chidg.html#s_chidg_functionality", [
+        [ "Required calls", "subpage_chidg.html#s_chidg_required", null ],
+        [ "IO", "subpage_chidg.html#s_chidg_io", null ],
+        [ "Execution", "subpage_chidg.html#s_chidg_execution", null ]
+      ] ]
+    ] ],
     [ "Mesh data structures", "subpage_mesh.html", "subpage_mesh" ],
     [ "Solution data structures", "subpage_solution.html", [
       [ "ChiDG vector", "subpage_solution.html#s_solution_chidgvector", [

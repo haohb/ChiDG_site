@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['installation',['Installation',['../page_installation.html',1,'']]],
-  ['input_2foutput',['Input/Output',['../subpage_io.html',1,'page_codedetails']]]
+  ['example_20cases',['Example Cases',['../page_examplecases.html',1,'']]],
+  ['equation_20sets',['Equation sets',['../subpage_equationsets.html',1,'page_codedetails']]]
 ];

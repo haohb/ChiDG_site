@@ -100,30 +100,76 @@ $(document).ready(function(){initNavTree('page_installation.html','');});
 <div class="title">Installation </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>This page details the information required to successfully build the ChiDG project. One should be sure to first address the required dependencies of the project, which are detailed below. Also, a recent compiler version should be used. Tested compilers are listed below.</p>
+<div class="textblock"><p>This page details the information required to successfully build the ChiDG project. One should be sure to first address the required dependencies of the project, which are detailed below. Also, a recent compiler version should be used. The following steps outline the process for successfully building ChiDG.</p>
+<p>Installing ChiDG:</p><ol type="1">
+<li><a class="el" href="page_installation.html#s_obtaining">Obtaining ChiDG</a></li>
+<li><a class="el" href="page_installation.html#s_dependencies">ChiDG Dependencies</a></li>
+<li><a class="el" href="page_installation.html#s_compile">Compiling ChiDG</a></li>
+</ol>
+<p><br />
+</p><hr/>
 <h1><a class="anchor" id="s_obtaining"></a>
 Obtaining ChiDG</h1>
 <p>ChiDG is hosted in a git repository on <a href="https://www.gitlab.com">www.gitlab.com</a> and may be cloned using either <code>ssh</code> or <code>https</code> protocols as</p>
 <div class="fragment"><div class="line">git clone git@gitlab.com:nwukie/ChiDG.git ChiDG         </div>
 </div><!-- fragment --><div class="fragment"><div class="line">git clone https:<span class="comment">//gitlab.com/nwukie/ChiDG.git ChiDG     </span></div>
-</div><!-- fragment --><h1><a class="anchor" id="s_dependencies"></a>
-Dependencies</h1>
+</div><!-- fragment --><p>ChiDG is currently in a pre-release state. As such, public read-access to the above repository is restricted.</p>
+<p><br />
+<br />
+</p>
+<hr/>
+<h1><a class="anchor" id="s_dependencies"></a>
+ChiDG Dependencies</h1>
 <p>ChiDG depends on several libraries that enable IO and parallelization activities. These components are required to build ChiDG.</p>
+<p><a class="el" href="page_installation.html#s_dep_hdf5">HDF5</a> <br />
+ <a class="el" href="page_installation.html#s_dep_mpich">MPICH</a> <br />
+ <a class="el" href="page_installation.html#s_dep_cmake">CMake</a> <br />
+ <a class="el" href="page_installation.html#s_dep_tecio">TecIO</a> (distributed with ChiDG) <br />
+</p>
+<p><br />
+</p>
 <h2><a class="anchor" id="s_dep_hdf5"></a>
 HDF5</h2>
 <p>HDF5 is used as a container for the ChiDG grid/solution files and is a required depencency of ChiDG.</p>
 <p><a href="https://www.hdfgroup.org">HDF5 Website</a></p>
+<p><br />
+<br />
+</p>
 <h2><a class="anchor" id="s_dep_mpich"></a>
 MPICH</h2>
+<p>The <code>mpich</code> source or precompiled packages can be downloaded from the MPICH website.</p>
+<p><a href="https://www.mpich.org">MPICH Website</a></p>
+<h3><a class="anchor" id="s_dep_mpich_configuration"></a>
+Compile MPICH</h3>
+<p>When compiling <code>mpich</code>, the following procedure is used to set the relevant compilers and configure mpich to be built.</p>
+<p>The following configuration command is used in the root <code>mpich</code> directory to set up the build: </p><div class="fragment"><div class="line">./configure --prefix=/usr/<a class="code" href="namespacemod__constants.html#a37a6d0bb5e01c17727f22da723a8c8d5">local</a>/mpich/gnu --enable-fortran=all CC=gcc CXX=g++ F77=gfortran FC=gfortran 2&gt;&amp;1 | tee c.txt   </div>
+</div><!-- fragment --><p> The <code>CC</code>, <code>CXX</code>, <code>F77</code>, and <code>FC</code> variables set in the configure line are used to set the C, C++, and Fortran compilers.</p>
+<p>Compile <code>mpich</code> with: </p><div class="fragment"><div class="line">make 2&gt;&amp;1 | tee m.txt   </div>
+</div><!-- fragment --><p>Install <code>mpich</code> with: </p><div class="fragment"><div class="line">make install 2&gt;&amp;1 | tee mi.txt  </div>
+</div><!-- fragment --><h3><a class="anchor" id="s_dep_mpich_variables"></a>
+Set environment variables for MPICH</h3>
+<p>The <code>cmake</code> build script requires the <code>MPI_ROOT</code> environment variable to be set.</p>
+<div class="fragment"><div class="line">export MPI_ROOT=/usr/<a class="code" href="namespacemod__constants.html#a37a6d0bb5e01c17727f22da723a8c8d5">local</a>/mpich    </div>
+</div><!-- fragment --><p>This must be set such that <code>${MPI_ROOT}/gnu</code> or <code>${MPI_ROOT}/intel</code> are valid; allowing the <code>cmake</code> script to select the correct installation based on the compiler vendor being used.</p>
+<p><br />
+<br />
+</p>
 <h2><a class="anchor" id="s_dep_cmake"></a>
 CMake</h2>
-<p>CMake is required to generate the 'make' configuration. Version 3.4.0 has been tested.</p>
+<p>ChiDG uses the CMake build-system to generate the 'make' configuration files for the project.</p>
+<p><a href="https://cmake.org">CMake Website</a></p>
+<p><br />
+<br />
+</p>
 <h2><a class="anchor" id="s_dep_tecio"></a>
 TecIO</h2>
 <p>Tecplot 360 is the primary visualization tool currently used for ChiDG. The TecIO libraries are distributed with the ChiDG project for multiple systems and should be linked accordingly without user intervention. If, for some reason, the packaged TecIO libraries are incompatible with your system, new libraries can be downloaded from the Tecplot website.</p>
 <p><a href="http://www.tecplot.com/downloads/tecio-library">TecIO Libraries</a></p>
+<p><br />
+<br />
+ </p><hr/>
 <h1><a class="anchor" id="s_compile"></a>
-Compile</h1>
+Compiling ChiDG</h1>
 <p>NOTE: ChiDG uses features of the most recent Fortran standard (F2008). Updated versions of Fortran compilers are required.</p>
 <p>Successfully tested compiler versions:</p><ul>
 <li>gfortran 5.2</li>
@@ -138,14 +184,17 @@ Compile</h1>
 <li>Execute the CMake command with options to configure the build <div class="fragment"><div class="line">cmake -DCMAKE_Fortran_COMPILER=gfortran-5.2 -DCMAKE_BUILD_TYPE=Release ..   </div>
 </div><!-- fragment --></li>
 <li>Run make to build the ChiDG executable <div class="fragment"><div class="line">make            </div>
-</div><!-- fragment --> </li>
+</div><!-- fragment --></li>
 </ul>
+<p><br />
+<br />
+</p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Dec 14 2015 15:15:33 for ChiDG by
+    <li class="footer">Generated on Mon Dec 21 2015 12:11:46 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

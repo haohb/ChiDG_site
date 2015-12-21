@@ -1,4 +1,21 @@
 var searchData=
 [
-  ['jdim',['jdim',['../structtype__densematrix_1_1densematrix__t.html#a5fadc64b14c1c1cef74a6dcd06800983',1,'type_densematrix::densematrix_t']]]
+  ['gaussseidel_5fstandard',['gaussseidel_standard',['../namespacemod__gaussseidel__standard.html#a48380d73f5a8329ec7adcb804442ff4d',1,'mod_gaussseidel_standard']]],
+  ['get',['get',['../structtype__dict_1_1dict__t.html#a3bf2b7e084274da9dbb2116f6752b618',1,'type_dict::dict_t']]],
+  ['get_5fdomain_5findex',['get_domain_index',['../structtype__chidg__data_1_1chidg__data__t.html#a093309e3d1c8174da125abf97dbb11cf',1,'type_chidg_data::chidg_data_t::get_domain_index()'],['../namespacetype__chidg__data.html#acd16ff332e4444304fb3766656d40f45',1,'type_chidg_data::get_domain_index()']]],
+  ['get_5fdomain_5fnames_5fhdf',['get_domain_names_hdf',['../namespacemod__hdf__utilities.html#a381659caedf77f63d6593c0dbdeb0be5',1,'mod_hdf_utilities']]],
+  ['get_5feqn_5findex',['get_eqn_index',['../structtype__properties_1_1properties__t.html#af71b7a0a51eb33a3df4e87e74482614b',1,'type_properties::properties_t']]],
+  ['get_5feqnset_5fhdf',['get_eqnset_hdf',['../namespacemod__hdf__utilities.html#ab50aebc5af025871050cf0c7f3c86a25',1,'mod_hdf_utilities']]],
+  ['get_5ffile_5fextension',['get_file_extension',['../namespacemod__string__utilities.html#a60dd7cbc1ef1bbe7969a2de965203202',1,'mod_string_utilities']]],
+  ['get_5ffile_5fproperties',['get_file_properties',['../namespacemod__file__utilities.html#a0358b8db7769485ecf031baf63e819e6',1,'mod_file_utilities']]],
+  ['get_5fndomains_5fhdf',['get_ndomains_hdf',['../namespacemod__hdf__utilities.html#a6a2757f6d0054a227d23e90ed66252c8',1,'mod_hdf_utilities']]],
+  ['get_5forder_5fcoordinate_5fhdf',['get_order_coordinate_hdf',['../namespacemod__hdf__utilities.html#af452825240e766119307d1b5ffc2948e',1,'mod_hdf_utilities']]],
+  ['get_5forder_5fsolution_5fhdf',['get_order_solution_hdf',['../namespacemod__hdf__utilities.html#afe9ea415a1e691609cb93f6fa116e99a',1,'mod_hdf_utilities']]],
+  ['get_5fproperties_5fhdf',['get_properties_hdf',['../namespacemod__hdf__utilities.html#aa2b7f8a08ef423f6ae832f624ed13b0b',1,'mod_hdf_utilities']]],
+  ['get_5fquadrature',['get_quadrature',['../namespacemod__quadrature.html#ae6bf81155a6963cf9259ca154489b051',1,'mod_quadrature']]],
+  ['get_5freal_5fdict',['get_real_dict',['../namespacetype__dict.html#a8a2691469669c6ade6a0c11b8fa16e36',1,'type_dict']]],
+  ['getterm',['getterm',['../structtype__densevector_1_1densevector__t.html#ac65439d87c6e3ca9e1034ef2bb2ca2bb',1,'type_densevector::densevector_t']]],
+  ['getvar',['getvar',['../structtype__densevector_1_1densevector__t.html#af0cc281c145a5868a1ea6160c3b33aff',1,'type_densevector::densevector_t']]],
+  ['gl_5fnodes',['gl_nodes',['../namespacemod__gausslegendre.html#ab8929baf05ef05422a21acb89dfb2d16',1,'mod_gausslegendre']]],
+  ['gl_5fweights',['gl_weights',['../namespacemod__gausslegendre.html#a6e9bac90e1b035b3eac431a7c4fe6867',1,'mod_gausslegendre']]]
 ];

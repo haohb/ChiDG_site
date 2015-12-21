@@ -1,0 +1,4 @@
+var namespacela__boundary__average__advective__flux =
+[
+    [ "la_boundary_average_advective_flux_t", "structla__boundary__average__advective__flux_1_1la__boundary__average__advective__flux__t.html", "structla__boundary__average__advective__flux_1_1la__boundary__average__advective__flux__t" ]
+];

@@ -183,7 +183,7 @@ Chimera Interfaces</h1>
 <img src="d__chimera_receiver.png" alt="d__chimera_receiver.png"/>
 </div>
 <p>In a given <code>mesh_t</code> block, every face that gets information from a separate block is designated as a CHIMERA face, it is assigned an integer ID <code>face</code>%<code>ChiID</code>, and it gets an entry in the <code>mesh</code>%<code>chimera</code>%<code>recv</code>%<code>data</code> component. It can be accessed as</p>
-<div class="fragment"><div class="line">mesh%chimera%recv%data(ChiID)   </div>
+<div class="fragment"><div class="line">mesh%<a class="code" href="namespacemod__constants.html#a892506573bcde8e74e131d5de7cc14d6">chimera</a>%recv%<a class="code" href="namespacetype__ivector.html#a0ba0ca72e7ea265dd364300e0fa67679">data</a>(ChiID)   </div>
 </div><!-- fragment --><h2><a class="anchor" id="s_chimera_example"></a>
 Example</h2>
 <p>Consider an example with two mesh domains, as shown below. <code>mesh(1)</code> contains four elements. <code>mesh(2)</code> contains eight elements. <code>mesh(1)</code> overlaps with <code>mesh(2)</code>. In particular, the top faces of elements E3 and E4 lie inside <code>mesh(2)</code>. These faces are designated as CHIMERA faces and are given a mesh-global chimera ID. The top face of E3 is given the ID ChiID=1 and the top face of E4 is given the ID ChiID=2.</p>
@@ -199,7 +199,7 @@ Example</h2>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Dec 14 2015 15:15:33 for ChiDG by
+    <li class="footer">Generated on Mon Dec 21 2015 12:11:46 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

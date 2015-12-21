@@ -1,0 +1,4 @@
+var namespacelineuler__laxfriedrichs__flux__real =
+[
+    [ "lineuler_laxfriedrichs_flux_real_t", "structlineuler__laxfriedrichs__flux__real_1_1lineuler__laxfriedrichs__flux__real__t.html", "structlineuler__laxfriedrichs__flux__real_1_1lineuler__laxfriedrichs__flux__real__t" ]
+];
