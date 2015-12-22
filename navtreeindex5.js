@@ -1,5 +1,12 @@
 var NAVTREEINDEX5 =
 {
+"structatype__matrixsolver_1_1matrixsolver__t.html#a5837a3db94774abfead6cdb07810e773":[9,0,4,0,1],
+"structatype__matrixsolver_1_1matrixsolver__t.html#a8e9c0a03119a8419814e9b27f0acc3d7":[9,0,4,0,8],
+"structatype__matrixsolver_1_1matrixsolver__t.html#a93b1ebddbfdc2675971491b4596cea6b":[9,0,4,0,6],
+"structatype__matrixsolver_1_1matrixsolver__t.html#ae410ef0d8b005b5be5555e28dabe22e2":[9,0,4,0,3],
+"structatype__matrixsolver_1_1matrixsolver__t.html#aecbf6c5a81a8acb951bc5216e926db05":[9,0,4,0,5],
+"structatype__matrixsolver_1_1matrixsolver__t.html#afeb8e66fe4bcbf6f6ed3d44e19497f2f":[9,0,4,0,2],
+"structatype__solid_1_1solid__t.html":[9,0,5,0],
 "structatype__volume__flux_1_1volume__flux__t.html":[9,0,6,1],
 "structatype__volume__flux_1_1volume__flux__t.html#a4bfb263b0488f7acb2d808ec3752cb9c":[9,0,6,1,0],
 "structbackward__euler_1_1backward__euler__t.html":[9,0,7,0],
@@ -242,12 +249,5 @@ var NAVTREEINDEX5 =
 "structtype__blockvector_1_1blockvector__t.html#ad5d1af3fbbe5029e230c5852822c8223":[9,0,78,0,1],
 "structtype__blockvector_1_1blockvector__t.html#ad818e3674e2385001c77fe70a80e7e60":[9,0,78,0,9],
 "structtype__boundary__flux__wrapper_1_1boundary__flux__wrapper__t.html":[9,0,79,0],
-"structtype__boundary__flux__wrapper_1_1boundary__flux__wrapper__t.html#ab4dc8b4f0c19567c7c98f5bf24a7a62b":[9,0,79,0,0],
-"structtype__chidg_1_1chidg__t.html":[9,0,80,0],
-"structtype__chidg_1_1chidg__t.html#a20fcb36caa352e6e2ece282105fbcb1c":[9,0,80,0,3],
-"structtype__chidg_1_1chidg__t.html#a21256c76c241c28e1dfe71800f0820dc":[9,0,80,0,0],
-"structtype__chidg_1_1chidg__t.html#a2e467c3653912bd31eddcbee72ceb5f5":[9,0,80,0,5],
-"structtype__chidg_1_1chidg__t.html#a4209f3231676777a7ca1891cb49add39":[9,0,80,0,8],
-"structtype__chidg_1_1chidg__t.html#a54ce4bc0b93e78baddaa8703c75ebe7e":[9,0,80,0,11],
-"structtype__chidg_1_1chidg__t.html#a644d4e0b89860cb022fff14d3bc44957":[9,0,80,0,6]
+"structtype__boundary__flux__wrapper_1_1boundary__flux__wrapper__t.html#ab4dc8b4f0c19567c7c98f5bf24a7a62b":[9,0,79,0,0]
 };

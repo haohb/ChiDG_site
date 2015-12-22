@@ -126,6 +126,8 @@ Inheritance diagram for type_equationset::equationset_t:</div>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:ac3c2f4b1767f65dd0fc6014b5a245c1c"><td class="memItemLeft" align="right" valign="top">procedure(<a class="el" href="interfacetype__equationset_1_1self__interface.html">self_interface</a>), deferred&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__equationset_1_1equationset__t.html#ac3c2f4b1767f65dd0fc6014b5a245c1c">init</a></td></tr>
 <tr class="separator:ac3c2f4b1767f65dd0fc6014b5a245c1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fb5f29f8b775ab684aff8237d3789b0"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__equationset_1_1equationset__t.html#a8fb5f29f8b775ab684aff8237d3789b0">add_properties</a></td></tr>
+<tr class="separator:a8fb5f29f8b775ab684aff8237d3789b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a379d542333a3652c94f0c342ed318f23"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__equationset_1_1equationset__t.html#a379d542333a3652c94f0c342ed318f23">add_equation</a></td></tr>
 <tr class="separator:a379d542333a3652c94f0c342ed318f23"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a187d87d7f9aa3940f3ff74a4546fdcf2"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__equationset_1_1equationset__t.html#a187d87d7f9aa3940f3ff74a4546fdcf2">add_volume_advective_flux</a></td></tr>
@@ -156,6 +158,12 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Abstract equation-set type. Can be extended to implement a concrete equation set. </p>
+<ul>
+<li>Contains name and number of equations.</li>
+<li>Contains properties type with equations and material(ex. fluid) properties and definitions</li>
+<li>Contains arrays of flux components</li>
+</ul>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie</dd></dl>
 <ul>
 <li>Contains name and number of equations.</li>
 <li>Contains properties type with equations and material(ex. fluid) properties and definitions</li>
@@ -214,6 +222,21 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">procedure type_equationset::equationset_t::add_equation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8fb5f29f8b775ab684aff8237d3789b0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">procedure type_equationset::equationset_t::add_properties </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -353,7 +376,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetype__equationset.html">type_equationset</a></li><li class="navelem"><a class="el" href="structtype__equationset_1_1equationset__t.html">equationset_t</a></li>
-    <li class="footer">Generated on Mon Dec 21 2015 12:12:01 for ChiDG by
+    <li class="footer">Generated on Mon Dec 21 2015 21:22:37 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

@@ -4,6 +4,7 @@ var structtype__equationset_1_1equationset__t =
     [ "add_boundary_advective_flux", "structtype__equationset_1_1equationset__t.html#a950ba8c83e603e46b36b9c0c8fc8a52a", null ],
     [ "add_equation", "structtype__equationset_1_1equationset__t.html#a379d542333a3652c94f0c342ed318f23", null ],
     [ "add_equation", "structtype__equationset_1_1equationset__t.html#a379d542333a3652c94f0c342ed318f23", null ],
+    [ "add_properties", "structtype__equationset_1_1equationset__t.html#a8fb5f29f8b775ab684aff8237d3789b0", null ],
     [ "add_volume_advective_flux", "structtype__equationset_1_1equationset__t.html#a187d87d7f9aa3940f3ff74a4546fdcf2", null ],
     [ "add_volume_advective_flux", "structtype__equationset_1_1equationset__t.html#a187d87d7f9aa3940f3ff74a4546fdcf2", null ],
     [ "init", "structtype__equationset_1_1equationset__t.html#ac3c2f4b1767f65dd0fc6014b5a245c1c", null ],

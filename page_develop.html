@@ -100,22 +100,73 @@ $(document).ready(function(){initNavTree('page_develop.html','');});
 <div class="title">Develop </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Dev info</p>
+<div class="textblock"><p>Information on developing ChiDG.</p>
+<p>Development tasks:</p><ol type="1">
+<li><a class="el" href="page_develop.html#s_testing">Testing with pFUnit</a></li>
+<li><a class="el" href="page_develop.html#s_contributing">Contributing to ChiDG</a></li>
+</ol>
+<hr/>
+ <hr/>
 <h1><a class="anchor" id="s_testing"></a>
-Testing</h1>
-<div class="fragment"><div class="line">export F90_VENDOR=GNU </div>
+Testing with pFUnit</h1>
+<p>ChiDG uses the Fortran unit-testing framework <code>pFUnit</code>.</p>
+<p><a href="pfunit.sourceforge.net">pFUnit Website</a></p>
+<p><br />
+</p><hr/>
+ <h2><a class="anchor" id="s_testing_compile"></a>
+Compile pFUnit</h2>
+<p>Refer to the <code>pFUnit</code> documentation for a more complete guide to compiling the code. An abreviated description is provided here:</p>
+<p>First, set environment variables that are used by the <code>pFUnit</code> configuration file: </p><div class="fragment"><div class="line">export F90_VENDOR=GNU </div>
 <div class="line">export F90=gfortran</div>
 <div class="line">export MPIF90=mpifort</div>
 <div class="line">export MPIRUN=mpiexec</div>
-</div><!-- fragment --><div class="fragment"><div class="line">make tests MPI=YES</div>
-</div><!-- fragment --><div class="fragment"><div class="line">make install INSTALL_DIR=/usr/<a class="code" href="namespacemod__constants.html#a37a6d0bb5e01c17727f22da723a8c8d5">local</a>/pfunit </div>
-</div><!-- fragment --><p>Be sure to set the environment variable for <code>pfunit</code> </p><div class="fragment"><div class="line">export PFUNIT=/usr/<a class="code" href="namespacemod__constants.html#a37a6d0bb5e01c17727f22da723a8c8d5">local</a>/pfunit     </div>
-</div><!-- fragment --> </div></div><!-- contents -->
+</div><!-- fragment --><p>Compile <code>pFUnit</code> with <code>MPI=YES</code> to enable a parallel version of the testing framework: </p><div class="fragment"><div class="line">make tests MPI=YES</div>
+</div><!-- fragment --><p>Once the build is complete, install <code>pFUnit</code> into a preferred directory: </p><div class="fragment"><div class="line">make install INSTALL_DIR=/usr/<a class="code" href="namespacemod__constants.html#a37a6d0bb5e01c17727f22da723a8c8d5">local</a>/pfunit/gnu</div>
+</div><!-- fragment --><h2><a class="anchor" id="s_testing_environment"></a>
+Set environment variables for pFUnit</h2>
+<p>Be sure to set the environment variable for <code>pfunit</code> </p><div class="fragment"><div class="line">export PFUNIT=/usr/<a class="code" href="namespacemod__constants.html#a37a6d0bb5e01c17727f22da723a8c8d5">local</a>/pfunit     </div>
+</div><!-- fragment --><p><br />
+</p><hr/>
+ <h2><a class="anchor" id="s_testing_creating"></a>
+Creating tests</h2>
+<p>Two <code>cmake</code> macros have been written that facilitate adding tests and test targets to the system.</p>
+<div class="fragment"><div class="line">add_test_sources()</div>
+<div class="line">add_test_target()</div>
+</div><!-- fragment --><p> <br />
+</p>
+<h3><a class="anchor" id="s_testing_add_sources"></a>
+Adding test sources</h3>
+<p>First, the macro <code>add_test_sources</code> accepts a target name(<code>target_name</code>) and a list of source files(<code>test_source_list</code>). This defines a <code>cmake</code> variable, <code>${target_name_sources}</code>, that is a list of the test source files with their relative file path. The path is needed because the files need to be processed by the pFUnit preprocessor.</p>
+<div class="fragment"><div class="line">add_test_sources(target_name test_source_list)   </div>
+</div><!-- fragment --><p><b>Example:</b> </p><div class="fragment"><div class="line">add_test_sources(containers</div>
+<div class="line">                 source_1.pf</div>
+<div class="line">                 source_2.pf</div>
+<div class="line">                 source_3.pf     </div>
+<div class="line">                 )</div>
+</div><!-- fragment --><p> <br />
+</p>
+<h3><a class="anchor" id="s_testing_add_target"></a>
+Adding test target</h3>
+<p>Second, the macro <code>add_test_target</code> accepts a target name(<code>target_name</code>), and the <code>cmake</code> variable corresponding for the sources list(<code>${target_name_source}</code>) that should have already been defined by the <code>add_test_sources</code> macro.</p>
+<div class="fragment"><div class="line">add_test_target(target_name target_type ${target_name_sources})    </div>
+</div><!-- fragment --><p> Here, <code>target_type</code> is either <code>unit</code> or <code>reg</code>, designating either a unit-test or a regression-test, respectively.</p>
+<p><b>Example:</b> </p><div class="fragment"><div class="line">add_test_target(containers <a class="code" href="namespacemessenger.html#ad92f00cd8e2d72420519747cba7066db">unit</a> ${containers_sources})  </div>
+</div><!-- fragment --><p><br />
+<br />
+</p><hr/>
+ <hr/>
+<h1><a class="anchor" id="s_contributing"></a>
+Contributing to ChiDG</h1>
+<p>Information on how to contribute to ChiDG.</p>
+<p><br />
+<br />
+</p>
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Dec 21 2015 12:11:46 for ChiDG by
+    <li class="footer">Generated on Mon Dec 21 2015 21:22:22 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

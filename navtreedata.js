@@ -6,7 +6,15 @@ var NAVTREE =
     ] ],
     [ "Code Details", "page_codedetails.html", "page_codedetails" ],
     [ "Develop", "page_develop.html", [
-      [ "Testing", "page_develop.html#s_testing", null ]
+      [ "Testing with pFUnit", "page_develop.html#s_testing", [
+        [ "Compile pFUnit", "page_develop.html#s_testing_compile", null ],
+        [ "Set environment variables for pFUnit", "page_develop.html#s_testing_environment", null ],
+        [ "Creating tests", "page_develop.html#s_testing_creating", [
+          [ "Adding test sources", "page_develop.html#s_testing_add_sources", null ],
+          [ "Adding test target", "page_develop.html#s_testing_add_target", null ]
+        ] ]
+      ] ],
+      [ "Contributing to ChiDG", "page_develop.html#s_contributing", null ]
     ] ],
     [ "Example Cases", "page_examplecases.html", "page_examplecases" ],
     [ "Installation", "page_installation.html", [
@@ -62,10 +70,10 @@ var NAVTREEINDEX =
 "mod__constants_8f90.html#ab589447053e1c91c74491a229dfcf307",
 "mod__testutils_8f90.html#a3264d1452c4d01b6a27eca69c116cffd",
 "namespacequasi__newton.html",
-"structatype__volume__flux_1_1volume__flux__t.html",
-"structtype__chidg_1_1chidg__t.html#a8ddadae7287f7c54f6892ac334550dfd",
-"structtype__meshdata_1_1meshdata__t.html#a9199c309deee6f15db6dbb7c72ef8897",
-"type__element_8f90.html#a4e265f5ecf991056d73a3e41a4b7fcb5"
+"structatype__matrixsolver_1_1matrixsolver__t.html#a5837a3db94774abfead6cdb07810e773",
+"structtype__chidg_1_1chidg__t.html",
+"structtype__mesh_1_1mesh__t.html#abe0333be5d8640b53252e56fc4941d5f",
+"type__dict_8f90.html#a8a2691469669c6ade6a0c11b8fa16e36"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
