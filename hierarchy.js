@@ -152,6 +152,7 @@ var hierarchy =
     [ "type_testmatrix::testmatrix_t", "structtype__testmatrix_1_1testmatrix__t.html", null ],
     [ "type_timer::timer_t", "structtype__timer_1_1timer__t.html", null ],
     [ "type_timescheme::timescheme_t", "structtype__timescheme_1_1timescheme__t.html", [
+      [ "backward_euler_subiteration::backward_euler_subiteration_t", "structbackward__euler__subiteration_1_1backward__euler__subiteration__t.html", null ],
       [ "newton::newton_t", "structnewton_1_1newton__t.html", null ],
       [ "quasi_newton::quasi_newton_t", "structquasi__newton_1_1quasi__newton__t.html", null ]
     ] ],
@@ -168,7 +169,6 @@ var hierarchy =
     ] ],
     [ "time_scheme_t", null, [
       [ "backward_euler::backward_euler_t", "structbackward__euler_1_1backward__euler__t.html", null ],
-      [ "backward_euler_subiteration::backward_euler_subiteration_t", "structbackward__euler__subiteration_1_1backward__euler__subiteration__t.html", null ],
       [ "forward_euler::forward_euler_t", "structforward__euler_1_1forward__euler__t.html", null ]
     ] ]
 ];

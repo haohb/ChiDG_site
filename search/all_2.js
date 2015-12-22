@@ -7,6 +7,7 @@ var searchData=
   ['backward_5feuler_2ef90',['backward_euler.f90',['../backward__euler_8f90.html',1,'']]],
   ['backward_5feuler_5fsubiteration',['backward_euler_subiteration',['../namespacebackward__euler__subiteration.html',1,'']]],
   ['backward_5feuler_5fsubiteration_2ef90',['backward_euler_subiteration.f90',['../backward__euler__subiteration_8f90.html',1,'']]],
+  ['backward_5feuler_5fsubiteration_5finstance',['backward_euler_subiteration_instance',['../namespacemod__timescheme.html#a3b255844cbe0aba49e84feb13af026ee',1,'mod_timescheme']]],
   ['backward_5feuler_5fsubiteration_5ft',['backward_euler_subiteration_t',['../structbackward__euler__subiteration_1_1backward__euler__subiteration__t.html',1,'backward_euler_subiteration']]],
   ['backward_5feuler_5ft',['backward_euler_t',['../structbackward__euler_1_1backward__euler__t.html',1,'backward_euler']]],
   ['base_5fdata',['base_data',['../namespacemod__solverdata.html#a0ca51554f80b44b25a80355cebc58ed5',1,'mod_solverdata']]],
@@ -51,5 +52,5 @@ var searchData=
   ['boundary_5fflux_5ft',['boundary_flux_t',['../structatype__boundary__flux_1_1boundary__flux__t.html',1,'atype_boundary_flux']]],
   ['boundary_5fflux_5fwrapper_5ft',['boundary_flux_wrapper_t',['../structtype__boundary__flux__wrapper_1_1boundary__flux__wrapper__t.html',1,'type_boundary_flux_wrapper']]],
   ['buffer_5f',['buffer_',['../structtype__ivector_1_1ivector__t.html#a5f364413789d350aab37900b627585b4',1,'type_ivector::ivector_t::buffer_()'],['../structtype__mvector_1_1mvector__t.html#aa1a3bc1ecd9fa75648b73bbeedcfa2af',1,'type_mvector::mvector_t::buffer_()'],['../structtype__pvector_1_1pvector__t.html#aba60a8158d8153ab83e8d600e4441024',1,'type_pvector::pvector_t::buffer_()'],['../structtype__rvector_1_1rvector__t.html#a146880b0d61864a74265df1d6e7ae39b',1,'type_rvector::rvector_t::buffer_()'],['../structtype__vector_1_1vector__t.html#aee784e999d850f4e8ffd4a7e5c8c3466',1,'type_vector::vector_t::buffer_()']]],
-  ['build',['build',['../structtype__blockmatrix_1_1blockmatrix__t.html#afb3a78dbb60ed694dceac62579dd0d8c',1,'type_blockmatrix::blockmatrix_t::build()'],['../structtype__blockvector_1_1blockvector__t.html#ab4fab597728b304622a729d1efde8286',1,'type_blockvector::blockvector_t::build()'],['../structtype__testmatrix_1_1testmatrix__t.html#aac0ee702e89adc8c697d2bc59a37d3bd',1,'type_testmatrix::testmatrix_t::build()']]]
+  ['build',['build',['../structtype__testmatrix_1_1testmatrix__t.html#aac0ee702e89adc8c697d2bc59a37d3bd',1,'type_testmatrix::testmatrix_t']]]
 ];

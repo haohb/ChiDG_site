@@ -3,6 +3,7 @@ var searchData=
   ['b_5fx',['b_x',['../structfcn__gaussian_1_1gaussian__f.html#aee3a1a212624dc05ad6256e9c4125c0f',1,'fcn_gaussian::gaussian_f']]],
   ['b_5fy',['b_y',['../structfcn__gaussian_1_1gaussian__f.html#a0d5ef232a645c30a423cf9b37acf6d2c',1,'fcn_gaussian::gaussian_f']]],
   ['b_5fz',['b_z',['../structfcn__gaussian_1_1gaussian__f.html#a9d46ac46b643bc3d512816653f0b12ae',1,'fcn_gaussian::gaussian_f']]],
+  ['backward_5feuler_5fsubiteration_5finstance',['backward_euler_subiteration_instance',['../namespacemod__timescheme.html#a3b255844cbe0aba49e84feb13af026ee',1,'mod_timescheme']]],
   ['base_5fdata',['base_data',['../namespacemod__solverdata.html#a0ca51554f80b44b25a80355cebc58ed5',1,'mod_solverdata']]],
   ['basis',['basis',['../namespacemod__io.html#af5ed04dcfd1b170648f7675b138dc34f',1,'mod_io']]],
   ['bc',['bc',['../structtype__bcwrapper_1_1bcwrapper__t.html#a6521338fbb42b62863b6f26801bfd661',1,'type_bcwrapper::bcwrapper_t']]],

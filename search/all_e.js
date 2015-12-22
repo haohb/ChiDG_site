@@ -1,7 +1,7 @@
 var searchData=
 [
   ['overview',['Overview',['../index.html',1,'']]],
-  ['of',['of',['../structtype__expansion_1_1expansion__t.html#a4155c46afa4194f596ce852fe65903ff',1,'type_expansion::expansion_t::of()'],['../namespacemod__grid.html#a133a0a3d8d79de97621089d84c04c1de',1,'mod_grid::of()']]],
+  ['of',['of',['../structtype__expansion_1_1expansion__t.html#a4155c46afa4194f596ce852fe65903ff',1,'type_expansion::expansion_t']]],
   ['one',['one',['../namespacemod__constants.html#aeeaedd41788edeab9c1005d63c63779e',1,'mod_constants']]],
   ['operator_28_2a_29',['operator(*)',['../interfacetype__expansion_1_1operator_07_5_08.html',1,'type_expansion']]],
   ['operator_28_2a_29',['operator(*)',['../interfacetype__testdensevector_1_1operator_07_5_08.html',1,'type_testdensevector']]],

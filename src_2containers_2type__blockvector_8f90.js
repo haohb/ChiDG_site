@@ -6,7 +6,6 @@ var src_2containers_2type__blockvector_8f90 =
     [ "operator(-)", "interfacetype__blockvector_1_1operator_07-_08.html", "interfacetype__blockvector_1_1operator_07-_08" ],
     [ "operator(+)", "interfacetype__blockvector_1_1operator_07_09_08.html", "interfacetype__blockvector_1_1operator_07_09_08" ],
     [ "add_bv_bv", "src_2containers_2type__blockvector_8f90.html#a54ee87fb656f3b99e553041d9fb4cb6b", null ],
-    [ "build", "src_2containers_2type__blockvector_8f90.html#a766ddd456d71681afe5978895e833163", null ],
     [ "clear", "src_2containers_2type__blockvector_8f90.html#ace01822d9a64a0fb504c0ae1e9fb46e8", null ],
     [ "destructor", "src_2containers_2type__blockvector_8f90.html#a6394575f54e257580d017c5ac3b4f387", null ],
     [ "distribute", "src_2containers_2type__blockvector_8f90.html#a770321d3ee0639447887d4c0d8292fef", null ],

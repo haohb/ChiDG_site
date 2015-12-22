@@ -106,8 +106,10 @@ $(document).ready(function(){initNavTree('namespacemod__polynomial.html','');});
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions/Subroutines</h2></td></tr>
 <tr class="memitem:ad6b1783c0bb00b8011a5c96fde1639f9"><td class="memItemLeft" align="right" valign="top">real(rk) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__polynomial.html#ad6b1783c0bb00b8011a5c96fde1639f9">polynomialval</a> (space_dim, nterms, mode, node)</td></tr>
+<tr class="memdesc:ad6b1783c0bb00b8011a5c96fde1639f9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return value of a term in a polynomial expansion at a specified (xi, eta, zeta) location.  <a href="#ad6b1783c0bb00b8011a5c96fde1639f9">More...</a><br /></td></tr>
 <tr class="separator:ad6b1783c0bb00b8011a5c96fde1639f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc1bb43c3c938962c3eee87a69613c9c"><td class="memItemLeft" align="right" valign="top">real(rk) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__polynomial.html#acc1bb43c3c938962c3eee87a69613c9c">dpolynomialval</a> (space_dim, nterms, mode, node, dir)</td></tr>
+<tr class="memdesc:acc1bb43c3c938962c3eee87a69613c9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return directional derivative of a term in a polynomial expansion at a specified (xi, eta, zeta) location.  <a href="#acc1bb43c3c938962c3eee87a69613c9c">More...</a><br /></td></tr>
 <tr class="separator:acc1bb43c3c938962c3eee87a69613c9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function/Subroutine Documentation</h2>
@@ -153,6 +155,19 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Return directional derivative of a term in a polynomial expansion at a specified (xi, eta, zeta) location. </p>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">space_dim</td><td>Integer specifying whether to compute the 1D, 2D, or 3D expansion function. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nterms</td><td>Number of terms in the polynomial expansion. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">mode</td><td>Integer of the mode in the expansion to be computed. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">node</td><td>point_t containing (xi,eta,zeta) location on reference element. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dir</td><td>Integer indicating direction of the derivative (xi, eta, zeta). </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="ad6b1783c0bb00b8011a5c96fde1639f9"></a>
@@ -191,6 +206,18 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Return value of a term in a polynomial expansion at a specified (xi, eta, zeta) location. </p>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">space_dim</td><td>Integer specifying whether to compute the 1D, 2D, or 3D expansion function. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nterms</td><td>Number of terms in the polynomial expansion. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">mode</td><td>Integer of the mode in the expansion to be computed. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">node</td><td>point_t containing (xi,eta,zeta) location on reference element. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -199,7 +226,7 @@ Functions/Subroutines</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemod__polynomial.html">mod_polynomial</a></li>
-    <li class="footer">Generated on Mon Dec 21 2015 21:22:34 for ChiDG by
+    <li class="footer">Generated on Tue Dec 22 2015 13:48:54 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

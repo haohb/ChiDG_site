@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['of',['of',['../structtype__expansion_1_1expansion__t.html#a4155c46afa4194f596ce852fe65903ff',1,'type_expansion::expansion_t::of()'],['../namespacemod__grid.html#a133a0a3d8d79de97621089d84c04c1de',1,'mod_grid::of()']]],
+  ['of',['of',['../structtype__expansion_1_1expansion__t.html#a4155c46afa4194f596ce852fe65903ff',1,'type_expansion::expansion_t']]],
   ['one',['one',['../namespacemod__constants.html#aeeaedd41788edeab9c1005d63c63779e',1,'mod_constants']]],
   ['order_5fc',['order_c',['../structtype__file__properties_1_1file__properties__t.html#a3f9f23907c07caf3804cbe6aefe522d9',1,'type_file_properties::file_properties_t']]],
   ['order_5fs',['order_s',['../structtype__file__properties_1_1file__properties__t.html#af5b685c46c7abad03fe5a6ccf4a0236d',1,'type_file_properties::file_properties_t']]],

@@ -3,7 +3,6 @@ var searchData=
   ['m',['m',['../structtype__fgmres_1_1fgmres__t.html#a965ab94873ba61531dd16e27c083fd06',1,'type_fgmres::fgmres_t::m()'],['../structtype__gmres_1_1gmres__t.html#a722f6ae1f9dead0eb3ec00253c3c3472',1,'type_gmres::gmres_t::m()']]],
   ['mass',['mass',['../structtype__element_1_1element__t.html#a7277bb803bec017c165e9fa83e602b67',1,'type_element::element_t::mass()'],['../structtype__volumequadrature_1_1volumequadrature__t.html#a268e72de1fcc5d7c3d1231db4806ddf4',1,'type_volumequadrature::volumequadrature_t::mass()']]],
   ['mat',['mat',['../structtype__densematrix_1_1densematrix__t.html#a3d35b94e7fb812ffedb0047b7f5164b6',1,'type_densematrix::densematrix_t::mat()'],['../structtype__expansion_1_1expansion__t.html#a12e61d3509009b4049f825d857fdc78e',1,'type_expansion::expansion_t::mat()']]],
-  ['matrices',['matrices',['../namespacemod__grid.html#a0c4180c3ebd56a19aaeac8d22d3cc172',1,'mod_grid']]],
   ['matrix',['matrix',['../structtype__expansion_1_1expansion__t.html#ae26297a1e17a2760c69cb6b04faf3db1',1,'type_expansion::expansion_t']]],
   ['matrix_5fiterations',['matrix_iterations',['../structtype__timescheme_1_1timescheme__t.html#a5cb5cc3c680ec38cce548a8df290067b',1,'type_timescheme::timescheme_t']]],
   ['matrix_5ftime',['matrix_time',['../structtype__timescheme_1_1timescheme__t.html#a2f644d805f4fb6222bb42fcd8873eb9d',1,'type_timescheme::timescheme_t']]],

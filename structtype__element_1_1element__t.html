@@ -150,13 +150,13 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a331f43a98567a7ee4a54009edeef0400"><td class="mdescLeft">&#160;</td><td class="mdescRight">Processor-local domain index.  <a href="#a331f43a98567a7ee4a54009edeef0400">More...</a><br /></td></tr>
 <tr class="separator:a331f43a98567a7ee4a54009edeef0400"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a075db9f55758a8cef33ca3d0003e7850"><td class="memItemLeft" align="right" valign="top">integer(ik)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__element_1_1element__t.html#a075db9f55758a8cef33ca3d0003e7850">ielem</a></td></tr>
-<tr class="memdesc:a075db9f55758a8cef33ca3d0003e7850"><td class="mdescLeft">&#160;</td><td class="mdescRight">Block-local element index. Consider that the block could have been split for parallelization.  <a href="#a075db9f55758a8cef33ca3d0003e7850">More...</a><br /></td></tr>
+<tr class="memdesc:a075db9f55758a8cef33ca3d0003e7850"><td class="mdescLeft">&#160;</td><td class="mdescRight">Block-local element index. Consider the block could have been split for parallelization.  <a href="#a075db9f55758a8cef33ca3d0003e7850">More...</a><br /></td></tr>
 <tr class="separator:a075db9f55758a8cef33ca3d0003e7850"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd63e3c58e9b778a70704cd442b3818b"><td class="memItemLeft" align="right" valign="top">integer(ik)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__element_1_1element__t.html#afd63e3c58e9b778a70704cd442b3818b">ielem_bg</a></td></tr>
-<tr class="memdesc:afd63e3c58e9b778a70704cd442b3818b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Block-global element index. This is the index an element would have if if was rejoined into one block after being pslit for parallelization.  <a href="#afd63e3c58e9b778a70704cd442b3818b">More...</a><br /></td></tr>
+<tr class="memdesc:afd63e3c58e9b778a70704cd442b3818b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Block-global element index. The index an element would have if rejoined into one block after being split for parallelization.  <a href="#afd63e3c58e9b778a70704cd442b3818b">More...</a><br /></td></tr>
 <tr class="separator:afd63e3c58e9b778a70704cd442b3818b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a068098dbe3f50211b13bafd5229a589a"><td class="memItemLeft" align="right" valign="top">type(<a class="el" href="structtype__point_1_1point__t.html">point_t</a>), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__element_1_1element__t.html#a068098dbe3f50211b13bafd5229a589a">quad_pts</a></td></tr>
-<tr class="memdesc:a068098dbe3f50211b13bafd5229a589a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Element quadrature points, mesh points and modes.  <a href="#a068098dbe3f50211b13bafd5229a589a">More...</a><br /></td></tr>
+<tr class="memdesc:a068098dbe3f50211b13bafd5229a589a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cartesian coordinates of discrete quadrature points.  <a href="#a068098dbe3f50211b13bafd5229a589a">More...</a><br /></td></tr>
 <tr class="separator:a068098dbe3f50211b13bafd5229a589a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab59094a92e79534e90eca91a72429555"><td class="memItemLeft" align="right" valign="top">type(<a class="el" href="structtype__point_1_1point__t.html">point_t</a>), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__element_1_1element__t.html#ab59094a92e79534e90eca91a72429555">elem_pts</a></td></tr>
 <tr class="memdesc:ab59094a92e79534e90eca91a72429555"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cartesian coordinates of discrete points defining element.  <a href="#ab59094a92e79534e90eca91a72429555">More...</a><br /></td></tr>
@@ -165,36 +165,33 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a2a6dc3a8aae0294209b6f2b3d1c1eaf6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Modal representation of cartesian coordinates (nterms_var,(x,y,z))  <a href="#a2a6dc3a8aae0294209b6f2b3d1c1eaf6">More...</a><br /></td></tr>
 <tr class="separator:a2a6dc3a8aae0294209b6f2b3d1c1eaf6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb0843cc95563eed50e265ed8229d526"><td class="memItemLeft" align="right" valign="top">real(rk), dimension(:,:,:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__element_1_1element__t.html#abb0843cc95563eed50e265ed8229d526">metric</a></td></tr>
-<tr class="memdesc:abb0843cc95563eed50e265ed8229d526"><td class="mdescLeft">&#160;</td><td class="mdescRight">Element metric terms.  <a href="#abb0843cc95563eed50e265ed8229d526">More...</a><br /></td></tr>
+<tr class="memdesc:abb0843cc95563eed50e265ed8229d526"><td class="mdescLeft">&#160;</td><td class="mdescRight">metric matrix for each quadrature node (mat_i,mat_j,quad_pt)  <a href="#abb0843cc95563eed50e265ed8229d526">More...</a><br /></td></tr>
 <tr class="separator:abb0843cc95563eed50e265ed8229d526"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a912586cc5cdbf1dbf547ab9df552bd48"><td class="memItemLeft" align="right" valign="top">real(rk), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__element_1_1element__t.html#a912586cc5cdbf1dbf547ab9df552bd48">jinv</a></td></tr>
 <tr class="memdesc:a912586cc5cdbf1dbf547ab9df552bd48"><td class="mdescLeft">&#160;</td><td class="mdescRight">jacobian terms at quadrature nodes  <a href="#a912586cc5cdbf1dbf547ab9df552bd48">More...</a><br /></td></tr>
 <tr class="separator:a912586cc5cdbf1dbf547ab9df552bd48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5c7533980a6c4130ff33a9a6f0c22a5e"><td class="memItemLeft" align="right" valign="top">real(rk), dimension(:,:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__element_1_1element__t.html#a5c7533980a6c4130ff33a9a6f0c22a5e">dtdx</a></td></tr>
-<tr class="memdesc:a5c7533980a6c4130ff33a9a6f0c22a5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Matrices of cartesian gradients of basis/test functions.  <a href="#a5c7533980a6c4130ff33a9a6f0c22a5e">More...</a><br /></td></tr>
+<tr class="memdesc:a5c7533980a6c4130ff33a9a6f0c22a5e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derivative of basis functions in x-direction at quadrature nodes.  <a href="#a5c7533980a6c4130ff33a9a6f0c22a5e">More...</a><br /></td></tr>
 <tr class="separator:a5c7533980a6c4130ff33a9a6f0c22a5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abb071ad069ce8960a9bded2e4db9b10b"><td class="memItemLeft" align="right" valign="top">real(rk), dimension(:,:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__element_1_1element__t.html#abb071ad069ce8960a9bded2e4db9b10b">dtdy</a></td></tr>
-<tr class="memdesc:abb071ad069ce8960a9bded2e4db9b10b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derivative of basis functions in the y-direction at quadrature nodes.  <a href="#abb071ad069ce8960a9bded2e4db9b10b">More...</a><br /></td></tr>
+<tr class="memdesc:abb071ad069ce8960a9bded2e4db9b10b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derivative of basis functions in y-direction at quadrature nodes.  <a href="#abb071ad069ce8960a9bded2e4db9b10b">More...</a><br /></td></tr>
 <tr class="separator:abb071ad069ce8960a9bded2e4db9b10b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a604b9c962020fb453c45d91f69190dbd"><td class="memItemLeft" align="right" valign="top">real(rk), dimension(:,:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__element_1_1element__t.html#a604b9c962020fb453c45d91f69190dbd">dtdz</a></td></tr>
-<tr class="memdesc:a604b9c962020fb453c45d91f69190dbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derivative of basis functions in the z-direction at quadrature nodes.  <a href="#a604b9c962020fb453c45d91f69190dbd">More...</a><br /></td></tr>
+<tr class="memdesc:a604b9c962020fb453c45d91f69190dbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derivative of basis functions in z-direction at quadrature nodes.  <a href="#a604b9c962020fb453c45d91f69190dbd">More...</a><br /></td></tr>
 <tr class="separator:a604b9c962020fb453c45d91f69190dbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af82a58566d07c0e026fa0bc5c469a548"><td class="memItemLeft" align="right" valign="top">type(<a class="el" href="structtype__quadrature_1_1quadrature__t.html">quadrature_t</a>), pointer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__element_1_1element__t.html#af82a58566d07c0e026fa0bc5c469a548">gq</a> =&gt; null()</td></tr>
-<tr class="memdesc:af82a58566d07c0e026fa0bc5c469a548"><td class="mdescLeft">&#160;</td><td class="mdescRight">Quadrature matrices.  <a href="#af82a58566d07c0e026fa0bc5c469a548">More...</a><br /></td></tr>
+<tr class="memdesc:af82a58566d07c0e026fa0bc5c469a548"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to quadrature instance for solution expansion.  <a href="#af82a58566d07c0e026fa0bc5c469a548">More...</a><br /></td></tr>
 <tr class="separator:af82a58566d07c0e026fa0bc5c469a548"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad50f4b796911338e1902ae9799695f83"><td class="memItemLeft" align="right" valign="top">type(<a class="el" href="structtype__quadrature_1_1quadrature__t.html">quadrature_t</a>), pointer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__element_1_1element__t.html#ad50f4b796911338e1902ae9799695f83">gqmesh</a> =&gt; null()</td></tr>
 <tr class="memdesc:ad50f4b796911338e1902ae9799695f83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to quadrature instance for coordinate expansion.  <a href="#ad50f4b796911338e1902ae9799695f83">More...</a><br /></td></tr>
 <tr class="separator:ad50f4b796911338e1902ae9799695f83"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7277bb803bec017c165e9fa83e602b67"><td class="memItemLeft" align="right" valign="top">real(rk), dimension(:,:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__element_1_1element__t.html#a7277bb803bec017c165e9fa83e602b67">mass</a></td></tr>
-<tr class="memdesc:a7277bb803bec017c165e9fa83e602b67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Element-local mass matrices.  <a href="#a7277bb803bec017c165e9fa83e602b67">More...</a><br /></td></tr>
 <tr class="separator:a7277bb803bec017c165e9fa83e602b67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf009d1468b3ab4db6ba7705768525d1"><td class="memItemLeft" align="right" valign="top">real(rk), dimension(:,:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__element_1_1element__t.html#abf009d1468b3ab4db6ba7705768525d1">invmass</a></td></tr>
 <tr class="separator:abf009d1468b3ab4db6ba7705768525d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a155d9e77b56238c25e3482d7fca2c29f"><td class="memItemLeft" align="right" valign="top">real(rk)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__element_1_1element__t.html#a155d9e77b56238c25e3482d7fca2c29f">vol</a></td></tr>
-<tr class="memdesc:a155d9e77b56238c25e3482d7fca2c29f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Element volume.  <a href="#a155d9e77b56238c25e3482d7fca2c29f">More...</a><br /></td></tr>
 <tr class="separator:a155d9e77b56238c25e3482d7fca2c29f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4dae9bdddef116bafa2053c9bcf23637"><td class="memItemLeft" align="right" valign="top">logical&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__element_1_1element__t.html#a4dae9bdddef116bafa2053c9bcf23637">geominitialized</a> = .false.</td></tr>
-<tr class="memdesc:a4dae9bdddef116bafa2053c9bcf23637"><td class="mdescLeft">&#160;</td><td class="mdescRight">Logical tests.  <a href="#a4dae9bdddef116bafa2053c9bcf23637">More...</a><br /></td></tr>
 <tr class="separator:a4dae9bdddef116bafa2053c9bcf23637"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab4b99ebeab00e6b83b5a65db3ff573f5"><td class="memItemLeft" align="right" valign="top">logical&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__element_1_1element__t.html#ab4b99ebeab00e6b83b5a65db3ff573f5">numinitialized</a> = .false.</td></tr>
 <tr class="separator:ab4b99ebeab00e6b83b5a65db3ff573f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -417,8 +414,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Matrices of cartesian gradients of basis/test functions. </p>
-<p>Derivative of basis functions in the x-direction at quadrature nodes </p>
+<p>Derivative of basis functions in x-direction at quadrature nodes. </p>
 
 </div>
 </div>
@@ -432,7 +428,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Derivative of basis functions in the y-direction at quadrature nodes. </p>
+<p>Derivative of basis functions in y-direction at quadrature nodes. </p>
 
 </div>
 </div>
@@ -446,7 +442,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Derivative of basis functions in the z-direction at quadrature nodes. </p>
+<p>Derivative of basis functions in z-direction at quadrature nodes. </p>
 
 </div>
 </div>
@@ -474,8 +470,6 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Logical tests. </p>
-
 </div>
 </div>
 <a class="anchor" id="af82a58566d07c0e026fa0bc5c469a548"></a>
@@ -488,8 +482,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Quadrature matrices. </p>
-<p>Pointer to quadrature instance for solution expansion </p>
+<p>Pointer to quadrature instance for solution expansion. </p>
 
 </div>
 </div>
@@ -531,7 +524,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Block-local element index. Consider that the block could have been split for parallelization. </p>
+<p>Block-local element index. Consider the block could have been split for parallelization. </p>
 
 </div>
 </div>
@@ -545,7 +538,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Block-global element index. This is the index an element would have if if was rejoined into one block after being pslit for parallelization. </p>
+<p>Block-global element index. The index an element would have if rejoined into one block after being split for parallelization. </p>
 
 </div>
 </div>
@@ -585,8 +578,6 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Element-local mass matrices. </p>
-
 </div>
 </div>
 <a class="anchor" id="abb0843cc95563eed50e265ed8229d526"></a>
@@ -599,7 +590,6 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Element metric terms. </p>
 <p>metric matrix for each quadrature node (mat_i,mat_j,quad_pt) </p>
 
 </div>
@@ -668,8 +658,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Element quadrature points, mesh points and modes. </p>
-<p>Cartesian coordinates of discrete quadrature points </p>
+<p>Cartesian coordinates of discrete quadrature points. </p>
 
 </div>
 </div>
@@ -683,8 +672,6 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Element volume. </p>
-
 </div>
 </div>
 <hr/>The documentation for this type was generated from the following file:<ul>
@@ -696,7 +683,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetype__element.html">type_element</a></li><li class="navelem"><a class="el" href="structtype__element_1_1element__t.html">element_t</a></li>
-    <li class="footer">Generated on Mon Dec 21 2015 21:22:37 for ChiDG by
+    <li class="footer">Generated on Tue Dec 22 2015 13:48:57 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

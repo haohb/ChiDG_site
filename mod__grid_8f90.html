@@ -113,7 +113,7 @@ Modules</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions/Subroutines</h2></td></tr>
 <tr class="memitem:a856886d0dbf8cd097d603543edad6e10"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__grid.html#a856886d0dbf8cd097d603543edad6e10">mod_grid::initialize_grid</a> ()</td></tr>
-<tr class="memdesc:a856886d0dbf8cd097d603543edad6e10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call grid initialization routines.  <a href="namespacemod__grid.html#a856886d0dbf8cd097d603543edad6e10">More...</a><br /></td></tr>
+<tr class="memdesc:a856886d0dbf8cd097d603543edad6e10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call grid initialization routines. This is called by chidginit('env'). So, should not need to call this explicity.  <a href="namespacemod__grid.html#a856886d0dbf8cd097d603543edad6e10">More...</a><br /></td></tr>
 <tr class="separator:a856886d0dbf8cd097d603543edad6e10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aae78c43255cd4e19e18b543f69ba775f"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__grid.html#aae78c43255cd4e19e18b543f69ba775f">mod_grid::compute_element_mappings</a> ()</td></tr>
 <tr class="memdesc:aae78c43255cd4e19e18b543f69ba775f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute matrix to convert element discrete coordinates to modal coordinates. Initializes the array of denseblock matrices in ELEM_MAP.  <a href="namespacemod__grid.html#aae78c43255cd4e19e18b543f69ba775f">More...</a><br /></td></tr>
@@ -124,13 +124,8 @@ Variables</h2></td></tr>
 <tr class="memitem:a01fea6334eb2e82658f002faadb4971f"><td class="memItemLeft" align="right" valign="top">integer(ik), parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__grid.html#a01fea6334eb2e82658f002faadb4971f">mod_grid::nmap</a> = 4</td></tr>
 <tr class="separator:a01fea6334eb2e82658f002faadb4971f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a171c4df5978ffa33af4f2c89d2c38b1c"><td class="memItemLeft" align="right" valign="top">type(densematrix_t), dimension(nmap), target, save&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__grid.html#a171c4df5978ffa33af4f2c89d2c38b1c">mod_grid::elem_map</a></td></tr>
+<tr class="memdesc:a171c4df5978ffa33af4f2c89d2c38b1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">array of matrices  <a href="namespacemod__grid.html#a171c4df5978ffa33af4f2c89d2c38b1c">More...</a><br /></td></tr>
 <tr class="separator:a171c4df5978ffa33af4f2c89d2c38b1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18da10fb24025074339d46f5841b7a5e"><td class="memItemLeft" align="right" valign="top">type(densematrix_t), target, save&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__grid.html#a18da10fb24025074339d46f5841b7a5e">mod_grid::array</a></td></tr>
-<tr class="separator:a18da10fb24025074339d46f5841b7a5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a133a0a3d8d79de97621089d84c04c1de"><td class="memItemLeft" align="right" valign="top">type(densematrix_t), target, save&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__grid.html#a133a0a3d8d79de97621089d84c04c1de">mod_grid::of</a></td></tr>
-<tr class="separator:a133a0a3d8d79de97621089d84c04c1de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0c4180c3ebd56a19aaeac8d22d3cc172"><td class="memItemLeft" align="right" valign="top">type(densematrix_t), target, save&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__grid.html#a0c4180c3ebd56a19aaeac8d22d3cc172">mod_grid::matrices</a></td></tr>
-<tr class="separator:a0c4180c3ebd56a19aaeac8d22d3cc172"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4962ba0ad77883e9d7d0a0a77b64a600"><td class="memItemLeft" align="right" valign="top">logical&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__grid.html#a4962ba0ad77883e9d7d0a0a77b64a600">mod_grid::uninitialized</a> = .true.</td></tr>
 <tr class="separator:a4962ba0ad77883e9d7d0a0a77b64a600"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -140,7 +135,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_35c063c51595aed048740f74a780093f.html">grid</a></li><li class="navelem"><a class="el" href="mod__grid_8f90.html">mod_grid.f90</a></li>
-    <li class="footer">Generated on Mon Dec 21 2015 21:22:22 for ChiDG by
+    <li class="footer">Generated on Tue Dec 22 2015 13:48:41 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>
