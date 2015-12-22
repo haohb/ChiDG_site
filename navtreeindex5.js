@@ -1,5 +1,6 @@
 var NAVTREEINDEX5 =
 {
+"structatype__matrixsolver_1_1matrixsolver__t.html#a93b1ebddbfdc2675971491b4596cea6b":[9,0,4,0,6],
 "structatype__matrixsolver_1_1matrixsolver__t.html#ae410ef0d8b005b5be5555e28dabe22e2":[9,0,4,0,3],
 "structatype__matrixsolver_1_1matrixsolver__t.html#aecbf6c5a81a8acb951bc5216e926db05":[9,0,4,0,5],
 "structatype__matrixsolver_1_1matrixsolver__t.html#afeb8e66fe4bcbf6f6ed3d44e19497f2f":[9,0,4,0,2],
@@ -248,6 +249,5 @@ var NAVTREEINDEX5 =
 "structtype__chidg_1_1chidg__t.html":[9,0,80,0],
 "structtype__chidg_1_1chidg__t.html#a20fcb36caa352e6e2ece282105fbcb1c":[9,0,80,0,3],
 "structtype__chidg_1_1chidg__t.html#a21256c76c241c28e1dfe71800f0820dc":[9,0,80,0,0],
-"structtype__chidg_1_1chidg__t.html#a2e467c3653912bd31eddcbee72ceb5f5":[9,0,80,0,5],
-"structtype__chidg_1_1chidg__t.html#a4209f3231676777a7ca1891cb49add39":[9,0,80,0,8]
+"structtype__chidg_1_1chidg__t.html#a2e467c3653912bd31eddcbee72ceb5f5":[9,0,80,0,5]
 };

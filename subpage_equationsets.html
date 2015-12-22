@@ -167,21 +167,22 @@ Defining a new equation set</h1>
 <div class="line">        <span class="keywordtype">type</span>(euler_volume_advective_flux_t)             :: volume_flux</div>
 <div class="line">        <span class="keywordtype">type</span>(euler_boundary_average_advective_flux_t)   :: average_flux</div>
 <div class="line">        <span class="keywordtype">type</span>(euler_roe_flux_t)                          :: roe</div>
+<div class="line">        <span class="keywordtype">type</span>(euler_properties_t)                        :: prop</div>
+<div class="line"></div>
+<div class="line">        <span class="keywordtype">type</span>(perfect_gas_t)                             :: <a class="code" href="namespaceperfect__gas.html">perfect_gas</a></div>
 <div class="line"></div>
 <div class="line"></div>
+<div class="line">        <span class="comment">!</span></div>
+<div class="line">        <span class="comment">! Set equation set name</span></div>
+<div class="line">        <span class="comment">!</span></div>
 <div class="line">        self%name    = <span class="stringliteral">&#39;Euler&#39;</span></div>
 <div class="line"></div>
-<div class="line">        <span class="comment">!</span></div>
-<div class="line">        <span class="comment">! Allocate equation set properties.</span></div>
-<div class="line">        <span class="comment">!</span></div>
-<div class="line">        <span class="keywordflow">if</span> (<span class="keyword">allocated</span>(self%prop)) <span class="keyword">deallocate</span>(self%prop)</div>
-<div class="line">        <span class="keyword">allocate</span>(euler_properties_t::self%prop)</div>
 <div class="line"></div>
-<div class="line">        <span class="keywordflow">select type</span> (prop =&gt; self%prop)</div>
-<div class="line"><span class="keywordflow">            type is</span> (euler_properties_t) </div>
-<div class="line">                <span class="keyword">allocate</span>(perfect_gas_t::prop%fluid)</div>
-<div class="line"><span class="keywordflow">        end select</span></div>
-<div class="line"></div>
+<div class="line">        <span class="comment">!</span></div>
+<div class="line">        <span class="comment">! Equation set properties</span></div>
+<div class="line">        <span class="comment">!</span></div>
+<div class="line">        <span class="keyword">call </span>prop%add_fluid(<a class="code" href="namespaceperfect__gas.html">perfect_gas</a>)    <span class="comment">! set up properties</span></div>
+<div class="line">        <span class="keyword">call </span>self%add_properties(prop)      <span class="comment">! add to equation set</span></div>
 <div class="line"></div>
 <div class="line"></div>
 <div class="line">        <span class="comment">!</span></div>
@@ -209,7 +210,7 @@ Defining a new equation set</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Dec 22 2015 13:48:42 for ChiDG by
+    <li class="footer">Generated on Tue Dec 22 2015 14:22:29 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

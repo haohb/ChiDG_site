@@ -33,7 +33,8 @@ var NAVTREE =
     [ "License", "page_license.html", null ],
     [ "References", "page_references.html", null ],
     [ "Usage", "page_usage.html", [
-      [ "Command Line", "page_usage.html#s_commandline", null ]
+      [ "Set-up", "page_usage.html#s_setup", null ],
+      [ "Command line", "page_usage.html#s_commandline", null ]
     ] ],
     [ "Modules", null, [
       [ "Modules List", "namespaces.html", "namespaces" ],
@@ -70,10 +71,10 @@ var NAVTREEINDEX =
 "mod__constants_8f90.html#ab589447053e1c91c74491a229dfcf307",
 "mod__testutils_8f90.html#a60c3adf9e3ac37ecf9806f5244e4a6d9",
 "namespaces.html",
-"structatype__matrixsolver_1_1matrixsolver__t.html#ae410ef0d8b005b5be5555e28dabe22e2",
-"structtype__chidg_1_1chidg__t.html#a54ce4bc0b93e78baddaa8703c75ebe7e",
-"structtype__meshdata_1_1meshdata__t.html",
-"type__element_8f90.html#aa4820eaae49a81c137de754d89a4667a"
+"structatype__matrixsolver_1_1matrixsolver__t.html#a93b1ebddbfdc2675971491b4596cea6b",
+"structtype__chidg_1_1chidg__t.html#a4209f3231676777a7ca1891cb49add39",
+"structtype__mesh_1_1mesh__t.html#af63fe12345d81bebb16ecbcdcb757193",
+"type__element_8f90.html#a591896f6206306c7ad0bcae997fd674b"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

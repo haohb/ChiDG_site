@@ -108,6 +108,7 @@ $(document).ready(function(){initNavTree('page_installation.html','');});
 </ol>
 <p><br />
 </p><hr/>
+ <hr/>
 <h1><a class="anchor" id="s_obtaining"></a>
 Obtaining ChiDG</h1>
 <p>ChiDG is hosted in a git repository on <a href="https://www.gitlab.com">www.gitlab.com</a> and may be cloned using either <code>ssh</code> or <code>https</code> protocols as</p>
@@ -118,6 +119,7 @@ Obtaining ChiDG</h1>
 <br />
 </p>
 <hr/>
+ <hr/>
 <h1><a class="anchor" id="s_dependencies"></a>
 ChiDG Dependencies</h1>
 <p>ChiDG depends on several libraries that enable IO and parallelization activities. These components are required to build ChiDG.</p>
@@ -128,14 +130,16 @@ ChiDG Dependencies</h1>
 </p>
 <p><br />
 </p>
-<h2><a class="anchor" id="s_dep_hdf5"></a>
+<hr/>
+ <h2><a class="anchor" id="s_dep_hdf5"></a>
 HDF5</h2>
 <p>HDF5 is used as a container for the ChiDG grid/solution files and is a required depencency of ChiDG.</p>
 <p><a href="https://www.hdfgroup.org">HDF5 Website</a></p>
 <p><br />
 <br />
 </p>
-<h2><a class="anchor" id="s_dep_mpich"></a>
+<hr/>
+ <h2><a class="anchor" id="s_dep_mpich"></a>
 MPICH</h2>
 <p>The <code>mpich</code> source or precompiled packages can be downloaded from the MPICH website.</p>
 <p><a href="https://www.mpich.org">MPICH Website</a></p>
@@ -154,23 +158,26 @@ Set environment variables for MPICH</h3>
 <p><br />
 <br />
 </p>
-<h2><a class="anchor" id="s_dep_cmake"></a>
+<hr/>
+ <h2><a class="anchor" id="s_dep_cmake"></a>
 CMake</h2>
 <p>ChiDG uses the CMake build-system to generate the 'make' configuration files for the project.</p>
 <p><a href="https://cmake.org">CMake Website</a></p>
 <p><br />
 <br />
 </p>
-<h2><a class="anchor" id="s_dep_tecio"></a>
+<hr/>
+ <h2><a class="anchor" id="s_dep_tecio"></a>
 TecIO</h2>
 <p>Tecplot 360 is the primary visualization tool currently used for ChiDG. The TecIO libraries are distributed with the ChiDG project for multiple systems and should be linked accordingly without user intervention. If, for some reason, the packaged TecIO libraries are incompatible with your system, new libraries can be downloaded from the Tecplot website.</p>
 <p><a href="http://www.tecplot.com/downloads/tecio-library">TecIO Libraries</a></p>
 <p><br />
 <br />
  </p><hr/>
+ <hr/>
 <h1><a class="anchor" id="s_compile"></a>
 Compiling ChiDG</h1>
-<p>NOTE: ChiDG uses features of the most recent Fortran standard (F2008). Up-to-date Fortran compilers are required.</p>
+<p>NOTE: ChiDG uses features of the most recent Fortran standard (F2008). Up-to-date Fortran compilers are <b>required</b>.</p>
 <p>Successfully tested compiler versions:</p><ul>
 <li>gfortran 5.2</li>
 </ul>
@@ -194,7 +201,7 @@ Compiling ChiDG</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Dec 22 2015 13:48:42 for ChiDG by
+    <li class="footer">Generated on Tue Dec 22 2015 14:22:29 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>
