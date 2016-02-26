@@ -127,20 +127,28 @@ ChiDG equation set</h1>
 <img src="d__equationset.png" alt="d__equationset.png"/>
 </div>
 <div class="fragment"><div class="line">    <span class="keyword">type</span>, <span class="keyword">public</span>, <span class="keyword">abstract</span> :: equationset_t</div>
-<div class="line">        <span class="keywordtype">character(100)</span>                              :: name</div>
-<div class="line">        <span class="keywordtype">integer(ik)</span>                                 :: neqns</div>
 <div class="line"></div>
+<div class="line"></div>
+<div class="line">        <span class="keywordtype">character(len=:)</span>,               <span class="keywordtype">allocatable</span> :: name </div>
+<div class="line">        <span class="keywordtype">integer(ik)</span>                                 :: neqns</div>
 <div class="line">        <span class="keywordtype">class</span>(properties_t),            <span class="keywordtype">allocatable</span> :: prop</div>
+<div class="line"></div>
 <div class="line"></div>
 <div class="line">        <span class="keywordtype">type</span>(boundary_flux_wrapper_t),  <span class="keywordtype">allocatable</span> :: boundary_advective_flux(:)</div>
 <div class="line">        <span class="keywordtype">type</span>(volume_flux_wrapper_t),    <span class="keywordtype">allocatable</span> :: volume_advective_flux(:)</div>
 <div class="line"></div>
 <div class="line"></div>
 <div class="line">    <span class="keyword">contains</span></div>
+<div class="line"></div>
+<div class="line"></div>
 <div class="line">        <span class="keywordtype">procedure</span>(self_interface),     <span class="keywordtype">deferred</span>     :: <a class="code" href="doc_2examples_2eqn__euler_8f90.html#ae16d6bfb266616ee0350508cbb1ebf42">init</a></div>
 <div class="line">        <span class="keywordtype">procedure</span>                                   :: add_equation</div>
 <div class="line">        <span class="keywordtype">procedure</span>                                   :: add_volume_advective_flux</div>
 <div class="line">        <span class="keywordtype">procedure</span>                                   :: add_boundary_advective_flux</div>
+<div class="line"></div>
+<div class="line">        <span class="keywordtype">procedure</span>   :: set_name</div>
+<div class="line">        <span class="keywordtype">procedure</span>   :: get_name</div>
+<div class="line"></div>
 <div class="line"></div>
 <div class="line"><span class="keyword">    end type </span>equationset_t</div>
 </div><!-- fragment --><h1><a class="anchor" id="s_equationset"></a>
@@ -214,7 +222,7 @@ Defining a new equation set</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Feb 25 2016 21:16:17 for ChiDG by
+    <li class="footer">Generated on Thu Feb 25 2016 21:59:32 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

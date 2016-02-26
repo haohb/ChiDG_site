@@ -74,8 +74,8 @@ var NAVTREEINDEX =
 "page_develop.html#s_testing_compile",
 "structla__boundary__average__advective__flux_1_1la__boundary__average__advective__flux__t.html",
 "structtype__densevector_1_1densevector__t.html#a9239ecd574f70cdbddae4559b590afd4",
-"structtype__meshdata_1_1meshdata__t.html",
-"type__chidg_8f90.html#a2f79bedc8bd59810e5f8147472f08fa1"
+"structtype__mesh_1_1mesh__t.html#af63fe12345d81bebb16ecbcdcb757193",
+"type__chidg_8f90.html#a148b950fd3f8f4321100330aee93f41c"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
