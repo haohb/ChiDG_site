@@ -7,6 +7,5 @@ var searchData=
   ['quasi_5fnewton_2ef90',['quasi_newton.f90',['../quasi__newton_8f90.html',1,'']]],
   ['quasi_5fnewton_5finstance',['quasi_newton_instance',['../namespacemod__timescheme.html#a24551edbe7af842c7020a3ecc7cd85b2',1,'mod_timescheme']]],
   ['quasi_5fnewton_5ft',['quasi_newton_t',['../structquasi__newton_1_1quasi__newton__t.html',1,'quasi_newton']]],
-  ['quasinewton',['quasinewton',['../namespacequasinewton.html',1,'']]],
   ['quadrature',['Quadrature',['../subpage_quadrature.html',1,'subpage_mesh']]]
 ];

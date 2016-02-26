@@ -121,28 +121,37 @@ Functions/Subroutines</h2></td></tr>
 <tr class="memitem:afede6dfaa6b1475d83477d6fe5f4464d"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#afede6dfaa6b1475d83477d6fe5f4464d">messenger::message</a> (pathname, linenum, sig, msg, info_one, info_two)</td></tr>
 <tr class="memdesc:afede6dfaa6b1475d83477d6fe5f4464d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Message routine for handling warnings and errors. Reports file name, line number, and warn/error message. This would usually not be called directly. Rather, use the macro defined in message.h that automatically inserts filename and linenumber.  <a href="namespacemessenger.html#afede6dfaa6b1475d83477d6fe5f4464d">More...</a><br /></td></tr>
 <tr class="separator:afede6dfaa6b1475d83477d6fe5f4464d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b84d3bdcaa4bf145fab71a846b82c13"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#a0b84d3bdcaa4bf145fab71a846b82c13">messenger::write_line</a> (a, b, c, d, e, f, g, h, delimiter)</td></tr>
-<tr class="memdesc:a0b84d3bdcaa4bf145fab71a846b82c13"><td class="mdescLeft">&#160;</td><td class="mdescRight">This subroutine writes a line to IO that is composed of 8 optional incoming variables. This is accomplished by first passing each component to the 'add_to_line' subroutine, which assembles the data into the 'line' module-global variable. Then, the 'send_line' subroutine is called to handle the destination of the line to either the screen, a file, or both.  <a href="namespacemessenger.html#a0b84d3bdcaa4bf145fab71a846b82c13">More...</a><br /></td></tr>
-<tr class="separator:a0b84d3bdcaa4bf145fab71a846b82c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72a0af6a558f52bbaa76b80a686596d6"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#a72a0af6a558f52bbaa76b80a686596d6">messenger::add_to_line</a> (linedata, delimiter)</td></tr>
-<tr class="memdesc:a72a0af6a558f52bbaa76b80a686596d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds data to the module-global 'line' character string.  <a href="namespacemessenger.html#a72a0af6a558f52bbaa76b80a686596d6">More...</a><br /></td></tr>
-<tr class="separator:a72a0af6a558f52bbaa76b80a686596d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cc95b66bdab73a154d56dd0c8fc6dd6"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#a9cc95b66bdab73a154d56dd0c8fc6dd6">messenger::write_line</a> (a, b, c, d, e, f, g, h, delimiter, columns, column_width, color, ltrim)</td></tr>
+<tr class="memdesc:a9cc95b66bdab73a154d56dd0c8fc6dd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">This subroutine writes a line to IO that is composed of 8 optional incoming variables. This is accomplished by first passing each component to the 'add_to_line' subroutine, which assembles the data into the 'line' module-global variable. Then, the 'send_line' subroutine is called to handle the destination of the line to either the screen, a file, or both.  <a href="namespacemessenger.html#a9cc95b66bdab73a154d56dd0c8fc6dd6">More...</a><br /></td></tr>
+<tr class="separator:a9cc95b66bdab73a154d56dd0c8fc6dd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f24f5c5fbccc08788396bacfc3651e5"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#a5f24f5c5fbccc08788396bacfc3651e5">messenger::add_to_line</a> (linedata, delimiter, columns, column_width, color, ltrim)</td></tr>
+<tr class="memdesc:a5f24f5c5fbccc08788396bacfc3651e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds data to the module-global 'line' character string.  <a href="namespacemessenger.html#a5f24f5c5fbccc08788396bacfc3651e5">More...</a><br /></td></tr>
+<tr class="separator:a5f24f5c5fbccc08788396bacfc3651e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a427eb98339f47b752376f33e3fb021ab"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#a427eb98339f47b752376f33e3fb021ab">messenger::send_line</a> ()</td></tr>
 <tr class="memdesc:a427eb98339f47b752376f33e3fb021ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles sending module-global 'line' string to a destination of either the screen, a file, or both. Is is determined by the IO_DESTINATION variable from <a class="el" href="namespacemod__constants.html" title="Module containing general constants that can be used consistently throughout the program. ">mod_constants</a>.  <a href="namespacemessenger.html#a427eb98339f47b752376f33e3fb021ab">More...</a><br /></td></tr>
 <tr class="separator:a427eb98339f47b752376f33e3fb021ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0baf31d6751e9c54781681c1ad283d15"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#a0baf31d6751e9c54781681c1ad283d15">messenger::set_color</a> (color)</td></tr>
+<tr class="memdesc:a0baf31d6751e9c54781681c1ad283d15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set line color.  <a href="namespacemessenger.html#a0baf31d6751e9c54781681c1ad283d15">More...</a><br /></td></tr>
+<tr class="separator:a0baf31d6751e9c54781681c1ad283d15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a1106dcd2c02225dde7af3c3afef86736"><td class="memItemLeft" align="right" valign="top">character(len=:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#a1106dcd2c02225dde7af3c3afef86736">messenger::line</a></td></tr>
 <tr class="separator:a1106dcd2c02225dde7af3c3afef86736"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd2040833559d844bb7696542e7140b7"><td class="memItemLeft" align="right" valign="top">character(len=2), parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#acd2040833559d844bb7696542e7140b7">messenger::default_delimiter</a> = ''</td></tr>
+<tr class="memitem:acd2040833559d844bb7696542e7140b7"><td class="memItemLeft" align="right" valign="top">character(len=2), parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#acd2040833559d844bb7696542e7140b7">messenger::default_delimiter</a> = ' '</td></tr>
 <tr class="separator:acd2040833559d844bb7696542e7140b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a603500df4da50eaefce591763ac797c7"><td class="memItemLeft" align="right" valign="top">character(len=:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#a603500df4da50eaefce591763ac797c7">messenger::current_delimiter</a></td></tr>
 <tr class="separator:a603500df4da50eaefce591763ac797c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad92f00cd8e2d72420519747cba7066db"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#ad92f00cd8e2d72420519747cba7066db">messenger::unit</a></td></tr>
 <tr class="separator:ad92f00cd8e2d72420519747cba7066db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6860938868c429f11fd3508f308714e"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#af6860938868c429f11fd3508f308714e">messenger::max_msg_length</a> = 160</td></tr>
+<tr class="memitem:af6860938868c429f11fd3508f308714e"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#af6860938868c429f11fd3508f308714e">messenger::max_msg_length</a> = 300</td></tr>
 <tr class="separator:af6860938868c429f11fd3508f308714e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd9cfb6662f18d7ae615d0f643969cf0"><td class="memItemLeft" align="right" valign="top">logical&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#afd9cfb6662f18d7ae615d0f643969cf0">messenger::log_initialized</a> = .false.</td></tr>
+<tr class="separator:afd9cfb6662f18d7ae615d0f643969cf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9304fb8740e8627c5b8884463c673d44"><td class="memItemLeft" align="right" valign="top">character(len=:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#a9304fb8740e8627c5b8884463c673d44">messenger::color_begin</a></td></tr>
+<tr class="separator:a9304fb8740e8627c5b8884463c673d44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab79b56e8bb95333a176b5b6673e3e13d"><td class="memItemLeft" align="right" valign="top">character(len=:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#ab79b56e8bb95333a176b5b6673e3e13d">messenger::color_end</a></td></tr>
+<tr class="separator:ab79b56e8bb95333a176b5b6673e3e13d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -150,7 +159,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_1563a38af0d3a5e4a6330d6d45e9792a.html">tools</a></li><li class="navelem"><a class="el" href="messenger_8f90.html">messenger.f90</a></li>
-    <li class="footer">Generated on Tue Dec 22 2015 14:22:29 for ChiDG by
+    <li class="footer">Generated on Thu Feb 25 2016 21:16:17 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

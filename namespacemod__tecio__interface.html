@@ -106,8 +106,10 @@ $(document).ready(function(){initNavTree('namespacemod__tecio__interface.html','
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions/Subroutines</h2></td></tr>
 <tr class="memitem:adbc2c57760c496cb29eca5e6346f8bd9"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__tecio__interface.html#adbc2c57760c496cb29eca5e6346f8bd9">init_tecio_file</a> (title, variables, filename, filetype)</td></tr>
+<tr class="memdesc:adbc2c57760c496cb29eca5e6346f8bd9"><td class="mdescLeft">&#160;</td><td class="mdescRight">This opens a new tecplot binary file for writing and initializes the type, and number of data fields to accept.  <a href="#adbc2c57760c496cb29eca5e6346f8bd9">More...</a><br /></td></tr>
 <tr class="separator:adbc2c57760c496cb29eca5e6346f8bd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a893d9179f5d2c9644747a3f328febe63"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__tecio__interface.html#a893d9179f5d2c9644747a3f328febe63">init_tecio_zone</a> (zonetitle, mesh, writetype, timeindex)</td></tr>
+<tr class="memdesc:a893d9179f5d2c9644747a3f328febe63"><td class="mdescLeft">&#160;</td><td class="mdescRight">This begins a new zone in the current opened file. Must be called after init_tecplot_file, because it needs an open binary file. If multiple files are open, you can switch between them with the TECFIL142 call, as long as the they can be identified by integer values.  <a href="#a893d9179f5d2c9644747a3f328febe63">More...</a><br /></td></tr>
 <tr class="separator:a893d9179f5d2c9644747a3f328febe63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5f71fe9b1171f6a1718b075faa8144f9"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__tecio__interface.html#a5f71fe9b1171f6a1718b075faa8144f9">finalize_tecio</a> ()</td></tr>
 <tr class="separator:a5f71fe9b1171f6a1718b075faa8144f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -125,6 +127,8 @@ Functions/Subroutines</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/3/2016 </dd></dl>
 
 </div>
 </div>
@@ -164,6 +168,10 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>This opens a new tecplot binary file for writing and initializes the type, and number of data fields to accept. </p>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/3/2016 </dd></dl>
+
 </div>
 </div>
 <a class="anchor" id="a893d9179f5d2c9644747a3f328febe63"></a>
@@ -202,6 +210,10 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>This begins a new zone in the current opened file. Must be called after init_tecplot_file, because it needs an open binary file. If multiple files are open, you can switch between them with the TECFIL142 call, as long as the they can be identified by integer values. </p>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/3/2016 </dd></dl>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -210,7 +222,7 @@ Functions/Subroutines</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemod__tecio__interface.html">mod_tecio_interface</a></li>
-    <li class="footer">Generated on Tue Dec 22 2015 14:22:41 for ChiDG by
+    <li class="footer">Generated on Thu Feb 25 2016 21:16:28 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

@@ -106,15 +106,15 @@ $(document).ready(function(){initNavTree('interfacemod__interpolate_1_1interpola
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a13102b7cbe75a031198c0ab7b98f4633"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemod__interpolate_1_1interpolate__face.html#a13102b7cbe75a031198c0ab7b98f4633">interpolate_face_autodiff</a> (mesh, q, idom, ielem, iface, ivar, var_gq, seed, source)</td></tr>
-<tr class="memdesc:a13102b7cbe75a031198c0ab7b98f4633"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute variable at quadrature nodes.  <a href="#a13102b7cbe75a031198c0ab7b98f4633">More...</a><br /></td></tr>
-<tr class="separator:a13102b7cbe75a031198c0ab7b98f4633"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5465c06a9c5708cd99020bc1574b28e9"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemod__interpolate_1_1interpolate__face.html#a5465c06a9c5708cd99020bc1574b28e9">interpolate_face_standard</a> (mesh, q, idom, ielem, iface, ivar, var_gq)</td></tr>
-<tr class="memdesc:a5465c06a9c5708cd99020bc1574b28e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute variable at quadrature nodes.  <a href="#a5465c06a9c5708cd99020bc1574b28e9">More...</a><br /></td></tr>
-<tr class="separator:a5465c06a9c5708cd99020bc1574b28e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8481aac8cde58ead57cbc221bee15787"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemod__interpolate_1_1interpolate__face.html#a8481aac8cde58ead57cbc221bee15787">interpolate_face_autodiff</a> (mesh, face, q, ieqn, var_gq, source)</td></tr>
+<tr class="memdesc:a8481aac8cde58ead57cbc221bee15787"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpolate variable from polynomial expansion to explicit values at quadrature nodes. The automatic differentiation process really starts here, when the polynomial expansion is evaluated.  <a href="#a8481aac8cde58ead57cbc221bee15787">More...</a><br /></td></tr>
+<tr class="separator:a8481aac8cde58ead57cbc221bee15787"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e6feae6a93c0dc642081f919c317f8b"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemod__interpolate_1_1interpolate__face.html#a9e6feae6a93c0dc642081f919c317f8b">interpolate_face_standard</a> (mesh, q, idom, ielem, iface, ieqn, var_gq)</td></tr>
+<tr class="memdesc:a9e6feae6a93c0dc642081f919c317f8b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute variable at quadrature nodes.  <a href="#a9e6feae6a93c0dc642081f919c317f8b">More...</a><br /></td></tr>
+<tr class="separator:a9e6feae6a93c0dc642081f919c317f8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function/Subroutine Documentation</h2>
-<a class="anchor" id="a13102b7cbe75a031198c0ab7b98f4633"></a>
+<a class="anchor" id="a8481aac8cde58ead57cbc221bee15787"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -127,6 +127,12 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">type(<a class="el" href="structtype__face__info_1_1face__info__t.html">face_info_t</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>face</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">type(chidgvector_t), intent(in)&#160;</td>
           <td class="paramname"><em>q</em>, </td>
         </tr>
@@ -134,37 +140,13 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">integer(ik), intent(in)&#160;</td>
-          <td class="paramname"><em>idom</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer(ik), intent(in)&#160;</td>
-          <td class="paramname"><em>ielem</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer(ik), intent(in)&#160;</td>
-          <td class="paramname"><em>iface</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer(ik), intent(in)&#160;</td>
-          <td class="paramname"><em>ivar</em>, </td>
+          <td class="paramname"><em>ieqn</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">type(ad_d), dimension(:), intent(inout)&#160;</td>
           <td class="paramname"><em>var_gq</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">type(<a class="el" href="structtype__seed_1_1seed__t.html">seed_t</a>), intent(in)&#160;</td>
-          <td class="paramname"><em>seed</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -180,12 +162,25 @@ Public Member Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Compute variable at quadrature nodes. </p>
+<p>Interpolate variable from polynomial expansion to explicit values at quadrature nodes. The automatic differentiation process really starts here, when the polynomial expansion is evaluated. </p>
+<p>The interpolation process occurs through a matrix-vector multiplication. That is an interpolation matrix multiplied by a vector of modes from the polynomial expansion. To start the automatic differentiation, the derivative arrays of the values for the polynomial modes must be initialized before any computation. So, before the matrix-vector multiplication.</p>
 <dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td>Array of mesh instances. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">face</td><td>Face info, such as indices for locating the face in the mesh. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>Solution vector </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ieqn</td><td>Index of the equation variable being interpolated </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">var_gq</td><td>Array of auto-diff values of the equation evaluated at gq points that is passed back </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">source</td><td>LOCAL/NEIGHBOR indicating which element to interpolate from </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
-<a class="anchor" id="a5465c06a9c5708cd99020bc1574b28e9"></a>
+<a class="anchor" id="a9e6feae6a93c0dc642081f919c317f8b"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -223,7 +218,7 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">integer(ik), intent(in)&#160;</td>
-          <td class="paramname"><em>ivar</em>, </td>
+          <td class="paramname"><em>ieqn</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -241,6 +236,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Compute variable at quadrature nodes. </p>
 <dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016 </dd></dl>
 
 </div>
 </div>
@@ -253,7 +249,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemod__interpolate.html">mod_interpolate</a></li><li class="navelem"><a class="el" href="interfacemod__interpolate_1_1interpolate__face.html">interpolate_face</a></li>
-    <li class="footer">Generated on Tue Dec 22 2015 14:22:41 for ChiDG by
+    <li class="footer">Generated on Thu Feb 25 2016 21:16:28 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

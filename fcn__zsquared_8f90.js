@@ -1,6 +1,6 @@
 var fcn__zsquared_8f90 =
 [
     [ "zsquared_f", "structfcn__zsquared_1_1zsquared__f.html", "structfcn__zsquared_1_1zsquared__f" ],
-    [ "calc", "fcn__zsquared_8f90.html#a56e41d9313bd9131cd3047fd70ae97ab", null ],
-    [ "order", "fcn__zsquared_8f90.html#a343dd75d1c195a98a28985ff9de9444f", null ]
+    [ "compute", "fcn__zsquared_8f90.html#ade58c423c3b93ccf288f0bbc890599c4", null ],
+    [ "init", "fcn__zsquared_8f90.html#a4a9b54ec3a33d9182d452a8c7e122552", null ]
 ];

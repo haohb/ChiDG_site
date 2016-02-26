@@ -5,6 +5,7 @@ var type__element_8f90 =
     [ "compute_element_matrices", "type__element_8f90.html#ae60797cdb4c2a08aaf1a50741333e8c6", null ],
     [ "compute_gradients_cartesian", "type__element_8f90.html#ac961748cef1c865f924df18a422cc18a", null ],
     [ "compute_mass_matrix", "type__element_8f90.html#a591896f6206306c7ad0bcae997fd674b", null ],
+    [ "compute_metric", "type__element_8f90.html#a88133f058b5b48f3666e7b88ce12da6c", null ],
     [ "compute_quadrature_coords", "type__element_8f90.html#ada3ec3a28bd073459ee1d715354ebcd2", null ],
     [ "compute_quadrature_metrics", "type__element_8f90.html#aa4820eaae49a81c137de754d89a4667a", null ],
     [ "destructor", "type__element_8f90.html#a52d6deaa561835fb9a22e58d0dd54acf", null ],

@@ -118,9 +118,9 @@ Functions/Subroutines</h2></td></tr>
 <tr class="memitem:aff27af56f3e4410269a46c775032ea23"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetype__chidg__data.html#aff27af56f3e4410269a46c775032ea23">add_domain</a> (self, name, points, nterms_c, eqnset, nterms_s)</td></tr>
 <tr class="memdesc:aff27af56f3e4410269a46c775032ea23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a domain to ChiDG. Calls initialization routines for components which define a domain. That is, a mesh_t, an equationset_t, and the number of terms in their polynomial expansions.  <a href="#aff27af56f3e4410269a46c775032ea23">More...</a><br /></td></tr>
 <tr class="separator:aff27af56f3e4410269a46c775032ea23"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4446b0812238e0b07aa42dfe00f5f96a"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetype__chidg__data.html#a4446b0812238e0b07aa42dfe00f5f96a">add_bc</a> (self, domain, bc, face, options)</td></tr>
-<tr class="memdesc:a4446b0812238e0b07aa42dfe00f5f96a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a boundary condition to a ChiDG domain.  <a href="#a4446b0812238e0b07aa42dfe00f5f96a">More...</a><br /></td></tr>
-<tr class="separator:a4446b0812238e0b07aa42dfe00f5f96a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab255857b7e6d656835810aa8ac9dee67"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetype__chidg__data.html#ab255857b7e6d656835810aa8ac9dee67">add_bc</a> (self, domain, bc, face)</td></tr>
+<tr class="memdesc:ab255857b7e6d656835810aa8ac9dee67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a boundary condition to a ChiDG domain.  <a href="#ab255857b7e6d656835810aa8ac9dee67">More...</a><br /></td></tr>
+<tr class="separator:ab255857b7e6d656835810aa8ac9dee67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd16ff332e4444304fb3766656d40f45"><td class="memItemLeft" align="right" valign="top">integer(ik) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetype__chidg__data.html#acd16ff332e4444304fb3766656d40f45">get_domain_index</a> (self, dname)</td></tr>
 <tr class="memdesc:acd16ff332e4444304fb3766656d40f45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given a character string corresponding to the name of a given domain, find and return the index of that domain in the ChiDG_data instance.  <a href="#acd16ff332e4444304fb3766656d40f45">More...</a><br /></td></tr>
 <tr class="separator:acd16ff332e4444304fb3766656d40f45"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -129,7 +129,7 @@ Functions/Subroutines</h2></td></tr>
 <tr class="separator:a852be990c0c867fe6b6d905164212ae0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function/Subroutine Documentation</h2>
-<a class="anchor" id="a4446b0812238e0b07aa42dfe00f5f96a"></a>
+<a class="anchor" id="ab255857b7e6d656835810aa8ac9dee67"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -148,20 +148,14 @@ Functions/Subroutines</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">character(*), intent(in)&#160;</td>
+          <td class="paramtype">class(<a class="el" href="structtype__bc_1_1bc__t.html">bc_t</a>), intent(inout)&#160;</td>
           <td class="paramname"><em>bc</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">integer(ik), intent(in)&#160;</td>
-          <td class="paramname"><em>face</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">type(<a class="el" href="structtype__dict_1_1dict__t.html">dict_t</a>), intent(in), optional&#160;</td>
-          <td class="paramname"><em>options</em>&#160;</td>
+          <td class="paramname"><em>face</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -172,7 +166,8 @@ Functions/Subroutines</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Add a boundary condition to a ChiDG domain. </p>
-<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie</dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">domain</td><td>Character string of the selected domain </td></tr>
@@ -234,7 +229,8 @@ Functions/Subroutines</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Add a domain to ChiDG. Calls initialization routines for components which define a domain. That is, a mesh_t, an equationset_t, and the number of terms in their polynomial expansions. </p>
-<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie</dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">points</td><td>point_t matrix defining the mesh </td></tr>
@@ -272,13 +268,15 @@ Functions/Subroutines</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Given a character string corresponding to the name of a given domain, find and return the index of that domain in the ChiDG_data instance. </p>
-<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie</dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">domain</td><td></td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dname</td><td>String associated with a given domain </td></tr>
   </table>
   </dd>
 </dl>
+<dl class="section return"><dt>Returns</dt><dd>domain_index Integer index of the associated domain </dd></dl>
 
 </div>
 </div>
@@ -299,6 +297,7 @@ Functions/Subroutines</h2></td></tr>
 <p>Initialize solution data storage structures. Needs to be called before accessing any solution storage containers so they are allocated and initialized. </p>
 <p>All domains must be added before calling this procedure, since the array of mesh structures are used for the initialization routine.</p>
 <dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016 </dd></dl>
 
 </div>
 </div>
@@ -318,6 +317,7 @@ Functions/Subroutines</h2></td></tr>
 
 <p>Return the number of domains in the <a class="el" href="structtype__chidg__data_1_1chidg__data__t.html" title="Container for ChiDG data. ">chidg_data_t</a> instance. </p>
 <dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016 </dd></dl>
 
 </div>
 </div>
@@ -327,7 +327,7 @@ Functions/Subroutines</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetype__chidg__data.html">type_chidg_data</a></li>
-    <li class="footer">Generated on Tue Dec 22 2015 14:22:44 for ChiDG by
+    <li class="footer">Generated on Thu Feb 25 2016 21:16:30 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

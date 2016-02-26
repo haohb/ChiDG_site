@@ -25,6 +25,9 @@ var dir_af77d71202468b39b914215cf58b2fd5 =
       [ "equation_t", "structtype__equation_1_1equation__t.html", "structtype__equation_1_1equation__t" ]
     ] ],
     [ "type_equationset.f90", "src_2equations_2type__equationset_8f90.html", "src_2equations_2type__equationset_8f90" ],
+    [ "type_equationset_function_data.f90", "type__equationset__function__data_8f90.html", [
+      [ "equationset_function_data_t", "structtype__equationset__function__data_1_1equationset__function__data__t.html", "structtype__equationset__function__data_1_1equationset__function__data__t" ]
+    ] ],
     [ "type_equationset_wrapper.f90", "type__equationset__wrapper_8f90.html", [
       [ "equationset_wrapper_t", "structtype__equationset__wrapper_1_1equationset__wrapper__t.html", "structtype__equationset__wrapper_1_1equationset__wrapper__t" ]
     ] ],

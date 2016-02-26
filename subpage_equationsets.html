@@ -148,8 +148,8 @@ Defining a new equation set</h1>
 <p>To define an equation set in ChiDG, declare a new concrete type that is derived from the <code>equationset_t</code> abstract class.</p>
 <div class="fragment"><div class="line">    <span class="keyword">type</span>, <span class="keyword">extends</span>(equationset_t), <span class="keywordtype">public</span> :: <a class="code" href="structeuler__e.html">euler_e</a></div>
 <div class="line"></div>
-<div class="line"></div>
 <div class="line">    <span class="keyword">contains</span></div>
+<div class="line"></div>
 <div class="line">        <span class="keywordtype">procedure</span>   :: <a class="code" href="doc_2examples_2eqn__euler_8f90.html#ae16d6bfb266616ee0350508cbb1ebf42">init</a></div>
 <div class="line"></div>
 <div class="line"><span class="keyword">    end type </span><a class="code" href="structeuler__e.html">euler_e</a></div>
@@ -163,7 +163,6 @@ Defining a new equation set</h1>
 <div class="fragment"><div class="line"><span class="keyword">    subroutine </span><a class="code" href="doc_2examples_2eqn__euler_8f90.html#ae16d6bfb266616ee0350508cbb1ebf42">init</a>(self)</div>
 <div class="line">        <span class="keywordtype">class</span>(<a class="code" href="structeuler__e.html">euler_e</a>), <span class="keywordtype">intent(inout)</span> :: self</div>
 <div class="line"></div>
-<div class="line"></div>
 <div class="line">        <span class="keywordtype">type</span>(euler_volume_advective_flux_t)             :: volume_flux</div>
 <div class="line">        <span class="keywordtype">type</span>(euler_boundary_average_advective_flux_t)   :: average_flux</div>
 <div class="line">        <span class="keywordtype">type</span>(euler_roe_flux_t)                          :: roe</div>
@@ -173,20 +172,25 @@ Defining a new equation set</h1>
 <div class="line"></div>
 <div class="line"></div>
 <div class="line">        <span class="comment">!</span></div>
-<div class="line">        <span class="comment">! Set equation set name</span></div>
+<div class="line">        <span class="comment">! Set equationset name</span></div>
 <div class="line">        <span class="comment">!</span></div>
-<div class="line">        self%name    = <span class="stringliteral">&#39;Euler&#39;</span></div>
+<div class="line">        <span class="keyword">call </span>self%set_name(<span class="stringliteral">&quot;Euler&quot;</span>)</div>
 <div class="line"></div>
 <div class="line"></div>
 <div class="line">        <span class="comment">!</span></div>
-<div class="line">        <span class="comment">! Equation set properties</span></div>
+<div class="line">        <span class="comment">! Set up properties</span></div>
 <div class="line">        <span class="comment">!</span></div>
-<div class="line">        <span class="keyword">call </span>prop%add_fluid(<a class="code" href="namespaceperfect__gas.html">perfect_gas</a>)    <span class="comment">! set up properties</span></div>
-<div class="line">        <span class="keyword">call </span>self%add_properties(prop)      <span class="comment">! add to equation set</span></div>
+<div class="line">        <span class="keyword">call </span>prop%add_fluid(<a class="code" href="namespaceperfect__gas.html">perfect_gas</a>)</div>
 <div class="line"></div>
 <div class="line"></div>
 <div class="line">        <span class="comment">!</span></div>
-<div class="line">        <span class="comment">! Add equations</span></div>
+<div class="line">        <span class="comment">! Add properties.</span></div>
+<div class="line">        <span class="comment">!</span></div>
+<div class="line">        <span class="keyword">call </span>self%add_properties(prop)</div>
+<div class="line"></div>
+<div class="line"></div>
+<div class="line">        <span class="comment">!</span></div>
+<div class="line">        <span class="comment">! Add equations.</span></div>
 <div class="line">        <span class="comment">!</span></div>
 <div class="line">        <span class="keyword">call </span>self%add_equation(<span class="stringliteral">&quot;rho&quot;</span>,1)</div>
 <div class="line">        <span class="keyword">call </span>self%add_equation(<span class="stringliteral">&quot;rhou&quot;</span>,2)</div>
@@ -195,22 +199,22 @@ Defining a new equation set</h1>
 <div class="line">        <span class="keyword">call </span>self%add_equation(<span class="stringliteral">&quot;rhoE&quot;</span>,5)</div>
 <div class="line"></div>
 <div class="line"></div>
-<div class="line"></div>
 <div class="line">        <span class="comment">!</span></div>
-<div class="line">        <span class="comment">! Add flux components</span></div>
+<div class="line">        <span class="comment">! Allocate flux components to specific types for the equation set</span></div>
 <div class="line">        <span class="comment">!</span></div>
 <div class="line">        <span class="keyword">call </span>self%add_boundary_advective_flux(average_flux)</div>
 <div class="line">        <span class="keyword">call </span>self%add_boundary_advective_flux(roe)</div>
 <div class="line">        <span class="keyword">call </span>self%add_volume_advective_flux(volume_flux)</div>
 <div class="line"></div>
 <div class="line"></div>
-<div class="line"><span class="keyword">    end subroutine</span></div>
+<div class="line"></div>
+<div class="line"><span class="keyword">    end subroutine </span><a class="code" href="doc_2examples_2eqn__euler_8f90.html#ae16d6bfb266616ee0350508cbb1ebf42">init</a></div>
 </div><!-- fragment --></div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Dec 22 2015 14:22:29 for ChiDG by
+    <li class="footer">Generated on Thu Feb 25 2016 21:16:17 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

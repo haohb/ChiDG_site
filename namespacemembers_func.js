@@ -11,7 +11,6 @@ var namespacemembers_func =
     [ "l", "namespacemembers_func.html", null ],
     [ "m", "namespacemembers_func.html", null ],
     [ "n", "namespacemembers_func.html", null ],
-    [ "o", "namespacemembers_func.html", null ],
     [ "p", "namespacemembers_func.html", null ],
     [ "r", "namespacemembers_func.html", null ],
     [ "s", "namespacemembers_func.html", null ],

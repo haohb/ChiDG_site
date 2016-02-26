@@ -185,6 +185,11 @@ Variables</h2></td></tr>
 <tr class="separator:ad34ba59181323ee799de370091056fe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72f3c8ea296233b644d4bf4d6d14f493"><td class="memItemLeft" align="right" valign="top">integer(ik), parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__constants.html#a72f3c8ea296233b644d4bf4d6d14f493">diag</a> = 7</td></tr>
 <tr class="separator:a72f3c8ea296233b644d4bf4d6d14f493"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a17da853f28deb52696028829a3416f24"><td class="memItemLeft" align="right" valign="top">integer(ik), parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__constants.html#a17da853f28deb52696028829a3416f24">nblk</a> = 7</td></tr>
+<tr class="memdesc:a17da853f28deb52696028829a3416f24"><td class="mdescLeft">&#160;</td><td class="mdescRight">6 neighbors, 1 self  <a href="#a17da853f28deb52696028829a3416f24">More...</a><br /></td></tr>
+<tr class="separator:a17da853f28deb52696028829a3416f24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2969f6def877cd56dd8af92c992b9667"><td class="memItemLeft" align="right" valign="top">integer(ik), parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__constants.html#a2969f6def877cd56dd8af92c992b9667">bc_blk</a> = -1</td></tr>
+<tr class="separator:a2969f6def877cd56dd8af92c992b9667"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac9c9894bf0929d6a08cdc359c4efd52a"><td class="memItemLeft" align="right" valign="top">integer(ik), parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__constants.html#ac9c9894bf0929d6a08cdc359c4efd52a">interior</a> = 0</td></tr>
 <tr class="separator:ac9c9894bf0929d6a08cdc359c4efd52a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a73bcd968b06cec5c8f2ea2af96d653be"><td class="memItemLeft" align="right" valign="top">integer(ik), parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__constants.html#a73bcd968b06cec5c8f2ea2af96d653be">boundary</a> = -1</td></tr>
@@ -193,31 +198,89 @@ Variables</h2></td></tr>
 <tr class="separator:a892506573bcde8e74e131d5de7cc14d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1d36bc91334ac81cfd8552dccf61b9bf"><td class="memItemLeft" align="right" valign="top">integer(ik), parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__constants.html#a1d36bc91334ac81cfd8552dccf61b9bf">orphan</a> = -3</td></tr>
 <tr class="separator:a1d36bc91334ac81cfd8552dccf61b9bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7334a9402cd87df0a28e01a71424c2b5"><td class="memItemLeft" align="right" valign="top">integer(ik), parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__constants.html#a7334a9402cd87df0a28e01a71424c2b5">boundary_advective_flux</a> = 1</td></tr>
+<tr class="separator:a7334a9402cd87df0a28e01a71424c2b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a132909aa37c854e1588915b7a4ea7a3b"><td class="memItemLeft" align="right" valign="top">integer(ik), parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__constants.html#a132909aa37c854e1588915b7a4ea7a3b">boundary_diffusive_flux</a> = 2</td></tr>
+<tr class="separator:a132909aa37c854e1588915b7a4ea7a3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e5d3b30e303ab8e292665925081d399"><td class="memItemLeft" align="right" valign="top">integer(ik), parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__constants.html#a5e5d3b30e303ab8e292665925081d399">volume_advective_flux</a> = 3</td></tr>
+<tr class="separator:a5e5d3b30e303ab8e292665925081d399"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05f72a21c86ef3b739630af1977282f9"><td class="memItemLeft" align="right" valign="top">integer(ik), parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__constants.html#a05f72a21c86ef3b739630af1977282f9">volume_diffusive_flux</a> = 4</td></tr>
+<tr class="separator:a05f72a21c86ef3b739630af1977282f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd0561efb4ee7707eadeb2749f51aefd"><td class="memItemLeft" align="right" valign="top">integer(ik), parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__constants.html#afd0561efb4ee7707eadeb2749f51aefd">volume_advective_source</a> = 5</td></tr>
+<tr class="separator:afd0561efb4ee7707eadeb2749f51aefd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdc774b7a0ef59950e4715bc82efad21"><td class="memItemLeft" align="right" valign="top">integer(ik), parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__constants.html#abdc774b7a0ef59950e4715bc82efad21">volume_diffusive_source</a> = 6</td></tr>
+<tr class="separator:abdc774b7a0ef59950e4715bc82efad21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ebf9a764b10a9244e90fbbb52094035"><td class="memItemLeft" align="right" valign="top">integer(ik), parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__constants.html#a6ebf9a764b10a9244e90fbbb52094035">nfunction_types</a> = 6</td></tr>
+<tr class="separator:a6ebf9a764b10a9244e90fbbb52094035"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3ac90f37f76b041a03a326e3acc768d"><td class="memItemLeft" align="right" valign="top">integer(ik), parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__constants.html#af3ac90f37f76b041a03a326e3acc768d">no_interior_neighbor</a> = 0</td></tr>
+<tr class="separator:af3ac90f37f76b041a03a326e3acc768d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37a6d0bb5e01c17727f22da723a8c8d5"><td class="memItemLeft" align="right" valign="top">integer(ik), parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__constants.html#a37a6d0bb5e01c17727f22da723a8c8d5">local</a> = 0</td></tr>
 <tr class="separator:a37a6d0bb5e01c17727f22da723a8c8d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac4f159d7fcd38631f97ba1082b914632"><td class="memItemLeft" align="right" valign="top">integer(ik), parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__constants.html#ac4f159d7fcd38631f97ba1082b914632">neighbor</a> = 1</td></tr>
 <tr class="separator:ac4f159d7fcd38631f97ba1082b914632"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7624db7e02c307f72555f89fad93e690"><td class="memItemLeft" align="right" valign="top">character(len=8), parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__constants.html#a7624db7e02c307f72555f89fad93e690">required</a> = 'required'</td></tr>
+<tr class="separator:a7624db7e02c307f72555f89fad93e690"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d92d090136d964a82b47beb429dc9b3"><td class="memItemLeft" align="right" valign="top">character(len=8), parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__constants.html#a8d92d090136d964a82b47beb429dc9b3">optional</a> = 'optional'</td></tr>
+<tr class="separator:a8d92d090136d964a82b47beb429dc9b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a502658bec9a08400b13b3228a4be26c4"><td class="memItemLeft" align="right" valign="top">integer(ik), parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__constants.html#a502658bec9a08400b13b3228a4be26c4">ngq</a> = 1</td></tr>
 <tr class="separator:a502658bec9a08400b13b3228a4be26c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9b9cd72fec7a8d93b8407cb88c5c5d3a"><td class="memItemLeft" align="right" valign="top">integer(ik), parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__constants.html#a9b9cd72fec7a8d93b8407cb88c5c5d3a">maxblocks</a> = 200</td></tr>
 <tr class="separator:a9b9cd72fec7a8d93b8407cb88c5c5d3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab589447053e1c91c74491a229dfcf307"><td class="memItemLeft" align="right" valign="top">character(4)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__constants.html#ab589447053e1c91c74491a229dfcf307">io_destination</a> = 'both'</td></tr>
-<tr class="separator:ab589447053e1c91c74491a229dfcf307"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0965601f34893ad82125fb7b86434cfc"><td class="memItemLeft" align="right" valign="top">character(6)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__constants.html#a0965601f34893ad82125fb7b86434cfc">io_destination</a> = 'both'</td></tr>
+<tr class="separator:a0965601f34893ad82125fb7b86434cfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Module containing general constants that can be used consistently throughout the program. </p>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016</dd></dl>
 <p>These include:</p><ul>
 <li>Mathematical constants (pi, e, etc.)</li>
 <li>Floating-point values for numbers and fractions (to ensure the correct floating point precision is used consistently)</li>
 <li>Integers for consistent indexing </li>
 </ul>
 </div><h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="a2969f6def877cd56dd8af92c992b9667"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer(ik), parameter mod_constants::bc_blk = -1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a73bcd968b06cec5c8f2ea2af96d653be"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">integer(ik), parameter mod_constants::boundary = -1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a7334a9402cd87df0a28e01a71424c2b5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer(ik), parameter mod_constants::boundary_advective_flux = 1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a132909aa37c854e1588915b7a4ea7a3b"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer(ik), parameter mod_constants::boundary_diffusive_flux = 2</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -380,12 +443,12 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ab589447053e1c91c74491a229dfcf307"></a>
+<a class="anchor" id="a0965601f34893ad82125fb7b86434cfc"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">character(4) mod_constants::io_destination = 'both'</td>
+          <td class="memname">character(6) mod_constants::io_destination = 'both'</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -416,6 +479,20 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a17da853f28deb52696028829a3416f24"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer(ik), parameter mod_constants::nblk = 7</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>6 neighbors, 1 self </p>
+
+</div>
+</div>
 <a class="anchor" id="ac4f159d7fcd38631f97ba1082b914632"></a>
 <div class="memitem">
 <div class="memproto">
@@ -434,6 +511,18 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">integer(ik), parameter mod_constants::nfaces = 6</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a6ebf9a764b10a9244e90fbbb52094035"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer(ik), parameter mod_constants::nfunction_types = 6</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -476,12 +565,36 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="af3ac90f37f76b041a03a326e3acc768d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer(ik), parameter mod_constants::no_interior_neighbor = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="aeeaedd41788edeab9c1005d63c63779e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">real(rk), parameter mod_constants::one = 1._rk</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a8d92d090136d964a82b47beb429dc9b3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">character(len=8), parameter mod_constants::optional = 'optional'</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -511,6 +624,18 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Mathematical constant pi. </p>
+
+</div>
+</div>
+<a class="anchor" id="a7624db7e02c307f72555f89fad93e690"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">character(len=8), parameter mod_constants::required = 'required'</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -658,6 +783,54 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a5e5d3b30e303ab8e292665925081d399"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer(ik), parameter mod_constants::volume_advective_flux = 3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="afd0561efb4ee7707eadeb2749f51aefd"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer(ik), parameter mod_constants::volume_advective_source = 5</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a05f72a21c86ef3b739630af1977282f9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer(ik), parameter mod_constants::volume_diffusive_flux = 4</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="abdc774b7a0ef59950e4715bc82efad21"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer(ik), parameter mod_constants::volume_diffusive_source = 6</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a1c9422c04399d62435f115c18af604b9"></a>
 <div class="memitem">
 <div class="memproto">
@@ -784,7 +957,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemod__constants.html">mod_constants</a></li>
-    <li class="footer">Generated on Tue Dec 22 2015 14:22:41 for ChiDG by
+    <li class="footer">Generated on Thu Feb 25 2016 21:16:28 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

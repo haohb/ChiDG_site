@@ -107,19 +107,40 @@ $(document).ready(function(){initNavTree('namespacebc__periodic.html','');});
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Types</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">type &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbc__periodic_1_1periodic__t.html">periodic_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Periodic boundary condition.  <a href="structbc__periodic_1_1periodic__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions/Subroutines</h2></td></tr>
-<tr class="memitem:a364af5c84a010dc1ac6c7d33ab2bd608"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebc__periodic.html#a364af5c84a010dc1ac6c7d33ab2bd608">init_spec</a> (self, mesh, iface, options)</td></tr>
-<tr class="memdesc:a364af5c84a010dc1ac6c7d33ab2bd608"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specialized initialization routine called from bc_tinit for matching periodic boundary conditions. This boundary condition perorms the following:  <a href="#a364af5c84a010dc1ac6c7d33ab2bd608">More...</a><br /></td></tr>
-<tr class="separator:a364af5c84a010dc1ac6c7d33ab2bd608"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a583fa6f5116b276ef16899a41bd588dd"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebc__periodic.html#a583fa6f5116b276ef16899a41bd588dd">compute</a> (self, mesh, sdata, prop, idom, ielem, iface, iblk)</td></tr>
-<tr class="memdesc:a583fa6f5116b276ef16899a41bd588dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boundary condition compute routine called by spatial scheme.  <a href="#a583fa6f5116b276ef16899a41bd588dd">More...</a><br /></td></tr>
-<tr class="separator:a583fa6f5116b276ef16899a41bd588dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a778ca8000adf2d85159ecd8ec1f04561"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebc__periodic.html#a778ca8000adf2d85159ecd8ec1f04561">add_options</a> (self)</td></tr>
+<tr class="memdesc:a778ca8000adf2d85159ecd8ec1f04561"><td class="mdescLeft">&#160;</td><td class="mdescRight">Procedure for registering boundary condition options. Needs executed upon allocation.  <a href="#a778ca8000adf2d85159ecd8ec1f04561">More...</a><br /></td></tr>
+<tr class="separator:a778ca8000adf2d85159ecd8ec1f04561"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac3d27d5cd08794ddfb4bd746ced20fb"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebc__periodic.html#aac3d27d5cd08794ddfb4bd746ced20fb">compute</a> (self, mesh, sdata, prop, face, flux)</td></tr>
+<tr class="memdesc:aac3d27d5cd08794ddfb4bd746ced20fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boundary condition compute routine called by spatial scheme.  <a href="#aac3d27d5cd08794ddfb4bd746ced20fb">More...</a><br /></td></tr>
+<tr class="separator:aac3d27d5cd08794ddfb4bd746ced20fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function/Subroutine Documentation</h2>
-<a class="anchor" id="a583fa6f5116b276ef16899a41bd588dd"></a>
+<a class="anchor" id="a778ca8000adf2d85159ecd8ec1f04561"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine bc_periodic::add_options </td>
+          <td>(</td>
+          <td class="paramtype">class(<a class="el" href="structbc__periodic_1_1periodic__t.html">periodic_t</a>), intent(inout)&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Procedure for registering boundary condition options. Needs executed upon allocation. </p>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/2/2016 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="aac3d27d5cd08794ddfb4bd746ced20fb"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -150,26 +171,14 @@ Functions/Subroutines</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">integer(ik), intent(in)&#160;</td>
-          <td class="paramname"><em>idom</em>, </td>
+          <td class="paramtype">type(<a class="el" href="structtype__face__info_1_1face__info__t.html">face_info_t</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>face</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">integer(ik), intent(in)&#160;</td>
-          <td class="paramname"><em>ielem</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer(ik), intent(in)&#160;</td>
-          <td class="paramname"><em>iface</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer(ik), intent(in)&#160;</td>
-          <td class="paramname"><em>iblk</em>&#160;</td>
+          <td class="paramtype">type(<a class="el" href="structtype__function__info_1_1function__info__t.html">function_info_t</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>flux</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -184,59 +193,7 @@ Functions/Subroutines</h2></td></tr>
 <li>Matching periodic boundary condition, so the interior scheme is just adjusted to connect elements and no extra calculation routine is needed here. Hence the empty routine below.</li>
 </ul>
 <dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
-
-</div>
-</div>
-<a class="anchor" id="a364af5c84a010dc1ac6c7d33ab2bd608"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">subroutine bc_periodic::init_spec </td>
-          <td>(</td>
-          <td class="paramtype">class(<a class="el" href="structbc__periodic_1_1periodic__t.html">periodic_t</a>), intent(inout)&#160;</td>
-          <td class="paramname"><em>self</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">type(<a class="el" href="structtype__mesh_1_1mesh__t.html">mesh_t</a>), intent(inout)&#160;</td>
-          <td class="paramname"><em>mesh</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer(ik), intent(in)&#160;</td>
-          <td class="paramname"><em>iface</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">type(<a class="el" href="structtype__dict_1_1dict__t.html">dict_t</a>), intent(in), optional&#160;</td>
-          <td class="paramname"><em>options</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Specialized initialization routine called from bc_tinit for matching periodic boundary conditions. This boundary condition perorms the following: </p>
-<ul>
-<li>Resets ftype to '0' to indicate an interior face</li>
-<li>Reset ineighbor to periodic element</li>
-</ul>
-<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie</dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">mesh</td><td>mesh_t containing elements and faces </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">sdata</td><td>solverdata_t containing solution(q), rhs, linearization(lin), etc. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">iface</td><td>Face index to which the boundary condition is applied </td></tr>
-  </table>
-  </dd>
-</dl>
+<dl class="section date"><dt>Date</dt><dd>1/31/2016 </dd></dl>
 
 </div>
 </div>
@@ -246,7 +203,7 @@ Functions/Subroutines</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacebc__periodic.html">bc_periodic</a></li>
-    <li class="footer">Generated on Tue Dec 22 2015 14:22:32 for ChiDG by
+    <li class="footer">Generated on Thu Feb 25 2016 21:16:21 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

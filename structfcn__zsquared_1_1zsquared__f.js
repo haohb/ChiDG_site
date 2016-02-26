@@ -1,5 +1,5 @@
 var structfcn__zsquared_1_1zsquared__f =
 [
-    [ "calc", "structfcn__zsquared_1_1zsquared__f.html#add71119af52ec860fc6d8ad1413df59c", null ],
-    [ "order", "structfcn__zsquared_1_1zsquared__f.html#a28e176a19624f35886025b87a57cd857", null ]
+    [ "compute", "structfcn__zsquared_1_1zsquared__f.html#a4da5d5e0e80dfaeb58792005f3ce6e7f", null ],
+    [ "init", "structfcn__zsquared_1_1zsquared__f.html#a75930ae9c787228b246c4ade4e7cee26", null ]
 ];

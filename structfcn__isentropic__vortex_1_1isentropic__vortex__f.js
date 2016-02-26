@@ -1,8 +1,7 @@
 var structfcn__isentropic__vortex_1_1isentropic__vortex__f =
 [
-    [ "calc", "structfcn__isentropic__vortex_1_1isentropic__vortex__f.html#abb5e0b4353c1ca0b172c05f2e58e2a1a", null ],
-    [ "order", "structfcn__isentropic__vortex_1_1isentropic__vortex__f.html#aca86431d83d43acfb498034a5905c9f9", null ],
-    [ "set", "structfcn__isentropic__vortex_1_1isentropic__vortex__f.html#a626f924c70f2894aa1d162b548d979c3", null ],
+    [ "compute", "structfcn__isentropic__vortex_1_1isentropic__vortex__f.html#a1a22e1f5c4a228254fe75c2300d5f1ad", null ],
+    [ "init", "structfcn__isentropic__vortex_1_1isentropic__vortex__f.html#abf8cbef6dd49cd0a38b566e17cca0719", null ],
     [ "beta", "structfcn__isentropic__vortex_1_1isentropic__vortex__f.html#a77b4e92a76f15be14d092b383359be11", null ],
     [ "gam", "structfcn__isentropic__vortex_1_1isentropic__vortex__f.html#a2d8ca90dfd7f744ab1b9007ffebc6a2e", null ],
     [ "ivar", "structfcn__isentropic__vortex_1_1isentropic__vortex__f.html#a3a39ddd0417ab3ca1e6f89d15420fa1b", null ],

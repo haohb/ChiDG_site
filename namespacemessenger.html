@@ -115,31 +115,40 @@ Functions/Subroutines</h2></td></tr>
 <tr class="memitem:afede6dfaa6b1475d83477d6fe5f4464d"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#afede6dfaa6b1475d83477d6fe5f4464d">message</a> (pathname, linenum, sig, msg, info_one, info_two)</td></tr>
 <tr class="memdesc:afede6dfaa6b1475d83477d6fe5f4464d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Message routine for handling warnings and errors. Reports file name, line number, and warn/error message. This would usually not be called directly. Rather, use the macro defined in message.h that automatically inserts filename and linenumber.  <a href="#afede6dfaa6b1475d83477d6fe5f4464d">More...</a><br /></td></tr>
 <tr class="separator:afede6dfaa6b1475d83477d6fe5f4464d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b84d3bdcaa4bf145fab71a846b82c13"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#a0b84d3bdcaa4bf145fab71a846b82c13">write_line</a> (a, b, c, d, e, f, g, h, delimiter)</td></tr>
-<tr class="memdesc:a0b84d3bdcaa4bf145fab71a846b82c13"><td class="mdescLeft">&#160;</td><td class="mdescRight">This subroutine writes a line to IO that is composed of 8 optional incoming variables. This is accomplished by first passing each component to the 'add_to_line' subroutine, which assembles the data into the 'line' module-global variable. Then, the 'send_line' subroutine is called to handle the destination of the line to either the screen, a file, or both.  <a href="#a0b84d3bdcaa4bf145fab71a846b82c13">More...</a><br /></td></tr>
-<tr class="separator:a0b84d3bdcaa4bf145fab71a846b82c13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72a0af6a558f52bbaa76b80a686596d6"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#a72a0af6a558f52bbaa76b80a686596d6">add_to_line</a> (linedata, delimiter)</td></tr>
-<tr class="memdesc:a72a0af6a558f52bbaa76b80a686596d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds data to the module-global 'line' character string.  <a href="#a72a0af6a558f52bbaa76b80a686596d6">More...</a><br /></td></tr>
-<tr class="separator:a72a0af6a558f52bbaa76b80a686596d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9cc95b66bdab73a154d56dd0c8fc6dd6"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#a9cc95b66bdab73a154d56dd0c8fc6dd6">write_line</a> (a, b, c, d, e, f, g, h, delimiter, columns, column_width, color, ltrim)</td></tr>
+<tr class="memdesc:a9cc95b66bdab73a154d56dd0c8fc6dd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">This subroutine writes a line to IO that is composed of 8 optional incoming variables. This is accomplished by first passing each component to the 'add_to_line' subroutine, which assembles the data into the 'line' module-global variable. Then, the 'send_line' subroutine is called to handle the destination of the line to either the screen, a file, or both.  <a href="#a9cc95b66bdab73a154d56dd0c8fc6dd6">More...</a><br /></td></tr>
+<tr class="separator:a9cc95b66bdab73a154d56dd0c8fc6dd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5f24f5c5fbccc08788396bacfc3651e5"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#a5f24f5c5fbccc08788396bacfc3651e5">add_to_line</a> (linedata, delimiter, columns, column_width, color, ltrim)</td></tr>
+<tr class="memdesc:a5f24f5c5fbccc08788396bacfc3651e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Adds data to the module-global 'line' character string.  <a href="#a5f24f5c5fbccc08788396bacfc3651e5">More...</a><br /></td></tr>
+<tr class="separator:a5f24f5c5fbccc08788396bacfc3651e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a427eb98339f47b752376f33e3fb021ab"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#a427eb98339f47b752376f33e3fb021ab">send_line</a> ()</td></tr>
 <tr class="memdesc:a427eb98339f47b752376f33e3fb021ab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles sending module-global 'line' string to a destination of either the screen, a file, or both. Is is determined by the IO_DESTINATION variable from <a class="el" href="namespacemod__constants.html" title="Module containing general constants that can be used consistently throughout the program. ">mod_constants</a>.  <a href="#a427eb98339f47b752376f33e3fb021ab">More...</a><br /></td></tr>
 <tr class="separator:a427eb98339f47b752376f33e3fb021ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0baf31d6751e9c54781681c1ad283d15"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#a0baf31d6751e9c54781681c1ad283d15">set_color</a> (color)</td></tr>
+<tr class="memdesc:a0baf31d6751e9c54781681c1ad283d15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set line color.  <a href="#a0baf31d6751e9c54781681c1ad283d15">More...</a><br /></td></tr>
+<tr class="separator:a0baf31d6751e9c54781681c1ad283d15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
 <tr class="memitem:a1106dcd2c02225dde7af3c3afef86736"><td class="memItemLeft" align="right" valign="top">character(len=:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#a1106dcd2c02225dde7af3c3afef86736">line</a></td></tr>
 <tr class="separator:a1106dcd2c02225dde7af3c3afef86736"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd2040833559d844bb7696542e7140b7"><td class="memItemLeft" align="right" valign="top">character(len=2), parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#acd2040833559d844bb7696542e7140b7">default_delimiter</a> = ''</td></tr>
+<tr class="memitem:acd2040833559d844bb7696542e7140b7"><td class="memItemLeft" align="right" valign="top">character(len=2), parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#acd2040833559d844bb7696542e7140b7">default_delimiter</a> = ' '</td></tr>
 <tr class="separator:acd2040833559d844bb7696542e7140b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a603500df4da50eaefce591763ac797c7"><td class="memItemLeft" align="right" valign="top">character(len=:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#a603500df4da50eaefce591763ac797c7">current_delimiter</a></td></tr>
 <tr class="separator:a603500df4da50eaefce591763ac797c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad92f00cd8e2d72420519747cba7066db"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#ad92f00cd8e2d72420519747cba7066db">unit</a></td></tr>
 <tr class="separator:ad92f00cd8e2d72420519747cba7066db"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af6860938868c429f11fd3508f308714e"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#af6860938868c429f11fd3508f308714e">max_msg_length</a> = 160</td></tr>
+<tr class="memitem:af6860938868c429f11fd3508f308714e"><td class="memItemLeft" align="right" valign="top">integer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#af6860938868c429f11fd3508f308714e">max_msg_length</a> = 300</td></tr>
 <tr class="separator:af6860938868c429f11fd3508f308714e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd9cfb6662f18d7ae615d0f643969cf0"><td class="memItemLeft" align="right" valign="top">logical&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#afd9cfb6662f18d7ae615d0f643969cf0">log_initialized</a> = .false.</td></tr>
+<tr class="separator:afd9cfb6662f18d7ae615d0f643969cf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9304fb8740e8627c5b8884463c673d44"><td class="memItemLeft" align="right" valign="top">character(len=:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#a9304fb8740e8627c5b8884463c673d44">color_begin</a></td></tr>
+<tr class="separator:a9304fb8740e8627c5b8884463c673d44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab79b56e8bb95333a176b5b6673e3e13d"><td class="memItemLeft" align="right" valign="top">character(len=:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#ab79b56e8bb95333a176b5b6673e3e13d">color_end</a></td></tr>
+<tr class="separator:ab79b56e8bb95333a176b5b6673e3e13d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function/Subroutine Documentation</h2>
-<a class="anchor" id="a72a0af6a558f52bbaa76b80a686596d6"></a>
+<a class="anchor" id="a5f24f5c5fbccc08788396bacfc3651e5"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -153,7 +162,31 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">character(*), intent(in), optional&#160;</td>
-          <td class="paramname"><em>delimiter</em>&#160;</td>
+          <td class="paramname"><em>delimiter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">logical, intent(in), optional&#160;</td>
+          <td class="paramname"><em>columns</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer(ik), intent(in), optional&#160;</td>
+          <td class="paramname"><em>column_width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">character(*), intent(in), optional&#160;</td>
+          <td class="paramname"><em>color</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">logical, intent(in), optional&#160;</td>
+          <td class="paramname"><em>ltrim</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -164,11 +197,14 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Adds data to the module-global 'line' character string. </p>
-<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie</dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/2/2016</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">linedata</td><td>Polymorphic data component that gets converted to a string and added to the IO line </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">delimiter</td><td>Optional delimiter that is used to separate line components. Default is set to ' ' </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">columns</td><td>Logical optional to indicate if incoming arguments should be aligned in columns. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">column_width</td><td>Optional integer indicating the column width if columns was indicated. </td></tr>
   </table>
   </dd>
 </dl>
@@ -189,7 +225,8 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Log finalization. </p>
-<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie <hr/>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/2/2016 <hr/>
  </dd></dl>
 
 </div>
@@ -209,7 +246,8 @@ Variables</h2></td></tr>
 
 <p>Log initialization. </p>
 <p>Gets new available file unit and opens log file. 'unit' is a module variable that can be used throughout the module to access the log file.</p>
-<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie <hr/>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/2/2016 <hr/>
  </dd></dl>
 
 </div>
@@ -267,7 +305,8 @@ Variables</h2></td></tr>
 <li>Warn :: 1</li>
 <li>Non-fatal error :: 2</li>
 <li><p class="startli">Fatal error :: 3</p>
-<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie</dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/2/2016</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">pathname</td><td>Path and name of the file that the message is coming from. </td></tr>
@@ -300,10 +339,37 @@ Variables</h2></td></tr>
 <p>Handles sending module-global 'line' string to a destination of either the screen, a file, or both. Is is determined by the IO_DESTINATION variable from <a class="el" href="namespacemod__constants.html" title="Module containing general constants that can be used consistently throughout the program. ">mod_constants</a>. </p>
 <p>Line wrapping is also handled, set by the module parameter 'max_msg_length'.</p>
 <dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/3/2016 </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a0b84d3bdcaa4bf145fab71a846b82c13"></a>
+<a class="anchor" id="a0baf31d6751e9c54781681c1ad283d15"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine messenger::set_color </td>
+          <td>(</td>
+          <td class="paramtype">character(*), intent(in)&#160;</td>
+          <td class="paramname"><em>color</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Set line color. </p>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/3/2016</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">color</td><td>String indicating the color to set </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a9cc95b66bdab73a154d56dd0c8fc6dd6"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -359,7 +425,31 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">character(len=*), intent(in), optional&#160;</td>
-          <td class="paramname"><em>delimiter</em>&#160;</td>
+          <td class="paramname"><em>delimiter</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">logical, intent(in), optional&#160;</td>
+          <td class="paramname"><em>columns</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer(ik), intent(in), optional&#160;</td>
+          <td class="paramname"><em>column_width</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">character(*), intent(in), optional&#160;</td>
+          <td class="paramname"><em>color</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">logical, intent(in), optional&#160;</td>
+          <td class="paramname"><em>ltrim</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -370,11 +460,14 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>This subroutine writes a line to IO that is composed of 8 optional incoming variables. This is accomplished by first passing each component to the 'add_to_line' subroutine, which assembles the data into the 'line' module-global variable. Then, the 'send_line' subroutine is called to handle the destination of the line to either the screen, a file, or both. </p>
-<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie</dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/2/2016</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">a-h</td><td>Optional polymorphic variables that can be used to compose a line sent to IO. </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">delimiter</td><td>Optional delimiter that is used to separate line components. Default is set to ' ' </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">columns</td><td>Logical optional to indicate if incoming arguments should be aligned in columns. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">column_width</td><td>Optional integer indicating the column width if columns was indicated. </td></tr>
   </table>
   </dd>
 </dl>
@@ -382,6 +475,30 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="a9304fb8740e8627c5b8884463c673d44"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">character(len=:), allocatable messenger::color_begin</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ab79b56e8bb95333a176b5b6673e3e13d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">character(len=:), allocatable messenger::color_end</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a603500df4da50eaefce591763ac797c7"></a>
 <div class="memitem">
 <div class="memproto">
@@ -399,7 +516,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">character(len=2), parameter messenger::default_delimiter = ''</td>
+          <td class="memname">character(len=2), parameter messenger::default_delimiter = ' '</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -418,12 +535,24 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="afd9cfb6662f18d7ae615d0f643969cf0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">logical messenger::log_initialized = .false.</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="af6860938868c429f11fd3508f308714e"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">integer messenger::max_msg_length = 160</td>
+          <td class="memname">integer messenger::max_msg_length = 300</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -448,7 +577,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemessenger.html">messenger</a></li>
-    <li class="footer">Generated on Tue Dec 22 2015 14:22:41 for ChiDG by
+    <li class="footer">Generated on Thu Feb 25 2016 21:16:27 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

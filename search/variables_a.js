@@ -1,17 +1,15 @@
 var searchData=
 [
-  ['lblks',['lblks',['../structtype__blockmatrix_1_1blockmatrix__t.html#a006e149e0d995bc0ec95ba81170a91aa',1,'type_blockmatrix::blockmatrix_t::lblks()'],['../structtype__testmatrix_1_1testmatrix__t.html#a151fc50bbc15c7b5814ecd916f2be94c',1,'type_testmatrix::testmatrix_t::lblks()']]],
-  ['ld',['ld',['../structprecon__ilu0_1_1precon__ilu0__t.html#a86c83cda51be5ecfe3dc6af5afc8c983',1,'precon_ilu0::precon_ilu0_t']]],
-  ['ldata',['ldata',['../structtype__blockmatrix_1_1blockmatrix__t.html#a0588c12cdcb619a279b82452f5603658',1,'type_blockmatrix::blockmatrix_t::ldata()'],['../structtype__blockvector_1_1blockvector__t.html#a5d21325e9d50e08e61b11a05fe507805',1,'type_blockvector::blockvector_t::ldata()'],['../structtype__testmatrix_1_1testmatrix__t.html#a5b49595a5d785e6c8b811c48a697d3c2',1,'type_testmatrix::testmatrix_t::ldata()']]],
-  ['lhs',['lhs',['../structtype__solverdata_1_1solverdata__t.html#a5538c25a477f099e3d69c58477c7ecb7',1,'type_solverdata::solverdata_t']]],
-  ['line',['line',['../namespacemessenger.html#a1106dcd2c02225dde7af3c3afef86736',1,'messenger']]],
-  ['linearadvection',['linearadvection',['../namespacemod__equations.html#a1efc377fb7302d5143305d00200f3978',1,'mod_equations']]],
-  ['linearadvection_5fextrapolate',['linearadvection_extrapolate',['../namespacemod__bc.html#aea2bb3e797e50ff0fd6c022be70c84e8',1,'mod_bc']]],
-  ['lineuler',['lineuler',['../namespacemod__equations.html#a213e379b469d6e58b809154bba5864f2',1,'mod_equations']]],
-  ['lineuler_5fextrapolate',['lineuler_extrapolate',['../namespacemod__bc.html#a7163c2dbd2afefb6c457f88487db1b95',1,'mod_bc']]],
-  ['lineuler_5finlet',['lineuler_inlet',['../namespacemod__bc.html#a77c0cbe36adcda74e6776d66429c3743',1,'mod_bc']]],
-  ['llint',['llint',['../structtype__dict_1_1dict__t.html#ae6aa2c7ddbaa96a4bb8f428fdc1d8c75',1,'type_dict::dict_t']]],
-  ['llreal',['llreal',['../structtype__dict_1_1dict__t.html#ae481e44f3ec614285953bdca9aa9d62b',1,'type_dict::dict_t']]],
-  ['local',['local',['../namespacemod__constants.html#a37a6d0bb5e01c17727f22da723a8c8d5',1,'mod_constants']]],
-  ['lvecs',['lvecs',['../structtype__blockvector_1_1blockvector__t.html#ad818e3674e2385001c77fe70a80e7e60',1,'type_blockvector::blockvector_t']]]
+  ['m',['m',['../structtype__fgmres_1_1fgmres__t.html#a965ab94873ba61531dd16e27c083fd06',1,'type_fgmres::fgmres_t::m()'],['../structtype__fgmres__householder_1_1fgmres__householder__t.html#acdfa3c02e80458f22363d780c9686d48',1,'type_fgmres_householder::fgmres_householder_t::m()'],['../structtype__gmres_1_1gmres__t.html#a722f6ae1f9dead0eb3ec00253c3c3472',1,'type_gmres::gmres_t::m()']]],
+  ['mass',['mass',['../structtype__element_1_1element__t.html#a7277bb803bec017c165e9fa83e602b67',1,'type_element::element_t::mass()'],['../structtype__volumequadrature_1_1volumequadrature__t.html#a268e72de1fcc5d7c3d1231db4806ddf4',1,'type_volumequadrature::volumequadrature_t::mass()']]],
+  ['mat',['mat',['../structtype__densematrix_1_1densematrix__t.html#a3d35b94e7fb812ffedb0047b7f5164b6',1,'type_densematrix::densematrix_t']]],
+  ['matrix_5fiterations',['matrix_iterations',['../structtype__timescheme_1_1timescheme__t.html#a5cb5cc3c680ec38cce548a8df290067b',1,'type_timescheme::timescheme_t']]],
+  ['matrix_5ftime',['matrix_time',['../structtype__timescheme_1_1timescheme__t.html#a2f644d805f4fb6222bb42fcd8873eb9d',1,'type_timescheme::timescheme_t']]],
+  ['matrixsolver',['matrixsolver',['../structtype__chidg_1_1chidg__t.html#aab997307917eb214a4a063907005e5c7',1,'type_chidg::chidg_t::matrixsolver()'],['../namespacemod__io.html#a542adaace96173da1d40981b8a257164',1,'mod_io::matrixsolver()']]],
+  ['max_5fmsg_5flength',['max_msg_length',['../namespacemessenger.html#af6860938868c429f11fd3508f308714e',1,'messenger']]],
+  ['max_5fpoly_5forder',['max_poly_order',['../namespacemod__ordering.html#a9454bcf5e8c6546b3dfb38a988847a35',1,'mod_ordering']]],
+  ['maxblocks',['maxblocks',['../namespacemod__constants.html#a9b9cd72fec7a8d93b8407cb88c5c5d3a',1,'mod_constants']]],
+  ['mesh',['mesh',['../structtype__chidg__data_1_1chidg__data__t.html#a856dc8ba5abdb57b9710a2a99e970432',1,'type_chidg_data::chidg_data_t']]],
+  ['metric',['metric',['../structtype__element_1_1element__t.html#abb0843cc95563eed50e265ed8229d526',1,'type_element::element_t::metric()'],['../structtype__face_1_1face__t.html#aeb6c88f004eb7c21e05d1a68297c3408',1,'type_face::face_t::metric()']]],
+  ['mtol',['mtol',['../namespacemod__io.html#a7a0be54b9a3541bdaf7eae301d8b5575',1,'mod_io']]]
 ];

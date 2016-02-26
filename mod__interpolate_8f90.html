@@ -111,6 +111,8 @@ Data Types</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemod__interpolate_1_1interpolate__face.html">mod_interpolate::interpolate_face</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemod__interpolate_1_1interpolate__boundary.html">mod_interpolate::interpolate_boundary</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Modules</h2></td></tr>
@@ -119,18 +121,21 @@ Modules</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions/Subroutines</h2></td></tr>
-<tr class="memitem:a3a4a1eaf102b461e5b0eda68f146c315"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__interpolate.html#a3a4a1eaf102b461e5b0eda68f146c315">mod_interpolate::interpolate_element_autodiff</a> (mesh, q, idom, ielem, ivar, var_gq, seed)</td></tr>
-<tr class="memdesc:a3a4a1eaf102b461e5b0eda68f146c315"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute variable at quadrature nodes.  <a href="namespacemod__interpolate.html#a3a4a1eaf102b461e5b0eda68f146c315">More...</a><br /></td></tr>
-<tr class="separator:a3a4a1eaf102b461e5b0eda68f146c315"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7f216a3d3c30cb7d2c57b9753f53d3c"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__interpolate.html#ad7f216a3d3c30cb7d2c57b9753f53d3c">mod_interpolate::interpolate_face_autodiff</a> (mesh, q, idom, ielem, iface, ivar, var_gq, seed, source)</td></tr>
-<tr class="memdesc:ad7f216a3d3c30cb7d2c57b9753f53d3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute variable at quadrature nodes.  <a href="namespacemod__interpolate.html#ad7f216a3d3c30cb7d2c57b9753f53d3c">More...</a><br /></td></tr>
-<tr class="separator:ad7f216a3d3c30cb7d2c57b9753f53d3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b7b984917e1942a0e116d6cd0242475"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__interpolate.html#a2b7b984917e1942a0e116d6cd0242475">mod_interpolate::interpolate_element_standard</a> (mesh, q, idom, ielem, ivar, var_gq)</td></tr>
-<tr class="memdesc:a2b7b984917e1942a0e116d6cd0242475"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute variable at quadrature nodes.  <a href="namespacemod__interpolate.html#a2b7b984917e1942a0e116d6cd0242475">More...</a><br /></td></tr>
-<tr class="separator:a2b7b984917e1942a0e116d6cd0242475"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2609d47f93ff2ff15e559dfd1684429d"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__interpolate.html#a2609d47f93ff2ff15e559dfd1684429d">mod_interpolate::interpolate_face_standard</a> (mesh, q, idom, ielem, iface, ivar, var_gq)</td></tr>
-<tr class="memdesc:a2609d47f93ff2ff15e559dfd1684429d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute variable at quadrature nodes.  <a href="namespacemod__interpolate.html#a2609d47f93ff2ff15e559dfd1684429d">More...</a><br /></td></tr>
-<tr class="separator:a2609d47f93ff2ff15e559dfd1684429d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f0239d398e6e016dc3b3512c39d960c"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__interpolate.html#a1f0239d398e6e016dc3b3512c39d960c">mod_interpolate::interpolate_element_autodiff</a> (mesh, q, idom, ielem, ieqn, var_gq, seed)</td></tr>
+<tr class="memdesc:a1f0239d398e6e016dc3b3512c39d960c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute variable at quadrature nodes.  <a href="namespacemod__interpolate.html#a1f0239d398e6e016dc3b3512c39d960c">More...</a><br /></td></tr>
+<tr class="separator:a1f0239d398e6e016dc3b3512c39d960c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab233ed8bb10f2d8d7184f476764f18a7"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__interpolate.html#ab233ed8bb10f2d8d7184f476764f18a7">mod_interpolate::interpolate_face_autodiff</a> (mesh, face, q, ieqn, var_gq, source)</td></tr>
+<tr class="memdesc:ab233ed8bb10f2d8d7184f476764f18a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpolate variable from polynomial expansion to explicit values at quadrature nodes. The automatic differentiation process really starts here, when the polynomial expansion is evaluated.  <a href="namespacemod__interpolate.html#ab233ed8bb10f2d8d7184f476764f18a7">More...</a><br /></td></tr>
+<tr class="separator:ab233ed8bb10f2d8d7184f476764f18a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa647fbb123e97b7b86803a7f31496447"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__interpolate.html#aa647fbb123e97b7b86803a7f31496447">mod_interpolate::interpolate_element_standard</a> (mesh, q, idom, ielem, ieqn, var_gq)</td></tr>
+<tr class="memdesc:aa647fbb123e97b7b86803a7f31496447"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute variable at quadrature nodes.  <a href="namespacemod__interpolate.html#aa647fbb123e97b7b86803a7f31496447">More...</a><br /></td></tr>
+<tr class="separator:aa647fbb123e97b7b86803a7f31496447"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a707d68e6d6813be8720acab65a965f67"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__interpolate.html#a707d68e6d6813be8720acab65a965f67">mod_interpolate::interpolate_face_standard</a> (mesh, q, idom, ielem, iface, ieqn, var_gq)</td></tr>
+<tr class="memdesc:a707d68e6d6813be8720acab65a965f67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute variable at quadrature nodes.  <a href="namespacemod__interpolate.html#a707d68e6d6813be8720acab65a965f67">More...</a><br /></td></tr>
+<tr class="separator:a707d68e6d6813be8720acab65a965f67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41877d929bfbf8504b107f71e3495739"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__interpolate.html#a41877d929bfbf8504b107f71e3495739">mod_interpolate::interpolate_boundary_autodiff</a> (mesh, face, q, ieqn, points, var)</td></tr>
+<tr class="memdesc:a41877d929bfbf8504b107f71e3495739"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpolate variable from polynomial expansion to explicit values at quadrature nodes. The automatic differentiation process really starts here, when the polynomial expansion is evaluated.  <a href="namespacemod__interpolate.html#a41877d929bfbf8504b107f71e3495739">More...</a><br /></td></tr>
+<tr class="separator:a41877d929bfbf8504b107f71e3495739"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -138,7 +143,7 @@ Functions/Subroutines</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_35c063c51595aed048740f74a780093f.html">grid</a></li><li class="navelem"><a class="el" href="mod__interpolate_8f90.html">mod_interpolate.f90</a></li>
-    <li class="footer">Generated on Tue Dec 22 2015 14:22:29 for ChiDG by
+    <li class="footer">Generated on Thu Feb 25 2016 21:16:17 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

@@ -1,10 +1,10 @@
 var dir_0b61c55142250c0cc363383afd8075a4 =
 [
-    [ "mod_solverdata.f90", "mod__solverdata_8f90.html", "mod__solverdata_8f90" ],
     [ "operator_block_dot.f90", "operator__block__dot_8f90.html", "operator__block__dot_8f90" ],
     [ "operator_block_mv.f90", "operator__block__mv_8f90.html", "operator__block__mv_8f90" ],
     [ "operator_chidg_dot.f90", "operator__chidg__dot_8f90.html", "operator__chidg__dot_8f90" ],
     [ "operator_chidg_mv.f90", "operator__chidg__mv_8f90.html", "operator__chidg__mv_8f90" ],
+    [ "type_bcvector.f90", "type__bcvector_8f90.html", "type__bcvector_8f90" ],
     [ "type_blockmatrix.f90", "type__blockmatrix_8f90.html", "type__blockmatrix_8f90" ],
     [ "type_blockvector.f90", "src_2containers_2type__blockvector_8f90.html", "src_2containers_2type__blockvector_8f90" ],
     [ "type_chidgMatrix.f90", "src_2containers_2type__chidg_matrix_8f90.html", "src_2containers_2type__chidg_matrix_8f90" ],
@@ -12,13 +12,19 @@ var dir_0b61c55142250c0cc363383afd8075a4 =
     [ "type_densematrix.f90", "type__densematrix_8f90.html", "type__densematrix_8f90" ],
     [ "type_densevector.f90", "src_2containers_2type__densevector_8f90.html", "src_2containers_2type__densevector_8f90" ],
     [ "type_dict.f90", "type__dict_8f90.html", "type__dict_8f90" ],
-    [ "type_element_location.f90", "type__element__location_8f90.html", [
-      [ "element_location_t", "structtype__element__location_1_1element__location__t.html", "structtype__element__location_1_1element__location__t" ]
+    [ "type_element_indices.f90", "type__element__indices_8f90.html", [
+      [ "element_indices_t", "structtype__element__indices_1_1element__indices__t.html", "structtype__element__indices_1_1element__indices__t" ]
     ] ],
-    [ "type_expansion.f90", "type__expansion_8f90.html", "type__expansion_8f90" ],
-    [ "type_face_location.f90", "type__face__location_8f90.html", [
-      [ "face_location_t", "structtype__face__location_1_1face__location__t.html", "structtype__face__location_1_1face__location__t" ]
+    [ "type_evector.f90", "type__evector_8f90.html", "type__evector_8f90" ],
+    [ "type_face_info.f90", "type__face__info_8f90.html", [
+      [ "face_info_t", "structtype__face__info_1_1face__info__t.html", "structtype__face__info_1_1face__info__t" ]
     ] ],
+    [ "type_fcnvector.f90", "type__fcnvector_8f90.html", "type__fcnvector_8f90" ],
+    [ "type_function_info.f90", "type__function__info_8f90.html", [
+      [ "function_info_t", "structtype__function__info_1_1function__info__t.html", "structtype__function__info_1_1function__info__t" ]
+    ] ],
+    [ "type_function_status.f90", "type__function__status_8f90.html", "type__function__status_8f90" ],
+    [ "type_function_status_data.f90", "type__function__status__data_8f90.html", "type__function__status__data_8f90" ],
     [ "type_ivector.f90", "type__ivector_8f90.html", "type__ivector_8f90" ],
     [ "type_mvector.f90", "type__mvector_8f90.html", "type__mvector_8f90" ],
     [ "type_pvector.f90", "type__pvector_8f90.html", "type__pvector_8f90" ],

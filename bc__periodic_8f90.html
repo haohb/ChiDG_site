@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.10"/>
-<title>ChiDG: src/boundary_conditions/bc_periodic.f90 File Reference</title>
+<title>ChiDG: src/boundary_conditions/periodic/bc_periodic.f90 File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -108,6 +108,7 @@ $(document).ready(function(){initNavTree('bc__periodic_8f90.html','');});
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Types</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">type &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structbc__periodic_1_1periodic__t.html">bc_periodic::periodic_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Periodic boundary condition.  <a href="structbc__periodic_1_1periodic__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -117,20 +118,20 @@ Modules</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions/Subroutines</h2></td></tr>
-<tr class="memitem:a364af5c84a010dc1ac6c7d33ab2bd608"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebc__periodic.html#a364af5c84a010dc1ac6c7d33ab2bd608">bc_periodic::init_spec</a> (self, mesh, iface, options)</td></tr>
-<tr class="memdesc:a364af5c84a010dc1ac6c7d33ab2bd608"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specialized initialization routine called from bc_tinit for matching periodic boundary conditions. This boundary condition perorms the following:  <a href="namespacebc__periodic.html#a364af5c84a010dc1ac6c7d33ab2bd608">More...</a><br /></td></tr>
-<tr class="separator:a364af5c84a010dc1ac6c7d33ab2bd608"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a583fa6f5116b276ef16899a41bd588dd"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebc__periodic.html#a583fa6f5116b276ef16899a41bd588dd">bc_periodic::compute</a> (self, mesh, sdata, prop, idom, ielem, iface, iblk)</td></tr>
-<tr class="memdesc:a583fa6f5116b276ef16899a41bd588dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boundary condition compute routine called by spatial scheme.  <a href="namespacebc__periodic.html#a583fa6f5116b276ef16899a41bd588dd">More...</a><br /></td></tr>
-<tr class="separator:a583fa6f5116b276ef16899a41bd588dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a778ca8000adf2d85159ecd8ec1f04561"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebc__periodic.html#a778ca8000adf2d85159ecd8ec1f04561">bc_periodic::add_options</a> (self)</td></tr>
+<tr class="memdesc:a778ca8000adf2d85159ecd8ec1f04561"><td class="mdescLeft">&#160;</td><td class="mdescRight">Procedure for registering boundary condition options. Needs executed upon allocation.  <a href="namespacebc__periodic.html#a778ca8000adf2d85159ecd8ec1f04561">More...</a><br /></td></tr>
+<tr class="separator:a778ca8000adf2d85159ecd8ec1f04561"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac3d27d5cd08794ddfb4bd746ced20fb"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebc__periodic.html#aac3d27d5cd08794ddfb4bd746ced20fb">bc_periodic::compute</a> (self, mesh, sdata, prop, face, flux)</td></tr>
+<tr class="memdesc:aac3d27d5cd08794ddfb4bd746ced20fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boundary condition compute routine called by spatial scheme.  <a href="namespacebc__periodic.html#aac3d27d5cd08794ddfb4bd746ced20fb">More...</a><br /></td></tr>
+<tr class="separator:aac3d27d5cd08794ddfb4bd746ced20fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_a0cc67cc921dbb7315710438ebe9b686.html">boundary_conditions</a></li><li class="navelem"><a class="el" href="bc__periodic_8f90.html">bc_periodic.f90</a></li>
-    <li class="footer">Generated on Tue Dec 22 2015 14:22:28 for ChiDG by
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_a0cc67cc921dbb7315710438ebe9b686.html">boundary_conditions</a></li><li class="navelem"><a class="el" href="dir_392b745b3c4a751e4c416f1ff65fb531.html">periodic</a></li><li class="navelem"><a class="el" href="bc__periodic_8f90.html">bc_periodic.f90</a></li>
+    <li class="footer">Generated on Thu Feb 25 2016 21:16:17 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

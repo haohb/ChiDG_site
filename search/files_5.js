@@ -4,6 +4,7 @@ var searchData=
   ['fcn_5fgaussian_2ef90',['fcn_gaussian.f90',['../fcn__gaussian_8f90.html',1,'']]],
   ['fcn_5fisentropic_5fvortex_2ef90',['fcn_isentropic_vortex.f90',['../fcn__isentropic__vortex_8f90.html',1,'']]],
   ['fcn_5froe_5fcheck_2ef90',['fcn_roe_check.f90',['../fcn__roe__check_8f90.html',1,'']]],
+  ['fcn_5fsin_2ef90',['fcn_sin.f90',['../fcn__sin_8f90.html',1,'']]],
   ['fcn_5fsod_5fshock_5ftube_2ef90',['fcn_sod_shock_tube.f90',['../fcn__sod__shock__tube_8f90.html',1,'']]],
   ['fcn_5fxsquared_2ef90',['fcn_xsquared.f90',['../fcn__xsquared_8f90.html',1,'']]],
   ['fcn_5fxyz_2ef90',['fcn_xyz.f90',['../fcn__xyz_8f90.html',1,'']]],

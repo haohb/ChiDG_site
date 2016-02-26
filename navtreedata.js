@@ -67,14 +67,15 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_d_l_a___lax_friedrichs__flux_8f90.html",
-"fcn__ysquared_8f90.html",
-"mod__constants_8f90.html#ab589447053e1c91c74491a229dfcf307",
-"mod__testutils_8f90.html#a60c3adf9e3ac37ecf9806f5244e4a6d9",
-"namespaces.html",
-"structatype__matrixsolver_1_1matrixsolver__t.html#a93b1ebddbfdc2675971491b4596cea6b",
-"structtype__chidg_1_1chidg__t.html#a4209f3231676777a7ca1891cb49add39",
-"structtype__mesh_1_1mesh__t.html#af63fe12345d81bebb16ecbcdcb757193",
-"type__element_8f90.html#a591896f6206306c7ad0bcae997fd674b"
+"eqn__scalar_8f90.html",
+"mod__chidg__edit__boundaryconditions_8f90.html#aa8ad342aabc71628d72ae02e662ab52a",
+"mod__linearized__euler_8f90.html#ab497e906526c8683f2a8019936ec2a0e",
+"namespacemembers_func.html",
+"page_develop.html#s_testing_compile",
+"structla__boundary__average__advective__flux_1_1la__boundary__average__advective__flux__t.html",
+"structtype__densevector_1_1densevector__t.html#a9239ecd574f70cdbddae4559b590afd4",
+"structtype__meshdata_1_1meshdata__t.html",
+"type__chidg_8f90.html#a2f79bedc8bd59810e5f8147472f08fa1"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

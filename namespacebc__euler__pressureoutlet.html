@@ -112,12 +112,35 @@ Data Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions/Subroutines</h2></td></tr>
-<tr class="memitem:abb0580f56b5b3b76bc547b975697cbf9"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebc__euler__pressureoutlet.html#abb0580f56b5b3b76bc547b975697cbf9">compute</a> (self, mesh, sdata, prop, idom, ielem, iface, iblk)</td></tr>
-<tr class="memdesc:abb0580f56b5b3b76bc547b975697cbf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">bc implementation  <a href="#abb0580f56b5b3b76bc547b975697cbf9">More...</a><br /></td></tr>
-<tr class="separator:abb0580f56b5b3b76bc547b975697cbf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16aa0a2a1f4d150a9cb2570f95807f2f"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebc__euler__pressureoutlet.html#a16aa0a2a1f4d150a9cb2570f95807f2f">add_options</a> (self)</td></tr>
+<tr class="memdesc:a16aa0a2a1f4d150a9cb2570f95807f2f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Procedure for registering boundary condition options. Needs executed upon allocation.  <a href="#a16aa0a2a1f4d150a9cb2570f95807f2f">More...</a><br /></td></tr>
+<tr class="separator:a16aa0a2a1f4d150a9cb2570f95807f2f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab25b015308679b644a3b1dc681ae3903"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebc__euler__pressureoutlet.html#ab25b015308679b644a3b1dc681ae3903">compute</a> (self, mesh, sdata, prop, face, flux)</td></tr>
+<tr class="memdesc:ab25b015308679b644a3b1dc681ae3903"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specialized compute routine for Extrapolation Boundary Condition.  <a href="#ab25b015308679b644a3b1dc681ae3903">More...</a><br /></td></tr>
+<tr class="separator:ab25b015308679b644a3b1dc681ae3903"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function/Subroutine Documentation</h2>
-<a class="anchor" id="abb0580f56b5b3b76bc547b975697cbf9"></a>
+<a class="anchor" id="a16aa0a2a1f4d150a9cb2570f95807f2f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine bc_euler_pressureoutlet::add_options </td>
+          <td>(</td>
+          <td class="paramtype">class(<a class="el" href="structbc__euler__pressureoutlet_1_1euler__pressureoutlet__t.html">euler_pressureoutlet_t</a>), intent(inout)&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Procedure for registering boundary condition options. Needs executed upon allocation. </p>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/2/2016 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ab25b015308679b644a3b1dc681ae3903"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -148,26 +171,14 @@ Functions/Subroutines</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">integer(ik), intent(in)&#160;</td>
-          <td class="paramname"><em>idom</em>, </td>
+          <td class="paramtype">type(<a class="el" href="structtype__face__info_1_1face__info__t.html">face_info_t</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>face</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">integer(ik), intent(in)&#160;</td>
-          <td class="paramname"><em>ielem</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer(ik), intent(in)&#160;</td>
-          <td class="paramname"><em>iface</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer(ik), intent(in)&#160;</td>
-          <td class="paramname"><em>iblk</em>&#160;</td>
+          <td class="paramtype">type(<a class="el" href="structtype__function__info_1_1function__info__t.html">function_info_t</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>flux</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -177,17 +188,16 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>bc implementation </p>
-<p>Specialized compute routine for Extrapolation Boundary Condition</p>
-<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie</dd></dl>
+<p>Specialized compute routine for Extrapolation Boundary Condition. </p>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/3/2016</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td>Mesh data containing elements and faces for the domain </td></tr>
     <tr><td class="paramdir">[in,out]</td><td class="paramname">sdata</td><td>Solver data containing solution vector, rhs, linearization, etc. </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">ielem</td><td>Index of the element being computed </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">iface</td><td>Index of the face being computed </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">iblk</td><td>Index of the linearization block being computed </td></tr>
     <tr><td class="paramdir">[in,out]</td><td class="paramname">prop</td><td>properties_t object containing equations and material_t objects </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">face</td><td>face_info_t containing indices on location and misc information </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">flux</td><td>function_into_t containing info on the function being computed </td></tr>
   </table>
   </dd>
 </dl>
@@ -200,7 +210,7 @@ Functions/Subroutines</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacebc__euler__pressureoutlet.html">bc_euler_pressureoutlet</a></li>
-    <li class="footer">Generated on Tue Dec 22 2015 14:22:31 for ChiDG by
+    <li class="footer">Generated on Thu Feb 25 2016 21:16:20 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

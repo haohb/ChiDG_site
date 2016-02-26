@@ -5,7 +5,6 @@ var structtype__vector_1_1vector__t =
     [ "clear", "structtype__vector_1_1vector__t.html#ac3d2e1870a0cb20ecb06343595f49f93", null ],
     [ "increase_capacity", "structtype__vector_1_1vector__t.html#add50bafca70900c3a00ace8d94caaed2", null ],
     [ "push_back", "structtype__vector_1_1vector__t.html#ab807cc5e502f7c4e381a7055dae23453", null ],
-    [ "push_back_store", "structtype__vector_1_1vector__t.html#aeff8468019cf39026bd5a10685be6941", null ],
     [ "size", "structtype__vector_1_1vector__t.html#a5c069dffa5b3bb01086aaff9d2160fa8", null ],
     [ "buffer_", "structtype__vector_1_1vector__t.html#aee784e999d850f4e8ffd4a7e5c8c3466", null ],
     [ "capacity_", "structtype__vector_1_1vector__t.html#a3da949947d61a8a61d8c238c78021a4d", null ],

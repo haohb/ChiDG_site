@@ -106,15 +106,15 @@ $(document).ready(function(){initNavTree('interfacemod__interpolate_1_1interpola
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7bfee2589bef0eac7ac4e82b3ee25ad7"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemod__interpolate_1_1interpolate__element.html#a7bfee2589bef0eac7ac4e82b3ee25ad7">interpolate_element_autodiff</a> (mesh, q, idom, ielem, ivar, var_gq, seed)</td></tr>
-<tr class="memdesc:a7bfee2589bef0eac7ac4e82b3ee25ad7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute variable at quadrature nodes.  <a href="#a7bfee2589bef0eac7ac4e82b3ee25ad7">More...</a><br /></td></tr>
-<tr class="separator:a7bfee2589bef0eac7ac4e82b3ee25ad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02db514ece5a69b3b6befac301cb7f93"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemod__interpolate_1_1interpolate__element.html#a02db514ece5a69b3b6befac301cb7f93">interpolate_element_standard</a> (mesh, q, idom, ielem, ivar, var_gq)</td></tr>
-<tr class="memdesc:a02db514ece5a69b3b6befac301cb7f93"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute variable at quadrature nodes.  <a href="#a02db514ece5a69b3b6befac301cb7f93">More...</a><br /></td></tr>
-<tr class="separator:a02db514ece5a69b3b6befac301cb7f93"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a374159e35d2159132015c8097efd6fab"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemod__interpolate_1_1interpolate__element.html#a374159e35d2159132015c8097efd6fab">interpolate_element_autodiff</a> (mesh, q, idom, ielem, ieqn, var_gq, seed)</td></tr>
+<tr class="memdesc:a374159e35d2159132015c8097efd6fab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute variable at quadrature nodes.  <a href="#a374159e35d2159132015c8097efd6fab">More...</a><br /></td></tr>
+<tr class="separator:a374159e35d2159132015c8097efd6fab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a45bce0926bcd3933a65a67073baf18fe"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemod__interpolate_1_1interpolate__element.html#a45bce0926bcd3933a65a67073baf18fe">interpolate_element_standard</a> (mesh, q, idom, ielem, ieqn, var_gq)</td></tr>
+<tr class="memdesc:a45bce0926bcd3933a65a67073baf18fe"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute variable at quadrature nodes.  <a href="#a45bce0926bcd3933a65a67073baf18fe">More...</a><br /></td></tr>
+<tr class="separator:a45bce0926bcd3933a65a67073baf18fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function/Subroutine Documentation</h2>
-<a class="anchor" id="a7bfee2589bef0eac7ac4e82b3ee25ad7"></a>
+<a class="anchor" id="a374159e35d2159132015c8097efd6fab"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -146,7 +146,7 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">integer(ik), intent(in)&#160;</td>
-          <td class="paramname"><em>ivar</em>, </td>
+          <td class="paramname"><em>ieqn</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -170,10 +170,11 @@ Public Member Functions</h2></td></tr>
 
 <p>Compute variable at quadrature nodes. </p>
 <dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016 </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a02db514ece5a69b3b6befac301cb7f93"></a>
+<a class="anchor" id="a45bce0926bcd3933a65a67073baf18fe"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -205,7 +206,7 @@ Public Member Functions</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">integer(ik), intent(in)&#160;</td>
-          <td class="paramname"><em>ivar</em>, </td>
+          <td class="paramname"><em>ieqn</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -223,6 +224,7 @@ Public Member Functions</h2></td></tr>
 
 <p>Compute variable at quadrature nodes. </p>
 <dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016 </dd></dl>
 
 </div>
 </div>
@@ -235,7 +237,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemod__interpolate.html">mod_interpolate</a></li><li class="navelem"><a class="el" href="interfacemod__interpolate_1_1interpolate__element.html">interpolate_element</a></li>
-    <li class="footer">Generated on Tue Dec 22 2015 14:22:41 for ChiDG by
+    <li class="footer">Generated on Thu Feb 25 2016 21:16:28 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

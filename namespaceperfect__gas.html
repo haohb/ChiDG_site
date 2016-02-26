@@ -107,6 +107,7 @@ $(document).ready(function(){initNavTree('namespaceperfect__gas.html','');});
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Types</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">type &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structperfect__gas_1_1perfect__gas__t.html">perfect_gas_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A fluid type under perfect gas assumptions.  <a href="structperfect__gas_1_1perfect__gas__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -117,16 +118,20 @@ Functions/Subroutines</h2></td></tr>
 <tr class="memitem:aa90a36e8752ed14add41e9eccada10ca"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceperfect__gas.html#aa90a36e8752ed14add41e9eccada10ca">compute_pressure_real</a> (self, rho, rhou, rhov, rhow, rhoE, vals)</td></tr>
 <tr class="memdesc:aa90a36e8752ed14add41e9eccada10ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute pressure of the fluid, under the perfect gas assumption.  <a href="#aa90a36e8752ed14add41e9eccada10ca">More...</a><br /></td></tr>
 <tr class="separator:aa90a36e8752ed14add41e9eccada10ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0cdc6dd0f504883d3dcaf9f10ba3040"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceperfect__gas.html#af0cdc6dd0f504883d3dcaf9f10ba3040">compute_gamma</a> (self, rho, rhou, rhov, rhow, rhoE, vals)</td></tr>
-<tr class="separator:af0cdc6dd0f504883d3dcaf9f10ba3040"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43f8400ea928564b4a1b6de71e74db94"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceperfect__gas.html#a43f8400ea928564b4a1b6de71e74db94">compute_gamma_ad</a> (self, rho, rhou, rhov, rhow, rhoE, vals)</td></tr>
+<tr class="memdesc:a43f8400ea928564b4a1b6de71e74db94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a constant gamma value.  <a href="#a43f8400ea928564b4a1b6de71e74db94">More...</a><br /></td></tr>
+<tr class="separator:a43f8400ea928564b4a1b6de71e74db94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a188ef0e8d49ee2a7493d3390f69d678d"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceperfect__gas.html#a188ef0e8d49ee2a7493d3390f69d678d">compute_gamma_real</a> (self, rho, rhou, rhov, rhow, rhoE, vals)</td></tr>
+<tr class="memdesc:a188ef0e8d49ee2a7493d3390f69d678d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a constant gamma value.  <a href="#a188ef0e8d49ee2a7493d3390f69d678d">More...</a><br /></td></tr>
+<tr class="separator:a188ef0e8d49ee2a7493d3390f69d678d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function/Subroutine Documentation</h2>
-<a class="anchor" id="af0cdc6dd0f504883d3dcaf9f10ba3040"></a>
+<a class="anchor" id="a43f8400ea928564b4a1b6de71e74db94"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">subroutine perfect_gas::compute_gamma </td>
+          <td class="memname">subroutine perfect_gas::compute_gamma_ad </td>
           <td>(</td>
           <td class="paramtype">class(<a class="el" href="structperfect__gas_1_1perfect__gas__t.html">perfect_gas_t</a>), intent(in)&#160;</td>
           <td class="paramname"><em>self</em>, </td>
@@ -174,6 +179,70 @@ Functions/Subroutines</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns a constant gamma value. </p>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="a188ef0e8d49ee2a7493d3390f69d678d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine perfect_gas::compute_gamma_real </td>
+          <td>(</td>
+          <td class="paramtype">class(<a class="el" href="structperfect__gas_1_1perfect__gas__t.html">perfect_gas_t</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">real(rk), dimension(:), intent(in)&#160;</td>
+          <td class="paramname"><em>rho</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">real(rk), dimension(:), intent(in)&#160;</td>
+          <td class="paramname"><em>rhou</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">real(rk), dimension(:), intent(in)&#160;</td>
+          <td class="paramname"><em>rhov</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">real(rk), dimension(:), intent(in)&#160;</td>
+          <td class="paramname"><em>rhow</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">real(rk), dimension(:), intent(in)&#160;</td>
+          <td class="paramname"><em>rhoE</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">real(rk), dimension(:), intent(inout)&#160;</td>
+          <td class="paramname"><em>vals</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a constant gamma value. </p>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016 </dd></dl>
 
 </div>
 </div>
@@ -232,7 +301,8 @@ Functions/Subroutines</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Compute pressure of the fluid, under the perfect gas assumption. </p>
-<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie</dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">rho</td><td>Fluid density </td></tr>
@@ -240,7 +310,7 @@ Functions/Subroutines</h2></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">rhov</td><td>Fluid y-momentum </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">rhow</td><td>Fluid z-momentum </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">rhoE</td><td>Fluid Total Energy </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">p</td><td>Fluid pressure </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">vals</td><td>Fluid pressure </td></tr>
   </table>
   </dd>
 </dl>
@@ -302,7 +372,8 @@ Functions/Subroutines</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Compute pressure of the fluid, under the perfect gas assumption. </p>
-<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie</dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">rho</td><td>Fluid density </td></tr>
@@ -310,7 +381,7 @@ Functions/Subroutines</h2></td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">rhov</td><td>Fluid y-momentum </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">rhow</td><td>Fluid z-momentum </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">rhoE</td><td>Fluid Total Energy </td></tr>
-    <tr><td class="paramdir">[in,out]</td><td class="paramname">p</td><td>Fluid pressure </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">vals</td><td>Fluid pressure </td></tr>
   </table>
   </dd>
 </dl>
@@ -323,7 +394,7 @@ Functions/Subroutines</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespaceperfect__gas.html">perfect_gas</a></li>
-    <li class="footer">Generated on Tue Dec 22 2015 14:22:41 for ChiDG by
+    <li class="footer">Generated on Thu Feb 25 2016 21:16:28 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

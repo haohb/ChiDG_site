@@ -107,13 +107,16 @@ $(document).ready(function(){initNavTree('namespacetype__solverdata.html','');})
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Types</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">type &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__solverdata_1_1solverdata__t.html">solverdata_t</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">solver type definition  <a href="structtype__solverdata_1_1solverdata__t.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Container for solver data.  <a href="structtype__solverdata_1_1solverdata__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions/Subroutines</h2></td></tr>
+<tr class="memitem:a6d01a9bc90485cc485aca012d3ced957"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetype__solverdata.html#a6d01a9bc90485cc485aca012d3ced957">init_base</a> (self, mesh, bcset_coupling, function_data)</td></tr>
+<tr class="memdesc:a6d01a9bc90485cc485aca012d3ced957"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize solver base data structures.  <a href="#a6d01a9bc90485cc485aca012d3ced957">More...</a><br /></td></tr>
+<tr class="separator:a6d01a9bc90485cc485aca012d3ced957"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab24a33dd9aa1f2b9d153571fa4675310"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetype__solverdata.html#ab24a33dd9aa1f2b9d153571fa4675310">init_base</a> (self, mesh)</td></tr>
-<tr class="memdesc:ab24a33dd9aa1f2b9d153571fa4675310"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize solver base data structures.  <a href="#ab24a33dd9aa1f2b9d153571fa4675310">More...</a><br /></td></tr>
+<tr class="memdesc:ab24a33dd9aa1f2b9d153571fa4675310"><td class="mdescLeft">&#160;</td><td class="mdescRight">[<a class="el" href="structtype__solverdata_1_1solverdata__t.html" title="Container for solver data. ">solverdata_t</a>]  <a href="#ab24a33dd9aa1f2b9d153571fa4675310">More...</a><br /></td></tr>
 <tr class="separator:ab24a33dd9aa1f2b9d153571fa4675310"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function/Subroutine Documentation</h2>
@@ -141,19 +144,7 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Initialize solver base data structures. </p>
-<p>[<a class="el" href="structtype__solverdata_1_1solverdata__t.html" title="solver type definition ">solverdata_t</a>]</p>
-<ul>
-<li>allocate and initialize q, dq, rhs, and linearization.</li>
-<li>Should be called by specialized 'init' procedure for derived solvers.</li>
-</ul>
-<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td>Mesh definition which defines storage requirements</td></tr>
-  </table>
-  </dd>
-</dl>
+<p>[<a class="el" href="structtype__solverdata_1_1solverdata__t.html" title="Container for solver data. ">solverdata_t</a>] </p>
 <p>Initialize solver base data structures</p><ul>
 <li>allocate and initialize q, dq, rhs, and linearization.</li>
 <li>Should be called by specialized 'init' procedure for derived solvers.</li>
@@ -168,13 +159,67 @@ Functions/Subroutines</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a6d01a9bc90485cc485aca012d3ced957"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine type_solverdata::init_base </td>
+          <td>(</td>
+          <td class="paramtype">class(<a class="el" href="structtype__solverdata_1_1solverdata__t.html">solverdata_t</a>), intent(inout), target&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">type(<a class="el" href="structtype__mesh_1_1mesh__t.html">mesh_t</a>), dimension(:), intent(in)&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">type(<a class="el" href="structtype__bcset__coupling_1_1bcset__coupling__t.html">bcset_coupling_t</a>), dimension(:), intent(in)&#160;</td>
+          <td class="paramname"><em>bcset_coupling</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">type(<a class="el" href="structtype__equationset__function__data_1_1equationset__function__data__t.html">equationset_function_data_t</a>), dimension(:), intent(in)&#160;</td>
+          <td class="paramname"><em>function_data</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Initialize solver base data structures. </p>
+<ul>
+<li>allocate and initialize q, dq, rhs, and linearization.</li>
+<li>Should be called by specialized 'init' procedure for derived solvers.</li>
+</ul>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td>Array of mesh_t instances which define storage requirements. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">bcset_coupling</td><td>Array of bcset_coupling instances which describe the coupling of elements in bcs. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">function_data</td><td>Array of containers that hold information on number of each function in eqnset. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetype__solverdata.html">type_solverdata</a></li>
-    <li class="footer">Generated on Tue Dec 22 2015 14:22:45 for ChiDG by
+    <li class="footer">Generated on Thu Feb 25 2016 21:16:32 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

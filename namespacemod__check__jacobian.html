@@ -106,8 +106,10 @@ $(document).ready(function(){initNavTree('namespacemod__check__jacobian.html',''
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions/Subroutines</h2></td></tr>
 <tr class="memitem:aaa84697fc00ec7bd4f2c5e6ecae45e97"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__check__jacobian.html#aaa84697fc00ec7bd4f2c5e6ecae45e97">check_jacobian_volume_advective_flux</a> (data, ielem, iblk, blk_dnad, blk_fd)</td></tr>
+<tr class="memdesc:aaa84697fc00ec7bd4f2c5e6ecae45e97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute both the Finite Difference representation and DNAD representation of the volume advective flux jacobian.  <a href="#aaa84697fc00ec7bd4f2c5e6ecae45e97">More...</a><br /></td></tr>
 <tr class="separator:aaa84697fc00ec7bd4f2c5e6ecae45e97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae77e05962cbbc23c6b49aa6eb5951cf2"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__check__jacobian.html#ae77e05962cbbc23c6b49aa6eb5951cf2">check_jacobian_boundary_advective_flux</a> (data, ielem, iblk, blk_dnad, blk_fd)</td></tr>
+<tr class="memdesc:ae77e05962cbbc23c6b49aa6eb5951cf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">compute both the finite difference representation and dnad representation of the boundary advective flux jacobian.  <a href="#ae77e05962cbbc23c6b49aa6eb5951cf2">More...</a><br /></td></tr>
 <tr class="separator:ae77e05962cbbc23c6b49aa6eb5951cf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function/Subroutine Documentation</h2>
@@ -153,6 +155,20 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>compute both the finite difference representation and dnad representation of the boundary advective flux jacobian. </p>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>1/28/2016</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">domain</td><td>domain structure containing grid, eqnset, etc </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ielem</td><td>element index for computing the jacobian </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iblk</td><td>block index of the linearization </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">blk_dnad</td><td>densematrix for storing the dnad jacobian </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">blk_fd</td><td>densematrix for storing the finite difference jacobian </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="aaa84697fc00ec7bd4f2c5e6ecae45e97"></a>
@@ -196,8 +212,20 @@ Functions/Subroutines</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Compute appropriate column for storing linearization</p>
-<p>Store finite difference linearization of the residual </p>
+
+<p>Compute both the Finite Difference representation and DNAD representation of the volume advective flux jacobian. </p>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>1/28/2016</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">domain</td><td>Domain structure containing grid, eqnset, etc </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ielem</td><td>Element index for computing the jacobian </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">iblk</td><td>Block index of the linearization </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">blk_dnad</td><td>Densematrix for storing the DNAD jacobian </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">blk_fd</td><td>Densematrix for storing the Finite Difference jacobian </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -207,7 +235,7 @@ Functions/Subroutines</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemod__check__jacobian.html">mod_check_jacobian</a></li>
-    <li class="footer">Generated on Tue Dec 22 2015 14:22:41 for ChiDG by
+    <li class="footer">Generated on Thu Feb 25 2016 21:16:28 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

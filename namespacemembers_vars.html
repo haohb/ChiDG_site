@@ -102,17 +102,23 @@ $(document).ready(function(){initNavTree('namespacemembers_vars.html','');});
 <li>backward_euler_subiteration_instance
 : <a class="el" href="namespacemod__timescheme.html#a3b255844cbe0aba49e84feb13af026ee">mod_timescheme</a>
 </li>
-<li>base_data
-: <a class="el" href="namespacemod__solverdata.html#a0ca51554f80b44b25a80355cebc58ed5">mod_solverdata</a>
-</li>
 <li>basis
 : <a class="el" href="namespacemod__io.html#af5ed04dcfd1b170648f7675b138dc34f">mod_io</a>
+</li>
+<li>bc_blk
+: <a class="el" href="namespacemod__constants.html#a2969f6def877cd56dd8af92c992b9667">mod_constants</a>
 </li>
 <li>blockjacobi
 : <a class="el" href="namespacemod__preconditioner.html#a649a49cdb52ca128fc9aeabf59cf6267">mod_preconditioner</a>
 </li>
 <li>boundary
 : <a class="el" href="namespacemod__constants.html#a73bcd968b06cec5c8f2ea2af96d653be">mod_constants</a>
+</li>
+<li>boundary_advective_flux
+: <a class="el" href="namespacemod__constants.html#a7334a9402cd87df0a28e01a71424c2b5">mod_constants</a>
+</li>
+<li>boundary_diffusive_flux
+: <a class="el" href="namespacemod__constants.html#a132909aa37c854e1588915b7a4ea7a3b">mod_constants</a>
 </li>
 </ul>
 
@@ -127,8 +133,11 @@ $(document).ready(function(){initNavTree('namespacemembers_vars.html','');});
 <li>collocation
 : <a class="el" href="namespacemod__io.html#a7dd4f5b59cc1ffaae5c6a9e9d7713318">mod_io</a>
 </li>
-<li>constant
-: <a class="el" href="namespacemod__function.html#afd2cb5f184178ce326ae7a42adca096d">mod_function</a>
+<li>color_begin
+: <a class="el" href="namespacemessenger.html#a9304fb8740e8627c5b8884463c673d44">messenger</a>
+</li>
+<li>color_end
+: <a class="el" href="namespacemessenger.html#ab79b56e8bb95333a176b5b6673e3e13d">messenger</a>
 </li>
 <li>counter
 : <a class="el" href="namespaceeuler__boundary__average__advective__flux.html#aa4d893c14cfc0206ec693359202c9959">euler_boundary_average_advective_flux</a>
@@ -178,9 +187,6 @@ $(document).ready(function(){initNavTree('namespacemembers_vars.html','');});
 <li>dt
 : <a class="el" href="namespacemod__io.html#ab7089a9e80f69d70612fe45152e77418">mod_io</a>
 </li>
-<li>duallinearadvection
-: <a class="el" href="namespacemod__equations.html#a29751b0305939f7c7d0e44bbdea7491f">mod_equations</a>
-</li>
 </ul>
 
 
@@ -212,27 +218,15 @@ $(document).ready(function(){initNavTree('namespacemembers_vars.html','');});
 <li>eta_order_3d
 : <a class="el" href="namespacemod__ordering.html#af29e62f75e74d0babba973c9b0ad6af2">mod_ordering</a>
 </li>
-<li>euler
-: <a class="el" href="namespacemod__equations.html#a5e88b4123df2f59ce8817261fdbcc7e4">mod_equations</a>
-</li>
-<li>euler_extrapolate
-: <a class="el" href="namespacemod__bc.html#a3908fd7ac3c5dae7a149e9ff2ea32618">mod_bc</a>
-</li>
-<li>euler_pressureoutlet
-: <a class="el" href="namespacemod__bc.html#ac181060813fbb0a15a4847f4683f07c4">mod_bc</a>
-</li>
-<li>euler_totalinlet
-: <a class="el" href="namespacemod__bc.html#a5734717d0f6293168d941532e5b22bcd">mod_bc</a>
-</li>
-<li>euler_wall
-: <a class="el" href="namespacemod__bc.html#ab2da7487751ca3a79855a926a68e01de">mod_bc</a>
-</li>
 </ul>
 
 
 <h3><a class="anchor" id="index_f"></a>- f -</h3><ul>
 <li>fgmres
 : <a class="el" href="namespacemod__matrixsolver.html#a4a61387bef194c78e09d5494f8bf6d79">mod_matrixsolver</a>
+</li>
+<li>fgmres_householder
+: <a class="el" href="namespacemod__matrixsolver.html#a3fba3ba625e8817d6bc3b8834b3c1a55">mod_matrixsolver</a>
 </li>
 <li>fifth
 : <a class="el" href="namespacemod__constants.html#af378d5c8d231291858bd8df64c412411">mod_constants</a>
@@ -255,9 +249,6 @@ $(document).ready(function(){initNavTree('namespacemembers_vars.html','');});
 <h3><a class="anchor" id="index_g"></a>- g -</h3><ul>
 <li>gam
 : <a class="el" href="namespacemod__linearized__euler.html#a0eb9d767361d9f99b627f49104e3a2b8">mod_linearized_euler</a>
-</li>
-<li>gaussian
-: <a class="el" href="namespacemod__function.html#a853e531a4972b134b00cc20ccc78ad1a">mod_function</a>
 </li>
 <li>global_master
 : <a class="el" href="namespacemod__mpichi.html#a8a0b18510691f2a568565457b8baf662">mod_mpichi</a>
@@ -310,7 +301,10 @@ $(document).ready(function(){initNavTree('namespacemembers_vars.html','');});
 : <a class="el" href="namespacemod__io.html#a6d7159115c2bbd56bb6228dca5d7695d">mod_io</a>
 </li>
 <li>initialized
-: <a class="el" href="namespacemod__timescheme.html#adbe38b0975e661391e9d647075a177b2">mod_timescheme</a>
+: <a class="el" href="namespacemod__bc.html#a3b5e668313f44bf0cdfe780edda6e166">mod_bc</a>
+, <a class="el" href="namespacemod__equations.html#abd3de39c78e21e88c624d9383c6dbe75">mod_equations</a>
+, <a class="el" href="namespacemod__function.html#a8fe4b895e2ffffab646263d9b3d1d8ee">mod_function</a>
+, <a class="el" href="namespacemod__timescheme.html#adbe38b0975e661391e9d647075a177b2">mod_timescheme</a>
 </li>
 <li>integration
 : <a class="el" href="namespacemod__io.html#aec3081fa7505df738b4c61408fc3fdcb">mod_io</a>
@@ -319,13 +313,10 @@ $(document).ready(function(){initNavTree('namespacemembers_vars.html','');});
 : <a class="el" href="namespacemod__constants.html#ac9c9894bf0929d6a08cdc359c4efd52a">mod_constants</a>
 </li>
 <li>io_destination
-: <a class="el" href="namespacemod__constants.html#ab589447053e1c91c74491a229dfcf307">mod_constants</a>
+: <a class="el" href="namespacemod__constants.html#a0965601f34893ad82125fb7b86434cfc">mod_constants</a>
 </li>
 <li>irank
 : <a class="el" href="namespacemod__mpichi.html#a543bf2bdd3c99da0124e907760d40a15">mod_mpichi</a>
-</li>
-<li>isentropic_vortex
-: <a class="el" href="namespacemod__function.html#a6f7fe65ba18de5fabbabb11e07ec268f">mod_function</a>
 </li>
 <li>ishort
 : <a class="el" href="namespacemod__kinds.html#a11d2a80917b0fc2660e557aa2337c79f">mod_kinds</a>
@@ -337,23 +328,11 @@ $(document).ready(function(){initNavTree('namespacemembers_vars.html','');});
 <li>line
 : <a class="el" href="namespacemessenger.html#a1106dcd2c02225dde7af3c3afef86736">messenger</a>
 </li>
-<li>linearadvection
-: <a class="el" href="namespacemod__equations.html#a1efc377fb7302d5143305d00200f3978">mod_equations</a>
-</li>
-<li>linearadvection_extrapolate
-: <a class="el" href="namespacemod__bc.html#aea2bb3e797e50ff0fd6c022be70c84e8">mod_bc</a>
-</li>
-<li>lineuler
-: <a class="el" href="namespacemod__equations.html#a213e379b469d6e58b809154bba5864f2">mod_equations</a>
-</li>
-<li>lineuler_extrapolate
-: <a class="el" href="namespacemod__bc.html#a7163c2dbd2afefb6c457f88487db1b95">mod_bc</a>
-</li>
-<li>lineuler_inlet
-: <a class="el" href="namespacemod__bc.html#a77c0cbe36adcda74e6776d66429c3743">mod_bc</a>
-</li>
 <li>local
 : <a class="el" href="namespacemod__constants.html#a37a6d0bb5e01c17727f22da723a8c8d5">mod_constants</a>
+</li>
+<li>log_initialized
+: <a class="el" href="namespacemessenger.html#afd9cfb6662f18d7ae615d0f643969cf0">messenger</a>
 </li>
 </ul>
 
@@ -378,6 +357,9 @@ $(document).ready(function(){initNavTree('namespacemembers_vars.html','');});
 
 
 <h3><a class="anchor" id="index_n"></a>- n -</h3><ul>
+<li>nblk
+: <a class="el" href="namespacemod__constants.html#a17da853f28deb52696028829a3416f24">mod_constants</a>
+</li>
 <li>neighbor
 : <a class="el" href="namespacemod__constants.html#ac4f159d7fcd38631f97ba1082b914632">mod_constants</a>
 </li>
@@ -386,6 +368,9 @@ $(document).ready(function(){initNavTree('namespacemembers_vars.html','');});
 </li>
 <li>nfaces
 : <a class="el" href="namespacemod__constants.html#a89387698b23d4a1b7258041c4c89242d">mod_constants</a>
+</li>
+<li>nfunction_types
+: <a class="el" href="namespacemod__constants.html#a6ebf9a764b10a9244e90fbbb52094035">mod_constants</a>
 </li>
 <li>ngq
 : <a class="el" href="namespacemod__constants.html#a502658bec9a08400b13b3228a4be26c4">mod_constants</a>
@@ -399,6 +384,9 @@ $(document).ready(function(){initNavTree('namespacemembers_vars.html','');});
 </li>
 <li>nmap
 : <a class="el" href="namespacemod__grid.html#a01fea6334eb2e82658f002faadb4971f">mod_grid</a>
+</li>
+<li>no_interior_neighbor
+: <a class="el" href="namespacemod__constants.html#af3ac90f37f76b041a03a326e3acc768d">mod_constants</a>
 </li>
 <li>nrank
 : <a class="el" href="namespacemod__mpichi.html#afb26965d6a8064b09b5619da1c3bf43b">mod_mpichi</a>
@@ -425,6 +413,9 @@ $(document).ready(function(){initNavTree('namespacemembers_vars.html','');});
 <li>one
 : <a class="el" href="namespacemod__constants.html#aeeaedd41788edeab9c1005d63c63779e">mod_constants</a>
 </li>
+<li>optional
+: <a class="el" href="namespacemod__constants.html#a8d92d090136d964a82b47beb429dc9b3">mod_constants</a>
+</li>
 <li>orphan
 : <a class="el" href="namespacemod__constants.html#a1d36bc91334ac81cfd8552dccf61b9bf">mod_constants</a>
 </li>
@@ -440,9 +431,6 @@ $(document).ready(function(){initNavTree('namespacemembers_vars.html','');});
 <h3><a class="anchor" id="index_p"></a>- p -</h3><ul>
 <li>pbar
 : <a class="el" href="namespacemod__linearized__euler.html#ac1347c93354a2a83084848e09b98cb24">mod_linearized_euler</a>
-</li>
-<li>periodic
-: <a class="el" href="namespacemod__bc.html#aadb071c9121cd5331fa332a4b72e8685">mod_bc</a>
 </li>
 <li>pi
 : <a class="el" href="namespacemod__constants.html#a7f4fd9cc3f9fc44ec259ab3f973627dc">mod_constants</a>
@@ -463,6 +451,18 @@ $(document).ready(function(){initNavTree('namespacemembers_vars.html','');});
 <h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
 <li>rdouble
 : <a class="el" href="namespacemod__kinds.html#adc81f5f449327bd78ef240e440c3c84b">mod_kinds</a>
+</li>
+<li>registered_bcs
+: <a class="el" href="namespacemod__bc.html#a17641ced3e283fe00d805d2bb7b47c6a">mod_bc</a>
+</li>
+<li>registered_equations
+: <a class="el" href="namespacemod__equations.html#a85396f52c8ecbefecdbb189a9f2823d7">mod_equations</a>
+</li>
+<li>registered_fcns
+: <a class="el" href="namespacemod__function.html#aa1fc51158d707ea188b1d4d37b2da0a2">mod_function</a>
+</li>
+<li>required
+: <a class="el" href="namespacemod__constants.html#a7624db7e02c307f72555f89fad93e690">mod_constants</a>
 </li>
 <li>rho_c
 : <a class="el" href="namespacemod__linearized__euler.html#a4ec37d7495e64295a1467587e479c4db">mod_linearized_euler</a>
@@ -578,9 +578,6 @@ $(document).ready(function(){initNavTree('namespacemembers_vars.html','');});
 <li>rk
 : <a class="el" href="namespacemod__kinds.html#a8db619712e5249c2f97eedfed55f8a91">mod_kinds</a>
 </li>
-<li>roe_check
-: <a class="el" href="namespacemod__function.html#a3c9fcef28872aad32d477ff0819cb8cd">mod_function</a>
-</li>
 <li>rsingle
 : <a class="el" href="namespacemod__kinds.html#a84af05f5b58e4ff2255859294783c7cb">mod_kinds</a>
 </li>
@@ -588,9 +585,6 @@ $(document).ready(function(){initNavTree('namespacemembers_vars.html','');});
 
 
 <h3><a class="anchor" id="index_s"></a>- s -</h3><ul>
-<li>scalar
-: <a class="el" href="namespacemod__equations.html#ab3202de080e7e70570e5af001f5ede3f">mod_equations</a>
-</li>
 <li>seven
 : <a class="el" href="namespacemod__constants.html#a1fbef250b796c33c6ccda4b2fe8054f7">mod_constants</a>
 </li>
@@ -602,9 +596,6 @@ $(document).ready(function(){initNavTree('namespacemembers_vars.html','');});
 </li>
 <li>sixth
 : <a class="el" href="namespacemod__constants.html#ac49e20bdff6fae862494b2d14602f65e">mod_constants</a>
-</li>
-<li>sod_shock_tube
-: <a class="el" href="namespacemod__function.html#a0d5cf53e918566a42d585fe91b0e7cad">mod_function</a>
 </li>
 <li>solution_order
 : <a class="el" href="namespacemod__io.html#aa615e7ffbd75d711c277c41f4170ccd1">mod_io</a>
@@ -669,8 +660,7 @@ $(document).ready(function(){initNavTree('namespacemembers_vars.html','');});
 : <a class="el" href="namespacemod__linearized__euler.html#acae29472c9ff554558430050cceab2b2">mod_linearized_euler</a>
 </li>
 <li>uninitialized
-: <a class="el" href="namespacemod__equations.html#a11309809f013d21c3cbe757ea99de497">mod_equations</a>
-, <a class="el" href="namespacemod__grid.html#a4962ba0ad77883e9d7d0a0a77b64a600">mod_grid</a>
+: <a class="el" href="namespacemod__grid.html#a4962ba0ad77883e9d7d0a0a77b64a600">mod_grid</a>
 </li>
 <li>unit
 : <a class="el" href="namespacemessenger.html#ad92f00cd8e2d72420519747cba7066db">messenger</a>
@@ -681,6 +671,18 @@ $(document).ready(function(){initNavTree('namespacemembers_vars.html','');});
 <h3><a class="anchor" id="index_v"></a>- v -</h3><ul>
 <li>vbar
 : <a class="el" href="namespacemod__linearized__euler.html#ad8ac2e339a17a711660c8935f9a4f642">mod_linearized_euler</a>
+</li>
+<li>volume_advective_flux
+: <a class="el" href="namespacemod__constants.html#a5e5d3b30e303ab8e292665925081d399">mod_constants</a>
+</li>
+<li>volume_advective_source
+: <a class="el" href="namespacemod__constants.html#afd0561efb4ee7707eadeb2749f51aefd">mod_constants</a>
+</li>
+<li>volume_diffusive_flux
+: <a class="el" href="namespacemod__constants.html#a05f72a21c86ef3b739630af1977282f9">mod_constants</a>
+</li>
+<li>volume_diffusive_source
+: <a class="el" href="namespacemod__constants.html#abdc774b7a0ef59950e4715bc82efad21">mod_constants</a>
 </li>
 </ul>
 
@@ -711,21 +713,12 @@ $(document).ready(function(){initNavTree('namespacemembers_vars.html','');});
 <li>xi_order_3d
 : <a class="el" href="namespacemod__ordering.html#a782194e65db2aae9940296f4407f5ea5">mod_ordering</a>
 </li>
-<li>xsquared
-: <a class="el" href="namespacemod__function.html#a6fcfd63afdad1c700b90d49aa9bd0055">mod_function</a>
-</li>
-<li>xyz
-: <a class="el" href="namespacemod__function.html#a284db82f1cc106925c33e1264bde9c50">mod_function</a>
-</li>
 </ul>
 
 
 <h3><a class="anchor" id="index_y"></a>- y -</h3><ul>
 <li>y_dir
 : <a class="el" href="namespacemod__constants.html#af40c94a2108b2590fb33328b2a02ccd7">mod_constants</a>
-</li>
-<li>ysquared
-: <a class="el" href="namespacemod__function.html#ae62fa5e66238308c6220198bc345deb7">mod_function</a>
 </li>
 </ul>
 
@@ -749,16 +742,13 @@ $(document).ready(function(){initNavTree('namespacemembers_vars.html','');});
 <li>zeta_order_3d
 : <a class="el" href="namespacemod__ordering.html#a31b1c3862d47e150677f95310f8b3c54">mod_ordering</a>
 </li>
-<li>zsquared
-: <a class="el" href="namespacemod__function.html#a65f5c2a334ceee7ea7307e64503777af">mod_function</a>
-</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Dec 22 2015 14:22:46 for ChiDG by
+    <li class="footer">Generated on Thu Feb 25 2016 21:16:32 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

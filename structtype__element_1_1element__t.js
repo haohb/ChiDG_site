@@ -4,6 +4,7 @@ var structtype__element_1_1element__t =
     [ "compute_element_matrices", "structtype__element_1_1element__t.html#a19aa45c84373a1c4a7254b42a9de8dd3", null ],
     [ "compute_gradients_cartesian", "structtype__element_1_1element__t.html#adad8bf436f734aee93c288c3e09c4526", null ],
     [ "compute_mass_matrix", "structtype__element_1_1element__t.html#a2e217535c3331e1582dc2f3196816ead", null ],
+    [ "compute_metric", "structtype__element_1_1element__t.html#a963540000c2f1218c457975b9f3ff18a", null ],
     [ "compute_quadrature_coords", "structtype__element_1_1element__t.html#acfdad932bf99a6fcc02cdaea2fb68dc1", null ],
     [ "compute_quadrature_metrics", "structtype__element_1_1element__t.html#abfd8383d5deae3481181eac83afd3ad5", null ],
     [ "destructor", "structtype__element_1_1element__t.html#ac867e72282e10f734dfadfc974b5a147", null ],

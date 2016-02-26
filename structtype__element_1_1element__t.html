@@ -120,6 +120,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:abf72e5a37563417abcd4ed9025bfa37d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af84ae0f1c4a17419ce831ab70c1efa86"><td class="memItemLeft" align="right" valign="top">procedure, public&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__element_1_1element__t.html#af84ae0f1c4a17419ce831ab70c1efa86">z</a></td></tr>
 <tr class="separator:af84ae0f1c4a17419ce831ab70c1efa86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a963540000c2f1218c457975b9f3ff18a"><td class="memItemLeft" align="right" valign="top">procedure, public&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__element_1_1element__t.html#a963540000c2f1218c457975b9f3ff18a">compute_metric</a></td></tr>
+<tr class="separator:a963540000c2f1218c457975b9f3ff18a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a19aa45c84373a1c4a7254b42a9de8dd3"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__element_1_1element__t.html#a19aa45c84373a1c4a7254b42a9de8dd3">compute_element_matrices</a></td></tr>
 <tr class="separator:a19aa45c84373a1c4a7254b42a9de8dd3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e217535c3331e1582dc2f3196816ead"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__element_1_1element__t.html#a2e217535c3331e1582dc2f3196816ead">compute_mass_matrix</a></td></tr>
@@ -200,6 +202,7 @@ Public Attributes</h2></td></tr>
 <div class="textblock"><p>Element data type. </p>
 <p>NOTE: could be dangerous to declare static arrays of elements using gfortran because the compiler doens't have complete finalization rules implemented. Useing allocatables seems to work fine.</p>
 <dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016 </dd></dl>
 </div><h2 class="groupheader">Member Function/Subroutine Documentation</h2>
 <a class="anchor" id="a31c55b678718f1e8678ba55645bd6e5b"></a>
 <div class="memitem">
@@ -252,6 +255,21 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">procedure type_element::element_t::compute_mass_matrix </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a963540000c2f1218c457975b9f3ff18a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">procedure, public type_element::element_t::compute_metric </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -683,7 +701,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetype__element.html">type_element</a></li><li class="navelem"><a class="el" href="structtype__element_1_1element__t.html">element_t</a></li>
-    <li class="footer">Generated on Tue Dec 22 2015 14:22:44 for ChiDG by
+    <li class="footer">Generated on Thu Feb 25 2016 21:16:30 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

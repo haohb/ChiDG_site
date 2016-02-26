@@ -124,6 +124,7 @@ Functions/Subroutines</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This module contains procedures for initializing and maintaining the Chimera interfaces. </p>
 <dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016 </dd></dl>
 </div><h2 class="groupheader">Function/Subroutine Documentation</h2>
 <a class="anchor" id="a7966aa895fdb2f5bd9e704c9a8ff755c"></a>
 <div class="memitem">
@@ -142,6 +143,7 @@ Functions/Subroutines</h2></td></tr>
 <p>Compute the matrices that interpolate solution data from a donor element expansion to the receiver nodes. </p>
 <p>These matrices get stored in mesh(idom)chimerarecvdata(ChiID)donor_interpolator</p>
 <dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016 </dd></dl>
 
 </div>
 </div>
@@ -164,13 +166,13 @@ Functions/Subroutines</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">type(<a class="el" href="structtype__face__location_1_1face__location__t.html">face_location_t</a>), intent(in)&#160;</td>
+          <td class="paramtype">type(<a class="el" href="structtype__face__info_1_1face__info__t.html">face_info_t</a>), intent(in)&#160;</td>
           <td class="paramname"><em>receiver_face</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">type(<a class="el" href="structtype__element__location_1_1element__location__t.html">element_location_t</a>), intent(inout)&#160;</td>
+          <td class="paramtype">type(<a class="el" href="structtype__element__indices_1_1element__indices__t.html">element_indices_t</a>), intent(inout)&#160;</td>
           <td class="paramname"><em>donor_element</em>, </td>
         </tr>
         <tr>
@@ -188,7 +190,8 @@ Functions/Subroutines</h2></td></tr>
 </div><div class="memdoc">
 
 <p>compute the donor domain and element for a given quadrature node. </p>
-<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie</dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td>Array of mesh_t instances </td></tr>
@@ -217,7 +220,8 @@ Functions/Subroutines</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Routine for generating the data in a chimera_receiver_data instance. This includes donor_domain and donor_element indices. </p>
-<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie</dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016</dd></dl>
 <p>[in] mesh Array of mesh_t instances </p>
 
 </div>
@@ -238,7 +242,8 @@ Functions/Subroutines</h2></td></tr>
 
 <p>Routine for detecting Chimera faces. </p>
 <p>Routine flags face as a Chimera face if it has an ftype==ORPHAN, indicating it is not an interior face and it has not been assigned a boundary condition.</p>
-<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie</dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in,out]</td><td class="paramname">mesh</td><td>Array of mesh types. One for each domain. </td></tr>
@@ -254,7 +259,7 @@ Functions/Subroutines</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemod__chimera.html">mod_chimera</a></li>
-    <li class="footer">Generated on Tue Dec 22 2015 14:22:41 for ChiDG by
+    <li class="footer">Generated on Thu Feb 25 2016 21:16:28 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

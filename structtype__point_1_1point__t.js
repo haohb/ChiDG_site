@@ -1,5 +1,8 @@
 var structtype__point_1_1point__t =
 [
+    [ "add_x", "structtype__point_1_1point__t.html#a4915a8595d0cf579af21ae42644231f2", null ],
+    [ "add_y", "structtype__point_1_1point__t.html#aaab527ecf0b821ea3512cd1b43ca479f", null ],
+    [ "add_z", "structtype__point_1_1point__t.html#a4ed20d29d37aa8a9d70c5a2bd08cfc75", null ],
     [ "eta", "structtype__point_1_1point__t.html#ac7b9a36e940a433f537de1087bae330d", null ],
     [ "set", "structtype__point_1_1point__t.html#a999ab831a0ae363ae8ce0480f3bbe456", null ],
     [ "x", "structtype__point_1_1point__t.html#a84fed531d33e173c8663af65c9af977f", null ],

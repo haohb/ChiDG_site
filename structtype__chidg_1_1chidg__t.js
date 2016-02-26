@@ -2,6 +2,7 @@ var structtype__chidg_1_1chidg__t =
 [
     [ "close", "structtype__chidg_1_1chidg__t.html#a21256c76c241c28e1dfe71800f0820dc", null ],
     [ "init", "structtype__chidg_1_1chidg__t.html#afce887f68316663baac1938858dbf9e8", null ],
+    [ "read_boundaryconditions", "structtype__chidg_1_1chidg__t.html#ae56e9d2213366b24e2a938fd5fbd4889", null ],
     [ "read_grid", "structtype__chidg_1_1chidg__t.html#aaeaf63b674ecc050a930ff57b561a37c", null ],
     [ "read_solution", "structtype__chidg_1_1chidg__t.html#a20fcb36caa352e6e2ece282105fbcb1c", null ],
     [ "report", "structtype__chidg_1_1chidg__t.html#ae04dc674393e5ac2dc234ba099feff82", null ],

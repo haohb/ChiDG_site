@@ -119,6 +119,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9a4d4227ed0fb0bdff99afe63a46ed9c"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__blockmatrix_1_1blockmatrix__t.html#a9a4d4227ed0fb0bdff99afe63a46ed9c">store_chimera</a></td></tr>
 <tr class="memdesc:a9a4d4227ed0fb0bdff99afe63a46ed9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store linearization data for chimera blocks.  <a href="#a9a4d4227ed0fb0bdff99afe63a46ed9c">More...</a><br /></td></tr>
 <tr class="separator:a9a4d4227ed0fb0bdff99afe63a46ed9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a551e6affb00516af48f150ac4484adf1"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__blockmatrix_1_1blockmatrix__t.html#a551e6affb00516af48f150ac4484adf1">store_bc</a></td></tr>
+<tr class="memdesc:a551e6affb00516af48f150ac4484adf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Store linearization data for boundary condition blocks.  <a href="#a551e6affb00516af48f150ac4484adf1">More...</a><br /></td></tr>
+<tr class="separator:a551e6affb00516af48f150ac4484adf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a546a387b2ca5dcc30e28f2af8df794a4"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__blockmatrix_1_1blockmatrix__t.html#a546a387b2ca5dcc30e28f2af8df794a4">clear</a></td></tr>
 <tr class="memdesc:a546a387b2ca5dcc30e28f2af8df794a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Zero all data storage.  <a href="#a546a387b2ca5dcc30e28f2af8df794a4">More...</a><br /></td></tr>
 <tr class="separator:a546a387b2ca5dcc30e28f2af8df794a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -128,17 +131,22 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a006e149e0d995bc0ec95ba81170a91aa"><td class="memItemLeft" align="right" valign="top">type(<a class="el" href="structtype__densematrix_1_1densematrix__t.html">densematrix_t</a>), dimension(:,:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__blockmatrix_1_1blockmatrix__t.html#a006e149e0d995bc0ec95ba81170a91aa">lblks</a></td></tr>
-<tr class="memdesc:a006e149e0d995bc0ec95ba81170a91aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Local domain blocks.  <a href="#a006e149e0d995bc0ec95ba81170a91aa">More...</a><br /></td></tr>
+<tr class="memdesc:a006e149e0d995bc0ec95ba81170a91aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Local domain blocks (nelem, NBLK)  <a href="#a006e149e0d995bc0ec95ba81170a91aa">More...</a><br /></td></tr>
 <tr class="separator:a006e149e0d995bc0ec95ba81170a91aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0588c12cdcb619a279b82452f5603658"><td class="memItemLeft" align="right" valign="top">integer(ik), dimension(:,:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__blockmatrix_1_1blockmatrix__t.html#a0588c12cdcb619a279b82452f5603658">ldata</a></td></tr>
 <tr class="memdesc:a0588c12cdcb619a279b82452f5603658"><td class="mdescLeft">&#160;</td><td class="mdescRight">Local block data (nvars, nterms)  <a href="#a0588c12cdcb619a279b82452f5603658">More...</a><br /></td></tr>
 <tr class="separator:a0588c12cdcb619a279b82452f5603658"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aed3bf214b2bd2d15c22ddff6e6379d1e"><td class="memItemLeft" align="right" valign="top">type(<a class="el" href="structtype__densematrix_1_1densematrix__t.html">densematrix_t</a>), dimension(:,:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__blockmatrix_1_1blockmatrix__t.html#aed3bf214b2bd2d15c22ddff6e6379d1e">chiblks</a></td></tr>
-<tr class="memdesc:aed3bf214b2bd2d15c22ddff6e6379d1e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chimera inter-domain blocks (nChiElems, MaxDonors)  <a href="#aed3bf214b2bd2d15c22ddff6e6379d1e">More...</a><br /></td></tr>
-<tr class="separator:aed3bf214b2bd2d15c22ddff6e6379d1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ec299e8c9f04427933bcc52dd7a96ed"><td class="memItemLeft" align="right" valign="top">type(<a class="el" href="structtype__densematrix_1_1densematrix__t.html">densematrix_t</a>), dimension(:,:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__blockmatrix_1_1blockmatrix__t.html#a7ec299e8c9f04427933bcc52dd7a96ed">chi_blks</a></td></tr>
+<tr class="memdesc:a7ec299e8c9f04427933bcc52dd7a96ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Chimera inter-domain blocks (nelem, MaxDonors)  <a href="#a7ec299e8c9f04427933bcc52dd7a96ed">More...</a><br /></td></tr>
+<tr class="separator:a7ec299e8c9f04427933bcc52dd7a96ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaeae2a791cb88d64199f26de9f102780"><td class="memItemLeft" align="right" valign="top">type(<a class="el" href="structtype__densematrix_1_1densematrix__t.html">densematrix_t</a>), dimension(:,:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__blockmatrix_1_1blockmatrix__t.html#aaeae2a791cb88d64199f26de9f102780">bc_blks</a></td></tr>
+<tr class="memdesc:aaeae2a791cb88d64199f26de9f102780"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boundary condition coupling blocks (nelem, Max coupled elems)  <a href="#aaeae2a791cb88d64199f26de9f102780">More...</a><br /></td></tr>
+<tr class="separator:aaeae2a791cb88d64199f26de9f102780"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Container for storing denseblock linearizations that make up a blockmatrix. </p>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016</dd></dl>
 <p>localblocks (nelem x 7) </p><pre class="fragment">       xi_min   xi_max   eta_min   eta_max   zeta_min    zeta_max    diag
 </pre><p>elem #1: elem #2: elem #3:</p>
 </div><h2 class="groupheader">Member Function/Subroutine Documentation</h2>
@@ -216,6 +224,23 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a551e6affb00516af48f150ac4484adf1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">procedure type_blockmatrix::blockmatrix_t::store_bc </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Store linearization data for boundary condition blocks. </p>
+
+</div>
+</div>
 <a class="anchor" id="a9a4d4227ed0fb0bdff99afe63a46ed9c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -234,17 +259,31 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="aed3bf214b2bd2d15c22ddff6e6379d1e"></a>
+<a class="anchor" id="aaeae2a791cb88d64199f26de9f102780"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">type(<a class="el" href="structtype__densematrix_1_1densematrix__t.html">densematrix_t</a>), dimension(:,:), allocatable type_blockmatrix::blockmatrix_t::chiblks</td>
+          <td class="memname">type(<a class="el" href="structtype__densematrix_1_1densematrix__t.html">densematrix_t</a>), dimension(:,:), allocatable type_blockmatrix::blockmatrix_t::bc_blks</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Chimera inter-domain blocks (nChiElems, MaxDonors) </p>
+<p>Boundary condition coupling blocks (nelem, Max coupled elems) </p>
+
+</div>
+</div>
+<a class="anchor" id="a7ec299e8c9f04427933bcc52dd7a96ed"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">type(<a class="el" href="structtype__densematrix_1_1densematrix__t.html">densematrix_t</a>), dimension(:,:), allocatable type_blockmatrix::blockmatrix_t::chi_blks</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Chimera inter-domain blocks (nelem, MaxDonors) </p>
 
 </div>
 </div>
@@ -258,7 +297,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Local domain blocks. </p>
+<p>Local domain blocks (nelem, NBLK) </p>
 
 </div>
 </div>
@@ -285,7 +324,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetype__blockmatrix.html">type_blockmatrix</a></li><li class="navelem"><a class="el" href="structtype__blockmatrix_1_1blockmatrix__t.html">blockmatrix_t</a></li>
-    <li class="footer">Generated on Tue Dec 22 2015 14:22:44 for ChiDG by
+    <li class="footer">Generated on Thu Feb 25 2016 21:16:30 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

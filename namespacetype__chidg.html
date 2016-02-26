@@ -119,10 +119,16 @@ Functions/Subroutines</h2></td></tr>
 <tr class="memdesc:af94b69dd81d71edc9b3074932f2f0f94"><td class="mdescLeft">&#160;</td><td class="mdescRight">Set ChiDG environment components.  <a href="#af94b69dd81d71edc9b3074932f2f0f94">More...</a><br /></td></tr>
 <tr class="separator:af94b69dd81d71edc9b3074932f2f0f94"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a148b950fd3f8f4321100330aee93f41c"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetype__chidg.html#a148b950fd3f8f4321100330aee93f41c">read_grid</a> (self, gridfile)</td></tr>
+<tr class="memdesc:a148b950fd3f8f4321100330aee93f41c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read grid file.  <a href="#a148b950fd3f8f4321100330aee93f41c">More...</a><br /></td></tr>
 <tr class="separator:a148b950fd3f8f4321100330aee93f41c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f79bedc8bd59810e5f8147472f08fa1"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetype__chidg.html#a2f79bedc8bd59810e5f8147472f08fa1">read_boundaryconditions</a> (self, gridfile)</td></tr>
+<tr class="memdesc:a2f79bedc8bd59810e5f8147472f08fa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read boundary conditions from grid file.  <a href="#a2f79bedc8bd59810e5f8147472f08fa1">More...</a><br /></td></tr>
+<tr class="separator:a2f79bedc8bd59810e5f8147472f08fa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a758b5cd61c2fe21d9249d2da68355eec"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetype__chidg.html#a758b5cd61c2fe21d9249d2da68355eec">read_solution</a> (self, solutionfile)</td></tr>
+<tr class="memdesc:a758b5cd61c2fe21d9249d2da68355eec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Read solution.  <a href="#a758b5cd61c2fe21d9249d2da68355eec">More...</a><br /></td></tr>
 <tr class="separator:a758b5cd61c2fe21d9249d2da68355eec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a79388b093772950c9d0c456f7ae95460"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetype__chidg.html#a79388b093772950c9d0c456f7ae95460">write_solution</a> (self, solutionfile)</td></tr>
+<tr class="memdesc:a79388b093772950c9d0c456f7ae95460"><td class="mdescLeft">&#160;</td><td class="mdescRight">Write solution to file.  <a href="#a79388b093772950c9d0c456f7ae95460">More...</a><br /></td></tr>
 <tr class="separator:a79388b093772950c9d0c456f7ae95460"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43cf53296edec5c402cce2a9649a86f2"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetype__chidg.html#a43cf53296edec5c402cce2a9649a86f2">run</a> (self)</td></tr>
 <tr class="memdesc:a43cf53296edec5c402cce2a9649a86f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Run ChiDG simulation.  <a href="#a43cf53296edec5c402cce2a9649a86f2">More...</a><br /></td></tr>
@@ -151,6 +157,7 @@ Functions/Subroutines</h2></td></tr>
 
 <p>Any activities that need performed before the program completely terminates. </p>
 <dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016 </dd></dl>
 
 </div>
 </div>
@@ -182,10 +189,47 @@ Functions/Subroutines</h2></td></tr>
 <ul>
 <li>Call initiailization procedures for equations, grid data, reading input</li>
 </ul>
-<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie</dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">level</td><td>Initialization level specification. 'env', 'io', or 'finalize' </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a2f79bedc8bd59810e5f8147472f08fa1"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine type_chidg::read_boundaryconditions </td>
+          <td>(</td>
+          <td class="paramtype">class(<a class="el" href="structtype__chidg_1_1chidg__t.html">chidg_t</a>), intent(inout)&#160;</td>
+          <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">character(*), intent(in)&#160;</td>
+          <td class="paramname"><em>gridfile</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Read boundary conditions from grid file. </p>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/5/2016</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">gridfile</td><td>String specifying a gridfile, including extension. </td></tr>
   </table>
   </dd>
 </dl>
@@ -216,6 +260,16 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Read grid file. </p>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">gridfile</td><td>String containing a grid file name, including extension. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="a758b5cd61c2fe21d9249d2da68355eec"></a>
@@ -242,6 +296,16 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Read solution. </p>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">solutionfile</td><td>String containing a solution file name, including extension. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 <a class="anchor" id="a444234c4f6b5a31bd04917e2ef74c6f4"></a>
@@ -260,6 +324,7 @@ Functions/Subroutines</h2></td></tr>
 
 <p>Report on ChiDG simulation. </p>
 <dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016 </dd></dl>
 
 </div>
 </div>
@@ -282,6 +347,7 @@ Functions/Subroutines</h2></td></tr>
 <li>This routine passes the domain data, matrixsolver, and preconditioner components to the time scheme for iteration</li>
 </ul>
 <dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016 </dd></dl>
 
 </div>
 </div>
@@ -328,7 +394,8 @@ Functions/Subroutines</h2></td></tr>
 <li>Set preconditioner</li>
 <li>Set number of allocated domains (default=1)</li>
 </ul>
-<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie</dd></dl>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">selector</td><td>Character string for selecting the chidg component for initialization </td></tr>
@@ -364,6 +431,16 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Write solution to file. </p>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">solutionfile</td><td>String containing a solution file name, including extension. </td></tr>
+  </table>
+  </dd>
+</dl>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -372,7 +449,7 @@ Functions/Subroutines</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetype__chidg.html">type_chidg</a></li>
-    <li class="footer">Generated on Tue Dec 22 2015 14:22:44 for ChiDG by
+    <li class="footer">Generated on Thu Feb 25 2016 21:16:30 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

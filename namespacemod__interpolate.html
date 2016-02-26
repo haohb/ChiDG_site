@@ -106,6 +106,8 @@ $(document).ready(function(){initNavTree('namespacemod__interpolate.html','');})
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Data Types</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemod__interpolate_1_1interpolate__boundary.html">interpolate_boundary</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemod__interpolate_1_1interpolate__element.html">interpolate_element</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interfacemod__interpolate_1_1interpolate__face.html">interpolate_face</a></td></tr>
@@ -113,21 +115,90 @@ Data Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions/Subroutines</h2></td></tr>
-<tr class="memitem:a3a4a1eaf102b461e5b0eda68f146c315"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__interpolate.html#a3a4a1eaf102b461e5b0eda68f146c315">interpolate_element_autodiff</a> (mesh, q, idom, ielem, ivar, var_gq, seed)</td></tr>
-<tr class="memdesc:a3a4a1eaf102b461e5b0eda68f146c315"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute variable at quadrature nodes.  <a href="#a3a4a1eaf102b461e5b0eda68f146c315">More...</a><br /></td></tr>
-<tr class="separator:a3a4a1eaf102b461e5b0eda68f146c315"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad7f216a3d3c30cb7d2c57b9753f53d3c"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__interpolate.html#ad7f216a3d3c30cb7d2c57b9753f53d3c">interpolate_face_autodiff</a> (mesh, q, idom, ielem, iface, ivar, var_gq, seed, source)</td></tr>
-<tr class="memdesc:ad7f216a3d3c30cb7d2c57b9753f53d3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute variable at quadrature nodes.  <a href="#ad7f216a3d3c30cb7d2c57b9753f53d3c">More...</a><br /></td></tr>
-<tr class="separator:ad7f216a3d3c30cb7d2c57b9753f53d3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b7b984917e1942a0e116d6cd0242475"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__interpolate.html#a2b7b984917e1942a0e116d6cd0242475">interpolate_element_standard</a> (mesh, q, idom, ielem, ivar, var_gq)</td></tr>
-<tr class="memdesc:a2b7b984917e1942a0e116d6cd0242475"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute variable at quadrature nodes.  <a href="#a2b7b984917e1942a0e116d6cd0242475">More...</a><br /></td></tr>
-<tr class="separator:a2b7b984917e1942a0e116d6cd0242475"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2609d47f93ff2ff15e559dfd1684429d"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__interpolate.html#a2609d47f93ff2ff15e559dfd1684429d">interpolate_face_standard</a> (mesh, q, idom, ielem, iface, ivar, var_gq)</td></tr>
-<tr class="memdesc:a2609d47f93ff2ff15e559dfd1684429d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute variable at quadrature nodes.  <a href="#a2609d47f93ff2ff15e559dfd1684429d">More...</a><br /></td></tr>
-<tr class="separator:a2609d47f93ff2ff15e559dfd1684429d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f0239d398e6e016dc3b3512c39d960c"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__interpolate.html#a1f0239d398e6e016dc3b3512c39d960c">interpolate_element_autodiff</a> (mesh, q, idom, ielem, ieqn, var_gq, seed)</td></tr>
+<tr class="memdesc:a1f0239d398e6e016dc3b3512c39d960c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute variable at quadrature nodes.  <a href="#a1f0239d398e6e016dc3b3512c39d960c">More...</a><br /></td></tr>
+<tr class="separator:a1f0239d398e6e016dc3b3512c39d960c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab233ed8bb10f2d8d7184f476764f18a7"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__interpolate.html#ab233ed8bb10f2d8d7184f476764f18a7">interpolate_face_autodiff</a> (mesh, face, q, ieqn, var_gq, source)</td></tr>
+<tr class="memdesc:ab233ed8bb10f2d8d7184f476764f18a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpolate variable from polynomial expansion to explicit values at quadrature nodes. The automatic differentiation process really starts here, when the polynomial expansion is evaluated.  <a href="#ab233ed8bb10f2d8d7184f476764f18a7">More...</a><br /></td></tr>
+<tr class="separator:ab233ed8bb10f2d8d7184f476764f18a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa647fbb123e97b7b86803a7f31496447"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__interpolate.html#aa647fbb123e97b7b86803a7f31496447">interpolate_element_standard</a> (mesh, q, idom, ielem, ieqn, var_gq)</td></tr>
+<tr class="memdesc:aa647fbb123e97b7b86803a7f31496447"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute variable at quadrature nodes.  <a href="#aa647fbb123e97b7b86803a7f31496447">More...</a><br /></td></tr>
+<tr class="separator:aa647fbb123e97b7b86803a7f31496447"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a707d68e6d6813be8720acab65a965f67"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__interpolate.html#a707d68e6d6813be8720acab65a965f67">interpolate_face_standard</a> (mesh, q, idom, ielem, iface, ieqn, var_gq)</td></tr>
+<tr class="memdesc:a707d68e6d6813be8720acab65a965f67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute variable at quadrature nodes.  <a href="#a707d68e6d6813be8720acab65a965f67">More...</a><br /></td></tr>
+<tr class="separator:a707d68e6d6813be8720acab65a965f67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41877d929bfbf8504b107f71e3495739"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__interpolate.html#a41877d929bfbf8504b107f71e3495739">interpolate_boundary_autodiff</a> (mesh, face, q, ieqn, points, var)</td></tr>
+<tr class="memdesc:a41877d929bfbf8504b107f71e3495739"><td class="mdescLeft">&#160;</td><td class="mdescRight">Interpolate variable from polynomial expansion to explicit values at quadrature nodes. The automatic differentiation process really starts here, when the polynomial expansion is evaluated.  <a href="#a41877d929bfbf8504b107f71e3495739">More...</a><br /></td></tr>
+<tr class="separator:a41877d929bfbf8504b107f71e3495739"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function/Subroutine Documentation</h2>
-<a class="anchor" id="a3a4a1eaf102b461e5b0eda68f146c315"></a>
+<a class="anchor" id="a41877d929bfbf8504b107f71e3495739"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine mod_interpolate::interpolate_boundary_autodiff </td>
+          <td>(</td>
+          <td class="paramtype">type(<a class="el" href="structtype__mesh_1_1mesh__t.html">mesh_t</a>), dimension(:), intent(in)&#160;</td>
+          <td class="paramname"><em>mesh</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">type(<a class="el" href="structtype__face__info_1_1face__info__t.html">face_info_t</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>face</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">type(chidgvector_t), intent(in)&#160;</td>
+          <td class="paramname"><em>q</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer(ik), intent(in)&#160;</td>
+          <td class="paramname"><em>ieqn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">type(<a class="el" href="structtype__point_1_1point__t.html">point_t</a>), dimension(:), intent(in)&#160;</td>
+          <td class="paramname"><em>points</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">type(ad_d), dimension(:), intent(inout)&#160;</td>
+          <td class="paramname"><em>var</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Interpolate variable from polynomial expansion to explicit values at quadrature nodes. The automatic differentiation process really starts here, when the polynomial expansion is evaluated. </p>
+<p>The interpolation process occurs through a matrix-vector multiplication. That is an interpolation matrix multiplied by a vector of modes from the polynomial expansion. To start the automatic differentiation, the derivative arrays of the values for the polynomial modes must be initialized before any computation. So, before the matrix-vector multiplication.</p>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td>Array of mesh instances. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">face</td><td>Face info, such as indices for locating the face in the mesh. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>Solution vector </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ieqn</td><td>Index of the equation variable being interpolated </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">var_gq</td><td>Array of auto-diff values of the equation evaluated at gq points that is passed back </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">source</td><td>LOCAL/NEIGHBOR indicating which element to interpolate from </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a1f0239d398e6e016dc3b3512c39d960c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -159,7 +230,7 @@ Functions/Subroutines</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">integer(ik), intent(in)&#160;</td>
-          <td class="paramname"><em>ivar</em>, </td>
+          <td class="paramname"><em>ieqn</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -183,10 +254,11 @@ Functions/Subroutines</h2></td></tr>
 
 <p>Compute variable at quadrature nodes. </p>
 <dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016 </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="a2b7b984917e1942a0e116d6cd0242475"></a>
+<a class="anchor" id="aa647fbb123e97b7b86803a7f31496447"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -218,7 +290,7 @@ Functions/Subroutines</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">integer(ik), intent(in)&#160;</td>
-          <td class="paramname"><em>ivar</em>, </td>
+          <td class="paramname"><em>ieqn</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -236,10 +308,11 @@ Functions/Subroutines</h2></td></tr>
 
 <p>Compute variable at quadrature nodes. </p>
 <dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016 </dd></dl>
 
 </div>
 </div>
-<a class="anchor" id="ad7f216a3d3c30cb7d2c57b9753f53d3c"></a>
+<a class="anchor" id="ab233ed8bb10f2d8d7184f476764f18a7"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -252,6 +325,12 @@ Functions/Subroutines</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">type(<a class="el" href="structtype__face__info_1_1face__info__t.html">face_info_t</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>face</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">type(chidgvector_t), intent(in)&#160;</td>
           <td class="paramname"><em>q</em>, </td>
         </tr>
@@ -259,37 +338,13 @@ Functions/Subroutines</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">integer(ik), intent(in)&#160;</td>
-          <td class="paramname"><em>idom</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer(ik), intent(in)&#160;</td>
-          <td class="paramname"><em>ielem</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer(ik), intent(in)&#160;</td>
-          <td class="paramname"><em>iface</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer(ik), intent(in)&#160;</td>
-          <td class="paramname"><em>ivar</em>, </td>
+          <td class="paramname"><em>ieqn</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">type(ad_d), dimension(:), intent(inout)&#160;</td>
           <td class="paramname"><em>var_gq</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">type(<a class="el" href="structtype__seed_1_1seed__t.html">seed_t</a>), intent(in)&#160;</td>
-          <td class="paramname"><em>seed</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -305,12 +360,25 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Compute variable at quadrature nodes. </p>
+<p>Interpolate variable from polynomial expansion to explicit values at quadrature nodes. The automatic differentiation process really starts here, when the polynomial expansion is evaluated. </p>
+<p>The interpolation process occurs through a matrix-vector multiplication. That is an interpolation matrix multiplied by a vector of modes from the polynomial expansion. To start the automatic differentiation, the derivative arrays of the values for the polynomial modes must be initialized before any computation. So, before the matrix-vector multiplication.</p>
 <dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td>Array of mesh instances. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">face</td><td>Face info, such as indices for locating the face in the mesh. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">q</td><td>Solution vector </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">ieqn</td><td>Index of the equation variable being interpolated </td></tr>
+    <tr><td class="paramdir">[in,out]</td><td class="paramname">var_gq</td><td>Array of auto-diff values of the equation evaluated at gq points that is passed back </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">source</td><td>LOCAL/NEIGHBOR indicating which element to interpolate from </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
-<a class="anchor" id="a2609d47f93ff2ff15e559dfd1684429d"></a>
+<a class="anchor" id="a707d68e6d6813be8720acab65a965f67"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -348,7 +416,7 @@ Functions/Subroutines</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">integer(ik), intent(in)&#160;</td>
-          <td class="paramname"><em>ivar</em>, </td>
+          <td class="paramname"><em>ieqn</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -366,6 +434,7 @@ Functions/Subroutines</h2></td></tr>
 
 <p>Compute variable at quadrature nodes. </p>
 <dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016 </dd></dl>
 
 </div>
 </div>
@@ -375,7 +444,7 @@ Functions/Subroutines</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemod__interpolate.html">mod_interpolate</a></li>
-    <li class="footer">Generated on Tue Dec 22 2015 14:22:41 for ChiDG by
+    <li class="footer">Generated on Thu Feb 25 2016 21:16:28 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

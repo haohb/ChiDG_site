@@ -104,6 +104,9 @@ $(document).ready(function(){initNavTree('structtype__face_1_1face__t.html','');
 <div class="title">type_face::face_t Type Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>Face data type.  
+ <a href="structtype__face_1_1face__t.html#details">More...</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -120,6 +123,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0ce8ecf1abb0a8e7eea795c4b5e60e0c"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__face_1_1face__t.html#a0ce8ecf1abb0a8e7eea795c4b5e60e0c">compute_quadrature_coords</a></td></tr>
 <tr class="memdesc:a0ce8ecf1abb0a8e7eea795c4b5e60e0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute cartesian coordinates at quadrature nodes.  <a href="#a0ce8ecf1abb0a8e7eea795c4b5e60e0c">More...</a><br /></td></tr>
 <tr class="separator:a0ce8ecf1abb0a8e7eea795c4b5e60e0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af53e50e7fcdbe5e830e810af59f68257"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__face_1_1face__t.html#af53e50e7fcdbe5e830e810af59f68257">get_neighbor_element</a></td></tr>
+<tr class="memdesc:af53e50e7fcdbe5e830e810af59f68257"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return neighbor element index.  <a href="#af53e50e7fcdbe5e830e810af59f68257">More...</a><br /></td></tr>
+<tr class="separator:af53e50e7fcdbe5e830e810af59f68257"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afbfc79b9929eead3cade90a849426708"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__face_1_1face__t.html#afbfc79b9929eead3cade90a849426708">get_neighbor_face</a></td></tr>
+<tr class="memdesc:afbfc79b9929eead3cade90a849426708"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return neighbor face index.  <a href="#afbfc79b9929eead3cade90a849426708">More...</a><br /></td></tr>
+<tr class="separator:afbfc79b9929eead3cade90a849426708"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef71d8463c26825e3640e8f6c037ffcb"><td class="memItemLeft" align="right" valign="top">final&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__face_1_1face__t.html#aef71d8463c26825e3640e8f6c037ffcb">destructor</a></td></tr>
 <tr class="separator:aef71d8463c26825e3640e8f6c037ffcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -130,7 +139,7 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:af5c0d4288e9a2683783a3edd7f01d620"><td class="memItemLeft" align="right" valign="top">integer(ik)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__face_1_1face__t.html#af5c0d4288e9a2683783a3edd7f01d620">nterms_s</a></td></tr>
 <tr class="separator:af5c0d4288e9a2683783a3edd7f01d620"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0e20a906c2c788bc34eca74786894ed"><td class="memItemLeft" align="right" valign="top">integer(ik)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__face_1_1face__t.html#ae0e20a906c2c788bc34eca74786894ed">ftype</a></td></tr>
-<tr class="memdesc:ae0e20a906c2c788bc34eca74786894ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">interior (0), or boundary condition (1), or Chimera interface (2)  <a href="#ae0e20a906c2c788bc34eca74786894ed">More...</a><br /></td></tr>
+<tr class="memdesc:ae0e20a906c2c788bc34eca74786894ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">interior, or boundary condition, or Chimera interface, or Orphan  <a href="#ae0e20a906c2c788bc34eca74786894ed">More...</a><br /></td></tr>
 <tr class="separator:ae0e20a906c2c788bc34eca74786894ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c9aa9f1c2910a4b2e7244fa75973ffe"><td class="memItemLeft" align="right" valign="top">integer(ik)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__face_1_1face__t.html#a6c9aa9f1c2910a4b2e7244fa75973ffe">iface</a></td></tr>
 <tr class="memdesc:a6c9aa9f1c2910a4b2e7244fa75973ffe"><td class="mdescLeft">&#160;</td><td class="mdescRight">XI_MIN, XI_MAX, ETA_MIN, ETA_MAX, etc.  <a href="#a6c9aa9f1c2910a4b2e7244fa75973ffe">More...</a><br /></td></tr>
@@ -147,6 +156,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a9503ac5f50f1ba59472ddc7205e9584d"><td class="memItemLeft" align="right" valign="top">integer(ik)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__face_1_1face__t.html#a9503ac5f50f1ba59472ddc7205e9584d">chiid</a> = 0</td></tr>
 <tr class="memdesc:a9503ac5f50f1ba59472ddc7205e9584d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Identifier for domain-local Chimera interfaces.  <a href="#a9503ac5f50f1ba59472ddc7205e9584d">More...</a><br /></td></tr>
 <tr class="separator:a9503ac5f50f1ba59472ddc7205e9584d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1fec2a20da5ceee0773921b810d075ee"><td class="memItemLeft" align="right" valign="top">real(rk)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__face_1_1face__t.html#a1fec2a20da5ceee0773921b810d075ee">chimera_offset_x</a> = 0._rk</td></tr>
+<tr class="separator:a1fec2a20da5ceee0773921b810d075ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa836a353f88bc85079be643d4102cc50"><td class="memItemLeft" align="right" valign="top">real(rk)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__face_1_1face__t.html#aa836a353f88bc85079be643d4102cc50">chimera_offset_y</a> = 0._rk</td></tr>
+<tr class="separator:aa836a353f88bc85079be643d4102cc50"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29333bb08ea4f77175d1c12cc6f8511d"><td class="memItemLeft" align="right" valign="top">real(rk)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__face_1_1face__t.html#a29333bb08ea4f77175d1c12cc6f8511d">chimera_offset_z</a> = 0._rk</td></tr>
+<tr class="separator:a29333bb08ea4f77175d1c12cc6f8511d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11f8ba5bab97a825c50f6882209914b5"><td class="memItemLeft" align="right" valign="top">type(<a class="el" href="structtype__point_1_1point__t.html">point_t</a>), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__face_1_1face__t.html#a11f8ba5bab97a825c50f6882209914b5">quad_pts</a></td></tr>
 <tr class="memdesc:a11f8ba5bab97a825c50f6882209914b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cartesian coordinates of quadrature nodes.  <a href="#a11f8ba5bab97a825c50f6882209914b5">More...</a><br /></td></tr>
 <tr class="separator:a11f8ba5bab97a825c50f6882209914b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -176,7 +191,12 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:ab36159ed429ac67f309a13f7c30c8666"><td class="memItemLeft" align="right" valign="top">logical&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__face_1_1face__t.html#ab36159ed429ac67f309a13f7c30c8666">numinitialized</a> = .false.</td></tr>
 <tr class="separator:ab36159ed429ac67f309a13f7c30c8666"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function/Subroutine Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>Face data type. </p>
+<p>NOTE: could be dangerous to declare static arrays of elements using gfortran because the compiler doens't have complete finalization rules implemented. Useing allocatables seems to work fine.</p>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016 </dd></dl>
+</div><h2 class="groupheader">Member Function/Subroutine Documentation</h2>
 <a class="anchor" id="a0ce8ecf1abb0a8e7eea795c4b5e60e0c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -251,6 +271,40 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="af53e50e7fcdbe5e830e810af59f68257"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">procedure type_face::face_t::get_neighbor_element </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return neighbor element index. </p>
+
+</div>
+</div>
+<a class="anchor" id="afbfc79b9929eead3cade90a849426708"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">procedure type_face::face_t::get_neighbor_face </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return neighbor face index. </p>
+
+</div>
+</div>
 <a class="anchor" id="ab68c5c317fb85e365fd42bcc1117b2a0"></a>
 <div class="memitem">
 <div class="memproto">
@@ -296,6 +350,42 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a1fec2a20da5ceee0773921b810d075ee"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">real(rk) type_face::face_t::chimera_offset_x = 0._rk</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aa836a353f88bc85079be643d4102cc50"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">real(rk) type_face::face_t::chimera_offset_y = 0._rk</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a29333bb08ea4f77175d1c12cc6f8511d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">real(rk) type_face::face_t::chimera_offset_z = 0._rk</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a601d2eab32400e72751271f575f4bc10"></a>
 <div class="memitem">
 <div class="memproto">
@@ -320,7 +410,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>interior (0), or boundary condition (1), or Chimera interface (2) </p>
+<p>interior, or boundary condition, or Chimera interface, or Orphan </p>
 
 </div>
 </div>
@@ -535,7 +625,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetype__face.html">type_face</a></li><li class="navelem"><a class="el" href="structtype__face_1_1face__t.html">face_t</a></li>
-    <li class="footer">Generated on Tue Dec 22 2015 14:22:44 for ChiDG by
+    <li class="footer">Generated on Thu Feb 25 2016 21:16:30 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>
