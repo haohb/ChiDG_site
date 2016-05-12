@@ -119,7 +119,8 @@ $(document).ready(function(){initNavTree('functions_d.html','');});
 , <a class="el" href="structtype__rvector_1_1rvector__t.html#a3a6bfa4ffc42d477e5d5eab0cd2f8a6e">type_rvector::rvector_t</a>
 </li>
 <li>data_interface()
-: <a class="el" href="interfacetype__timescheme_1_1data__interface.html#a05e959021995697638b8c637dd52504f">type_timescheme::data_interface</a>
+: <a class="el" href="interfacetype__nonlinear__solver_1_1data__interface.html#a9bbf5a819614f4ee3c606aae74c4b6d9">type_nonlinear_solver::data_interface</a>
+, <a class="el" href="interfacetype__time__scheme_1_1data__interface.html#a598167e5503b43c68cad97df23eea582">type_time_scheme::data_interface</a>
 </li>
 <li>ddeta
 : <a class="el" href="structtype__facequadrature_1_1facequadrature__t.html#ad675b453251281e93cf22ee61c6c0da7">type_facequadrature::facequadrature_t</a>
@@ -140,6 +141,7 @@ $(document).ready(function(){initNavTree('functions_d.html','');});
 , <a class="el" href="structmock__bc_1_1bc__m.html#af7e1ae2ac5b6587488e1c0eeb4379e89">mock_bc::bc_m</a>
 , <a class="el" href="structnewton_1_1newton__t.html#ac4c36cd2d65e864ced4f1a16fc7d2eb4">newton::newton_t</a>
 , <a class="el" href="structquasi__newton_1_1quasi__newton__t.html#a77de1dcc295e2b20ad872af5d3072c15">quasi_newton::quasi_newton_t</a>
+, <a class="el" href="structsteady_1_1steady__t.html#a999b2467c1cc7af36535a7e4d1486408">steady::steady_t</a>
 , <a class="el" href="structtype__bcset_1_1bcset__t.html#a72066d9fdfe1240f95ccfa825d44160d">type_bcset::bcset_t</a>
 , <a class="el" href="structtype__blockmatrix_1_1blockmatrix__t.html#af262ed466247604a7279df8827fad1d7">type_blockmatrix::blockmatrix_t</a>
 , <a class="el" href="structtype__blockvector_1_1blockvector__t.html#a53a1026b5e34689cac40c0b6932331b8">type_blockvector::blockvector_t</a>
@@ -147,7 +149,6 @@ $(document).ready(function(){initNavTree('functions_d.html','');});
 , <a class="el" href="structtype__element_1_1element__t.html#ac867e72282e10f734dfadfc974b5a147">type_element::element_t</a>
 , <a class="el" href="structtype__face_1_1face__t.html#aef71d8463c26825e3640e8f6c037ffcb">type_face::face_t</a>
 , <a class="el" href="structtype__mesh_1_1mesh__t.html#ac9d04af50b02515e572f84880aa64b96">type_mesh::mesh_t</a>
-, <a class="el" href="structtype__testmatrix_1_1testmatrix__t.html#a3f5c6a868bf8c8d0f1cbee9c99f44739">type_testmatrix::testmatrix_t</a>
 </li>
 <li>dft_points
 : <a class="el" href="structbc__euler__giles__inlet_1_1euler__giles__inlet__t.html#a7922bb6fe2198340593ee753c83dae97">bc_euler_giles_inlet::euler_giles_inlet_t</a>
@@ -220,16 +221,19 @@ $(document).ready(function(){initNavTree('functions_d.html','');});
 </li>
 <li>dt
 : <a class="el" href="structtype__solverdata_1_1solverdata__t.html#a3284caf859cb972a89def6e419799d1d">type_solverdata::solverdata_t</a>
-, <a class="el" href="structtype__timescheme_1_1timescheme__t.html#a9167730b19b42f9903107a8432c73c2b">type_timescheme::timescheme_t</a>
+, <a class="el" href="structtype__time__scheme_1_1time__scheme__t.html#a585f5ac75e53b04f6590d35225f2e4dd">type_time_scheme::time_scheme_t</a>
 </li>
 <li>dtdx
 : <a class="el" href="structtype__element_1_1element__t.html#a5c7533980a6c4130ff33a9a6f0c22a5e">type_element::element_t</a>
+, <a class="el" href="structtype__face_1_1face__t.html#abaf72fe30010025a1e2a63cc55c066d7">type_face::face_t</a>
 </li>
 <li>dtdy
 : <a class="el" href="structtype__element_1_1element__t.html#abb071ad069ce8960a9bded2e4db9b10b">type_element::element_t</a>
+, <a class="el" href="structtype__face_1_1face__t.html#ac57fb8b2c2c7838cbf689f1557b14946">type_face::face_t</a>
 </li>
 <li>dtdz
 : <a class="el" href="structtype__element_1_1element__t.html#a604b9c962020fb453c45d91f69190dbd">type_element::element_t</a>
+, <a class="el" href="structtype__face_1_1face__t.html#aef5c893f1855638d3c78d76c2e32492e">type_face::face_t</a>
 </li>
 <li>dump()
 : <a class="el" href="structtype__blockvector_1_1blockvector__t.html#a685e9aaf80f339cb62dcae4ad2bfc944">type_blockvector::blockvector_t</a>
@@ -242,7 +246,7 @@ $(document).ready(function(){initNavTree('functions_d.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Feb 25 2016 21:59:47 for ChiDG by
+    <li class="footer">Generated on Wed May 11 2016 22:44:00 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

@@ -1,5 +1,6 @@
 var structtype__face_1_1face__t =
 [
+    [ "compute_gradients_cartesian", "structtype__face_1_1face__t.html#ad3f6f6f672a80b814fce9fe4742b309a", null ],
     [ "compute_quadrature_coords", "structtype__face_1_1face__t.html#a0ce8ecf1abb0a8e7eea795c4b5e60e0c", null ],
     [ "compute_quadrature_metrics", "structtype__face_1_1face__t.html#a45bfebcf95a9fcf67b051a2d9758fd43", null ],
     [ "compute_quadrature_normals", "structtype__face_1_1face__t.html#a733cb07036f79331cb05d15c3cd354f2", null ],
@@ -9,10 +10,14 @@ var structtype__face_1_1face__t =
     [ "init_geom", "structtype__face_1_1face__t.html#ab68c5c317fb85e365fd42bcc1117b2a0", null ],
     [ "init_sol", "structtype__face_1_1face__t.html#aec74665f66ca011203386ee1e159aa83", null ],
     [ "chiid", "structtype__face_1_1face__t.html#a9503ac5f50f1ba59472ddc7205e9584d", null ],
+    [ "chimera_offset_theta", "structtype__face_1_1face__t.html#a1c41f51ad48b484cabf5a493bd942c1d", null ],
     [ "chimera_offset_x", "structtype__face_1_1face__t.html#a1fec2a20da5ceee0773921b810d075ee", null ],
     [ "chimera_offset_y", "structtype__face_1_1face__t.html#aa836a353f88bc85079be643d4102cc50", null ],
     [ "chimera_offset_z", "structtype__face_1_1face__t.html#a29333bb08ea4f77175d1c12cc6f8511d", null ],
     [ "coords", "structtype__face_1_1face__t.html#a601d2eab32400e72751271f575f4bc10", null ],
+    [ "dtdx", "structtype__face_1_1face__t.html#abaf72fe30010025a1e2a63cc55c066d7", null ],
+    [ "dtdy", "structtype__face_1_1face__t.html#ac57fb8b2c2c7838cbf689f1557b14946", null ],
+    [ "dtdz", "structtype__face_1_1face__t.html#aef5c893f1855638d3c78d76c2e32492e", null ],
     [ "ftype", "structtype__face_1_1face__t.html#ae0e20a906c2c788bc34eca74786894ed", null ],
     [ "geominitialized", "structtype__face_1_1face__t.html#a3c6c621b7c5720b852d3a75cceaa8e3a", null ],
     [ "gq", "structtype__face_1_1face__t.html#ad30763005752570b9a6aca97c5998c41", null ],
@@ -27,6 +32,8 @@ var structtype__face_1_1face__t =
     [ "norm", "structtype__face_1_1face__t.html#a869066fcf3c737d86db867bac2b1f838", null ],
     [ "nterms_s", "structtype__face_1_1face__t.html#af5c0d4288e9a2683783a3edd7f01d620", null ],
     [ "numinitialized", "structtype__face_1_1face__t.html#ab36159ed429ac67f309a13f7c30c8666", null ],
+    [ "periodic_type", "structtype__face_1_1face__t.html#ac148a2c63a3242a559badb25f24caeb0", null ],
     [ "quad_pts", "structtype__face_1_1face__t.html#a11f8ba5bab97a825c50f6882209914b5", null ],
+    [ "spacedim", "structtype__face_1_1face__t.html#a918363d26d7b4b7142d3c3d5e4c8ecaa", null ],
     [ "unorm", "structtype__face_1_1face__t.html#ab6f8b014e0b3c347622a3b67d3778777", null ]
 ];

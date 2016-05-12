@@ -1,13 +1,17 @@
 var searchData=
 [
-  ['eqn_5fduallinearadvection',['eqn_duallinearadvection',['../namespaceeqn__duallinearadvection.html',1,'']]],
-  ['eqn_5feuler',['eqn_euler',['../namespaceeqn__euler.html',1,'']]],
-  ['eqn_5flinearadvection',['eqn_linearadvection',['../namespaceeqn__linearadvection.html',1,'']]],
-  ['eqn_5flinearized_5feuler',['eqn_linearized_euler',['../namespaceeqn__linearized__euler.html',1,'']]],
-  ['eqn_5fscalar',['eqn_scalar',['../namespaceeqn__scalar.html',1,'']]],
-  ['euler_5fboundary_5faverage_5fadvective_5fflux',['euler_boundary_average_advective_flux',['../namespaceeuler__boundary__average__advective__flux.html',1,'']]],
-  ['euler_5flaxfriedrichs_5fflux',['euler_laxfriedrichs_flux',['../namespaceeuler__laxfriedrichs__flux.html',1,'']]],
-  ['euler_5fproperties',['euler_properties',['../namespaceeuler__properties.html',1,'']]],
-  ['euler_5froe_5fflux',['euler_roe_flux',['../namespaceeuler__roe__flux.html',1,'']]],
-  ['euler_5fvolume_5fadvective_5fflux',['euler_volume_advective_flux',['../namespaceeuler__volume__advective__flux.html',1,'']]]
+  ['fcn_5fconstant',['fcn_constant',['../namespacefcn__constant.html',1,'']]],
+  ['fcn_5fcylindricalduct_5feigenfunction',['fcn_cylindricalduct_eigenfunction',['../namespacefcn__cylindricalduct__eigenfunction.html',1,'']]],
+  ['fcn_5fgaussian',['fcn_gaussian',['../namespacefcn__gaussian.html',1,'']]],
+  ['fcn_5fisentropic_5fvortex',['fcn_isentropic_vortex',['../namespacefcn__isentropic__vortex.html',1,'']]],
+  ['fcn_5fmonopole',['fcn_monopole',['../namespacefcn__monopole.html',1,'']]],
+  ['fcn_5fpolynomial',['fcn_polynomial',['../namespacefcn__polynomial.html',1,'']]],
+  ['fcn_5froe_5fcheck',['fcn_roe_check',['../namespacefcn__roe__check.html',1,'']]],
+  ['fcn_5fsin',['fcn_sin',['../namespacefcn__sin.html',1,'']]],
+  ['fcn_5fsod_5fshock_5ftube',['fcn_sod_shock_tube',['../namespacefcn__sod__shock__tube.html',1,'']]],
+  ['fcn_5fxsquared',['fcn_xsquared',['../namespacefcn__xsquared.html',1,'']]],
+  ['fcn_5fxyz',['fcn_xyz',['../namespacefcn__xyz.html',1,'']]],
+  ['fcn_5fysquared',['fcn_ysquared',['../namespacefcn__ysquared.html',1,'']]],
+  ['fcn_5fzsquared',['fcn_zsquared',['../namespacefcn__zsquared.html',1,'']]],
+  ['forward_5feuler',['forward_euler',['../namespaceforward__euler.html',1,'']]]
 ];

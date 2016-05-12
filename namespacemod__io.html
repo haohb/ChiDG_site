@@ -131,6 +131,8 @@ Variables</h2></td></tr>
 <tr class="separator:af5ed04dcfd1b170648f7675b138dc34f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa615e7ffbd75d711c277c41f4170ccd1"><td class="memItemLeft" align="right" valign="top">integer(ik), save&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__io.html#aa615e7ffbd75d711c277c41f4170ccd1">solution_order</a> = 1</td></tr>
 <tr class="separator:aa615e7ffbd75d711c277c41f4170ccd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abccc35ca4ccdcfcb04f81fb4f0836f1c"><td class="memItemLeft" align="right" valign="top">integer(ik), save&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__io.html#abccc35ca4ccdcfcb04f81fb4f0836f1c">spacedim</a> = 3</td></tr>
+<tr class="separator:abccc35ca4ccdcfcb04f81fb4f0836f1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae456dcb20a5b1a798938a5e4e486578a"><td class="memItemLeft" align="right" valign="top">integer(ik), save&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__io.html#ae456dcb20a5b1a798938a5e4e486578a">gq_rule</a> = 2</td></tr>
 <tr class="separator:ae456dcb20a5b1a798938a5e4e486578a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7dd4f5b59cc1ffaae5c6a9e9d7713318"><td class="memItemLeft" align="right" valign="top">integer(ik), save&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__io.html#a7dd4f5b59cc1ffaae5c6a9e9d7713318">collocation</a></td></tr>
@@ -141,22 +143,28 @@ Variables</h2></td></tr>
 <tr class="separator:aec3081fa7505df738b4c61408fc3fdcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa44d9462bdd885c53d843889bb66a6e1"><td class="memItemLeft" align="right" valign="top">character(len=100), save&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__io.html#aa44d9462bdd885c53d843889bb66a6e1">eqnset</a> = 'scalar'</td></tr>
 <tr class="separator:aa44d9462bdd885c53d843889bb66a6e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e3afdfd76601daabc0443ddf9ed0626"><td class="memItemLeft" align="right" valign="top">character(len=100), save&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__io.html#a4e3afdfd76601daabc0443ddf9ed0626">timescheme</a></td></tr>
-<tr class="separator:a4e3afdfd76601daabc0443ddf9ed0626"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91e65f169e6abfd56b19c00d716d30c9"><td class="memItemLeft" align="right" valign="top">character(len=100), save&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__io.html#a91e65f169e6abfd56b19c00d716d30c9">time_scheme</a> = 'steady'</td></tr>
+<tr class="separator:a91e65f169e6abfd56b19c00d716d30c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab7089a9e80f69d70612fe45152e77418"><td class="memItemLeft" align="right" valign="top">real(rk), save&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__io.html#ab7089a9e80f69d70612fe45152e77418">dt</a> = 0.001_rk</td></tr>
 <tr class="separator:ab7089a9e80f69d70612fe45152e77418"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad493b2a1dfe8b9b835cc76962d93772d"><td class="memItemLeft" align="right" valign="top">real(rk), save&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__io.html#ad493b2a1dfe8b9b835cc76962d93772d">cfl0</a> = 1._rk</td></tr>
-<tr class="separator:ad493b2a1dfe8b9b835cc76962d93772d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af391f33d3ec204b0e9a944c7b94cff41"><td class="memItemLeft" align="right" valign="top">integer(ik), save&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__io.html#af391f33d3ec204b0e9a944c7b94cff41">nsteps</a> = 100</td></tr>
-<tr class="separator:af391f33d3ec204b0e9a944c7b94cff41"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30a7f7ed03ebc0c7561e7a5387d6feab"><td class="memItemLeft" align="right" valign="top">integer(ik), save&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__io.html#a30a7f7ed03ebc0c7561e7a5387d6feab">time_steps</a> = 100</td></tr>
+<tr class="separator:a30a7f7ed03ebc0c7561e7a5387d6feab"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a182833719a55257223958ca52b273da1"><td class="memItemLeft" align="right" valign="top">real(rk), save&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__io.html#a182833719a55257223958ca52b273da1">ttol</a> = 1.e-8</td></tr>
 <tr class="separator:a182833719a55257223958ca52b273da1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae36d696af8cd6afceababae9ea76c2f8"><td class="memItemLeft" align="right" valign="top">integer(ik), save&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__io.html#ae36d696af8cd6afceababae9ea76c2f8">ntime_instances</a> = 1</td></tr>
 <tr class="separator:ae36d696af8cd6afceababae9ea76c2f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a542adaace96173da1d40981b8a257164"><td class="memItemLeft" align="right" valign="top">character(len=100), save&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__io.html#a542adaace96173da1d40981b8a257164">matrixsolver</a> = 'direct'</td></tr>
-<tr class="separator:a542adaace96173da1d40981b8a257164"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a0be54b9a3541bdaf7eae301d8b5575"><td class="memItemLeft" align="right" valign="top">real(rk), save&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__io.html#a7a0be54b9a3541bdaf7eae301d8b5575">mtol</a> = 1.e-8</td></tr>
-<tr class="separator:a7a0be54b9a3541bdaf7eae301d8b5575"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d66a81d96f25f2299fb28d5e3b2eb15"><td class="memItemLeft" align="right" valign="top">character(len=100), save&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__io.html#a5d66a81d96f25f2299fb28d5e3b2eb15">nonlinear_solver</a> = 'newton'</td></tr>
+<tr class="separator:a5d66a81d96f25f2299fb28d5e3b2eb15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac82ebc0e5c3edd47f9e1db63b14abae2"><td class="memItemLeft" align="right" valign="top">integer(ik), save&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__io.html#ac82ebc0e5c3edd47f9e1db63b14abae2">nonlinear_steps</a> = 100</td></tr>
+<tr class="separator:ac82ebc0e5c3edd47f9e1db63b14abae2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2847d2f0d6c0cf4271517edbbb4455f0"><td class="memItemLeft" align="right" valign="top">real(rk), save&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__io.html#a2847d2f0d6c0cf4271517edbbb4455f0">ntol</a> = 1.e-8</td></tr>
+<tr class="separator:a2847d2f0d6c0cf4271517edbbb4455f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad493b2a1dfe8b9b835cc76962d93772d"><td class="memItemLeft" align="right" valign="top">real(rk), save&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__io.html#ad493b2a1dfe8b9b835cc76962d93772d">cfl0</a> = 1._rk</td></tr>
+<tr class="separator:ad493b2a1dfe8b9b835cc76962d93772d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0ff85ece87161f84b07d5ff7f3f9333"><td class="memItemLeft" align="right" valign="top">character(len=100), save&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__io.html#af0ff85ece87161f84b07d5ff7f3f9333">linear_solver</a> = 'fgmres'</td></tr>
+<tr class="separator:af0ff85ece87161f84b07d5ff7f3f9333"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b071fe4617306556643ef760426a0e4"><td class="memItemLeft" align="right" valign="top">real(rk), save&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__io.html#a0b071fe4617306556643ef760426a0e4">ltol</a> = 1.e-8</td></tr>
+<tr class="separator:a0b071fe4617306556643ef760426a0e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa0d5fdb6edb4724622eb9c8e70dd4584"><td class="memItemLeft" align="right" valign="top">character(len=100), save&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__io.html#aa0d5fdb6edb4724622eb9c8e70dd4584">preconditioner</a> = 'identity'</td></tr>
 <tr class="separator:aa0d5fdb6edb4724622eb9c8e70dd4584"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9dc56a7818d18e77ca8bbd5159660c04"><td class="memItemLeft" align="right" valign="top">integer(ik), save&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__io.html#a9dc56a7818d18e77ca8bbd5159660c04">nwrite</a> = 100</td></tr>
@@ -344,36 +352,48 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a542adaace96173da1d40981b8a257164"></a>
+<a class="anchor" id="af0ff85ece87161f84b07d5ff7f3f9333"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">character(len=100), save mod_io::matrixsolver = 'direct'</td>
+          <td class="memname">character(len=100), save mod_io::linear_solver = 'fgmres'</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="a7a0be54b9a3541bdaf7eae301d8b5575"></a>
+<a class="anchor" id="a0b071fe4617306556643ef760426a0e4"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">real(rk), save mod_io::mtol = 1.e-8</td>
+          <td class="memname">real(rk), save mod_io::ltol = 1.e-8</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a class="anchor" id="af391f33d3ec204b0e9a944c7b94cff41"></a>
+<a class="anchor" id="a5d66a81d96f25f2299fb28d5e3b2eb15"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">integer(ik), save mod_io::nsteps = 100</td>
+          <td class="memname">character(len=100), save mod_io::nonlinear_solver = 'newton'</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac82ebc0e5c3edd47f9e1db63b14abae2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer(ik), save mod_io::nonlinear_steps = 100</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -410,6 +430,18 @@ Variables</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">integer(ik), save mod_io::ntime_instances = 1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a2847d2f0d6c0cf4271517edbbb4455f0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">real(rk), save mod_io::ntol = 1.e-8</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -500,6 +532,18 @@ Variables</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="abccc35ca4ccdcfcb04f81fb4f0836f1c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer(ik), save mod_io::spacedim = 3</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a150bd3b9aece3bd1ffbe52b443fab8c2"></a>
 <div class="memitem">
 <div class="memproto">
@@ -512,12 +556,24 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4e3afdfd76601daabc0443ddf9ed0626"></a>
+<a class="anchor" id="a91e65f169e6abfd56b19c00d716d30c9"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">character(len=100), save mod_io::timescheme</td>
+          <td class="memname">character(len=100), save mod_io::time_scheme = 'steady'</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a30a7f7ed03ebc0c7561e7a5387d6feab"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer(ik), save mod_io::time_steps = 100</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -542,7 +598,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemod__io.html">mod_io</a></li>
-    <li class="footer">Generated on Thu Feb 25 2016 21:59:43 for ChiDG by
+    <li class="footer">Generated on Wed May 11 2016 22:43:52 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

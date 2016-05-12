@@ -1,12 +1,17 @@
 var searchData=
 [
-  ['perfect_5fgas_5ft',['perfect_gas_t',['../structperfect__gas_1_1perfect__gas__t.html',1,'perfect_gas']]],
-  ['periodic_5ft',['periodic_t',['../structbc__periodic_1_1periodic__t.html',1,'bc_periodic']]],
-  ['point_5ft',['point_t',['../structtype__point_1_1point__t.html',1,'type_point']]],
-  ['precon_5fidentity_5ft',['precon_identity_t',['../structprecon__identity_1_1precon__identity__t.html',1,'precon_identity']]],
-  ['precon_5filu0_5ft',['precon_ilu0_t',['../structprecon__ilu0_1_1precon__ilu0__t.html',1,'precon_ilu0']]],
-  ['precon_5fjacobi_5ft',['precon_jacobi_t',['../structprecon__jacobi_1_1precon__jacobi__t.html',1,'precon_jacobi']]],
-  ['preconditioner_5ft',['preconditioner_t',['../structtype__preconditioner_1_1preconditioner__t.html',1,'type_preconditioner']]],
-  ['properties_5ft',['properties_t',['../structtype__properties_1_1properties__t.html',1,'type_properties']]],
-  ['pvector_5ft',['pvector_t',['../structtype__pvector_1_1pvector__t.html',1,'type_pvector']]]
+  ['operator_28_2a_29',['operator(*)',['../interfacetype__densevector_1_1operator_07_5_08.html',1,'type_densevector']]],
+  ['operator_28_2a_29',['operator(*)',['../interfaceoperator__block__mv_1_1operator_07_5_08.html',1,'operator_block_mv']]],
+  ['operator_28_2a_29',['operator(*)',['../interfacetype__blockvector_1_1operator_07_5_08.html',1,'type_blockvector']]],
+  ['operator_28_2a_29',['operator(*)',['../interfacetype__chidgvector_1_1operator_07_5_08.html',1,'type_chidgvector']]],
+  ['operator_28_2a_29',['operator(*)',['../interfaceoperator__chidg__mv_1_1operator_07_5_08.html',1,'operator_chidg_mv']]],
+  ['operator_28_2b_29',['operator(+)',['../interfacetype__blockvector_1_1operator_07_09_08.html',1,'type_blockvector']]],
+  ['operator_28_2b_29',['operator(+)',['../interfacetype__chidgvector_1_1operator_07_09_08.html',1,'type_chidgvector']]],
+  ['operator_28_2b_29',['operator(+)',['../interfacetype__densevector_1_1operator_07_09_08.html',1,'type_densevector']]],
+  ['operator_28_2d_29',['operator(-)',['../interfacetype__chidgvector_1_1operator_07-_08.html',1,'type_chidgvector']]],
+  ['operator_28_2d_29',['operator(-)',['../interfacetype__densevector_1_1operator_07-_08.html',1,'type_densevector']]],
+  ['operator_28_2d_29',['operator(-)',['../interfacetype__blockvector_1_1operator_07-_08.html',1,'type_blockvector']]],
+  ['operator_28_2f_29',['operator(/)',['../interfacetype__densevector_1_1operator_07_2_08.html',1,'type_densevector']]],
+  ['operator_28_2f_29',['operator(/)',['../interfacetype__blockvector_1_1operator_07_2_08.html',1,'type_blockvector']]],
+  ['operator_28_2f_29',['operator(/)',['../interfacetype__chidgvector_1_1operator_07_2_08.html',1,'type_chidgvector']]]
 ];

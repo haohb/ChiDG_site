@@ -101,10 +101,11 @@ $(document).ready(function(){initNavTree('subpage_chidg.html','');});
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><div class="fragment"><div class="line"><span class="keywordtype">type</span>(chidg_t)   chidg   </div>
-</div><!-- fragment --><p>The chidg_t data type is the top-level interface for ChiDG. A chidg_t instance contains four primary components. These are: </p><div class="fragment"><div class="line"><span class="keywordtype">type</span>(chidg_data_t)        data            </div>
-<div class="line"><span class="keywordtype">type</span>(matrixsolver_t)      matrixsolver</div>
-<div class="line"><span class="keywordtype">type</span>(preconditioner_t)    preconditioner  </div>
-<div class="line"><span class="keywordtype">type</span>(timscheme_t)         timescheme</div>
+</div><!-- fragment --><p>The chidg_t data type is the top-level interface for ChiDG. A chidg_t instance contains five primary components. These are: </p><div class="fragment"><div class="line"><span class="keywordtype">type</span>(chidg_data_t)          data            </div>
+<div class="line"><span class="keywordtype">type</span>(timscheme_t)           timescheme</div>
+<div class="line"><span class="keywordtype">type</span>(nonlinear_solver_t)    nonlinear_solver</div>
+<div class="line"><span class="keywordtype">type</span>(linear_solver_t)       linear_solver</div>
+<div class="line"><span class="keywordtype">type</span>(preconditioner_t)      preconditioner  </div>
 </div><!-- fragment --><div class="image">
 <img src="d__chidg.png" alt="d__chidg.png"/>
 </div>
@@ -120,7 +121,7 @@ Data</h2>
 </div><!-- fragment --><div class="image">
 <img src="d__chidg_data__more_detailed.png" alt="d__chidg_data__more_detailed.png"/>
 </div>
-<dl class="section see"><dt>See also</dt><dd><a class="el" href="subpage_mesh.html">Mesh data structures</a>, <a class="el" href="subpage_solution.html">Solution data structures</a>, <a class="el" href="subpage_equationsets.html">Equation sets</a></dd></dl>
+<dl class="section see"><dt>See also</dt><dd><a class="el" href="subpage_mesh.html">Mesh data structures</a>, <a class="el" href="subpage_solver.html">Solver data structures</a>, <a class="el" href="subpage_equationsets.html">Equation sets</a></dd></dl>
 <h1><a class="anchor" id="s_chidg_functionality"></a>
 Functionality</h1>
 <h2><a class="anchor" id="s_chidg_required"></a>
@@ -144,7 +145,7 @@ Execution</h2>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Feb 25 2016 21:59:32 for ChiDG by
+    <li class="footer">Generated on Wed May 11 2016 22:43:38 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

@@ -12,10 +12,22 @@ var hierarchy =
       [ "bc_euler_totalinlet::euler_totalinlet_t", "structbc__euler__totalinlet_1_1euler__totalinlet__t.html", null ],
       [ "bc_euler_totalinlet_characteristic::euler_totalinlet_characteristic_t", "structbc__euler__totalinlet__characteristic_1_1euler__totalinlet__characteristic__t.html", null ],
       [ "bc_euler_wall::euler_wall_t", "structbc__euler__wall_1_1euler__wall__t.html", null ],
+      [ "bc_kirchoff::kirchoff_t", "structbc__kirchoff_1_1kirchoff__t.html", null ],
       [ "bc_linearadvection_extrapolate::linearadvection_extrapolate_t", "structbc__linearadvection__extrapolate_1_1linearadvection__extrapolate__t.html", null ],
       [ "bc_lineuler_extrapolate::lineuler_extrapolate_t", "structbc__lineuler__extrapolate_1_1lineuler__extrapolate__t.html", null ],
       [ "bc_lineuler_inlet::lineuler_inlet_t", "structbc__lineuler__inlet_1_1lineuler__inlet__t.html", null ],
+      [ "bc_lineuler_outlet::lineuler_outlet_t", "structbc__lineuler__outlet_1_1lineuler__outlet__t.html", null ],
+      [ "bc_lineuler_wall::lineuler_wall_t", "structbc__lineuler__wall_1_1lineuler__wall__t.html", null ],
       [ "bc_periodic::periodic_t", "structbc__periodic_1_1periodic__t.html", null ],
+      [ "bc_primlineuler_extrapolate::primlineuler_extrapolate_t", "structbc__primlineuler__extrapolate_1_1primlineuler__extrapolate__t.html", null ],
+      [ "bc_primlineuler_inlet::primlineuler_inlet_t", "structbc__primlineuler__inlet_1_1primlineuler__inlet__t.html", null ],
+      [ "bc_primlineuler_outlet::primlineuler_outlet_t", "structbc__primlineuler__outlet_1_1primlineuler__outlet__t.html", null ],
+      [ "bc_primlineuler_wall::primlineuler_wall_t", "structbc__primlineuler__wall_1_1primlineuler__wall__t.html", null ],
+      [ "bc_primlineuleraxi_axi::primlineuleraxi_axi_t", "structbc__primlineuleraxi__axi_1_1primlineuleraxi__axi__t.html", null ],
+      [ "bc_primlineuleraxi_extrapolate::primlineuleraxi_extrapolate_t", "structbc__primlineuleraxi__extrapolate_1_1primlineuleraxi__extrapolate__t.html", null ],
+      [ "bc_primlineuleraxi_inlet::primlineuleraxi_inlet_t", "structbc__primlineuleraxi__inlet_1_1primlineuleraxi__inlet__t.html", null ],
+      [ "bc_primlineuleraxi_outlet::primlineuleraxi_outlet_t", "structbc__primlineuleraxi__outlet_1_1primlineuleraxi__outlet__t.html", null ],
+      [ "bc_primlineuleraxi_wall::primlineuleraxi_wall_t", "structbc__primlineuleraxi__wall_1_1primlineuleraxi__wall__t.html", null ],
       [ "mock_bc::bc_m", "structmock__bc_1_1bc__m.html", null ]
     ] ],
     [ "type_bcdata::bcdata_t", "structtype__bcdata_1_1bcdata__t.html", null ],
@@ -41,7 +53,8 @@ var hierarchy =
     [ "type_function::compute_interface", "interfacetype__function_1_1compute__interface.html", null ],
     [ "type_bc::compute_interface", "interfacetype__bc_1_1compute__interface.html", null ],
     [ "atype_boundary_flux::compute_interface", "interfaceatype__boundary__flux_1_1compute__interface.html", null ],
-    [ "type_timescheme::data_interface", "interfacetype__timescheme_1_1data__interface.html", null ],
+    [ "type_nonlinear_solver::data_interface", "interfacetype__nonlinear__solver_1_1data__interface.html", null ],
+    [ "type_time_scheme::data_interface", "interfacetype__time__scheme_1_1data__interface.html", null ],
     [ "type_datawrapper::datawrapper_t", "structtype__datawrapper_1_1datawrapper__t.html", null ],
     [ "type_densematrix::densematrix_t", "structtype__densematrix_1_1densematrix__t.html", null ],
     [ "type_densevector::densevector_t", "structtype__densevector_1_1densevector__t.html", null ],
@@ -51,16 +64,18 @@ var hierarchy =
     [ "type_element::element_t", "structtype__element_1_1element__t.html", null ],
     [ "type_equation::equation_t", "structtype__equation_1_1equation__t.html", null ],
     [ "type_equationset_function_data::equationset_function_data_t", "structtype__equationset__function__data_1_1equationset__function__data__t.html", null ],
-    [ "equationset_t", null, [
-      [ "euler_e", "structeuler__e.html", null ]
-    ] ],
     [ "type_equationset::equationset_t", "structtype__equationset_1_1equationset__t.html", [
       [ "eqn_duallinearadvection::duallinearadvection_e", "structeqn__duallinearadvection_1_1duallinearadvection__e.html", null ],
       [ "eqn_euler::euler_e", "structeqn__euler_1_1euler__e.html", null ],
       [ "eqn_linearadvection::linearadvection_e", "structeqn__linearadvection_1_1linearadvection__e.html", null ],
       [ "eqn_linearized_euler::linearized_euler_e", "structeqn__linearized__euler_1_1linearized__euler__e.html", null ],
+      [ "eqn_primitive_linearized_euler::primitive_linearized_euler_e", "structeqn__primitive__linearized__euler_1_1primitive__linearized__euler__e.html", null ],
+      [ "eqn_primitive_linearized_euler_axisymmetric::primitive_linearized_euler_axisymmetric_e", "structeqn__primitive__linearized__euler__axisymmetric_1_1primitive__linearized__euler__axisymmetric__e.html", null ],
       [ "eqn_scalar::scalar_e", "structeqn__scalar_1_1scalar__e.html", null ],
       [ "mock_equationset::mock_equationset_t", "structmock__equationset_1_1mock__equationset__t.html", null ]
+    ] ],
+    [ "equationset_t", null, [
+      [ "euler_e", "structeuler__e.html", null ]
     ] ],
     [ "type_equationset_wrapper::equationset_wrapper_t", "structtype__equationset__wrapper_1_1equationset__wrapper__t.html", null ],
     [ "type_evector::evector_t", "structtype__evector_1_1evector__t.html", null ],
@@ -85,6 +100,14 @@ var hierarchy =
         [ "lineuler_boundary_average_advective_flux_real::lineuler_boundary_average_advective_flux_real_t", "structlineuler__boundary__average__advective__flux__real_1_1lineuler__boundary__average__advective__flux__real__t.html", null ],
         [ "lineuler_laxfriedrichs_flux_imag::lineuler_laxfriedrichs_flux_imag_t", "structlineuler__laxfriedrichs__flux__imag_1_1lineuler__laxfriedrichs__flux__imag__t.html", null ],
         [ "lineuler_laxfriedrichs_flux_real::lineuler_laxfriedrichs_flux_real_t", "structlineuler__laxfriedrichs__flux__real_1_1lineuler__laxfriedrichs__flux__real__t.html", null ],
+        [ "primlineuler_boundary_average_advective_flux_imag::primlineuler_boundary_average_advective_flux_imag_t", "structprimlineuler__boundary__average__advective__flux__imag_1_1primlineuler__boundary__average__advective__flux__imag__t.html", null ],
+        [ "primlineuler_boundary_average_advective_flux_real::primlineuler_boundary_average_advective_flux_real_t", "structprimlineuler__boundary__average__advective__flux__real_1_1primlineuler__boundary__average__advective__flux__real__t.html", null ],
+        [ "primlineuler_laxfriedrichs_flux_imag::primlineuler_laxfriedrichs_flux_imag_t", "structprimlineuler__laxfriedrichs__flux__imag_1_1primlineuler__laxfriedrichs__flux__imag__t.html", null ],
+        [ "primlineuler_laxfriedrichs_flux_real::primlineuler_laxfriedrichs_flux_real_t", "structprimlineuler__laxfriedrichs__flux__real_1_1primlineuler__laxfriedrichs__flux__real__t.html", null ],
+        [ "primlineuleraxi_boundary_average_advective_flux_imag::primlineuleraxi_boundary_average_advective_flux_imag_t", "structprimlineuleraxi__boundary__average__advective__flux__imag_1_1primlineuleraxi__boundary__average__advective__flux__imag__t.html", null ],
+        [ "primlineuleraxi_boundary_average_advective_flux_real::primlineuleraxi_boundary_average_advective_flux_real_t", "structprimlineuleraxi__boundary__average__advective__flux__real_1_1primlineuleraxi__boundary__average__advective__flux__real__t.html", null ],
+        [ "primlineuleraxi_laxfriedrichs_flux_imag::primlineuleraxi_laxfriedrichs_flux_imag_t", "structprimlineuleraxi__laxfriedrichs__flux__imag_1_1primlineuleraxi__laxfriedrichs__flux__imag__t.html", null ],
+        [ "primlineuleraxi_laxfriedrichs_flux_real::primlineuleraxi_laxfriedrichs_flux_real_t", "structprimlineuleraxi__laxfriedrichs__flux__real_1_1primlineuleraxi__laxfriedrichs__flux__real__t.html", null ],
         [ "sca_boundary_average_advective_flux::sca_boundary_average_advective_flux_t", "structsca__boundary__average__advective__flux_1_1sca__boundary__average__advective__flux__t.html", null ],
         [ "sca_laxfriedrichs_flux::sca_laxfriedrichs_flux_t", "structsca__laxfriedrichs__flux_1_1sca__laxfriedrichs__flux__t.html", null ]
       ] ],
@@ -97,6 +120,20 @@ var hierarchy =
         [ "lineuler_volume_advective_source_imag::lineuler_volume_advective_source_imag_t", "structlineuler__volume__advective__source__imag_1_1lineuler__volume__advective__source__imag__t.html", null ],
         [ "lineuler_volume_advective_source_real::lineuler_volume_advective_source_real_t", "structlineuler__volume__advective__source__real_1_1lineuler__volume__advective__source__real__t.html", null ],
         [ "lineuler_volume_advective_sourceterms_real::lineuler_volume_advective_sourceterms_real_t", "structlineuler__volume__advective__sourceterms__real_1_1lineuler__volume__advective__sourceterms__real__t.html", null ],
+        [ "primlineuler_volume_advective_flux_imag::primlineuler_volume_advective_flux_imag_t", "structprimlineuler__volume__advective__flux__imag_1_1primlineuler__volume__advective__flux__imag__t.html", null ],
+        [ "primlineuler_volume_advective_flux_real::primlineuler_volume_advective_flux_real_t", "structprimlineuler__volume__advective__flux__real_1_1primlineuler__volume__advective__flux__real__t.html", null ],
+        [ "primlineuler_volume_advective_source_imag::primlineuler_volume_advective_source_imag_t", "structprimlineuler__volume__advective__source__imag_1_1primlineuler__volume__advective__source__imag__t.html", null ],
+        [ "primlineuler_volume_advective_source_real::primlineuler_volume_advective_source_real_t", "structprimlineuler__volume__advective__source__real_1_1primlineuler__volume__advective__source__real__t.html", null ],
+        [ "primlineuler_volume_advective_sourceterms_real::primlineuler_volume_advective_sourceterms_real_t", "structprimlineuler__volume__advective__sourceterms__real_1_1primlineuler__volume__advective__sourceterms__real__t.html", null ],
+        [ "primlineuleraxi_volume_advective_flux_imag::primlineuleraxi_volume_advective_flux_imag_t", "structprimlineuleraxi__volume__advective__flux__imag_1_1primlineuleraxi__volume__advective__flux__imag__t.html", null ],
+        [ "primlineuleraxi_volume_advective_flux_imag::primlineuleraxi_volume_advective_flux_imag_t", "structprimlineuleraxi__volume__advective__flux__imag_1_1primlineuleraxi__volume__advective__flux__imag__t.html", null ],
+        [ "primlineuleraxi_volume_advective_flux_real::primlineuleraxi_volume_advective_flux_real_t", "structprimlineuleraxi__volume__advective__flux__real_1_1primlineuleraxi__volume__advective__flux__real__t.html", null ],
+        [ "primlineuleraxi_volume_advective_flux_real::primlineuleraxi_volume_advective_flux_real_t", "structprimlineuleraxi__volume__advective__flux__real_1_1primlineuleraxi__volume__advective__flux__real__t.html", null ],
+        [ "primlineuleraxi_volume_advective_source_imag::primlineuleraxi_volume_advective_source_imag_t", "structprimlineuleraxi__volume__advective__source__imag_1_1primlineuleraxi__volume__advective__source__imag__t.html", null ],
+        [ "primlineuleraxi_volume_advective_source_imag::primlineuleraxi_volume_advective_source_imag_t", "structprimlineuleraxi__volume__advective__source__imag_1_1primlineuleraxi__volume__advective__source__imag__t.html", null ],
+        [ "primlineuleraxi_volume_advective_source_real::primlineuleraxi_volume_advective_source_real_t", "structprimlineuleraxi__volume__advective__source__real_1_1primlineuleraxi__volume__advective__source__real__t.html", null ],
+        [ "primlineuleraxi_volume_advective_source_real::primlineuleraxi_volume_advective_source_real_t", "structprimlineuleraxi__volume__advective__source__real_1_1primlineuleraxi__volume__advective__source__real__t.html", null ],
+        [ "primlineuleraxi_volume_advective_sourceterms_real::primlineuleraxi_volume_advective_sourceterms_real_t", "structprimlineuleraxi__volume__advective__sourceterms__real_1_1primlineuleraxi__volume__advective__sourceterms__real__t.html", null ],
         [ "sca_volume_advective_flux::sca_volume_advective_flux_t", "structsca__volume__advective__flux_1_1sca__volume__advective__flux__t.html", null ]
       ] ]
     ] ],
@@ -105,8 +142,11 @@ var hierarchy =
     [ "type_function_status::function_status_t", "structtype__function__status_1_1function__status__t.html", null ],
     [ "type_function::function_t", "structtype__function_1_1function__t.html", [
       [ "fcn_constant::constant_f", "structfcn__constant_1_1constant__f.html", null ],
+      [ "fcn_cylindricalduct_eigenfunction::cylindricalduct_eigenfunction_f", "structfcn__cylindricalduct__eigenfunction_1_1cylindricalduct__eigenfunction__f.html", null ],
       [ "fcn_gaussian::gaussian_f", "structfcn__gaussian_1_1gaussian__f.html", null ],
       [ "fcn_isentropic_vortex::isentropic_vortex_f", "structfcn__isentropic__vortex_1_1isentropic__vortex__f.html", null ],
+      [ "fcn_monopole::monopole_f", "structfcn__monopole_1_1monopole__f.html", null ],
+      [ "fcn_polynomial::polynomial_f", "structfcn__polynomial_1_1polynomial__f.html", null ],
       [ "fcn_roe_check::roe_check_f", "structfcn__roe__check_1_1roe__check__f.html", null ],
       [ "fcn_sin::sin_f", "structfcn__sin_1_1sin__f.html", null ],
       [ "fcn_sod_shock_tube::sod_shock_tube_f", "structfcn__sod__shock__tube_1_1sod__shock__tube__f.html", null ],
@@ -117,32 +157,35 @@ var hierarchy =
     ] ],
     [ "type_function_wrapper::function_wrapper_t", "structtype__function__wrapper_1_1function__wrapper__t.html", null ],
     [ "type_function::init_interface", "interfacetype__function_1_1init__interface.html", null ],
-    [ "type_timescheme::init_interface", "interfacetype__timescheme_1_1init__interface.html", null ],
+    [ "type_nonlinear_solver::init_interface", "interfacetype__nonlinear__solver_1_1init__interface.html", null ],
+    [ "type_time_scheme::init_interface", "interfacetype__time__scheme_1_1init__interface.html", null ],
     [ "mod_interpolate::interpolate_boundary", "interfacemod__interpolate_1_1interpolate__boundary.html", null ],
     [ "mod_interpolate::interpolate_element", "interfacemod__interpolate_1_1interpolate__element.html", null ],
     [ "mod_interpolate::interpolate_face", "interfacemod__interpolate_1_1interpolate__face.html", null ],
     [ "type_ivector::ivector_t", "structtype__ivector_1_1ivector__t.html", null ],
-    [ "type_matrixsolver::matrixsolver_t", "structtype__matrixsolver_1_1matrixsolver__t.html", [
-      [ "type_fgmres::fgmres_t", "structtype__fgmres_1_1fgmres__t.html", null ],
-      [ "type_fgmres_householder::fgmres_householder_t", "structtype__fgmres__householder_1_1fgmres__householder__t.html", null ]
+    [ "type_linear_solver::linear_solver_t", "structtype__linear__solver_1_1linear__solver__t.html", [
+      [ "type_fgmres::fgmres_t", "structtype__fgmres_1_1fgmres__t.html", null ]
     ] ],
     [ "type_mesh::mesh_t", "structtype__mesh_1_1mesh__t.html", null ],
     [ "type_meshdata::meshdata_t", "structtype__meshdata_1_1meshdata__t.html", null ],
     [ "type_mvector::mvector_t", "structtype__mvector_1_1mvector__t.html", null ],
-    [ "type_blockvector::operator(*)", "interfacetype__blockvector_1_1operator_07_5_08.html", null ],
+    [ "type_nonlinear_solver::nonlinear_solver_t", "structtype__nonlinear__solver_1_1nonlinear__solver__t.html", [
+      [ "newton::newton_t", "structnewton_1_1newton__t.html", null ],
+      [ "quasi_newton::quasi_newton_t", "structquasi__newton_1_1quasi__newton__t.html", null ]
+    ] ],
+    [ "type_densevector::operator(*)", "interfacetype__densevector_1_1operator_07_5_08.html", null ],
     [ "operator_block_mv::operator(*)", "interfaceoperator__block__mv_1_1operator_07_5_08.html", null ],
     [ "operator_chidg_mv::operator(*)", "interfaceoperator__chidg__mv_1_1operator_07_5_08.html", null ],
-    [ "type_densevector::operator(*)", "interfacetype__densevector_1_1operator_07_5_08.html", null ],
-    [ "type_testdensevector::operator(*)", "interfacetype__testdensevector_1_1operator_07_5_08.html", null ],
+    [ "type_blockvector::operator(*)", "interfacetype__blockvector_1_1operator_07_5_08.html", null ],
     [ "type_chidgvector::operator(*)", "interfacetype__chidgvector_1_1operator_07_5_08.html", null ],
     [ "type_chidgvector::operator(+)", "interfacetype__chidgvector_1_1operator_07_09_08.html", null ],
-    [ "type_blockvector::operator(+)", "interfacetype__blockvector_1_1operator_07_09_08.html", null ],
     [ "type_densevector::operator(+)", "interfacetype__densevector_1_1operator_07_09_08.html", null ],
-    [ "type_blockvector::operator(-)", "interfacetype__blockvector_1_1operator_07-_08.html", null ],
-    [ "type_densevector::operator(-)", "interfacetype__densevector_1_1operator_07-_08.html", null ],
+    [ "type_blockvector::operator(+)", "interfacetype__blockvector_1_1operator_07_09_08.html", null ],
     [ "type_chidgvector::operator(-)", "interfacetype__chidgvector_1_1operator_07-_08.html", null ],
-    [ "type_densevector::operator(/)", "interfacetype__densevector_1_1operator_07_2_08.html", null ],
+    [ "type_densevector::operator(-)", "interfacetype__densevector_1_1operator_07-_08.html", null ],
+    [ "type_blockvector::operator(-)", "interfacetype__blockvector_1_1operator_07-_08.html", null ],
     [ "type_blockvector::operator(/)", "interfacetype__blockvector_1_1operator_07_2_08.html", null ],
+    [ "type_densevector::operator(/)", "interfacetype__densevector_1_1operator_07_2_08.html", null ],
     [ "type_chidgvector::operator(/)", "interfacetype__chidgvector_1_1operator_07_2_08.html", null ],
     [ "type_point::point_t", "structtype__point_1_1point__t.html", null ],
     [ "type_preconditioner::preconditioner_t", "structtype__preconditioner_1_1preconditioner__t.html", [
@@ -155,25 +198,24 @@ var hierarchy =
       [ "euler_properties::euler_properties_t", "structeuler__properties_1_1euler__properties__t.html", null ],
       [ "la_properties::la_properties_t", "structla__properties_1_1la__properties__t.html", null ],
       [ "lineuler_properties::lineuler_properties_t", "structlineuler__properties_1_1lineuler__properties__t.html", null ],
+      [ "primlineuler_properties::primlineuler_properties_t", "structprimlineuler__properties_1_1primlineuler__properties__t.html", null ],
+      [ "primlineuleraxi_properties::primlineuleraxi_properties_t", "structprimlineuleraxi__properties_1_1primlineuleraxi__properties__t.html", null ],
       [ "sca_properties::sca_properties_t", "structsca__properties_1_1sca__properties__t.html", null ]
     ] ],
     [ "type_pvector::pvector_t", "structtype__pvector_1_1pvector__t.html", null ],
     [ "type_quadrature::quadrature_t", "structtype__quadrature_1_1quadrature__t.html", null ],
     [ "type_rvector::rvector_t", "structtype__rvector_1_1rvector__t.html", null ],
     [ "type_seed::seed_t", "structtype__seed_1_1seed__t.html", null ],
-    [ "type_timescheme::self_interface", "interfacetype__timescheme_1_1self__interface.html", null ],
     [ "type_equationset::self_interface", "interfacetype__equationset_1_1self__interface.html", null ],
+    [ "type_time_scheme::self_interface", "interfacetype__time__scheme_1_1self__interface.html", null ],
+    [ "type_nonlinear_solver::self_interface", "interfacetype__nonlinear__solver_1_1self__interface.html", null ],
     [ "atype_solid::solid_t", "structatype__solid_1_1solid__t.html", null ],
-    [ "type_matrixsolver::solve_interface", "interfacetype__matrixsolver_1_1solve__interface.html", null ],
+    [ "type_linear_solver::solve_interface", "interfacetype__linear__solver_1_1solve__interface.html", null ],
     [ "type_solverdata::solverdata_t", "structtype__solverdata_1_1solverdata__t.html", null ],
-    [ "type_testdensevector::testdensevector_t", "structtype__testdensevector_1_1testdensevector__t.html", null ],
-    [ "type_testmatrix::testmatrix_t", "structtype__testmatrix_1_1testmatrix__t.html", null ],
-    [ "type_timer::timer_t", "structtype__timer_1_1timer__t.html", null ],
-    [ "type_timescheme::timescheme_t", "structtype__timescheme_1_1timescheme__t.html", [
-      [ "backward_euler_subiteration::backward_euler_subiteration_t", "structbackward__euler__subiteration_1_1backward__euler__subiteration__t.html", null ],
-      [ "newton::newton_t", "structnewton_1_1newton__t.html", null ],
-      [ "quasi_newton::quasi_newton_t", "structquasi__newton_1_1quasi__newton__t.html", null ]
+    [ "type_time_scheme::time_scheme_t", "structtype__time__scheme_1_1time__scheme__t.html", [
+      [ "steady::steady_t", "structsteady_1_1steady__t.html", null ]
     ] ],
+    [ "type_timer::timer_t", "structtype__timer_1_1timer__t.html", null ],
     [ "type_vector::vector_t", "structtype__vector_1_1vector__t.html", null ],
     [ "type_volume_flux_wrapper::volume_flux_wrapper_t", "structtype__volume__flux__wrapper_1_1volume__flux__wrapper__t.html", null ],
     [ "type_volumequadrature::volumequadrature_t", "structtype__volumequadrature_1_1volumequadrature__t.html", null ],
@@ -187,5 +229,8 @@ var hierarchy =
     [ "time_scheme_t", null, [
       [ "backward_euler::backward_euler_t", "structbackward__euler_1_1backward__euler__t.html", null ],
       [ "forward_euler::forward_euler_t", "structforward__euler_1_1forward__euler__t.html", null ]
+    ] ],
+    [ "timescheme_t", null, [
+      [ "backward_euler_subiteration::backward_euler_subiteration_t", "structbackward__euler__subiteration_1_1backward__euler__subiteration__t.html", null ]
     ] ]
 ];

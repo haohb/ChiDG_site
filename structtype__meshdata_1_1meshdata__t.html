@@ -118,6 +118,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a1593c2a31178c1baffe9e3bd7d7f4bea"><td class="memItemLeft" align="right" valign="top">character(len=:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__meshdata_1_1meshdata__t.html#a1593c2a31178c1baffe9e3bd7d7f4bea">eqnset</a></td></tr>
 <tr class="memdesc:a1593c2a31178c1baffe9e3bd7d7f4bea"><td class="mdescLeft">&#160;</td><td class="mdescRight">String indicating the equation set to allocate for the domain.  <a href="#a1593c2a31178c1baffe9e3bd7d7f4bea">More...</a><br /></td></tr>
 <tr class="separator:a1593c2a31178c1baffe9e3bd7d7f4bea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab26ca368bfb1212129142d28b6868329"><td class="memItemLeft" align="right" valign="top">integer(ik)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__meshdata_1_1meshdata__t.html#ab26ca368bfb1212129142d28b6868329">spacedim</a></td></tr>
+<tr class="memdesc:ab26ca368bfb1212129142d28b6868329"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of spatial dimensions.  <a href="#ab26ca368bfb1212129142d28b6868329">More...</a><br /></td></tr>
+<tr class="separator:ab26ca368bfb1212129142d28b6868329"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac02150ee876167411867d166494ce782"><td class="memItemLeft" align="right" valign="top">integer(ik)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__meshdata_1_1meshdata__t.html#ac02150ee876167411867d166494ce782">nterms_c</a></td></tr>
 <tr class="memdesc:ac02150ee876167411867d166494ce782"><td class="mdescLeft">&#160;</td><td class="mdescRight">Integer specifying the number of terms in the coordinate expansion.  <a href="#ac02150ee876167411867d166494ce782">More...</a><br /></td></tr>
 <tr class="separator:ac02150ee876167411867d166494ce782"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -128,7 +131,7 @@ Public Attributes</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Data type for returning mesh-data from a file-read routine. </p>
 <dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>2/1/2016 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>4/11/2016 </dd></dl>
 </div><h2 class="groupheader">Member Data Documentation</h2>
 <a class="anchor" id="a1593c2a31178c1baffe9e3bd7d7f4bea"></a>
 <div class="memitem">
@@ -200,6 +203,20 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ab26ca368bfb1212129142d28b6868329"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer(ik) type_meshdata::meshdata_t::spacedim</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Number of spatial dimensions. </p>
+
+</div>
+</div>
 <hr/>The documentation for this type was generated from the following file:<ul>
 <li>src/grid/<a class="el" href="type__meshdata_8f90.html">type_meshdata.f90</a></li>
 </ul>
@@ -209,7 +226,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetype__meshdata.html">type_meshdata</a></li><li class="navelem"><a class="el" href="structtype__meshdata_1_1meshdata__t.html">meshdata_t</a></li>
-    <li class="footer">Generated on Thu Feb 25 2016 21:59:46 for ChiDG by
+    <li class="footer">Generated on Wed May 11 2016 22:43:59 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

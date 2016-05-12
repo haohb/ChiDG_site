@@ -8,6 +8,7 @@ var searchData=
   ['get_5fdomain_5findices_5fhdf',['get_domain_indices_hdf',['../namespacemod__hdf__utilities.html#a2c2ebea3a1e614995ba359f1f32c1c9f',1,'mod_hdf_utilities']]],
   ['get_5fdomain_5fname_5fhdf',['get_domain_name_hdf',['../namespacemod__hdf__utilities.html#a7abc7c8433485194b827b0f31b038de0',1,'mod_hdf_utilities']]],
   ['get_5fdomain_5fnames_5fhdf',['get_domain_names_hdf',['../namespacemod__hdf__utilities.html#a381659caedf77f63d6593c0dbdeb0be5',1,'mod_hdf_utilities']]],
+  ['get_5felement_5fmapping',['get_element_mapping',['../namespacemod__grid.html#ab3b9f11d05384aad27ecefbb741ebe3a',1,'mod_grid']]],
   ['get_5feqn_5findex',['get_eqn_index',['../structtype__properties_1_1properties__t.html#af71b7a0a51eb33a3df4e87e74482614b',1,'type_properties::properties_t']]],
   ['get_5feqnset_5fhdf',['get_eqnset_hdf',['../namespacemod__hdf__utilities.html#ab50aebc5af025871050cf0c7f3c86a25',1,'mod_hdf_utilities']]],
   ['get_5ffile_5fextension',['get_file_extension',['../namespacemod__string__utilities.html#a60dd7cbc1ef1bbe7969a2de965203202',1,'mod_string_utilities']]],
@@ -27,9 +28,11 @@ var searchData=
   ['get_5fproperties_5fhdf',['get_properties_hdf',['../namespacemod__hdf__utilities.html#aa2b7f8a08ef423f6ae832f624ed13b0b',1,'mod_hdf_utilities']]],
   ['get_5fproperty_5findex',['get_property_index',['../structtype__bcproperty__set_1_1bcproperty__set__t.html#a2a788eca26e9f7ac81a488560d787784',1,'type_bcproperty_set::bcproperty_set_t::get_property_index()'],['../namespacetype__bcproperty__set.html#a786e6598a8eb70f5eae91317a4b3eba4',1,'type_bcproperty_set::get_property_index()']]],
   ['get_5fproperty_5fname',['get_property_name',['../structtype__bc_1_1bc__t.html#aad353f994789a597ccba7438d3e91f72',1,'type_bc::bc_t::get_property_name()'],['../structtype__bcproperty__set_1_1bcproperty__set__t.html#a756e01ac316e4907f5077f77ef72e4ab',1,'type_bcproperty_set::bcproperty_set_t::get_property_name()'],['../namespacetype__bcproperty__set.html#a0d631fb40f79d97e7d87c038fd6a4639',1,'type_bcproperty_set::get_property_name()']]],
-  ['get_5fquadrature',['get_quadrature',['../namespacemod__quadrature.html#ae6bf81155a6963cf9259ca154489b051',1,'mod_quadrature']]],
+  ['get_5fquadrature',['get_quadrature',['../namespacemod__quadrature.html#a8467be78367bf8d10c8481de361c06a8',1,'mod_quadrature']]],
+  ['get_5fspacedim_5fhdf',['get_spacedim_hdf',['../namespacemod__hdf__utilities.html#adb7bfd7d574c5bfb66ebc008169ac08e',1,'mod_hdf_utilities']]],
   ['getterm',['getterm',['../structtype__densevector_1_1densevector__t.html#ac65439d87c6e3ca9e1034ef2bb2ca2bb',1,'type_densevector::densevector_t']]],
   ['getvar',['getvar',['../structtype__densevector_1_1densevector__t.html#af0cc281c145a5868a1ea6160c3b33aff',1,'type_densevector::densevector_t']]],
   ['gl_5fnodes',['gl_nodes',['../namespacemod__gausslegendre.html#ab8929baf05ef05422a21acb89dfb2d16',1,'mod_gausslegendre']]],
-  ['gl_5fweights',['gl_weights',['../namespacemod__gausslegendre.html#a6e9bac90e1b035b3eac431a7c4fe6867',1,'mod_gausslegendre']]]
+  ['gl_5fweights',['gl_weights',['../namespacemod__gausslegendre.html#a6e9bac90e1b035b3eac431a7c4fe6867',1,'mod_gausslegendre']]],
+  ['grid_5fpoint',['grid_point',['../structtype__element_1_1element__t.html#aa1a4a9010f8330944aa1e565b56caae2',1,'type_element::element_t']]]
 ];

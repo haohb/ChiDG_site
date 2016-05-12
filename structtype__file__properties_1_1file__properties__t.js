@@ -9,5 +9,6 @@ var structtype__file__properties_1_1file__properties__t =
     [ "nterms_c", "structtype__file__properties_1_1file__properties__t.html#a78a8e413388356fc2f074eb9fb68c174", null ],
     [ "nterms_s", "structtype__file__properties_1_1file__properties__t.html#a492fa070c0175f216d63e5c9972743c4", null ],
     [ "order_c", "structtype__file__properties_1_1file__properties__t.html#a3f9f23907c07caf3804cbe6aefe522d9", null ],
-    [ "order_s", "structtype__file__properties_1_1file__properties__t.html#af5b685c46c7abad03fe5a6ccf4a0236d", null ]
+    [ "order_s", "structtype__file__properties_1_1file__properties__t.html#af5b685c46c7abad03fe5a6ccf4a0236d", null ],
+    [ "spacedim", "structtype__file__properties_1_1file__properties__t.html#ac8788f5421be8688a79253d700712a97", null ]
 ];

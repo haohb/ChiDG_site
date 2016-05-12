@@ -109,29 +109,36 @@ Functions/Subroutines</h2></td></tr>
 <tr class="memitem:a856886d0dbf8cd097d603543edad6e10"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__grid.html#a856886d0dbf8cd097d603543edad6e10">initialize_grid</a> ()</td></tr>
 <tr class="memdesc:a856886d0dbf8cd097d603543edad6e10"><td class="mdescLeft">&#160;</td><td class="mdescRight">Call grid initialization routines. This is called by chidginit('env'). So, should not need to call this explicity.  <a href="#a856886d0dbf8cd097d603543edad6e10">More...</a><br /></td></tr>
 <tr class="separator:a856886d0dbf8cd097d603543edad6e10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aae78c43255cd4e19e18b543f69ba775f"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__grid.html#aae78c43255cd4e19e18b543f69ba775f">compute_element_mappings</a> ()</td></tr>
-<tr class="memdesc:aae78c43255cd4e19e18b543f69ba775f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute matrix to convert element discrete coordinates to modal coordinates. Initializes the array of denseblock matrices in ELEM_MAP.  <a href="#aae78c43255cd4e19e18b543f69ba775f">More...</a><br /></td></tr>
-<tr class="separator:aae78c43255cd4e19e18b543f69ba775f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bc8d84f0fbfed0d2d0fc8678dfee559"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__grid.html#a9bc8d84f0fbfed0d2d0fc8678dfee559">compute_element_mappings</a> (spacedim)</td></tr>
+<tr class="memdesc:a9bc8d84f0fbfed0d2d0fc8678dfee559"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute matrix to convert element discrete coordinates to modal coordinates. Initializes the array of denseblock matrices in ELEM_MAP.  <a href="#a9bc8d84f0fbfed0d2d0fc8678dfee559">More...</a><br /></td></tr>
+<tr class="separator:a9bc8d84f0fbfed0d2d0fc8678dfee559"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3b9f11d05384aad27ecefbb741ebe3a"><td class="memItemLeft" align="right" valign="top">real(rk) function, dimension(:,:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__grid.html#ab3b9f11d05384aad27ecefbb741ebe3a">get_element_mapping</a> (spacedim, imap)</td></tr>
+<tr class="memdesc:ab3b9f11d05384aad27ecefbb741ebe3a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return a matrix to compute the coordinate expansion.  <a href="#ab3b9f11d05384aad27ecefbb741ebe3a">More...</a><br /></td></tr>
+<tr class="separator:ab3b9f11d05384aad27ecefbb741ebe3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a01fea6334eb2e82658f002faadb4971f"><td class="memItemLeft" align="right" valign="top">integer(ik), parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__grid.html#a01fea6334eb2e82658f002faadb4971f">nmap</a> = 4</td></tr>
+<tr class="memitem:a01fea6334eb2e82658f002faadb4971f"><td class="memItemLeft" align="right" valign="top">integer(ik), parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__grid.html#a01fea6334eb2e82658f002faadb4971f">nmap</a> = 7</td></tr>
 <tr class="separator:a01fea6334eb2e82658f002faadb4971f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a171c4df5978ffa33af4f2c89d2c38b1c"><td class="memItemLeft" align="right" valign="top">type(<a class="el" href="structtype__densematrix_1_1densematrix__t.html">densematrix_t</a>), dimension(<a class="el" href="namespacemod__grid.html#a01fea6334eb2e82658f002faadb4971f">nmap</a>), target, save&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__grid.html#a171c4df5978ffa33af4f2c89d2c38b1c">elem_map</a></td></tr>
-<tr class="memdesc:a171c4df5978ffa33af4f2c89d2c38b1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">array of matrices  <a href="#a171c4df5978ffa33af4f2c89d2c38b1c">More...</a><br /></td></tr>
-<tr class="separator:a171c4df5978ffa33af4f2c89d2c38b1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2fe91494bbae143937b26a7176435c46"><td class="memItemLeft" align="right" valign="top">type(<a class="el" href="structtype__densematrix_1_1densematrix__t.html">densematrix_t</a>), dimension(<a class="el" href="namespacemod__grid.html#a01fea6334eb2e82658f002faadb4971f">nmap</a>), target, save&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__grid.html#a2fe91494bbae143937b26a7176435c46">elem_map_2d</a></td></tr>
+<tr class="memdesc:a2fe91494bbae143937b26a7176435c46"><td class="mdescLeft">&#160;</td><td class="mdescRight">array of matrices  <a href="#a2fe91494bbae143937b26a7176435c46">More...</a><br /></td></tr>
+<tr class="separator:a2fe91494bbae143937b26a7176435c46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf401d4ffadbe5e476f9b52a9c0d1df3"><td class="memItemLeft" align="right" valign="top">type(<a class="el" href="structtype__densematrix_1_1densematrix__t.html">densematrix_t</a>), dimension(<a class="el" href="namespacemod__grid.html#a01fea6334eb2e82658f002faadb4971f">nmap</a>), target, save&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__grid.html#aaf401d4ffadbe5e476f9b52a9c0d1df3">elem_map_3d</a></td></tr>
+<tr class="memdesc:aaf401d4ffadbe5e476f9b52a9c0d1df3"><td class="mdescLeft">&#160;</td><td class="mdescRight">array of matrices  <a href="#aaf401d4ffadbe5e476f9b52a9c0d1df3">More...</a><br /></td></tr>
+<tr class="separator:aaf401d4ffadbe5e476f9b52a9c0d1df3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4962ba0ad77883e9d7d0a0a77b64a600"><td class="memItemLeft" align="right" valign="top">logical&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__grid.html#a4962ba0ad77883e9d7d0a0a77b64a600">uninitialized</a> = .true.</td></tr>
 <tr class="separator:a4962ba0ad77883e9d7d0a0a77b64a600"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function/Subroutine Documentation</h2>
-<a class="anchor" id="aae78c43255cd4e19e18b543f69ba775f"></a>
+<a class="anchor" id="a9bc8d84f0fbfed0d2d0fc8678dfee559"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">subroutine mod_grid::compute_element_mappings </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">integer(ik), intent(in)&#160;</td>
+          <td class="paramname"><em>spacedim</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -139,7 +146,38 @@ Variables</h2></td></tr>
 
 <p>Compute matrix to convert element discrete coordinates to modal coordinates. Initializes the array of denseblock matrices in ELEM_MAP. </p>
 <dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
-<dl class="section date"><dt>Date</dt><dd>2/1/2016 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2/1/2016</dd></dl>
+<p>TODO: TEST TODO: Generalize better for spatial dimension </p>
+
+</div>
+</div>
+<a class="anchor" id="ab3b9f11d05384aad27ecefbb741ebe3a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">real(rk) function, dimension(:,:), allocatable mod_grid::get_element_mapping </td>
+          <td>(</td>
+          <td class="paramtype">integer(ik), intent(in)&#160;</td>
+          <td class="paramname"><em>spacedim</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer(ik), intent(in)&#160;</td>
+          <td class="paramname"><em>imap</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return a matrix to compute the coordinate expansion. </p>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>4/11/2016 </dd></dl>
 
 </div>
 </div>
@@ -166,12 +204,26 @@ Variables</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="a171c4df5978ffa33af4f2c89d2c38b1c"></a>
+<a class="anchor" id="a2fe91494bbae143937b26a7176435c46"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">type(<a class="el" href="structtype__densematrix_1_1densematrix__t.html">densematrix_t</a>), dimension(<a class="el" href="namespacemod__grid.html#a01fea6334eb2e82658f002faadb4971f">nmap</a>), target, save mod_grid::elem_map</td>
+          <td class="memname">type(<a class="el" href="structtype__densematrix_1_1densematrix__t.html">densematrix_t</a>), dimension(<a class="el" href="namespacemod__grid.html#a01fea6334eb2e82658f002faadb4971f">nmap</a>), target, save mod_grid::elem_map_2d</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>array of matrices </p>
+
+</div>
+</div>
+<a class="anchor" id="aaf401d4ffadbe5e476f9b52a9c0d1df3"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">type(<a class="el" href="structtype__densematrix_1_1densematrix__t.html">densematrix_t</a>), dimension(<a class="el" href="namespacemod__grid.html#a01fea6334eb2e82658f002faadb4971f">nmap</a>), target, save mod_grid::elem_map_3d</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -185,7 +237,7 @@ Variables</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">integer(ik), parameter mod_grid::nmap = 4</td>
+          <td class="memname">integer(ik), parameter mod_grid::nmap = 7</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -210,7 +262,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemod__grid.html">mod_grid</a></li>
-    <li class="footer">Generated on Thu Feb 25 2016 21:59:43 for ChiDG by
+    <li class="footer">Generated on Wed May 11 2016 22:43:52 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

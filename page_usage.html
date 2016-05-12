@@ -106,10 +106,53 @@ Set-up</h1>
 <p><br />
 <br />
 </p><hr/>
- <h1><a class="anchor" id="s_commandline"></a>
-Command line</h1>
-<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;chidg       </div>
+<h1><a class="anchor" id="s_commandline_action"></a>
+ChiDG Actions</h1>
+<h2><a class="anchor" id="s_commandline_action_convert"></a>
+chidg convert</h2>
+<p>To convert from block-structured Plot3D format grid files to ChiDG grid files, the 'convert' action can be used as </p><div class="fragment"><div class="line">chidg convert grid.x            </div>
+</div><!-- fragment --><div class="image">
+<img src="chidg_action_convert.png" alt="chidg_action_convert.png"/>
+</div>
+<p><br />
+<br />
+</p>
+<h2><a class="anchor" id="s_commandline_action_edit"></a>
+chidg edit</h2>
+<p>To edit a ChiDG file(boundary conditions, domain info, etc.), the 'edit' action can be used as </p><div class="fragment"><div class="line">chidg edit grid_solution.h5  </div>
+</div><!-- fragment --><p><code>chidg edit</code> on startup: </p><div class="image">
+<img src="chidg_action_edit.png" alt="chidg_action_edit.png"/>
+</div>
+<p><br />
+<br />
+ <code>chidg edit</code> in boundary condition screen: </p><div class="image">
+<img src="chidg_action_edit_bc.png" alt="chidg_action_edit_bc.png"/>
+</div>
+<p><br />
+<br />
+</p>
+<h2><a class="anchor" id="s_commandline_action_post"></a>
+chidg post</h2>
+<p>To post-process a ChiDG solution into a visualization format, the 'post' action can be used as </p><div class="fragment"><div class="line">chidg post grid_solution.h5  </div>
 </div><!-- fragment --><p><br />
+<br />
+<br />
+</p>
+<h1><a class="anchor" id="s_commandline_run"></a>
+Run ChiDG</h1>
+<p>Running <code>chidg</code> requires three things:</p><ol type="1">
+<li>The <code>chidg</code> executable</li>
+<li>A ChiDG-format grid file</li>
+<li>A chidg.nml namelist file</li>
+</ol>
+<p>See <a class="el" href="page_installation.html">Installation</a> for direction on building the <code>chidg</code> executable.<br />
+See <a class="el" href="page_gridgeneration.html">Generating a grid</a> for direction on creating ChiDG-format grid files.<br />
+See 'ChiDG namelist format' for direction on a proper ChiDG namelist format.<br />
+</p>
+<p>In a directory with the ChiDG-format grid file and a valid chidg.nml namelist input file, the <code>chidg</code> simulation can be run by calling the ChiDG executable in that directory as</p>
+<div class="fragment"><div class="line">chidg       </div>
+</div><!-- fragment --><p><br />
+<br />
 <br />
 </p>
 </div></div><!-- contents -->
@@ -117,7 +160,7 @@ Command line</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Feb 25 2016 21:59:32 for ChiDG by
+    <li class="footer">Generated on Wed May 11 2016 22:43:38 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

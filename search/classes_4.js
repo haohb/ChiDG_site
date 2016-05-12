@@ -4,7 +4,6 @@ var searchData=
   ['face_5ft',['face_t',['../structtype__face_1_1face__t.html',1,'type_face']]],
   ['facequadrature_5ft',['facequadrature_t',['../structtype__facequadrature_1_1facequadrature__t.html',1,'type_facequadrature']]],
   ['fcnvector_5ft',['fcnvector_t',['../structtype__fcnvector_1_1fcnvector__t.html',1,'type_fcnvector']]],
-  ['fgmres_5fhouseholder_5ft',['fgmres_householder_t',['../structtype__fgmres__householder_1_1fgmres__householder__t.html',1,'type_fgmres_householder']]],
   ['fgmres_5ft',['fgmres_t',['../structtype__fgmres_1_1fgmres__t.html',1,'type_fgmres']]],
   ['file_5fproperties_5ft',['file_properties_t',['../structtype__file__properties_1_1file__properties__t.html',1,'type_file_properties']]],
   ['fluid_5ft',['fluid_t',['../structatype__fluid_1_1fluid__t.html',1,'atype_fluid']]],

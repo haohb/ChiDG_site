@@ -11,5 +11,6 @@ var mod__hdf__utilities_8f90 =
     [ "get_ndomains_hdf", "mod__hdf__utilities_8f90.html#a6a2757f6d0054a227d23e90ed66252c8", null ],
     [ "get_order_coordinate_hdf", "mod__hdf__utilities_8f90.html#af452825240e766119307d1b5ffc2948e", null ],
     [ "get_order_solution_hdf", "mod__hdf__utilities_8f90.html#afe9ea415a1e691609cb93f6fa116e99a", null ],
-    [ "get_properties_hdf", "mod__hdf__utilities_8f90.html#aa2b7f8a08ef423f6ae832f624ed13b0b", null ]
+    [ "get_properties_hdf", "mod__hdf__utilities_8f90.html#aa2b7f8a08ef423f6ae832f624ed13b0b", null ],
+    [ "get_spacedim_hdf", "mod__hdf__utilities_8f90.html#adb7bfd7d574c5bfb66ebc008169ac08e", null ]
 ];

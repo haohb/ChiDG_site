@@ -106,7 +106,8 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="structtype__face__info_1_1face__info__t.html#a7250efa91e24393e9bf9d4a4bb9e76a0">type_face_info::face_info_t</a>
 </li>
 <li>self_interface()
-: <a class="el" href="interfacetype__timescheme_1_1self__interface.html#ad3105253e8afbd81dd4b8b8343f854bd">type_timescheme::self_interface</a>
+: <a class="el" href="interfacetype__nonlinear__solver_1_1self__interface.html#a60713ec4e10b8e6914ad132e868a0131">type_nonlinear_solver::self_interface</a>
+, <a class="el" href="interfacetype__time__scheme_1_1self__interface.html#ab89a2862a43ed6af0609cc647c9175cc">type_time_scheme::self_interface</a>
 </li>
 <li>send
 : <a class="el" href="structtype__chimera_1_1chimera__t.html#a975115e6053fd3181988e8a2a9460fc7">type_chimera::chimera_t</a>
@@ -115,9 +116,10 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 : <a class="el" href="structtype__bcproperty_1_1bcproperty__t.html#a2a78ce7efd22c067fba078e923a9952e">type_bcproperty::bcproperty_t</a>
 , <a class="el" href="structtype__chidg_1_1chidg__t.html#a644d4e0b89860cb022fff14d3bc44957">type_chidg::chidg_t</a>
 , <a class="el" href="structtype__dict_1_1dict__t.html#abd90c81d30e57e99d08d330787ed29ee">type_dict::dict_t</a>
-, <a class="el" href="structtype__matrixsolver_1_1matrixsolver__t.html#a7bc8479c19964e19530a15640b333529">type_matrixsolver::matrixsolver_t</a>
+, <a class="el" href="structtype__linear__solver_1_1linear__solver__t.html#a636fbbc97415c48f7a08d3e67d7aa9df">type_linear_solver::linear_solver_t</a>
+, <a class="el" href="structtype__nonlinear__solver_1_1nonlinear__solver__t.html#a874d3e013d06369db7b2bcd8630d6e79">type_nonlinear_solver::nonlinear_solver_t</a>
 , <a class="el" href="structtype__point_1_1point__t.html#a999ab831a0ae363ae8ce0480f3bbe456">type_point::point_t</a>
-, <a class="el" href="structtype__timescheme_1_1timescheme__t.html#a9b1d6d4f06b3efedce1b88e04d81603d">type_timescheme::timescheme_t</a>
+, <a class="el" href="structtype__time__scheme_1_1time__scheme__t.html#a1af812bdeae035f98f1609aa286eb8a2">type_time_scheme::time_scheme_t</a>
 </li>
 <li>set_fcn()
 : <a class="el" href="structtype__bc_1_1bc__t.html#a5589cc5b9e9d4021ebc2a3bf5828e0a3">type_bc::bc_t</a>
@@ -169,6 +171,9 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 <li>solinitialized
 : <a class="el" href="structtype__mesh_1_1mesh__t.html#a0e2ff3529637cbb04d7551099ce68ccd">type_mesh::mesh_t</a>
 </li>
+<li>solution_point()
+: <a class="el" href="structtype__element_1_1element__t.html#afc5f41b955c70d304833ede322e8a17c">type_element::element_t</a>
+</li>
 <li>solve()
 : <a class="el" href="structbackward__euler_1_1backward__euler__t.html#ab37326bdb5fae73514c81e9d330c6881">backward_euler::backward_euler_t</a>
 , <a class="el" href="structbackward__euler__subiteration_1_1backward__euler__subiteration__t.html#a457cf02d0dac9785a575f19b7e360e1e">backward_euler_subiteration::backward_euler_subiteration_t</a>
@@ -178,20 +183,28 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 , <a class="el" href="structtype__blockjacobi_1_1blockjacobi__t.html#ac4d311f78582cddf8a6f7b6c4ee1c540">type_blockjacobi::blockjacobi_t</a>
 , <a class="el" href="structtype__directsolver_1_1directsolver__t.html#a65c032bfe90f560a40fff20c01438521">type_directsolver::directsolver_t</a>
 , <a class="el" href="structtype__fgmres_1_1fgmres__t.html#a697f9b69188f9297c7563ca3fada276b">type_fgmres::fgmres_t</a>
-, <a class="el" href="structtype__fgmres__householder_1_1fgmres__householder__t.html#afeee57873e021353e06efe11cdaab1ed">type_fgmres_householder::fgmres_householder_t</a>
 , <a class="el" href="structtype__gaussseidel_1_1gaussseidel__t.html#ab89b64462efaf14f00a99df844396016">type_gaussseidel::gaussseidel_t</a>
 , <a class="el" href="structtype__gmres_1_1gmres__t.html#ac40d56fc028cd62c694c3c1e6caedacd">type_gmres::gmres_t</a>
-, <a class="el" href="structtype__matrixsolver_1_1matrixsolver__t.html#a38727b54d10c106d38f25cba8becc924">type_matrixsolver::matrixsolver_t</a>
+, <a class="el" href="structtype__linear__solver_1_1linear__solver__t.html#a4756d63f67642992186428dae289c6c3">type_linear_solver::linear_solver_t</a>
+, <a class="el" href="structtype__nonlinear__solver_1_1nonlinear__solver__t.html#a82f47b82ffd86086066928789d0b2c91">type_nonlinear_solver::nonlinear_solver_t</a>
 , <a class="el" href="structtype__sor_1_1sor__t.html#aa065794d64ae3ed1fdf8c5ff6dec6582">type_sor::sor_t</a>
-, <a class="el" href="structtype__timescheme_1_1timescheme__t.html#a3d11699ffaa930e18cd5deec56394e68">type_timescheme::timescheme_t</a>
 </li>
 <li>solve_interface()
-: <a class="el" href="interfacetype__matrixsolver_1_1solve__interface.html#a7ff980139132fa9b296ff2ddb8360cf8">type_matrixsolver::solve_interface</a>
+: <a class="el" href="interfacetype__linear__solver_1_1solve__interface.html#a93d7b794d434b2ac4bc15a8441526cd8">type_linear_solver::solve_interface</a>
 </li>
 <li>solverinitialized
 : <a class="el" href="structtype__chidg__data_1_1chidg__data__t.html#aad1adea0d2d50bacd8b0bede1b3faac5">type_chidg_data::chidg_data_t</a>
+, <a class="el" href="structtype__nonlinear__solver_1_1nonlinear__solver__t.html#a0d8e5d349f5d93f233c7da6f8df51545">type_nonlinear_solver::nonlinear_solver_t</a>
 , <a class="el" href="structtype__solverdata_1_1solverdata__t.html#a44fb6428a05eb1a88ff4182d7aa00286">type_solverdata::solverdata_t</a>
-, <a class="el" href="structtype__timescheme_1_1timescheme__t.html#a8877f812eea337084d71ad5a3188245f">type_timescheme::timescheme_t</a>
+, <a class="el" href="structtype__time__scheme_1_1time__scheme__t.html#aee32608eda9cac7b9e3112c4e0e8e1b9">type_time_scheme::time_scheme_t</a>
+</li>
+<li>spacedim
+: <a class="el" href="structtype__element_1_1element__t.html#a40ecd62850dc813e42cc160e0cce5b29">type_element::element_t</a>
+, <a class="el" href="structtype__face_1_1face__t.html#a918363d26d7b4b7142d3c3d5e4c8ecaa">type_face::face_t</a>
+, <a class="el" href="structtype__file__properties_1_1file__properties__t.html#ac8788f5421be8688a79253d700712a97">type_file_properties::file_properties_t</a>
+, <a class="el" href="structtype__mesh_1_1mesh__t.html#a005d0726e3ea0b2a6bae8b857df39bbc">type_mesh::mesh_t</a>
+, <a class="el" href="structtype__meshdata_1_1meshdata__t.html#ab26ca368bfb1212129142d28b6868329">type_meshdata::meshdata_t</a>
+, <a class="el" href="structtype__quadrature_1_1quadrature__t.html#a509f6cd76ecca4fa567b77fc6372078c">type_quadrature::quadrature_t</a>
 </li>
 <li>start()
 : <a class="el" href="structtype__timer_1_1timer__t.html#a9c24600c156c254fe5865a5a674b9579">type_timer::timer_t</a>
@@ -217,7 +230,6 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 <li>store()
 : <a class="el" href="structtype__blockmatrix_1_1blockmatrix__t.html#a63b53704f920bd250f0ea38a00c9e1b7">type_blockmatrix::blockmatrix_t</a>
 , <a class="el" href="structtype__chidgmatrix_1_1chidgmatrix__t.html#afcb8b8681406c2e22c8ed1a7fab4229f">type_chidgmatrix::chidgmatrix_t</a>
-, <a class="el" href="structtype__testmatrix_1_1testmatrix__t.html#ab84b8d1cea9d6c68a06bb1df9867990d">type_testmatrix::testmatrix_t</a>
 </li>
 <li>store_bc()
 : <a class="el" href="structtype__blockmatrix_1_1blockmatrix__t.html#a551e6affb00516af48f150ac4484adf1">type_blockmatrix::blockmatrix_t</a>
@@ -242,7 +254,7 @@ $(document).ready(function(){initNavTree('functions_s.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Feb 25 2016 21:59:47 for ChiDG by
+    <li class="footer">Generated on Wed May 11 2016 22:44:00 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

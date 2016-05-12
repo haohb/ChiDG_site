@@ -11,19 +11,23 @@ var page_codedetails =
       ] ]
     ] ],
     [ "Mesh data structures", "subpage_mesh.html", "subpage_mesh" ],
-    [ "Solution data structures", "subpage_solution.html", [
-      [ "ChiDG vector", "subpage_solution.html#s_solution_chidgvector", [
-        [ "Block vector", "subpage_solution.html#s_solution_chidgvector_blockvector", null ],
-        [ "Dense vector", "subpage_solution.html#s_solution_chidgvector_densevector", null ]
+    [ "Solver data structures", "subpage_solver.html", [
+      [ "ChiDG vector", "subpage_solver.html#s_solver_chidgvector", [
+        [ "Block vector", "subpage_solver.html#s_solver_chidgvector_blockvector", null ],
+        [ "Dense vector", "subpage_solver.html#s_solver_chidgvector_densevector", null ]
       ] ],
-      [ "ChiDG matrix", "subpage_solution.html#s_solution_chidgmatrix", null ]
+      [ "ChiDG matrix", "subpage_solver.html#s_solver_chidgmatrix", [
+        [ "Block matrix", "subpage_solver.html#s_solver_chidgmatrix_blockmatrix", null ],
+        [ "Dense matrix", "subpage_solver.html#s_solver_chidgmatrix_densematrix", null ]
+      ] ]
     ] ],
     [ "Equation sets", "subpage_equationsets.html", [
       [ "Mathematical background", "subpage_equationsets.html#s_equationset_background", null ],
       [ "ChiDG equation set", "subpage_equationsets.html#s_equationset_chidg", null ],
       [ "Defining a new equation set", "subpage_equationsets.html#s_equationset", null ]
     ] ],
-    [ "Quadrature", "subpage_quadrature.html", null ],
+    [ "Integration", "subpage_integration.html", null ],
+    [ "Automatic Differentiation", "subpage_autodiff.html", null ],
     [ "Input/Output", "subpage_io.html", [
       [ "Grid", "subpage_io.html#s_io_grid", null ],
       [ "Variables", "subpage_io.html#s_io_variables", null ]

@@ -132,6 +132,9 @@ Functions/Subroutines</h2></td></tr>
 <tr class="memitem:afe9ea415a1e691609cb93f6fa116e99a"><td class="memItemLeft" align="right" valign="top">integer(ik) function, dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__hdf__utilities.html#afe9ea415a1e691609cb93f6fa116e99a">get_order_solution_hdf</a> (fid, dnames)</td></tr>
 <tr class="memdesc:afe9ea415a1e691609cb93f6fa116e99a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an array of integer that specifies the order of the solution expansion for every domain.  <a href="#afe9ea415a1e691609cb93f6fa116e99a">More...</a><br /></td></tr>
 <tr class="separator:afe9ea415a1e691609cb93f6fa116e99a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb7bfd7d574c5bfb66ebc008169ac08e"><td class="memItemLeft" align="right" valign="top">integer(ik) function, dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__hdf__utilities.html#adb7bfd7d574c5bfb66ebc008169ac08e">get_spacedim_hdf</a> (fid, dnames)</td></tr>
+<tr class="memdesc:adb7bfd7d574c5bfb66ebc008169ac08e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an array of integers that specifies the number of spatial dimensions to use for every domain.  <a href="#adb7bfd7d574c5bfb66ebc008169ac08e">More...</a><br /></td></tr>
+<tr class="separator:adb7bfd7d574c5bfb66ebc008169ac08e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab50aebc5af025871050cf0c7f3c86a25"><td class="memItemLeft" align="right" valign="top">character(len=1024) function, dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__hdf__utilities.html#ab50aebc5af025871050cf0c7f3c86a25">get_eqnset_hdf</a> (fid, dnames)</td></tr>
 <tr class="memdesc:ab50aebc5af025871050cf0c7f3c86a25"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an array of integer that specifies the order of the solution expansion for every domain.  <a href="#ab50aebc5af025871050cf0c7f3c86a25">More...</a><br /></td></tr>
 <tr class="separator:ab50aebc5af025871050cf0c7f3c86a25"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -514,13 +517,50 @@ Functions/Subroutines</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="adb7bfd7d574c5bfb66ebc008169ac08e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer(ik) function, dimension(:), allocatable mod_hdf_utilities::get_spacedim_hdf </td>
+          <td>(</td>
+          <td class="paramtype">integer(hid_t), intent(in)&#160;</td>
+          <td class="paramname"><em>fid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">character(len=1024), dimension(:), intent(in)&#160;</td>
+          <td class="paramname"><em>dnames</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns an array of integers that specifies the number of spatial dimensions to use for every domain. </p>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>4/11/2016</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">fid</td><td>HDF file identifier. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">dnames(:)</td><td>List of domain names to be interrogated. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemod__hdf__utilities.html">mod_hdf_utilities</a></li>
-    <li class="footer">Generated on Thu Feb 25 2016 21:59:43 for ChiDG by
+    <li class="footer">Generated on Wed May 11 2016 22:43:52 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

@@ -118,15 +118,18 @@ Modules</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions/Subroutines</h2></td></tr>
-<tr class="memitem:abe6ec6e137d907e87874ab051de2e496"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetype__chidg__data.html#abe6ec6e137d907e87874ab051de2e496">type_chidg_data::init_sdata</a> (self)</td></tr>
-<tr class="memdesc:abe6ec6e137d907e87874ab051de2e496"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize solution data storage structures. Needs to be called before accessing any solution storage containers so they are allocated and initialized.  <a href="namespacetype__chidg__data.html#abe6ec6e137d907e87874ab051de2e496">More...</a><br /></td></tr>
-<tr class="separator:abe6ec6e137d907e87874ab051de2e496"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff27af56f3e4410269a46c775032ea23"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetype__chidg__data.html#aff27af56f3e4410269a46c775032ea23">type_chidg_data::add_domain</a> (self, name, points, nterms_c, eqnset, nterms_s)</td></tr>
-<tr class="memdesc:aff27af56f3e4410269a46c775032ea23"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a domain to ChiDG. Calls initialization routines for components which define a domain. That is, a mesh_t, an equationset_t, and the number of terms in their polynomial expansions.  <a href="namespacetype__chidg__data.html#aff27af56f3e4410269a46c775032ea23">More...</a><br /></td></tr>
-<tr class="separator:aff27af56f3e4410269a46c775032ea23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af38f477b863db363675ef34ccb261908"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetype__chidg__data.html#af38f477b863db363675ef34ccb261908">type_chidg_data::initialize_solution_solver</a> (self)</td></tr>
+<tr class="memdesc:af38f477b863db363675ef34ccb261908"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialize solution data storage structures. Needs to be called before accessing any solution storage containers so they are allocated and initialized.  <a href="namespacetype__chidg__data.html#af38f477b863db363675ef34ccb261908">More...</a><br /></td></tr>
+<tr class="separator:af38f477b863db363675ef34ccb261908"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38c3492a513c852e2e2b8aa918dba7d8"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetype__chidg__data.html#a38c3492a513c852e2e2b8aa918dba7d8">type_chidg_data::add_domain</a> (self, name, points, spacedim, nterms_c, eqnset)</td></tr>
+<tr class="memdesc:a38c3492a513c852e2e2b8aa918dba7d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a domain to ChiDG. Calls initialization routines for components which define a domain. That is, a mesh_t, an equationset_t, and the number of terms in their polynomial expansions.  <a href="namespacetype__chidg__data.html#a38c3492a513c852e2e2b8aa918dba7d8">More...</a><br /></td></tr>
+<tr class="separator:a38c3492a513c852e2e2b8aa918dba7d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab255857b7e6d656835810aa8ac9dee67"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetype__chidg__data.html#ab255857b7e6d656835810aa8ac9dee67">type_chidg_data::add_bc</a> (self, domain, bc, face)</td></tr>
 <tr class="memdesc:ab255857b7e6d656835810aa8ac9dee67"><td class="mdescLeft">&#160;</td><td class="mdescRight">Add a boundary condition to a ChiDG domain.  <a href="namespacetype__chidg__data.html#ab255857b7e6d656835810aa8ac9dee67">More...</a><br /></td></tr>
 <tr class="separator:ab255857b7e6d656835810aa8ac9dee67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c7244ab8f4ec082bbf3f7d74409ccde"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetype__chidg__data.html#a6c7244ab8f4ec082bbf3f7d74409ccde">type_chidg_data::initialize_solution_domains</a> (self, nterms_s)</td></tr>
+<tr class="memdesc:a6c7244ab8f4ec082bbf3f7d74409ccde"><td class="mdescLeft">&#160;</td><td class="mdescRight">For each domain, call solution initialization.  <a href="namespacetype__chidg__data.html#a6c7244ab8f4ec082bbf3f7d74409ccde">More...</a><br /></td></tr>
+<tr class="separator:a6c7244ab8f4ec082bbf3f7d74409ccde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd16ff332e4444304fb3766656d40f45"><td class="memItemLeft" align="right" valign="top">integer(ik) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetype__chidg__data.html#acd16ff332e4444304fb3766656d40f45">type_chidg_data::get_domain_index</a> (self, dname)</td></tr>
 <tr class="memdesc:acd16ff332e4444304fb3766656d40f45"><td class="mdescLeft">&#160;</td><td class="mdescRight">Given a character string corresponding to the name of a given domain, find and return the index of that domain in the ChiDG_data instance.  <a href="namespacetype__chidg__data.html#acd16ff332e4444304fb3766656d40f45">More...</a><br /></td></tr>
 <tr class="separator:acd16ff332e4444304fb3766656d40f45"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,7 +143,7 @@ Functions/Subroutines</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_b49d1c049336abd674773e9fa330e5ab.html">chidg</a></li><li class="navelem"><a class="el" href="type__chidg__data_8f90.html">type_chidg_data.f90</a></li>
-    <li class="footer">Generated on Thu Feb 25 2016 21:59:32 for ChiDG by
+    <li class="footer">Generated on Wed May 11 2016 22:43:38 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

@@ -12,8 +12,20 @@ var searchData=
   ['bc_5feuler_5ftotalinlet',['bc_euler_totalinlet',['../namespacebc__euler__totalinlet.html',1,'']]],
   ['bc_5feuler_5ftotalinlet_5fcharacteristic',['bc_euler_totalinlet_characteristic',['../namespacebc__euler__totalinlet__characteristic.html',1,'']]],
   ['bc_5feuler_5fwall',['bc_euler_wall',['../namespacebc__euler__wall.html',1,'']]],
+  ['bc_5fkirchoff',['bc_kirchoff',['../namespacebc__kirchoff.html',1,'']]],
   ['bc_5flinearadvection_5fextrapolate',['bc_linearadvection_extrapolate',['../namespacebc__linearadvection__extrapolate.html',1,'']]],
   ['bc_5flineuler_5fextrapolate',['bc_lineuler_extrapolate',['../namespacebc__lineuler__extrapolate.html',1,'']]],
   ['bc_5flineuler_5finlet',['bc_lineuler_inlet',['../namespacebc__lineuler__inlet.html',1,'']]],
-  ['bc_5fperiodic',['bc_periodic',['../namespacebc__periodic.html',1,'']]]
+  ['bc_5flineuler_5foutlet',['bc_lineuler_outlet',['../namespacebc__lineuler__outlet.html',1,'']]],
+  ['bc_5flineuler_5fwall',['bc_lineuler_wall',['../namespacebc__lineuler__wall.html',1,'']]],
+  ['bc_5fperiodic',['bc_periodic',['../namespacebc__periodic.html',1,'']]],
+  ['bc_5fprimlineuler_5fextrapolate',['bc_primlineuler_extrapolate',['../namespacebc__primlineuler__extrapolate.html',1,'']]],
+  ['bc_5fprimlineuler_5finlet',['bc_primlineuler_inlet',['../namespacebc__primlineuler__inlet.html',1,'']]],
+  ['bc_5fprimlineuler_5foutlet',['bc_primlineuler_outlet',['../namespacebc__primlineuler__outlet.html',1,'']]],
+  ['bc_5fprimlineuler_5fwall',['bc_primlineuler_wall',['../namespacebc__primlineuler__wall.html',1,'']]],
+  ['bc_5fprimlineuleraxi_5faxi',['bc_primlineuleraxi_axi',['../namespacebc__primlineuleraxi__axi.html',1,'']]],
+  ['bc_5fprimlineuleraxi_5fextrapolate',['bc_primlineuleraxi_extrapolate',['../namespacebc__primlineuleraxi__extrapolate.html',1,'']]],
+  ['bc_5fprimlineuleraxi_5finlet',['bc_primlineuleraxi_inlet',['../namespacebc__primlineuleraxi__inlet.html',1,'']]],
+  ['bc_5fprimlineuleraxi_5foutlet',['bc_primlineuleraxi_outlet',['../namespacebc__primlineuleraxi__outlet.html',1,'']]],
+  ['bc_5fprimlineuleraxi_5fwall',['bc_primlineuleraxi_wall',['../namespacebc__primlineuleraxi__wall.html',1,'']]]
 ];

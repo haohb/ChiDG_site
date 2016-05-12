@@ -108,9 +108,9 @@ Functions/Subroutines</h2></td></tr>
 <tr class="memitem:ab3b24ec2996a3bd9c9943d426a1e02de"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__grid__tools.html#ab3b24ec2996a3bd9c9943d426a1e02de">compute_discrete_coordinates</a> (cmodes, igq, pts)</td></tr>
 <tr class="memdesc:ab3b24ec2996a3bd9c9943d426a1e02de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute discrete coordinate values, given the modes of a coordinate expansion.  <a href="#ab3b24ec2996a3bd9c9943d426a1e02de">More...</a><br /></td></tr>
 <tr class="separator:ab3b24ec2996a3bd9c9943d426a1e02de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2efd79536c227ceed5282188289af02c"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__grid__tools.html#a2efd79536c227ceed5282188289af02c">compute_modal_coordinates</a> (pts, imap, cmodes)</td></tr>
-<tr class="memdesc:a2efd79536c227ceed5282188289af02c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the modal representation of the point coordinates given an array of points and an element mapping.  <a href="#a2efd79536c227ceed5282188289af02c">More...</a><br /></td></tr>
-<tr class="separator:a2efd79536c227ceed5282188289af02c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20647889253f7e015972c47abff4fbde"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__grid__tools.html#a20647889253f7e015972c47abff4fbde">compute_modal_coordinates</a> (spacedim, pts, imap, cmodes)</td></tr>
+<tr class="memdesc:a20647889253f7e015972c47abff4fbde"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the modal representation of the point coordinates given an array of points and an element mapping.  <a href="#a20647889253f7e015972c47abff4fbde">More...</a><br /></td></tr>
+<tr class="separator:a20647889253f7e015972c47abff4fbde"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function/Subroutine Documentation</h2>
 <a class="anchor" id="ab3b24ec2996a3bd9c9943d426a1e02de"></a>
@@ -157,13 +157,19 @@ Functions/Subroutines</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a2efd79536c227ceed5282188289af02c"></a>
+<a class="anchor" id="a20647889253f7e015972c47abff4fbde"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">subroutine mod_grid_tools::compute_modal_coordinates </td>
           <td>(</td>
+          <td class="paramtype">integer(ik), intent(in)&#160;</td>
+          <td class="paramname"><em>spacedim</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">type(<a class="el" href="structtype__point_1_1point__t.html">point_t</a>), dimension(:), intent(in)&#160;</td>
           <td class="paramname"><em>pts</em>, </td>
         </tr>
@@ -207,7 +213,7 @@ Functions/Subroutines</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemod__grid__tools.html">mod_grid_tools</a></li>
-    <li class="footer">Generated on Thu Feb 25 2016 21:59:43 for ChiDG by
+    <li class="footer">Generated on Wed May 11 2016 22:43:52 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

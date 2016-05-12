@@ -112,9 +112,9 @@ Functions/Subroutines</h2></td></tr>
 <tr class="memitem:acc9b406ab9a327d4924189efa78eb812"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#acc9b406ab9a327d4924189efa78eb812">log_finalize</a> ()</td></tr>
 <tr class="memdesc:acc9b406ab9a327d4924189efa78eb812"><td class="mdescLeft">&#160;</td><td class="mdescRight">Log finalization.  <a href="#acc9b406ab9a327d4924189efa78eb812">More...</a><br /></td></tr>
 <tr class="separator:acc9b406ab9a327d4924189efa78eb812"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afede6dfaa6b1475d83477d6fe5f4464d"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#afede6dfaa6b1475d83477d6fe5f4464d">message</a> (pathname, linenum, sig, msg, info_one, info_two)</td></tr>
-<tr class="memdesc:afede6dfaa6b1475d83477d6fe5f4464d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Message routine for handling warnings and errors. Reports file name, line number, and warn/error message. This would usually not be called directly. Rather, use the macro defined in message.h that automatically inserts filename and linenumber.  <a href="#afede6dfaa6b1475d83477d6fe5f4464d">More...</a><br /></td></tr>
-<tr class="separator:afede6dfaa6b1475d83477d6fe5f4464d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a991ebc455fef56e21ad67482f18d97"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#a4a991ebc455fef56e21ad67482f18d97">message</a> (pathname, linenum, sig, msg, info_one, info_two, info_three)</td></tr>
+<tr class="memdesc:a4a991ebc455fef56e21ad67482f18d97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Message routine for handling warnings and errors. Reports file name, line number, and warn/error message. This would usually not be called directly. Rather, use the macro defined in message.h that automatically inserts filename and linenumber.  <a href="#a4a991ebc455fef56e21ad67482f18d97">More...</a><br /></td></tr>
+<tr class="separator:a4a991ebc455fef56e21ad67482f18d97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9cc95b66bdab73a154d56dd0c8fc6dd6"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemessenger.html#a9cc95b66bdab73a154d56dd0c8fc6dd6">write_line</a> (a, b, c, d, e, f, g, h, delimiter, columns, column_width, color, ltrim)</td></tr>
 <tr class="memdesc:a9cc95b66bdab73a154d56dd0c8fc6dd6"><td class="mdescLeft">&#160;</td><td class="mdescRight">This subroutine writes a line to IO that is composed of 8 optional incoming variables. This is accomplished by first passing each component to the 'add_to_line' subroutine, which assembles the data into the 'line' module-global variable. Then, the 'send_line' subroutine is called to handle the destination of the line to either the screen, a file, or both.  <a href="#a9cc95b66bdab73a154d56dd0c8fc6dd6">More...</a><br /></td></tr>
 <tr class="separator:a9cc95b66bdab73a154d56dd0c8fc6dd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -252,7 +252,7 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="afede6dfaa6b1475d83477d6fe5f4464d"></a>
+<a class="anchor" id="a4a991ebc455fef56e21ad67482f18d97"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -290,7 +290,13 @@ Variables</h2></td></tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">class(*), intent(in), optional, target&#160;</td>
-          <td class="paramname"><em>info_two</em>&#160;</td>
+          <td class="paramname"><em>info_two</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">class(*), intent(in), optional, target&#160;</td>
+          <td class="paramname"><em>info_three</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -577,7 +583,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemessenger.html">messenger</a></li>
-    <li class="footer">Generated on Thu Feb 25 2016 21:59:42 for ChiDG by
+    <li class="footer">Generated on Wed May 11 2016 22:43:52 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

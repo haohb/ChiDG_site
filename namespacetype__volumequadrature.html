@@ -112,12 +112,12 @@ Data Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions/Subroutines</h2></td></tr>
-<tr class="memitem:a36a821d566b3bf397abada09d539e409"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetype__volumequadrature.html#a36a821d566b3bf397abada09d539e409">init</a> (self, nnodes, nterms)</td></tr>
-<tr class="memdesc:a36a821d566b3bf397abada09d539e409"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialization routine for volumeQuadrature_t instance.  <a href="#a36a821d566b3bf397abada09d539e409">More...</a><br /></td></tr>
-<tr class="separator:a36a821d566b3bf397abada09d539e409"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe55e1d4cc9e91758cb6425f6b256462"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetype__volumequadrature.html#abe55e1d4cc9e91758cb6425f6b256462">init</a> (self, spacedim, nnodes, nterms)</td></tr>
+<tr class="memdesc:abe55e1d4cc9e91758cb6425f6b256462"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialization routine for volumeQuadrature_t instance.  <a href="#abe55e1d4cc9e91758cb6425f6b256462">More...</a><br /></td></tr>
+<tr class="separator:abe55e1d4cc9e91758cb6425f6b256462"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function/Subroutine Documentation</h2>
-<a class="anchor" id="a36a821d566b3bf397abada09d539e409"></a>
+<a class="anchor" id="abe55e1d4cc9e91758cb6425f6b256462"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -126,6 +126,12 @@ Functions/Subroutines</h2></td></tr>
           <td>(</td>
           <td class="paramtype">class(<a class="el" href="structtype__volumequadrature_1_1volumequadrature__t.html">volumequadrature_t</a>), intent(inout)&#160;</td>
           <td class="paramname"><em>self</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer(ik), intent(in)&#160;</td>
+          <td class="paramname"><em>spacedim</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -155,10 +161,11 @@ Functions/Subroutines</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">nnodes</td><td>Number of nodes used for Gauss-quadrature </td></tr>
-    <tr><td class="paramdir">[in]</td><td class="paramname">nterms</td><td>Number of terms in the associated polynomial expansion </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">nterms</td><td>Number of terms in the associated polynomial expansion</td></tr>
   </table>
   </dd>
 </dl>
+<p>TODO: TEST SPACEDIM </p>
 
 </div>
 </div>
@@ -168,7 +175,7 @@ Functions/Subroutines</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetype__volumequadrature.html">type_volumequadrature</a></li>
-    <li class="footer">Generated on Thu Feb 25 2016 21:59:47 for ChiDG by
+    <li class="footer">Generated on Wed May 11 2016 22:44:00 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

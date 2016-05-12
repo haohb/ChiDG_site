@@ -112,12 +112,35 @@ Data Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions/Subroutines</h2></td></tr>
-<tr class="memitem:a77320ce2f810b9bfaaa75c34e634ace3"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebc__lineuler__extrapolate.html#a77320ce2f810b9bfaaa75c34e634ace3">compute</a> (self, mesh, sdata, prop, idom, ielem, iface, iblk)</td></tr>
-<tr class="memdesc:a77320ce2f810b9bfaaa75c34e634ace3"><td class="mdescLeft">&#160;</td><td class="mdescRight">bc implementation  <a href="#a77320ce2f810b9bfaaa75c34e634ace3">More...</a><br /></td></tr>
-<tr class="separator:a77320ce2f810b9bfaaa75c34e634ace3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8167137d86553e5f42352e17fa2b14be"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebc__lineuler__extrapolate.html#a8167137d86553e5f42352e17fa2b14be">add_options</a> (self)</td></tr>
+<tr class="memdesc:a8167137d86553e5f42352e17fa2b14be"><td class="mdescLeft">&#160;</td><td class="mdescRight">bc implementation  <a href="#a8167137d86553e5f42352e17fa2b14be">More...</a><br /></td></tr>
+<tr class="separator:a8167137d86553e5f42352e17fa2b14be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4fa72a9a028e2f767932e64fcda6226"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacebc__lineuler__extrapolate.html#ab4fa72a9a028e2f767932e64fcda6226">compute</a> (self, mesh, sdata, prop, face, flux)</td></tr>
+<tr class="memdesc:ab4fa72a9a028e2f767932e64fcda6226"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specialized compute routine for Extrapolation Boundary Condition.  <a href="#ab4fa72a9a028e2f767932e64fcda6226">More...</a><br /></td></tr>
+<tr class="separator:ab4fa72a9a028e2f767932e64fcda6226"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function/Subroutine Documentation</h2>
-<a class="anchor" id="a77320ce2f810b9bfaaa75c34e634ace3"></a>
+<a class="anchor" id="a8167137d86553e5f42352e17fa2b14be"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">subroutine bc_lineuler_extrapolate::add_options </td>
+          <td>(</td>
+          <td class="paramtype">class(<a class="el" href="structbc__lineuler__extrapolate_1_1lineuler__extrapolate__t.html">lineuler_extrapolate_t</a>), intent(inout)&#160;</td>
+          <td class="paramname"><em>self</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>bc implementation </p>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>3/17/2016 </dd></dl>
+
+</div>
+</div>
+<a class="anchor" id="ab4fa72a9a028e2f767932e64fcda6226"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -148,26 +171,14 @@ Functions/Subroutines</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">integer(ik), intent(in)&#160;</td>
-          <td class="paramname"><em>idom</em>, </td>
+          <td class="paramtype">type(<a class="el" href="structtype__face__info_1_1face__info__t.html">face_info_t</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>face</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">integer(ik), intent(in)&#160;</td>
-          <td class="paramname"><em>ielem</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer(ik), intent(in)&#160;</td>
-          <td class="paramname"><em>iface</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">integer(ik), intent(in)&#160;</td>
-          <td class="paramname"><em>iblk</em>&#160;</td>
+          <td class="paramtype">type(<a class="el" href="structtype__function__info_1_1function__info__t.html">function_info_t</a>), intent(in)&#160;</td>
+          <td class="paramname"><em>flux</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -177,9 +188,9 @@ Functions/Subroutines</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>bc implementation </p>
-<p>Specialized compute routine for Extrapolation Boundary Condition</p>
-<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie</dd></dl>
+<p>Specialized compute routine for Extrapolation Boundary Condition. </p>
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>3/17/2016</dd></dl>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">mesh</td><td>Mesh data containing elements and faces for the domain </td></tr>
@@ -200,7 +211,7 @@ Functions/Subroutines</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacebc__lineuler__extrapolate.html">bc_lineuler_extrapolate</a></li>
-    <li class="footer">Generated on Thu Feb 25 2016 21:59:35 for ChiDG by
+    <li class="footer">Generated on Wed May 11 2016 22:43:42 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

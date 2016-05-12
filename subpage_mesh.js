@@ -12,5 +12,5 @@ var subpage_mesh =
     [ "Chimera Interfaces", "subpage_mesh.html#s_chimera", [
       [ "Example", "subpage_mesh.html#s_chimera_example", null ]
     ] ],
-    [ "Quadrature", "subpage_quadrature.html", null ]
+    [ "Integration", "subpage_integration.html", null ]
 ];

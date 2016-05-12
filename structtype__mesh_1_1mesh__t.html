@@ -119,6 +119,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:a005d0726e3ea0b2a6bae8b857df39bbc"><td class="memItemLeft" align="right" valign="top">integer(ik)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__mesh_1_1mesh__t.html#a005d0726e3ea0b2a6bae8b857df39bbc">spacedim</a> = 0</td></tr>
+<tr class="memdesc:a005d0726e3ea0b2a6bae8b857df39bbc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of spatial dimensions.  <a href="#a005d0726e3ea0b2a6bae8b857df39bbc">More...</a><br /></td></tr>
+<tr class="separator:a005d0726e3ea0b2a6bae8b857df39bbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2d8c0a12f194b7c0b763d3730b2992dd"><td class="memItemLeft" align="right" valign="top">integer(ik)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__mesh_1_1mesh__t.html#a2d8c0a12f194b7c0b763d3730b2992dd">neqns</a> = 0</td></tr>
 <tr class="memdesc:a2d8c0a12f194b7c0b763d3730b2992dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of equations being solved.  <a href="#a2d8c0a12f194b7c0b763d3730b2992dd">More...</a><br /></td></tr>
 <tr class="separator:a2d8c0a12f194b7c0b763d3730b2992dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -140,6 +143,9 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a8e5a1d17a0fee8a60b3a7736b6be9a64"><td class="memItemLeft" align="right" valign="top">integer(ik)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__mesh_1_1mesh__t.html#a8e5a1d17a0fee8a60b3a7736b6be9a64">nelem</a> = 0</td></tr>
 <tr class="memdesc:a8e5a1d17a0fee8a60b3a7736b6be9a64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of total elements.  <a href="#a8e5a1d17a0fee8a60b3a7736b6be9a64">More...</a><br /></td></tr>
 <tr class="separator:a8e5a1d17a0fee8a60b3a7736b6be9a64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98758c527e94ed9fb9449257fecfcf22"><td class="memItemLeft" align="right" valign="top">integer(ik)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__mesh_1_1mesh__t.html#a98758c527e94ed9fb9449257fecfcf22">ntime</a> = 0</td></tr>
+<tr class="memdesc:a98758c527e94ed9fb9449257fecfcf22"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of time instances.  <a href="#a98758c527e94ed9fb9449257fecfcf22">More...</a><br /></td></tr>
+<tr class="separator:a98758c527e94ed9fb9449257fecfcf22"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a948cdbb9f38e4704638d2914952c8ebe"><td class="memItemLeft" align="right" valign="top">integer(ik)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__mesh_1_1mesh__t.html#a948cdbb9f38e4704638d2914952c8ebe">idomain</a></td></tr>
 <tr class="separator:a948cdbb9f38e4704638d2914952c8ebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55948aba332670a876ec002c80d7f197"><td class="memItemLeft" align="right" valign="top">type(<a class="el" href="structtype__element_1_1element__t.html">element_t</a>), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__mesh_1_1mesh__t.html#a55948aba332670a876ec002c80d7f197">elems</a></td></tr>
@@ -387,6 +393,20 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a98758c527e94ed9fb9449257fecfcf22"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer(ik) type_mesh::mesh_t::ntime = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Number of time instances. </p>
+
+</div>
+</div>
 <a class="anchor" id="a0e2ff3529637cbb04d7551099ce68ccd"></a>
 <div class="memitem">
 <div class="memproto">
@@ -401,6 +421,20 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a005d0726e3ea0b2a6bae8b857df39bbc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer(ik) type_mesh::mesh_t::spacedim = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Number of spatial dimensions. </p>
+
+</div>
+</div>
 <hr/>The documentation for this type was generated from the following file:<ul>
 <li>src/grid/<a class="el" href="type__mesh_8f90.html">type_mesh.f90</a></li>
 </ul>
@@ -410,7 +444,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetype__mesh.html">type_mesh</a></li><li class="navelem"><a class="el" href="structtype__mesh_1_1mesh__t.html">mesh_t</a></li>
-    <li class="footer">Generated on Thu Feb 25 2016 21:59:46 for ChiDG by
+    <li class="footer">Generated on Wed May 11 2016 22:43:59 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

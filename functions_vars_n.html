@@ -143,13 +143,14 @@ $(document).ready(function(){initNavTree('functions_vars_n.html','');});
 , <a class="el" href="structtype__mesh_1_1mesh__t.html#a2d8c0a12f194b7c0b763d3730b2992dd">type_mesh::mesh_t</a>
 </li>
 <li>newton_iterations
-: <a class="el" href="structtype__timescheme_1_1timescheme__t.html#afab4ec3a123953627b8d7894f74bd529">type_timescheme::timescheme_t</a>
+: <a class="el" href="structtype__nonlinear__solver_1_1nonlinear__solver__t.html#ab99452cdf1f363d8c81e5057a1465fdc">type_nonlinear_solver::nonlinear_solver_t</a>
+, <a class="el" href="structtype__time__scheme_1_1time__scheme__t.html#a9906b0d4766223a793dbb66a93c58c1e">type_time_scheme::time_scheme_t</a>
 </li>
 <li>nfaces
 : <a class="el" href="structtype__chimera__receiver_1_1chimera__receiver__t.html#a1854e408518a8316376233ca05843001">type_chimera_receiver::chimera_receiver_t</a>
 </li>
 <li>niter
-: <a class="el" href="structtype__matrixsolver_1_1matrixsolver__t.html#a0276efd80c8d74612b286e05216f3fbc">type_matrixsolver::matrixsolver_t</a>
+: <a class="el" href="structtype__linear__solver_1_1linear__solver__t.html#ae171365d761cf521c5db51ff0e9b1fbd">type_linear_solver::linear_solver_t</a>
 </li>
 <li>nnodes
 : <a class="el" href="structtype__facequadrature_1_1facequadrature__t.html#a449c283d9ee7c689fa93d2a6046377bc">type_facequadrature::facequadrature_t</a>
@@ -165,6 +166,9 @@ $(document).ready(function(){initNavTree('functions_vars_n.html','');});
 : <a class="el" href="structtype__facequadrature_1_1facequadrature__t.html#a408c7580088dbe70b0446457f5c8f517">type_facequadrature::facequadrature_t</a>
 , <a class="el" href="structtype__volumequadrature_1_1volumequadrature__t.html#a63ed046b861467298a7882fc83b38896">type_volumequadrature::volumequadrature_t</a>
 </li>
+<li>nonlinear_solver
+: <a class="el" href="structtype__chidg_1_1chidg__t.html#a003fecfeda65a26f8afe3e82aba32b8d">type_chidg::chidg_t</a>
+</li>
 <li>norm
 : <a class="el" href="structtype__face_1_1face__t.html#a869066fcf3c737d86db867bac2b1f838">type_face::face_t</a>
 </li>
@@ -172,7 +176,8 @@ $(document).ready(function(){initNavTree('functions_vars_n.html','');});
 : <a class="el" href="structtype__bcproperty__set_1_1bcproperty__set__t.html#ae1be7d1ec46b0809f0ea105cce042e46">type_bcproperty_set::bcproperty_set_t</a>
 </li>
 <li>nsteps
-: <a class="el" href="structtype__timescheme_1_1timescheme__t.html#addd70e7a9a0df4eb89beb0dc8d5bdbe7">type_timescheme::timescheme_t</a>
+: <a class="el" href="structtype__nonlinear__solver_1_1nonlinear__solver__t.html#a9600f995a753b967c244f29cfa250d7d">type_nonlinear_solver::nonlinear_solver_t</a>
+, <a class="el" href="structtype__time__scheme_1_1time__scheme__t.html#a9783751b6b96db3886692069f24316da">type_time_scheme::time_scheme_t</a>
 </li>
 <li>nterms
 : <a class="el" href="structtype__quadrature_1_1quadrature__t.html#ad03c68274920fd2efb4bae6f09af652b">type_quadrature::quadrature_t</a>
@@ -189,6 +194,9 @@ $(document).ready(function(){initNavTree('functions_vars_n.html','');});
 , <a class="el" href="structtype__face_1_1face__t.html#af5c0d4288e9a2683783a3edd7f01d620">type_face::face_t</a>
 , <a class="el" href="structtype__file__properties_1_1file__properties__t.html#a492fa070c0175f216d63e5c9972743c4">type_file_properties::file_properties_t</a>
 , <a class="el" href="structtype__mesh_1_1mesh__t.html#a4bbec5b6ec866170f0248797ee5452d8">type_mesh::mesh_t</a>
+</li>
+<li>ntime
+: <a class="el" href="structtype__mesh_1_1mesh__t.html#a98758c527e94ed9fb9449257fecfcf22">type_mesh::mesh_t</a>
 </li>
 <li>numinitialized
 : <a class="el" href="structtype__element_1_1element__t.html#ab4b99ebeab00e6b83b5a65db3ff573f5">type_element::element_t</a>
@@ -207,7 +215,7 @@ $(document).ready(function(){initNavTree('functions_vars_n.html','');});
 : <a class="el" href="structtype__equationset__function__data_1_1equationset__function__data__t.html#a0a001947383bc16f2283d0a22ca831b5">type_equationset_function_data::equationset_function_data_t</a>
 </li>
 <li>nwrite
-: <a class="el" href="structtype__timescheme_1_1timescheme__t.html#a44c2e9c461fc6eade8a287abeb2fa1a5">type_timescheme::timescheme_t</a>
+: <a class="el" href="structtype__time__scheme_1_1time__scheme__t.html#a87ccb9f6447b486fdac0587c62fcf44b">type_time_scheme::time_scheme_t</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -215,7 +223,7 @@ $(document).ready(function(){initNavTree('functions_vars_n.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Thu Feb 25 2016 21:59:47 for ChiDG by
+    <li class="footer">Generated on Wed May 11 2016 22:44:00 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

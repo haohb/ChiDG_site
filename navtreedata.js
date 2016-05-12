@@ -2,7 +2,8 @@ var NAVTREE =
 [
   [ "ChiDG", "index.html", [
     [ "Overview", "index.html", [
-      [ "Contents", "index.html#s_contents", null ]
+      [ "Getting started", "index.html#s_gettingstarted", null ],
+      [ "Documentation", "index.html#s_documentation", null ]
     ] ],
     [ "Code Details", "page_codedetails.html", "page_codedetails" ],
     [ "Develop", "page_develop.html", [
@@ -16,32 +17,16 @@ var NAVTREE =
       ] ],
       [ "Contributing to ChiDG", "page_develop.html#s_contributing", null ]
     ] ],
-    [ "Example Cases", "page_examplecases.html", "page_examplecases" ],
-    [ "Installation", "page_installation.html", [
-      [ "Obtaining ChiDG", "page_installation.html#s_obtaining", null ],
-      [ "ChiDG Dependencies", "page_installation.html#s_dependencies", [
-        [ "HDF5", "page_installation.html#s_dep_hdf5", null ],
-        [ "MPICH", "page_installation.html#s_dep_mpich", [
-          [ "Compile MPICH", "page_installation.html#s_dep_mpich_configuration", null ],
-          [ "Set environment variables for MPICH", "page_installation.html#s_dep_mpich_variables", null ]
-        ] ],
-        [ "CMake", "page_installation.html#s_dep_cmake", null ],
-        [ "TecIO", "page_installation.html#s_dep_tecio", null ]
-      ] ],
-      [ "Compiling ChiDG", "page_installation.html#s_compile", null ]
-    ] ],
+    [ "Examples", "page_examplecases.html", "page_examplecases" ],
     [ "License", "page_license.html", null ],
     [ "References", "page_references.html", null ],
-    [ "Usage", "page_usage.html", [
-      [ "Set-up", "page_usage.html#s_setup", null ],
-      [ "Command line", "page_usage.html#s_commandline", null ]
-    ] ],
+    [ "Usage", "page_usage.html", "page_usage" ],
     [ "Modules", null, [
       [ "Modules List", "namespaces.html", "namespaces" ],
       [ "Module Members", "namespacemembers.html", [
         [ "All", "namespacemembers.html", "namespacemembers_dup" ],
         [ "Functions/Subroutines", "namespacemembers_func.html", "namespacemembers_func" ],
-        [ "Variables", "namespacemembers_vars.html", null ]
+        [ "Variables", "namespacemembers_vars.html", "namespacemembers_vars" ]
       ] ]
     ] ],
     [ "Data Types List", "annotated.html", [
@@ -67,15 +52,18 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "_d_l_a___lax_friedrichs__flux_8f90.html",
-"eqn__scalar_8f90.html",
-"mod__chidg__edit__boundaryconditions_8f90.html#aa8ad342aabc71628d72ae02e662ab52a",
-"mod__linearized__euler_8f90.html#ab497e906526c8683f2a8019936ec2a0e",
-"namespacemembers_func.html",
-"page_develop.html#s_testing_compile",
-"structla__boundary__average__advective__flux_1_1la__boundary__average__advective__flux__t.html",
-"structtype__densevector_1_1densevector__t.html#a9239ecd574f70cdbddae4559b590afd4",
-"structtype__mesh_1_1mesh__t.html#af63fe12345d81bebb16ecbcdcb757193",
-"type__chidg_8f90.html#a148b950fd3f8f4321100330aee93f41c"
+"dir_c184e51c84f2c3f0345bbc8a0d75d3e1.html",
+"interfacetype__blockvector_1_1operator_07-_08.html#a23539430d32ffdcf4cf693ba0eb3af95",
+"mod__gaussseidel__standard_8f90.html",
+"mod__ordering_8f90.html#ae675357f6cdff221abdcb0b3aa248149",
+"mod__time__scheme_8f90.html#a52ad878186d2e1a713b270fc8915b4ba",
+"namespacemod__cylindricalduct.html",
+"namespacetype__volume__flux__wrapper.html",
+"structbc__primlineuleraxi__extrapolate_1_1primlineuleraxi__extrapolate__t.html",
+"structtype__bcproperty_1_1bcproperty__t.html#a08c51e08b02b77d6de0f0b0ba3cac979",
+"structtype__evector_1_1evector__t.html#aec8e4b03caeaaa4d0b85fe900ad8fcd3",
+"structtype__rvector_1_1rvector__t.html#acbabadd1a373079d0736a63d228b8b4a",
+"type__file__properties_8f90.html#ac94f4f7c3fac4c8f182ffbf1d0543dc2"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

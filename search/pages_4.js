@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['license',['License',['../page_license.html',1,'']]]
+  ['generating_20a_20grid',['Generating a grid',['../page_gridgeneration.html',1,'page_usage']]]
 ];

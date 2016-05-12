@@ -1,53 +1,49 @@
-\form#0:$ \frac{\partial Q}{\partial t} + R(Q) = 0 $
-\form#1:$ \frac{Q^{n+1} - Q^{n}}{\Delta t} + R(Q^n) = 0 $
-\form#2:$ Q^{n+1} = Q^{n} - \Delta t R(Q^n) $
-\form#3:$ Q^{n+1} = Q^{n} + \Delta Q $
-\form#4:$ \Delta Q $
-\form#5:$ \Delta Q = -\Delta t R(Q) $
-\form#6:$ \delta Q = - \delta t R(Q) $
-\form#7:$ metric(i,:,:) = \begin{bmatrix} a, b, c \\ d, e, f \\ g, h, i \end{bmatrix} $
-\form#8:$ = \begin{bmatrix} a, b, c \\ d, e, f \\ g, h, i \end{bmatrix} $
-\form#9:$ = \begin{bmatrix} \xi_x, \xi_y, \xi_z \\ \eta_x, \eta_y, \eta_z \\ \zeta_x, \zeta_y, \zeta_z \end{bmatrix} $
-\form#10:$ \begin{bmatrix} \xi_x, \xi_y, \xi_z \\ \eta_x, \eta_y, \eta_z \\ \zeta_x, \zeta_y, \zeta_z \end{bmatrix} $
-\form#11:$ \xi_x $
-\form#12:$ \begin{pmatrix} \xi_x \xi_y \xi_z \\ \eta_x \eta_y \eta_z \\ \zeta_x \zeta_y \zeta_z \end{pmatrix} $
-\form#13:$ \begin{pmatrix} \xi_x \quad \xi_y \quad \xi_z \\ \eta_x \quad \eta_y \quad \eta_z \\ \zeta_x \quad \zeta_y \quad \zeta_z \end{pmatrix} $
-\form#14:$ ( x_\xi \xi_x + x_\eta \eta_x + x_\zeta \zeta_x ) $
-\form#15:$ J^{-1} = ( x_\xi \xi_x + x_\eta \eta_x + x_\zeta \zeta_x ) $
-\form#16:$ \frac{\partial \psi_{igq, iterm}}{\partial \vec{\zeta}} $
-\form#17:$ \frac{\partial \psi_{igq, iterm}}{\partial \xi} = \begin{pmatrix} \frac{\partial \psi_{1,1}}{\partial \xi} & \frac{\partial \psi_{1,2}}{\partial \xi} & \cdots & \frac{\partial \psi_{1,N}}{\partial \xi} \\ \frac{\partial \psi_{2,1}}{\partial \xi} & \frac{\partial \psi_{2,2}}{\partial \xi} & \cdots & \frac{\partial \psi_{2,N}}{\partial \xi} \\ \vdots & \vdots & \vdots \vdots \\ \frac{\partial \psi_{ngq,1}}{\partial \xi} & \frac{\partial \psi_{ngq,2}}{\partial \xi} & \cdots & \frac{\partial \psi_{ngq,N}}{\partial \xi} \\ \end{pmatrix} $
-\form#18:$ \frac{\partial \psi_{igq, iterm}}{\partial \xi} = \begin{pmatrix} \frac{\partial \psi_{1,1}}{\partial \xi} & \frac{\partial \psi_{1,2}}{\partial \xi} & \cdots & \frac{\partial \psi_{1,N}}{\partial \xi} \\ \frac{\partial \psi_{2,1}}{\partial \xi} & \frac{\partial \psi_{2,2}}{\partial \xi} & \cdots & \frac{\partial \psi_{2,N}}{\partial \xi} \\ \vdots & \vdots & \vdots & \vdots \\ \frac{\partial \psi_{{ngq},1}}{\partial \xi} & \frac{\partial \psi_{{ngq},2}}{\partial \xi} & \cdots & \frac{\partial \psi_{{ngq},N}}{\partial \xi} \\ \end{pmatrix} $
-\form#19:$(x,y,z)$
-\form#20:$(r,\theta,z)$
-\form#21:$ \frac{\partial \psi_{igq, iterm}}{\partial x} = \begin{pmatrix} \frac{\partial \psi_{1,1}}{\partial x} & \frac{\partial \psi_{1,2}}{\partial x} & \cdots & \frac{\partial \psi_{1,N}}{\partial x} \\ \frac{\partial \psi_{2,1}}{\partial x} & \frac{\partial \psi_{2,2}}{\partial x} & \cdots & \frac{\partial \psi_{2,N}}{\partial x} \\ \vdots & \vdots & \vdots & \vdots \\ \frac{\partial \psi_{{ngq},1}}{\partial x} & \frac{\partial \psi_{{ngq},2}}{\partial x} & \cdots & \frac{\partial \psi_{{ngq},N}}{\partial x} \\ \end{pmatrix} $
-\form#22:$ \frac{\partial \psi_{igq, imode}}{\partial \xi} = \begin{pmatrix} \frac{\partial \psi_{1,1}}{\partial \xi} & \frac{\partial \psi_{1,2}}{\partial \xi} & \cdots & \frac{\partial \psi_{1,N}}{\partial \xi} \\ \frac{\partial \psi_{2,1}}{\partial \xi} & \frac{\partial \psi_{2,2}}{\partial \xi} & \cdots & \frac{\partial \psi_{2,N}}{\partial \xi} \\ \vdots & \vdots & \vdots & \vdots \\ \frac{\partial \psi_{{ngq},1}}{\partial \xi} & \frac{\partial \psi_{{ngq},2}}{\partial \xi} & \cdots & \frac{\partial \psi_{{ngq},N}}{\partial \xi} \\ \end{pmatrix} $
-\form#23:$ \frac{\partial \psi_{igq, imode}}{\partial x} = \begin{pmatrix} \frac{\partial \psi_{1,1}}{\partial x} & \frac{\partial \psi_{1,2}}{\partial x} & \cdots & \frac{\partial \psi_{1,N}}{\partial x} \\ \frac{\partial \psi_{2,1}}{\partial x} & \frac{\partial \psi_{2,2}}{\partial x} & \cdots & \frac{\partial \psi_{2,N}}{\partial x} \\ \vdots & \vdots & \vdots & \vdots \\ \frac{\partial \psi_{{ngq},1}}{\partial x} & \frac{\partial \psi_{{ngq},2}}{\partial x} & \cdots & \frac{\partial \psi_{{ngq},N}}{\partial x} \\ \end{pmatrix} $
-\form#24:$ \frac{\partial Q}{\partial t} + \nabla \cdot \vec{F}(Q,\nabla Q) + S(Q,\nabla Q) = 0 $
-\form#25:$ Q(t,x,y,z) = \sum_{i=0}^N \sum_{j=0}^N \sum_{k=0}^N Q_{ijk}(t) \psi_i(x) \psi_j(y) \psi_k(z) $
-\form#26:$ hi $
-\form#27:$ \int_{\Omega_e} \bm{\psi} \frac{\partial Q}{\partial t} d\Omega + \int_{\Gamma_e} \bm{\psi} \vec{F} \cdot \vec{n} d\Gamma - \int_{\Omega_e} \nabla \bm{\psi} \cdot \vec{F} d\Omega + \int_{\Omega_e} \bm{\psi} \vec{S} d\Omega = 0 $
-\form#28:$ \int_{\Gamma_e} \bm{\psi} \vec{F} \cdot \vec{n} d\Gamma $
-\form#29:$ \int_{\Omega_e} \nabla \bm{\psi} \cdot \vec{F} d\Omega $
-\form#30:$ \vec{F}_\Gamma = \int_{\Gamma_e} \bm{\psi} \vec{F} \cdot \vec{n} d\Gamma $
-\form#31:$ \vec{F}_\Omega = \int_{\Omega_e} \nabla \bm{\psi} \cdot \vec{F} d\Omega $
-\form#32:$ \xi, \eta, \zeta $
-\form#33:$ \vec{n} = [n_\xi, n_\eta, n_\zeta] $
-\form#34:$ \vec{n_{\xi_k}} = \frac{\partial \vec{x}}{\partial \xi_i} \times \frac{\partial \vec{x}}{\partial \xi_j} $
-\form#35:$ \vec{n}_{\xi_k} = \frac{\partial \vec{x}}{\partial \xi_i} \times \frac{\partial \vec{x}}{\partial \xi_j} $
-\form#36:$ \vec{x} = [x, y, z] \vec{\xi} = [\xi, \eta, \zeta] $
-\form#37:$ \vec{x} = [x, y, z] \\ \vec{\xi} = [\xi, \eta, \zeta] $
-\form#38:$ \vec{x} = [x, y, z] $
-\form#39:$ \vec{\xi} = [\xi, \eta, \zeta] $
-\form#40:$ \vec{x} = [x, y, z] \quad \vec{\xi} = [\xi, \eta, \zeta] $
-\form#41:$ \xi_i $
-\form#42:$ \xi_j $
-\form#43:$ \xi_k $
-\form#44:$ \xi $
-\form#45:$ \eta $
-\form#46:$ \zeta $
-\form#47:$ \vec{n}_\xi = \frac{\partial \vec{x}}{\partial \eta} \times \frac{\partial \vec{x}}{\partial \zeta} = [ y_\eta z_\zeta - y_\zeta z_\eta, x_\zeta z_\eta - x_\eta z_\zeta, x_\eta y_\zeta - x_\zeta y_\eta] $
-\form#48:$ \vec{n}_\xi = \frac{\partial \vec{x}}{\partial \eta} \times \frac{\partial \vec{x}}{\partial \zeta} = [ y_\eta z_\zeta - y_\zeta z_\eta, \quad x_\zeta z_\eta - x_\eta z_\zeta, \quad x_\eta y_\zeta - x_\zeta y_\eta] $
-\form#49:$ \vec{n}_\xi = \frac{\partial \vec{x}}{\partial \eta} \times \frac{\partial \vec{x}}{\partial \zeta} = [ y_\eta z_\zeta - y_\zeta z_\eta, \quad x_\zeta z_\eta - x_\eta z_\zeta, \quad x_\eta y_\zeta - x_\zeta y_\eta] = [ \xi_x, \quad \xi_y, \quad \xi_z ] $
-\form#50:$ \xi$
-\form#51:$ \eta$
-\form#52:$ \zeta$
+\form#0:$ f(alpha_{mn}) = J'_m (alpha_{mn}) $
+\form#1:$ \int_0^1 N_{m \mu}^2 J(\alpha_{m \mu})^2 r dr = 1 $
+\form#2:$ f_x(t,\vec{x}) = a e^{- \frac{(x-b_x)^2}{2c^2} } \\ f_y(t,\vec{x}) = a e^{- \frac{(y-b_y)^2}{2c^2} } \\ f_z(t,\vec{x}) = a e^{- \frac{(z-b_z)^2}{2c^2} } \\ f(t,\vec{x}) = f_x * f_y * f_z $
+\form#3:$ a - \text{Amplitude of the distribution} \\ b_i - \text{Offset in coordinate 'i'} \\ c - \text{Width of the distribution} $
+\form#4:$ f(t,\vec{x}) = const $
+\form#5:$ f(t,\vec{x}) = x^2 $
+\form#6:$ f(t,\vec{x}) = xyz $
+\form#7:$ f(t,\vec{x}) = y^2 $
+\form#8:$ f(t,\vec{x}) = z^2 $
+\form#9:$ f(x) = ax^6 + bx^5 + cx^4 + dx^3 + ex^2 + fx + g $
+\form#10:$ f = f(t,\vec{x}) $
+\form#11:$ \frac{\partial F}{\partial Q_{idom,ielem}} $
+\form#12:$ \frac{\partial Q}{\partial t} + R(Q) = 0 $
+\form#13:$ \frac{Q^{n+1} - Q^{n}}{\Delta t} + R(Q^n) = 0 $
+\form#14:$ Q^{n+1} = Q^{n} - \Delta t R(Q^n) $
+\form#15:$ Q^{n+1} = Q^{n} + \Delta Q $
+\form#16:$ \Delta Q $
+\form#17:$ \Delta Q = -\Delta t R(Q) $
+\form#18:$ \delta Q = - \delta t R(Q) $
+\form#19:\[ \frac{\partial Q}{\partial t} + \nabla \cdot \vec{F}(Q,\nabla Q) + S(Q,\nabla Q) = 0 \]
+\form#20:\[ Q(t,x,y,z) = \sum_{i=0}^N \sum_{j=0}^N \sum_{k=0}^N Q_{ijk}(t) \psi_i(x) \psi_j(y) \psi_k(z) \]
+\form#21:$ \boldsymbol{\psi} $
+\form#22:\[ \int_{\Omega_e} \boldsymbol{\psi} \frac{\partial Q}{\partial t} d\Omega + \int_{\Gamma_e} \boldsymbol{\psi} \vec{F} \cdot \vec{n} d\Gamma - \int_{\Omega_e} \nabla \boldsymbol{\psi} \cdot \vec{F} d\Omega + \int_{\Omega_e} \boldsymbol{\psi} \vec{S} d\Omega = 0 \]
+\form#23:\[ \int_{\Gamma_e} \boldsymbol{\psi} \vec{F} \cdot \vec{n} d\Gamma \]
+\form#24:\[ \int_{\Omega_e} \nabla \boldsymbol{\psi} \cdot \vec{F} d\Omega \]
+\form#25:$ \begin{pmatrix} \xi_x \quad \xi_y \quad \xi_z \\ \eta_x \quad \eta_y \quad \eta_z \\ \zeta_x \quad \zeta_y \quad \zeta_z \end{pmatrix} $
+\form#26:$ \xi_x $
+\form#27:$ J^{-1} = ( x_\xi \xi_x + x_\eta \eta_x + x_\zeta \zeta_x ) $
+\form#28:\[ \frac{\partial \psi_{igq, imode}}{\partial \xi} = \begin{pmatrix} \frac{\partial \psi_{1,1}}{\partial \xi} & \frac{\partial \psi_{1,2}}{\partial \xi} & \cdots & \frac{\partial \psi_{1,N}}{\partial \xi} \\ \frac{\partial \psi_{2,1}}{\partial \xi} & \frac{\partial \psi_{2,2}}{\partial \xi} & \cdots & \frac{\partial \psi_{2,N}}{\partial \xi} \\ \vdots & \vdots & \vdots & \vdots \\ \frac{\partial \psi_{{ngq},1}}{\partial \xi} & \frac{\partial \psi_{{ngq},2}}{\partial \xi} & \cdots & \frac{\partial \psi_{{ngq},N}}{\partial \xi} \\ \end{pmatrix} \]
+\form#29:$(x,y,z)$
+\form#30:$(r,\theta,z)$
+\form#31:\[ \frac{\partial \psi_{igq, imode}}{\partial x} = \begin{pmatrix} \frac{\partial \psi_{1,1}}{\partial x} & \frac{\partial \psi_{1,2}}{\partial x} & \cdots & \frac{\partial \psi_{1,N}}{\partial x} \\ \frac{\partial \psi_{2,1}}{\partial x} & \frac{\partial \psi_{2,2}}{\partial x} & \cdots & \frac{\partial \psi_{2,N}}{\partial x} \\ \vdots & \vdots & \vdots & \vdots \\ \frac{\partial \psi_{{ngq},1}}{\partial x} & \frac{\partial \psi_{{ngq},2}}{\partial x} & \cdots & \frac{\partial \psi_{{ngq},N}}{\partial x} \\ \end{pmatrix} \]
+\form#32:\[ \vec{x} = [x, y, z] \quad \vec{\xi} = [\xi, \eta, \zeta] \]
+\form#33:$ \xi, \eta, \zeta $
+\form#34:\[ \vec{n}_{\xi_k} = \frac{\partial \vec{x}}{\partial \xi_i} \times \frac{\partial \vec{x}}{\partial \xi_j} \]
+\form#35:$ \xi_i $
+\form#36:$ \xi_j $
+\form#37:$ \xi_k $
+\form#38:$ \xi$
+\form#39:$ \eta$
+\form#40:$ \zeta$
+\form#41:\[ \vec{n}_\xi = \frac{\partial \vec{x}}{\partial \eta} \times \frac{\partial \vec{x}}{\partial \zeta} = [ y_\eta z_\zeta - y_\zeta z_\eta, \quad x_\zeta z_\eta - x_\eta z_\zeta, \quad x_\eta y_\zeta - x_\zeta y_\eta] = [ \xi_x, \quad \xi_y, \quad \xi_z ] \]
+\form#42:\[ \vec{n}_\eta = \frac{\partial \vec{x}}{\partial \zeta} \times \frac{\partial \vec{x}}{\partial \xi} = [ y_\zeta z_\xi - y_\xi z_\zeta, \quad x_\xi z_\zeta - x_\zeta z_\xi, \quad x_\zeta y_\xi - x_\xi y_\zeta ] = [ \eta_x, \quad \eta_y, \quad \eta_z ] \]
+\form#43:\[ \vec{n}_\zeta = \frac{\partial \vec{x}}{\partial \xi} \times \frac{\partial \vec{x}}{\partial \eta} = [ y_\xi z_\eta - y_\eta z_\xi, \quad x_\eta z_\xi - x_\xi z_\eta, \quad x_\xi y_\eta - x_\eta y_\xi] = [ \zeta_x, \quad \zeta_y, \quad \zeta_z ] \]
+\form#44:$ \xi=-1 $
+\form#45:$ \xi=1 $
+\form#46:$ \eta $
+\form#47:$ \zeta $
+\form#48:\[ \hat{n}_{\xi_i} = \frac{\vec{n}_{\xi_i}}{||\vec{n}_{\xi_i}||_2} \]

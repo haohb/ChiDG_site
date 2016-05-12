@@ -107,6 +107,7 @@ $(document).ready(function(){initNavTree('namespacemod__inv.html','');});
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions/Subroutines</h2></td></tr>
 <tr class="memitem:ad279754081245b61eb65702d5023bc8d"><td class="memItemLeft" align="right" valign="top">real(rk) function, dimension(size(a, 1), size(a, 2))&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__inv.html#ad279754081245b61eb65702d5023bc8d">inv</a> (A)</td></tr>
+<tr class="memdesc:ad279754081245b61eb65702d5023bc8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the inverse of a matrix calculated by finding the LU decomposition. Depends on LAPACK.  <a href="#ad279754081245b61eb65702d5023bc8d">More...</a><br /></td></tr>
 <tr class="separator:ad279754081245b61eb65702d5023bc8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
@@ -117,8 +118,16 @@ Variables</h2></td></tr>
 <tr class="separator:a444da59a56e8a60a8661b1f6026c1702"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1629ee762fd1e360f24a1a0759e49b07"><td class="memItemLeft" align="right" valign="top">external&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__inv.html#a1629ee762fd1e360f24a1a0759e49b07">dgecon</a></td></tr>
 <tr class="separator:a1629ee762fd1e360f24a1a0759e49b07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d41387a4073649283349ad30c1a4928"><td class="memItemLeft" align="right" valign="top">external&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__inv.html#a6d41387a4073649283349ad30c1a4928">dlange</a></td></tr>
-<tr class="separator:a6d41387a4073649283349ad30c1a4928"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cb0f5a7284281ca81c16c86aef0a435"><td class="memItemLeft" align="right" valign="top">external&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__inv.html#a3cb0f5a7284281ca81c16c86aef0a435">dlange</a></td></tr>
+<tr class="separator:a3cb0f5a7284281ca81c16c86aef0a435"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a421b31d899cf2031a5c2af8b7e890a78"><td class="memItemLeft" align="right" valign="top">external&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__inv.html#a421b31d899cf2031a5c2af8b7e890a78">sgetri</a></td></tr>
+<tr class="separator:a421b31d899cf2031a5c2af8b7e890a78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13bba8186a6d50ba74a150e7a1d913f9"><td class="memItemLeft" align="right" valign="top">external&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__inv.html#a13bba8186a6d50ba74a150e7a1d913f9">sgetrf</a></td></tr>
+<tr class="separator:a13bba8186a6d50ba74a150e7a1d913f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d1bfdd2d50c71823897d4fc92c2c143"><td class="memItemLeft" align="right" valign="top">external&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__inv.html#a9d1bfdd2d50c71823897d4fc92c2c143">sgecon</a></td></tr>
+<tr class="separator:a9d1bfdd2d50c71823897d4fc92c2c143"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcc4e446ae33a51339abadaccb3387df"><td class="memItemLeft" align="right" valign="top">external&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__inv.html#adcc4e446ae33a51339abadaccb3387df">slange</a></td></tr>
+<tr class="separator:adcc4e446ae33a51339abadaccb3387df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function/Subroutine Documentation</h2>
 <a class="anchor" id="ad279754081245b61eb65702d5023bc8d"></a>
@@ -128,12 +137,14 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">real(rk) function, dimension(size(a,1),size(a,2)) mod_inv::inv </td>
           <td>(</td>
-          <td class="paramtype">real(rk), dimension(:,:), intent(in)&#160;</td>
+          <td class="paramtype">real(rk), dimension(:,:), intent(inout)&#160;</td>
           <td class="paramname"><em>A</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns the inverse of a matrix calculated by finding the LU decomposition. Depends on LAPACK. </p>
 
 </div>
 </div>
@@ -174,12 +185,60 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a6d41387a4073649283349ad30c1a4928"></a>
+<a class="anchor" id="a3cb0f5a7284281ca81c16c86aef0a435"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">real(rk), external mod_inv::dlange</td>
+          <td class="memname">real(rdouble), external mod_inv::dlange</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9d1bfdd2d50c71823897d4fc92c2c143"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">external mod_inv::sgecon</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a13bba8186a6d50ba74a150e7a1d913f9"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">external mod_inv::sgetrf</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a421b31d899cf2031a5c2af8b7e890a78"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">external mod_inv::sgetri</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="adcc4e446ae33a51339abadaccb3387df"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">real(rsingle), external mod_inv::slange</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -192,7 +251,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemod__inv.html">mod_inv</a></li>
-    <li class="footer">Generated on Thu Feb 25 2016 21:59:43 for ChiDG by
+    <li class="footer">Generated on Wed May 11 2016 22:43:52 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

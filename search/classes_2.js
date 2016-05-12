@@ -1,6 +1,7 @@
 var searchData=
 [
-  ['data_5finterface',['data_interface',['../interfacetype__timescheme_1_1data__interface.html',1,'type_timescheme']]],
+  ['data_5finterface',['data_interface',['../interfacetype__nonlinear__solver_1_1data__interface.html',1,'type_nonlinear_solver']]],
+  ['data_5finterface',['data_interface',['../interfacetype__time__scheme_1_1data__interface.html',1,'type_time_scheme']]],
   ['datawrapper_5ft',['datawrapper_t',['../structtype__datawrapper_1_1datawrapper__t.html',1,'type_datawrapper']]],
   ['densematrix_5ft',['densematrix_t',['../structtype__densematrix_1_1densematrix__t.html',1,'type_densematrix']]],
   ['densevector_5ft',['densevector_t',['../structtype__densevector_1_1densevector__t.html',1,'type_densevector']]],

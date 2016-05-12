@@ -4,12 +4,14 @@ var structtype__element_1_1element__t =
     [ "compute_element_matrices", "structtype__element_1_1element__t.html#a19aa45c84373a1c4a7254b42a9de8dd3", null ],
     [ "compute_gradients_cartesian", "structtype__element_1_1element__t.html#adad8bf436f734aee93c288c3e09c4526", null ],
     [ "compute_mass_matrix", "structtype__element_1_1element__t.html#a2e217535c3331e1582dc2f3196816ead", null ],
-    [ "compute_metric", "structtype__element_1_1element__t.html#a963540000c2f1218c457975b9f3ff18a", null ],
     [ "compute_quadrature_coords", "structtype__element_1_1element__t.html#acfdad932bf99a6fcc02cdaea2fb68dc1", null ],
     [ "compute_quadrature_metrics", "structtype__element_1_1element__t.html#abfd8383d5deae3481181eac83afd3ad5", null ],
     [ "destructor", "structtype__element_1_1element__t.html#ac867e72282e10f734dfadfc974b5a147", null ],
+    [ "grid_point", "structtype__element_1_1element__t.html#aa1a4a9010f8330944aa1e565b56caae2", null ],
     [ "init_geom", "structtype__element_1_1element__t.html#aa42dbeca936b0c3633d44340ad259f87", null ],
     [ "init_sol", "structtype__element_1_1element__t.html#a08d9c380f56a9e64c3b94eb295e3d194", null ],
+    [ "metric_point", "structtype__element_1_1element__t.html#a924b4bb319806c2300ce9d23c2ce7506", null ],
+    [ "solution_point", "structtype__element_1_1element__t.html#afc5f41b955c70d304833ede322e8a17c", null ],
     [ "x", "structtype__element_1_1element__t.html#a258ecb6e57bbafd19f9d05cd8cd52f6a", null ],
     [ "y", "structtype__element_1_1element__t.html#abf72e5a37563417abcd4ed9025bfa37d", null ],
     [ "z", "structtype__element_1_1element__t.html#af84ae0f1c4a17419ce831ab70c1efa86", null ],
@@ -33,5 +35,6 @@ var structtype__element_1_1element__t =
     [ "nterms_s", "structtype__element_1_1element__t.html#a56cfddf10d770dbbbf80f10d58ec9f73", null ],
     [ "numinitialized", "structtype__element_1_1element__t.html#ab4b99ebeab00e6b83b5a65db3ff573f5", null ],
     [ "quad_pts", "structtype__element_1_1element__t.html#a068098dbe3f50211b13bafd5229a589a", null ],
+    [ "spacedim", "structtype__element_1_1element__t.html#a40ecd62850dc813e42cc160e0cce5b29", null ],
     [ "vol", "structtype__element_1_1element__t.html#a155d9e77b56238c25e3482d7fca2c29f", null ]
 ];

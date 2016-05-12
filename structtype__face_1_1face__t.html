@@ -123,6 +123,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a0ce8ecf1abb0a8e7eea795c4b5e60e0c"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__face_1_1face__t.html#a0ce8ecf1abb0a8e7eea795c4b5e60e0c">compute_quadrature_coords</a></td></tr>
 <tr class="memdesc:a0ce8ecf1abb0a8e7eea795c4b5e60e0c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute cartesian coordinates at quadrature nodes.  <a href="#a0ce8ecf1abb0a8e7eea795c4b5e60e0c">More...</a><br /></td></tr>
 <tr class="separator:a0ce8ecf1abb0a8e7eea795c4b5e60e0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3f6f6f672a80b814fce9fe4742b309a"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__face_1_1face__t.html#ad3f6f6f672a80b814fce9fe4742b309a">compute_gradients_cartesian</a></td></tr>
+<tr class="memdesc:ad3f6f6f672a80b814fce9fe4742b309a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute gradients in cartesian coordinates.  <a href="#ad3f6f6f672a80b814fce9fe4742b309a">More...</a><br /></td></tr>
+<tr class="separator:ad3f6f6f672a80b814fce9fe4742b309a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af53e50e7fcdbe5e830e810af59f68257"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__face_1_1face__t.html#af53e50e7fcdbe5e830e810af59f68257">get_neighbor_element</a></td></tr>
 <tr class="memdesc:af53e50e7fcdbe5e830e810af59f68257"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return neighbor element index.  <a href="#af53e50e7fcdbe5e830e810af59f68257">More...</a><br /></td></tr>
 <tr class="separator:af53e50e7fcdbe5e830e810af59f68257"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -134,9 +137,14 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
+<tr class="memitem:a918363d26d7b4b7142d3c3d5e4c8ecaa"><td class="memItemLeft" align="right" valign="top">integer(ik)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__face_1_1face__t.html#a918363d26d7b4b7142d3c3d5e4c8ecaa">spacedim</a></td></tr>
+<tr class="memdesc:a918363d26d7b4b7142d3c3d5e4c8ecaa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of spatial dimensions.  <a href="#a918363d26d7b4b7142d3c3d5e4c8ecaa">More...</a><br /></td></tr>
+<tr class="separator:a918363d26d7b4b7142d3c3d5e4c8ecaa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aeaf53b04e8c07fcabb4d66881e8d0f9c"><td class="memItemLeft" align="right" valign="top">integer(ik)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__face_1_1face__t.html#aeaf53b04e8c07fcabb4d66881e8d0f9c">neqns</a></td></tr>
+<tr class="memdesc:aeaf53b04e8c07fcabb4d66881e8d0f9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of equations in equationset_t.  <a href="#aeaf53b04e8c07fcabb4d66881e8d0f9c">More...</a><br /></td></tr>
 <tr class="separator:aeaf53b04e8c07fcabb4d66881e8d0f9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5c0d4288e9a2683783a3edd7f01d620"><td class="memItemLeft" align="right" valign="top">integer(ik)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__face_1_1face__t.html#af5c0d4288e9a2683783a3edd7f01d620">nterms_s</a></td></tr>
+<tr class="memdesc:af5c0d4288e9a2683783a3edd7f01d620"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of terms in solution polynomial expansion.  <a href="#af5c0d4288e9a2683783a3edd7f01d620">More...</a><br /></td></tr>
 <tr class="separator:af5c0d4288e9a2683783a3edd7f01d620"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0e20a906c2c788bc34eca74786894ed"><td class="memItemLeft" align="right" valign="top">integer(ik)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__face_1_1face__t.html#ae0e20a906c2c788bc34eca74786894ed">ftype</a></td></tr>
 <tr class="memdesc:ae0e20a906c2c788bc34eca74786894ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">interior, or boundary condition, or Chimera interface, or Orphan  <a href="#ae0e20a906c2c788bc34eca74786894ed">More...</a><br /></td></tr>
@@ -156,12 +164,16 @@ Public Attributes</h2></td></tr>
 <tr class="memitem:a9503ac5f50f1ba59472ddc7205e9584d"><td class="memItemLeft" align="right" valign="top">integer(ik)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__face_1_1face__t.html#a9503ac5f50f1ba59472ddc7205e9584d">chiid</a> = 0</td></tr>
 <tr class="memdesc:a9503ac5f50f1ba59472ddc7205e9584d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Identifier for domain-local Chimera interfaces.  <a href="#a9503ac5f50f1ba59472ddc7205e9584d">More...</a><br /></td></tr>
 <tr class="separator:a9503ac5f50f1ba59472ddc7205e9584d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac148a2c63a3242a559badb25f24caeb0"><td class="memItemLeft" align="right" valign="top">character(len=:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__face_1_1face__t.html#ac148a2c63a3242a559badb25f24caeb0">periodic_type</a></td></tr>
+<tr class="separator:ac148a2c63a3242a559badb25f24caeb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1fec2a20da5ceee0773921b810d075ee"><td class="memItemLeft" align="right" valign="top">real(rk)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__face_1_1face__t.html#a1fec2a20da5ceee0773921b810d075ee">chimera_offset_x</a> = 0._rk</td></tr>
 <tr class="separator:a1fec2a20da5ceee0773921b810d075ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa836a353f88bc85079be643d4102cc50"><td class="memItemLeft" align="right" valign="top">real(rk)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__face_1_1face__t.html#aa836a353f88bc85079be643d4102cc50">chimera_offset_y</a> = 0._rk</td></tr>
 <tr class="separator:aa836a353f88bc85079be643d4102cc50"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29333bb08ea4f77175d1c12cc6f8511d"><td class="memItemLeft" align="right" valign="top">real(rk)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__face_1_1face__t.html#a29333bb08ea4f77175d1c12cc6f8511d">chimera_offset_z</a> = 0._rk</td></tr>
 <tr class="separator:a29333bb08ea4f77175d1c12cc6f8511d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c41f51ad48b484cabf5a493bd942c1d"><td class="memItemLeft" align="right" valign="top">real(rk)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__face_1_1face__t.html#a1c41f51ad48b484cabf5a493bd942c1d">chimera_offset_theta</a> = 0._rk</td></tr>
+<tr class="separator:a1c41f51ad48b484cabf5a493bd942c1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a11f8ba5bab97a825c50f6882209914b5"><td class="memItemLeft" align="right" valign="top">type(<a class="el" href="structtype__point_1_1point__t.html">point_t</a>), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__face_1_1face__t.html#a11f8ba5bab97a825c50f6882209914b5">quad_pts</a></td></tr>
 <tr class="memdesc:a11f8ba5bab97a825c50f6882209914b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cartesian coordinates of quadrature nodes.  <a href="#a11f8ba5bab97a825c50f6882209914b5">More...</a><br /></td></tr>
 <tr class="separator:a11f8ba5bab97a825c50f6882209914b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -178,8 +190,17 @@ Public Attributes</h2></td></tr>
 <tr class="memdesc:a869066fcf3c737d86db867bac2b1f838"><td class="mdescLeft">&#160;</td><td class="mdescRight">Face normals.  <a href="#a869066fcf3c737d86db867bac2b1f838">More...</a><br /></td></tr>
 <tr class="separator:a869066fcf3c737d86db867bac2b1f838"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6f8b014e0b3c347622a3b67d3778777"><td class="memItemLeft" align="right" valign="top">real(rk), dimension(:,:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__face_1_1face__t.html#ab6f8b014e0b3c347622a3b67d3778777">unorm</a></td></tr>
-<tr class="memdesc:ab6f8b014e0b3c347622a3b67d3778777"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unit normals.  <a href="#ab6f8b014e0b3c347622a3b67d3778777">More...</a><br /></td></tr>
+<tr class="memdesc:ab6f8b014e0b3c347622a3b67d3778777"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unit Face normals in cartesian coordinates.  <a href="#ab6f8b014e0b3c347622a3b67d3778777">More...</a><br /></td></tr>
 <tr class="separator:ab6f8b014e0b3c347622a3b67d3778777"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abaf72fe30010025a1e2a63cc55c066d7"><td class="memItemLeft" align="right" valign="top">real(rk), dimension(:,:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__face_1_1face__t.html#abaf72fe30010025a1e2a63cc55c066d7">dtdx</a></td></tr>
+<tr class="memdesc:abaf72fe30010025a1e2a63cc55c066d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derivative of basis functions in x-direction at quadrature nodes.  <a href="#abaf72fe30010025a1e2a63cc55c066d7">More...</a><br /></td></tr>
+<tr class="separator:abaf72fe30010025a1e2a63cc55c066d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac57fb8b2c2c7838cbf689f1557b14946"><td class="memItemLeft" align="right" valign="top">real(rk), dimension(:,:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__face_1_1face__t.html#ac57fb8b2c2c7838cbf689f1557b14946">dtdy</a></td></tr>
+<tr class="memdesc:ac57fb8b2c2c7838cbf689f1557b14946"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derivative of basis functions in y-direction at quadrature nodes.  <a href="#ac57fb8b2c2c7838cbf689f1557b14946">More...</a><br /></td></tr>
+<tr class="separator:ac57fb8b2c2c7838cbf689f1557b14946"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef5c893f1855638d3c78d76c2e32492e"><td class="memItemLeft" align="right" valign="top">real(rk), dimension(:,:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__face_1_1face__t.html#aef5c893f1855638d3c78d76c2e32492e">dtdz</a></td></tr>
+<tr class="memdesc:aef5c893f1855638d3c78d76c2e32492e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Derivative of basis functions in z-direction at quadrature nodes.  <a href="#aef5c893f1855638d3c78d76c2e32492e">More...</a><br /></td></tr>
+<tr class="separator:aef5c893f1855638d3c78d76c2e32492e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad30763005752570b9a6aca97c5998c41"><td class="memItemLeft" align="right" valign="top">type(<a class="el" href="structtype__quadrature_1_1quadrature__t.html">quadrature_t</a>), pointer&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__face_1_1face__t.html#ad30763005752570b9a6aca97c5998c41">gq</a> =&gt; null()</td></tr>
 <tr class="memdesc:ad30763005752570b9a6aca97c5998c41"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pointer to solution quadrature instance.  <a href="#ad30763005752570b9a6aca97c5998c41">More...</a><br /></td></tr>
 <tr class="separator:ad30763005752570b9a6aca97c5998c41"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -197,6 +218,23 @@ Public Attributes</h2></td></tr>
 <dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>2/1/2016 </dd></dl>
 </div><h2 class="groupheader">Member Function/Subroutine Documentation</h2>
+<a class="anchor" id="ad3f6f6f672a80b814fce9fe4742b309a"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">procedure type_face::face_t::compute_gradients_cartesian </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compute gradients in cartesian coordinates. </p>
+
+</div>
+</div>
 <a class="anchor" id="a0ce8ecf1abb0a8e7eea795c4b5e60e0c"></a>
 <div class="memitem">
 <div class="memproto">
@@ -350,6 +388,18 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a1c41f51ad48b484cabf5a493bd942c1d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">real(rk) type_face::face_t::chimera_offset_theta = 0._rk</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="a1fec2a20da5ceee0773921b810d075ee"></a>
 <div class="memitem">
 <div class="memproto">
@@ -397,6 +447,48 @@ Public Attributes</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Element coordinates. </p>
+
+</div>
+</div>
+<a class="anchor" id="abaf72fe30010025a1e2a63cc55c066d7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">real(rk), dimension(:,:), allocatable type_face::face_t::dtdx</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Derivative of basis functions in x-direction at quadrature nodes. </p>
+
+</div>
+</div>
+<a class="anchor" id="ac57fb8b2c2c7838cbf689f1557b14946"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">real(rk), dimension(:,:), allocatable type_face::face_t::dtdy</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Derivative of basis functions in y-direction at quadrature nodes. </p>
+
+</div>
+</div>
+<a class="anchor" id="aef5c893f1855638d3c78d76c2e32492e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">real(rk), dimension(:,:), allocatable type_face::face_t::dtdz</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Derivative of basis functions in z-direction at quadrature nodes. </p>
 
 </div>
 </div>
@@ -548,6 +640,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Number of equations in equationset_t. </p>
+
 </div>
 </div>
 <a class="anchor" id="a869066fcf3c737d86db867bac2b1f838"></a>
@@ -574,6 +668,8 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>Number of terms in solution polynomial expansion. </p>
+
 </div>
 </div>
 <a class="anchor" id="ab36159ed429ac67f309a13f7c30c8666"></a>
@@ -582,6 +678,18 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">logical type_face::face_t::numinitialized = .false.</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="ac148a2c63a3242a559badb25f24caeb0"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">character(len=:), allocatable type_face::face_t::periodic_type</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -602,6 +710,20 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a918363d26d7b4b7142d3c3d5e4c8ecaa"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">integer(ik) type_face::face_t::spacedim</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Number of spatial dimensions. </p>
+
+</div>
+</div>
 <a class="anchor" id="ab6f8b014e0b3c347622a3b67d3778777"></a>
 <div class="memitem">
 <div class="memproto">
@@ -612,7 +734,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Unit normals. </p>
+<p>Unit Face normals in cartesian coordinates. </p>
 
 </div>
 </div>
@@ -625,7 +747,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetype__face.html">type_face</a></li><li class="navelem"><a class="el" href="structtype__face_1_1face__t.html">face_t</a></li>
-    <li class="footer">Generated on Thu Feb 25 2016 21:59:45 for ChiDG by
+    <li class="footer">Generated on Wed May 11 2016 22:43:58 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

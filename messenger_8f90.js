@@ -3,7 +3,7 @@ var messenger_8f90 =
     [ "add_to_line", "messenger_8f90.html#a5f24f5c5fbccc08788396bacfc3651e5", null ],
     [ "log_finalize", "messenger_8f90.html#acc9b406ab9a327d4924189efa78eb812", null ],
     [ "log_init", "messenger_8f90.html#a373bd07206264a9722e2007ae98eb55f", null ],
-    [ "message", "messenger_8f90.html#afede6dfaa6b1475d83477d6fe5f4464d", null ],
+    [ "message", "messenger_8f90.html#a4a991ebc455fef56e21ad67482f18d97", null ],
     [ "send_line", "messenger_8f90.html#a427eb98339f47b752376f33e3fb021ab", null ],
     [ "set_color", "messenger_8f90.html#a0baf31d6751e9c54781681c1ad283d15", null ],
     [ "write_line", "messenger_8f90.html#a9cc95b66bdab73a154d56dd0c8fc6dd6", null ],

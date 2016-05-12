@@ -106,12 +106,12 @@ $(document).ready(function(){initNavTree('namespacemod__quadrature.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions/Subroutines</h2></td></tr>
-<tr class="memitem:a15e50db7cabcf88f4b84e417f6cb674b"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__quadrature.html#a15e50db7cabcf88f4b84e417f6cb674b">compute_nnodes_gq</a> (nterms_s, nterms_c, nnodes_face, nnodes_vol)</td></tr>
-<tr class="memdesc:a15e50db7cabcf88f4b84e417f6cb674b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the number of quadrature nodes to use in order to accurately compute integrals in the DG discretization. Based on solution and coordinate polynomial orders.  <a href="#a15e50db7cabcf88f4b84e417f6cb674b">More...</a><br /></td></tr>
-<tr class="separator:a15e50db7cabcf88f4b84e417f6cb674b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae6bf81155a6963cf9259ca154489b051"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__quadrature.html#ae6bf81155a6963cf9259ca154489b051">get_quadrature</a> (nterms, nn_v, nn_f, gqout)</td></tr>
-<tr class="memdesc:ae6bf81155a6963cf9259ca154489b051"><td class="mdescLeft">&#160;</td><td class="mdescRight">Routine to find a quadrature instance or initialize a new one and return its location in the global quadrature array 'igq' in GQ(igq)  <a href="#ae6bf81155a6963cf9259ca154489b051">More...</a><br /></td></tr>
-<tr class="separator:ae6bf81155a6963cf9259ca154489b051"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab366f1b10ac03785f9ba4115b79e24d"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__quadrature.html#aab366f1b10ac03785f9ba4115b79e24d">compute_nnodes_gq</a> (spacedim, nterms_s, nterms_c, nnodes_face, nnodes_vol)</td></tr>
+<tr class="memdesc:aab366f1b10ac03785f9ba4115b79e24d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compute the number of quadrature nodes to use in order to accurately compute integrals in the DG discretization. Based on solution and coordinate polynomial orders.  <a href="#aab366f1b10ac03785f9ba4115b79e24d">More...</a><br /></td></tr>
+<tr class="separator:aab366f1b10ac03785f9ba4115b79e24d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8467be78367bf8d10c8481de361c06a8"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__quadrature.html#a8467be78367bf8d10c8481de361c06a8">get_quadrature</a> (spacedim, nterms, nn_v, nn_f, gqout)</td></tr>
+<tr class="memdesc:a8467be78367bf8d10c8481de361c06a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Routine to find a quadrature instance or initialize a new one and return its location in the global quadrature array 'igq' in GQ(igq)  <a href="#a8467be78367bf8d10c8481de361c06a8">More...</a><br /></td></tr>
+<tr class="separator:a8467be78367bf8d10c8481de361c06a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -121,13 +121,19 @@ Variables</h2></td></tr>
 <tr class="separator:adcc1a0877765f9819f8f6c471bc9449f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function/Subroutine Documentation</h2>
-<a class="anchor" id="a15e50db7cabcf88f4b84e417f6cb674b"></a>
+<a class="anchor" id="aab366f1b10ac03785f9ba4115b79e24d"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">subroutine mod_quadrature::compute_nnodes_gq </td>
           <td>(</td>
+          <td class="paramtype">integer(ik), intent(in)&#160;</td>
+          <td class="paramname"><em>spacedim</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">integer(ik), intent(in)&#160;</td>
           <td class="paramname"><em>nterms_s</em>, </td>
         </tr>
@@ -171,13 +177,19 @@ Variables</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ae6bf81155a6963cf9259ca154489b051"></a>
+<a class="anchor" id="a8467be78367bf8d10c8481de361c06a8"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">subroutine mod_quadrature::get_quadrature </td>
           <td>(</td>
+          <td class="paramtype">integer(ik), intent(in)&#160;</td>
+          <td class="paramname"><em>spacedim</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
           <td class="paramtype">integer(ik), intent(in)&#160;</td>
           <td class="paramname"><em>nterms</em>, </td>
         </tr>
@@ -252,7 +264,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemod__quadrature.html">mod_quadrature</a></li>
-    <li class="footer">Generated on Thu Feb 25 2016 21:59:43 for ChiDG by
+    <li class="footer">Generated on Wed May 11 2016 22:43:52 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

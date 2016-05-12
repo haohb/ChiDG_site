@@ -105,12 +105,12 @@ $(document).ready(function(){initNavTree('namespacemod__project.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions/Subroutines</h2></td></tr>
-<tr class="memitem:a496064da18a1894b33e9ed438f345b76"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__project.html#a496064da18a1894b33e9ed438f345b76">project_function_xyz</a> (fcn, nterms, cmodes, fmodes)</td></tr>
-<tr class="memdesc:a496064da18a1894b33e9ed438f345b76"><td class="mdescLeft">&#160;</td><td class="mdescRight">Project values from a function evaluation to the polynomial basis.  <a href="#a496064da18a1894b33e9ed438f345b76">More...</a><br /></td></tr>
-<tr class="separator:a496064da18a1894b33e9ed438f345b76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9799b220690cd54a116017891c56e0c1"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__project.html#a9799b220690cd54a116017891c56e0c1">project_function_xyz</a> (fcn, spacedim, nterms, cmodes, fmodes)</td></tr>
+<tr class="memdesc:a9799b220690cd54a116017891c56e0c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Project values from a function evaluation to the polynomial basis.  <a href="#a9799b220690cd54a116017891c56e0c1">More...</a><br /></td></tr>
+<tr class="separator:a9799b220690cd54a116017891c56e0c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function/Subroutine Documentation</h2>
-<a class="anchor" id="a496064da18a1894b33e9ed438f345b76"></a>
+<a class="anchor" id="a9799b220690cd54a116017891c56e0c1"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -119,6 +119,12 @@ Functions/Subroutines</h2></td></tr>
           <td>(</td>
           <td class="paramtype">class(<a class="el" href="structtype__function_1_1function__t.html">function_t</a>), intent(inout)&#160;</td>
           <td class="paramname"><em>fcn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">integer(ik), intent(in)&#160;</td>
+          <td class="paramname"><em>spacedim</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -151,6 +157,7 @@ Functions/Subroutines</h2></td></tr>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramdir">[in]</td><td class="paramname">fcn</td><td>Incoming function to evaluate. Arguments should be in cartesian coordinates(x, y, z). </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">spacedim</td><td>Number of spatial dimensions in the expansions </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">nterms</td><td>Number of terms in the basis being projected to </td></tr>
     <tr><td class="paramdir">[in]</td><td class="paramname">cmodes</td><td>Modal coefficients of coordinate expansion to evaluate cartesian coordinates </td></tr>
     <tr><td class="paramdir">[out]</td><td class="paramname">fmodes</td><td>Modal coefficients of the projected function </td></tr>
@@ -166,7 +173,7 @@ Functions/Subroutines</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemod__project.html">mod_project</a></li>
-    <li class="footer">Generated on Thu Feb 25 2016 21:59:43 for ChiDG by
+    <li class="footer">Generated on Wed May 11 2016 22:43:52 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

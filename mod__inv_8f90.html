@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.10"/>
-<title>ChiDG: src/tools/mod_inv.f90 File Reference</title>
+<title>ChiDG: src/numerical_methods/mod_inv.f90 File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -113,6 +113,7 @@ Modules</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions/Subroutines</h2></td></tr>
 <tr class="memitem:ad279754081245b61eb65702d5023bc8d"><td class="memItemLeft" align="right" valign="top">real(rk) function, dimension(size(a, 1), size(a, 2))&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__inv.html#ad279754081245b61eb65702d5023bc8d">mod_inv::inv</a> (A)</td></tr>
+<tr class="memdesc:ad279754081245b61eb65702d5023bc8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the inverse of a matrix calculated by finding the LU decomposition. Depends on LAPACK.  <a href="namespacemod__inv.html#ad279754081245b61eb65702d5023bc8d">More...</a><br /></td></tr>
 <tr class="separator:ad279754081245b61eb65702d5023bc8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
@@ -123,16 +124,24 @@ Variables</h2></td></tr>
 <tr class="separator:a444da59a56e8a60a8661b1f6026c1702"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1629ee762fd1e360f24a1a0759e49b07"><td class="memItemLeft" align="right" valign="top">external&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__inv.html#a1629ee762fd1e360f24a1a0759e49b07">mod_inv::dgecon</a></td></tr>
 <tr class="separator:a1629ee762fd1e360f24a1a0759e49b07"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d41387a4073649283349ad30c1a4928"><td class="memItemLeft" align="right" valign="top">external&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__inv.html#a6d41387a4073649283349ad30c1a4928">mod_inv::dlange</a></td></tr>
-<tr class="separator:a6d41387a4073649283349ad30c1a4928"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3cb0f5a7284281ca81c16c86aef0a435"><td class="memItemLeft" align="right" valign="top">external&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__inv.html#a3cb0f5a7284281ca81c16c86aef0a435">mod_inv::dlange</a></td></tr>
+<tr class="separator:a3cb0f5a7284281ca81c16c86aef0a435"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a421b31d899cf2031a5c2af8b7e890a78"><td class="memItemLeft" align="right" valign="top">external&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__inv.html#a421b31d899cf2031a5c2af8b7e890a78">mod_inv::sgetri</a></td></tr>
+<tr class="separator:a421b31d899cf2031a5c2af8b7e890a78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13bba8186a6d50ba74a150e7a1d913f9"><td class="memItemLeft" align="right" valign="top">external&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__inv.html#a13bba8186a6d50ba74a150e7a1d913f9">mod_inv::sgetrf</a></td></tr>
+<tr class="separator:a13bba8186a6d50ba74a150e7a1d913f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d1bfdd2d50c71823897d4fc92c2c143"><td class="memItemLeft" align="right" valign="top">external&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__inv.html#a9d1bfdd2d50c71823897d4fc92c2c143">mod_inv::sgecon</a></td></tr>
+<tr class="separator:a9d1bfdd2d50c71823897d4fc92c2c143"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcc4e446ae33a51339abadaccb3387df"><td class="memItemLeft" align="right" valign="top">external&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__inv.html#adcc4e446ae33a51339abadaccb3387df">mod_inv::slange</a></td></tr>
+<tr class="separator:adcc4e446ae33a51339abadaccb3387df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_1563a38af0d3a5e4a6330d6d45e9792a.html">tools</a></li><li class="navelem"><a class="el" href="mod__inv_8f90.html">mod_inv.f90</a></li>
-    <li class="footer">Generated on Thu Feb 25 2016 21:59:32 for ChiDG by
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_596dbce628d0e3e571556abb97bb6c7c.html">numerical_methods</a></li><li class="navelem"><a class="el" href="mod__inv_8f90.html">mod_inv.f90</a></li>
+    <li class="footer">Generated on Wed May 11 2016 22:43:38 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

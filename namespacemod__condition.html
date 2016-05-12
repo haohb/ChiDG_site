@@ -97,7 +97,8 @@ $(document).ready(function(){initNavTree('namespacemod__condition.html','');});
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions/Subroutines</a>  </div>
+<a href="#func-members">Functions/Subroutines</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">mod_condition Module Reference</div>  </div>
 </div><!--header-->
@@ -105,42 +106,83 @@ $(document).ready(function(){initNavTree('namespacemod__condition.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions/Subroutines</h2></td></tr>
-<tr class="memitem:a10554b871c5f7663dc7aa9f950dd2e9b"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__condition.html#a10554b871c5f7663dc7aa9f950dd2e9b">condition_number</a> (dim1, dim2, mat, rcond)</td></tr>
-<tr class="separator:a10554b871c5f7663dc7aa9f950dd2e9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd19df34a76f67f853a25b6d5f6229f6"><td class="memItemLeft" align="right" valign="top">real(rk) function&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__condition.html#acd19df34a76f67f853a25b6d5f6229f6">cond</a> (A)</td></tr>
+<tr class="separator:acd19df34a76f67f853a25b6d5f6229f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a53162ed17366097d70b37f7461d8ef75"><td class="memItemLeft" align="right" valign="top">external&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__condition.html#a53162ed17366097d70b37f7461d8ef75">dgetri</a></td></tr>
+<tr class="separator:a53162ed17366097d70b37f7461d8ef75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a135fd0563f7111044e873fa096b92ceb"><td class="memItemLeft" align="right" valign="top">external&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__condition.html#a135fd0563f7111044e873fa096b92ceb">dgetrf</a></td></tr>
+<tr class="separator:a135fd0563f7111044e873fa096b92ceb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a071b46a98314df4f5421b04c073c85bc"><td class="memItemLeft" align="right" valign="top">external&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__condition.html#a071b46a98314df4f5421b04c073c85bc">dgecon</a></td></tr>
+<tr class="separator:a071b46a98314df4f5421b04c073c85bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a152863158e255ac90312f1bd580a5cad"><td class="memItemLeft" align="right" valign="top">external&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__condition.html#a152863158e255ac90312f1bd580a5cad">dlange</a></td></tr>
+<tr class="separator:a152863158e255ac90312f1bd580a5cad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function/Subroutine Documentation</h2>
-<a class="anchor" id="a10554b871c5f7663dc7aa9f950dd2e9b"></a>
+<a class="anchor" id="acd19df34a76f67f853a25b6d5f6229f6"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">subroutine mod_condition::condition_number </td>
+          <td class="memname">real(rk) function mod_condition::cond </td>
           <td>(</td>
-          <td class="paramtype">integer(kind=ik), intent(in)&#160;</td>
-          <td class="paramname"><em>dim1</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">real(rk), dimension(:,:), intent(in)&#160;</td>
+          <td class="paramname"><em>A</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">integer(kind=ik), intent(in)&#160;</td>
-          <td class="paramname"><em>dim2</em>, </td>
         </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>3/17/2016</dd></dl>
+<p>TODO: Try to find URL for citation. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a class="anchor" id="a071b46a98314df4f5421b04c073c85bc"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
         <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">real(kind=rk), dimension(dim1,dim2), intent(in)&#160;</td>
-          <td class="paramname"><em>mat</em>, </td>
+          <td class="memname">external mod_condition::dgecon</td>
         </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a135fd0563f7111044e873fa096b92ceb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
         <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">real(kind=rk)&#160;</td>
-          <td class="paramname"><em>rcond</em>&#160;</td>
+          <td class="memname">external mod_condition::dgetrf</td>
         </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a53162ed17366097d70b37f7461d8ef75"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
         <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">external mod_condition::dgetri</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a152863158e255ac90312f1bd580a5cad"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">real(rk), external mod_condition::dlange</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -153,7 +195,7 @@ Functions/Subroutines</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemod__condition.html">mod_condition</a></li>
-    <li class="footer">Generated on Thu Feb 25 2016 21:59:43 for ChiDG by
+    <li class="footer">Generated on Wed May 11 2016 22:43:52 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

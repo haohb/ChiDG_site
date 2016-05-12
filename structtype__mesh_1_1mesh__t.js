@@ -15,5 +15,7 @@ var structtype__mesh_1_1mesh__t =
     [ "neqns", "structtype__mesh_1_1mesh__t.html#a2d8c0a12f194b7c0b763d3730b2992dd", null ],
     [ "nterms_c", "structtype__mesh_1_1mesh__t.html#a7c054cc878f5cee04548483fc764cb77", null ],
     [ "nterms_s", "structtype__mesh_1_1mesh__t.html#a4bbec5b6ec866170f0248797ee5452d8", null ],
-    [ "solinitialized", "structtype__mesh_1_1mesh__t.html#a0e2ff3529637cbb04d7551099ce68ccd", null ]
+    [ "ntime", "structtype__mesh_1_1mesh__t.html#a98758c527e94ed9fb9449257fecfcf22", null ],
+    [ "solinitialized", "structtype__mesh_1_1mesh__t.html#a0e2ff3529637cbb04d7551099ce68ccd", null ],
+    [ "spacedim", "structtype__mesh_1_1mesh__t.html#a005d0726e3ea0b2a6bae8b857df39bbc", null ]
 ];
