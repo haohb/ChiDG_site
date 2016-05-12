@@ -1,7 +1,5 @@
 var NAVTREEINDEX6 =
 {
-"namespacemod__cylindricalduct.html":[7,0,96],
-"namespacemod__dft.html":[7,0,97],
 "namespacemod__dnad__tools.html":[7,0,98],
 "namespacemod__eigenvalues.html":[7,0,99],
 "namespacemod__entropy.html":[7,0,100],
@@ -172,8 +170,8 @@ var NAVTREEINDEX6 =
 "namespacetype__dict.html":[7,0,205],
 "namespacetype__directsolver.html":[8,0,138],
 "namespacetype__directsolver.html":[7,0,206],
-"namespacetype__domaininfo.html":[8,0,139],
 "namespacetype__domaininfo.html":[7,0,207],
+"namespacetype__domaininfo.html":[8,0,139],
 "namespacetype__element.html":[8,0,140],
 "namespacetype__element.html":[7,0,208],
 "namespacetype__element__indices.html":[7,0,209],
@@ -182,8 +180,8 @@ var NAVTREEINDEX6 =
 "namespacetype__equation.html":[8,0,142],
 "namespacetype__equationset.html":[8,0,143],
 "namespacetype__equationset.html":[7,0,211],
-"namespacetype__equationset__function__data.html":[8,0,144],
 "namespacetype__equationset__function__data.html":[7,0,212],
+"namespacetype__equationset__function__data.html":[8,0,144],
 "namespacetype__equationset__wrapper.html":[7,0,213],
 "namespacetype__equationset__wrapper.html":[8,0,145],
 "namespacetype__evector.html":[8,0,146],
@@ -210,8 +208,8 @@ var NAVTREEINDEX6 =
 "namespacetype__function__status__data.html":[7,0,224],
 "namespacetype__function__wrapper.html":[7,0,225],
 "namespacetype__function__wrapper.html":[8,0,157],
-"namespacetype__gaussseidel.html":[7,0,226],
 "namespacetype__gaussseidel.html":[8,0,158],
+"namespacetype__gaussseidel.html":[7,0,226],
 "namespacetype__gmres.html":[7,0,227],
 "namespacetype__gmres.html":[8,0,159],
 "namespacetype__ivector.html":[7,0,228],
@@ -249,5 +247,7 @@ var NAVTREEINDEX6 =
 "namespacetype__timer.html":[7,0,244],
 "namespacetype__timer.html":[8,0,176],
 "namespacetype__vector.html":[8,0,177],
-"namespacetype__vector.html":[7,0,245]
+"namespacetype__vector.html":[7,0,245],
+"namespacetype__volume__flux__wrapper.html":[7,0,246],
+"namespacetype__volume__flux__wrapper.html":[8,0,178]
 };
