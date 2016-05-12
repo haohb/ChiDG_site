@@ -1,0 +1,4 @@
+var structeqn__primitive__linearized__euler__axisymmetric_1_1primitive__linearized__euler__axisymmetric__e =
+[
+    [ "init", "structeqn__primitive__linearized__euler__axisymmetric_1_1primitive__linearized__euler__axisymmetric__e.html#a4f7ca59804a859cefb3ed5f37f2646c6", null ]
+];

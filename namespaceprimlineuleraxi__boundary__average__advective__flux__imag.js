@@ -1,0 +1,4 @@
+var namespaceprimlineuleraxi__boundary__average__advective__flux__imag =
+[
+    [ "primlineuleraxi_boundary_average_advective_flux_imag_t", "structprimlineuleraxi__boundary__average__advective__flux__imag_1_1primlineuleraxi__boundary__average__advective__flux__imag__t.html", "structprimlineuleraxi__boundary__average__advective__flux__imag_1_1primlineuleraxi__boundary__average__advective__flux__imag__t" ]
+];

@@ -1,0 +1,4 @@
+var structprimlineuleraxi__laxfriedrichs__flux__imag_1_1primlineuleraxi__laxfriedrichs__flux__imag__t =
+[
+    [ "compute", "structprimlineuleraxi__laxfriedrichs__flux__imag_1_1primlineuleraxi__laxfriedrichs__flux__imag__t.html#a2b1677e5e913ada028b10148b6bfd885", null ]
+];

@@ -1,0 +1,4 @@
+var structprimlineuleraxi__boundary__average__advective__flux__real_1_1primlineuleraxi__boundary__average__advective__flux__real__t =
+[
+    [ "compute", "structprimlineuleraxi__boundary__average__advective__flux__real_1_1primlineuleraxi__boundary__average__advective__flux__real__t.html#aedd96865ff14f8d1ea8648cf9085c11b", null ]
+];
