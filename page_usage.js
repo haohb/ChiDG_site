@@ -11,10 +11,6 @@ var page_usage =
       [ "Obtaining ChiDG", "page_installation.html#s_obtaining", null ],
       [ "ChiDG Dependencies", "page_installation.html#s_dependencies", [
         [ "HDF5", "page_installation.html#s_dep_hdf5", null ],
-        [ "MPICH", "page_installation.html#s_dep_mpich", [
-          [ "Compile MPICH", "page_installation.html#s_dep_mpich_configuration", null ],
-          [ "Set environment variables for MPICH", "page_installation.html#s_dep_mpich_variables", null ]
-        ] ],
         [ "CMake", "page_installation.html#s_dep_cmake", null ],
         [ "TecIO", "page_installation.html#s_dep_tecio", null ]
       ] ],

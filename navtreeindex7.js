@@ -1,8 +1,5 @@
 var NAVTREEINDEX7 =
 {
-"namespacetype__volumequadrature.html":[8,0,179],
-"namespacetype__volumequadrature.html":[7,0,247],
-"newton_8f90.html":[9,0,2,14,1],
 "newton_8f90.html#a4c0381c8d37eb1f4c0fa2e9ca8762f81":[9,0,2,14,1,1],
 "newton_8f90.html#a7060499ddd9042e296496d856c06feca":[9,0,2,14,1,2],
 "operator__block__dot_8f90.html":[9,0,2,5,0],
@@ -27,12 +24,9 @@ var NAVTREEINDEX7 =
 "page_gridgeneration.html#s_gridgeneration_plot3d":[6,4,0],
 "page_installation.html":[6,3],
 "page_installation.html#s_compile":[6,3,2],
-"page_installation.html#s_dep_cmake":[6,3,1,2],
+"page_installation.html#s_dep_cmake":[6,3,1,1],
 "page_installation.html#s_dep_hdf5":[6,3,1,0],
-"page_installation.html#s_dep_mpich":[6,3,1,1],
-"page_installation.html#s_dep_mpich_configuration":[6,3,1,1,0],
-"page_installation.html#s_dep_mpich_variables":[6,3,1,1,1],
-"page_installation.html#s_dep_tecio":[6,3,1,3],
+"page_installation.html#s_dep_tecio":[6,3,1,2],
 "page_installation.html#s_dependencies":[6,3,1],
 "page_installation.html#s_obtaining":[6,3,0],
 "page_license.html":[4],
@@ -249,5 +243,11 @@ var NAVTREEINDEX7 =
 "structbc__primlineuleraxi__axi_1_1primlineuleraxi__axi__t.html#a22f7d999c59bf9a12e597645ace49180":[8,0,28,0,0],
 "structbc__primlineuleraxi__axi_1_1primlineuleraxi__axi__t.html#ace2aa8f3c887dbaa8f1d5a9330694a0c":[8,0,28,0,1],
 "structbc__primlineuleraxi__extrapolate_1_1primlineuleraxi__extrapolate__t.html":[8,0,29,0],
-"structbc__primlineuleraxi__extrapolate_1_1primlineuleraxi__extrapolate__t.html#a4b22970550e3e70a9d6d7af28c119ea2":[8,0,29,0,0]
+"structbc__primlineuleraxi__extrapolate_1_1primlineuleraxi__extrapolate__t.html#a4b22970550e3e70a9d6d7af28c119ea2":[8,0,29,0,0],
+"structbc__primlineuleraxi__extrapolate_1_1primlineuleraxi__extrapolate__t.html#a5855db989aad1cb2f19d1e9ae3bdcb5c":[8,0,29,0,1],
+"structbc__primlineuleraxi__inlet_1_1primlineuleraxi__inlet__t.html":[8,0,30,0],
+"structbc__primlineuleraxi__inlet_1_1primlineuleraxi__inlet__t.html#a022054112b7c26971549596afc2364da":[8,0,30,0,0],
+"structbc__primlineuleraxi__inlet_1_1primlineuleraxi__inlet__t.html#a0a974a3ed3bece12743359a1240d4428":[8,0,30,0,1],
+"structbc__primlineuleraxi__inlet_1_1primlineuleraxi__inlet__t.html#a11e0aee78f584dcc8d44f648ec0248fa":[8,0,30,0,2],
+"structbc__primlineuleraxi__inlet_1_1primlineuleraxi__inlet__t.html#a88cc92d2b98110a3dc2b4371458b350b":[8,0,30,0,3]
 };

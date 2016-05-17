@@ -34,6 +34,7 @@ var mod__constants_8f90 =
     [ "one_dim", "mod__constants_8f90.html#a54ef13868a1514e8dc54b39ae6370697", null ],
     [ "optional", "mod__constants_8f90.html#a8d92d090136d964a82b47beb429dc9b3", null ],
     [ "orphan", "mod__constants_8f90.html#a1d36bc91334ac81cfd8552dccf61b9bf", null ],
+    [ "output_res", "mod__constants_8f90.html#a2d2ed198cb29d541df7d0d1d5eeb38c7", null ],
     [ "pi", "mod__constants_8f90.html#a7f4fd9cc3f9fc44ec259ab3f973627dc", null ],
     [ "required", "mod__constants_8f90.html#a7624db7e02c307f72555f89fad93e690", null ],
     [ "rktol", "mod__constants_8f90.html#a8632cc3a735de8764c773aa3b075d539", null ],

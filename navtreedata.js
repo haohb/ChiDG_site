@@ -54,16 +54,16 @@ var NAVTREEINDEX =
 "_d_l_a___lax_friedrichs__flux_8f90.html",
 "dir_c295fb10b6bc28fafcc6b5fb92e6c6e3.html",
 "interfacetype__blockvector_1_1operator_07_09_08.html",
-"mod__grid_8f90.html",
-"mod__partitioners_8f90.html#ab87c579fc1aeb27ef7d943f1796a2a33",
-"mod__timestep_8f90.html",
-"namespacemod__dnad__tools.html",
-"namespacetype__volumequadrature.html",
-"structbc__primlineuleraxi__extrapolate_1_1primlineuleraxi__extrapolate__t.html#a5855db989aad1cb2f19d1e9ae3bdcb5c",
-"structtype__bcproperty_1_1bcproperty__t.html#a2a78ce7efd22c067fba078e923a9952e",
-"structtype__face_1_1face__t.html#a0ce8ecf1abb0a8e7eea795c4b5e60e0c",
-"structtype__seed_1_1seed__t.html",
-"type__function_8f90.html#a29fc4ce26a59e000b8306cc9fa10474d"
+"mod__gaussseidel__standard_8f90.html#a48380d73f5a8329ec7adcb804442ff4d",
+"mod__periodic_8f90.html#a9c8ba522ece1e1ece0b2a622119ee891",
+"mod__version_8f90.html#a21559c13374880ab9f3c3f03181ad40d",
+"namespacemod__equations.html",
+"newton_8f90.html#a4c0381c8d37eb1f4c0fa2e9ca8762f81",
+"structbc__primlineuleraxi__outlet_1_1primlineuleraxi__outlet__t.html",
+"structtype__bcproperty_1_1bcproperty__t.html#aae2848e0494bb7fc8630bc322fb94731",
+"structtype__face_1_1face__t.html#a45bfebcf95a9fcf67b051a2d9758fd43",
+"structtype__solverdata_1_1solverdata__t.html#a5538c25a477f099e3d69c58477c7ecb7",
+"type__function_8f90.html#ae1d3045c2837fdd5e9efee36eb0f51d6"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
