@@ -8,7 +8,6 @@ var mod__io_8f90 =
     [ "final_write", "mod__io_8f90.html#a2b229b5ce5cc518dd475f11f52ba8dd5", null ],
     [ "gq_rule", "mod__io_8f90.html#ae456dcb20a5b1a798938a5e4e486578a", null ],
     [ "gridfile", "mod__io_8f90.html#a570606c38aedf3afe7c08fecaf891263", null ],
-    [ "gridtype", "mod__io_8f90.html#ad64d35cf45502dd90780d759c789ea42", null ],
     [ "initial_write", "mod__io_8f90.html#a6d7159115c2bbd56bb6228dca5d7695d", null ],
     [ "integration", "mod__io_8f90.html#aec3081fa7505df738b4c61408fc3fdcb", null ],
     [ "linear_solver", "mod__io_8f90.html#af0ff85ece87161f84b07d5ff7f3f9333", null ],

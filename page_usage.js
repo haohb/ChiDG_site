@@ -1,6 +1,5 @@
 var page_usage =
 [
-    [ "Set-up", "page_usage.html#s_setup", null ],
     [ "ChiDG Actions", "page_usage.html#s_commandline_action", [
       [ "chidg convert", "page_usage.html#s_commandline_action_convert", null ],
       [ "chidg edit", "page_usage.html#s_commandline_action_edit", null ],
@@ -15,8 +14,5 @@ var page_usage =
         [ "TecIO", "page_installation.html#s_dep_tecio", null ]
       ] ],
       [ "Compiling ChiDG", "page_installation.html#s_compile", null ]
-    ] ],
-    [ "Generating a grid", "page_gridgeneration.html", [
-      [ "Plot3D conversion", "page_gridgeneration.html#s_gridgeneration_plot3d", null ]
     ] ]
 ];

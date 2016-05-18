@@ -18,8 +18,18 @@ var NAVTREE =
       [ "Contributing to ChiDG", "page_develop.html#s_contributing", null ]
     ] ],
     [ "Examples", "page_examplecases.html", "page_examplecases" ],
+    [ "Input files", "page_input.html", [
+      [ "Namelist Input", "page_input.html#s_namelist", null ],
+      [ "Generating a grid", "page_input.html#s_gridgeneration", [
+        [ "Plot3D conversion", "page_input.html#s_gridgeneration_plot3d", null ]
+      ] ]
+    ] ],
     [ "License", "page_license.html", null ],
     [ "References", "page_references.html", null ],
+    [ "Run a calculation", "page_runcalculation.html", [
+      [ "Setup", "page_runcalculation.html#s_setup", null ],
+      [ "Run", "page_runcalculation.html#s_run", null ]
+    ] ],
     [ "Usage", "page_usage.html", "page_usage" ],
     [ "Modules", null, [
       [ "Modules List", "namespaces.html", "namespaces" ],
@@ -55,15 +65,15 @@ var NAVTREEINDEX =
 "dir_c295fb10b6bc28fafcc6b5fb92e6c6e3.html",
 "interfacetype__blockvector_1_1operator_07_09_08.html",
 "mod__gaussseidel__standard_8f90.html#a48380d73f5a8329ec7adcb804442ff4d",
-"mod__periodic_8f90.html#a9c8ba522ece1e1ece0b2a622119ee891",
-"mod__version_8f90.html#a21559c13374880ab9f3c3f03181ad40d",
-"namespacemod__equations.html",
-"newton_8f90.html#a4c0381c8d37eb1f4c0fa2e9ca8762f81",
-"structbc__primlineuleraxi__outlet_1_1primlineuleraxi__outlet__t.html",
-"structtype__bcproperty_1_1bcproperty__t.html#aae2848e0494bb7fc8630bc322fb94731",
-"structtype__face_1_1face__t.html#a45bfebcf95a9fcf67b051a2d9758fd43",
-"structtype__solverdata_1_1solverdata__t.html#a5538c25a477f099e3d69c58477c7ecb7",
-"type__function_8f90.html#ae1d3045c2837fdd5e9efee36eb0f51d6"
+"mod__polynomial_8f90.html",
+"mod__version_8f90.html#aca574d2b5be3e04c6fd02b11614bba62",
+"namespacemod__fgmres__standard.html",
+"newton_8f90.html#a7060499ddd9042e296496d856c06feca",
+"structbc__primlineuleraxi__inlet_1_1primlineuleraxi__inlet__t.html#a0a974a3ed3bece12743359a1240d4428",
+"structtype__bcproperty_1_1bcproperty__t.html#a8c815f926c2ab1a55600bfd3177aec96",
+"structtype__face_1_1face__t.html#a1fec2a20da5ceee0773921b810d075ee",
+"structtype__solverdata_1_1solverdata__t.html",
+"type__function_8f90.html#a9e4f40884bf46a3828fc5ad11e89ee5c"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

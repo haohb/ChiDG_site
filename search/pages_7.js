@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mesh_20data_20structures',['Mesh data structures',['../subpage_mesh.html',1,'page_codedetails']]]
+  ['naca_202412',['NACA 2412',['../subpage_naca2412.html',1,'page_examplecases']]]
 ];

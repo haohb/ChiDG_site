@@ -44,8 +44,5 @@ var searchData=
   ['gq_5frule',['gq_rule',['../namespacemod__io.html#ae456dcb20a5b1a798938a5e4e486578a',1,'mod_io']]],
   ['gqmesh',['gqmesh',['../structtype__element_1_1element__t.html#ad50f4b796911338e1902ae9799695f83',1,'type_element::element_t::gqmesh()'],['../structtype__face_1_1face__t.html#af040a249f60c85717e50e26d9775ec03',1,'type_face::face_t::gqmesh()']]],
   ['grid_5fpoint',['grid_point',['../structtype__element_1_1element__t.html#aa1a4a9010f8330944aa1e565b56caae2',1,'type_element::element_t']]],
-  ['gridfile',['gridfile',['../namespacemod__io.html#a570606c38aedf3afe7c08fecaf891263',1,'mod_io']]],
-  ['gridgeneration_2edox',['gridgeneration.dox',['../gridgeneration_8dox.html',1,'']]],
-  ['gridtype',['gridtype',['../namespacemod__io.html#ad64d35cf45502dd90780d759c789ea42',1,'mod_io']]],
-  ['generating_20a_20grid',['Generating a grid',['../page_gridgeneration.html',1,'page_usage']]]
+  ['gridfile',['gridfile',['../namespacemod__io.html#a570606c38aedf3afe7c08fecaf891263',1,'mod_io']]]
 ];
