@@ -1,16 +1,18 @@
 var searchData=
 [
-  ['data_5finterface',['data_interface',['../interfacetype__nonlinear__solver_1_1data__interface.html',1,'type_nonlinear_solver']]],
-  ['data_5finterface',['data_interface',['../interfacetype__time__scheme_1_1data__interface.html',1,'type_time_scheme']]],
-  ['datawrapper_5ft',['datawrapper_t',['../structtype__datawrapper_1_1datawrapper__t.html',1,'type_datawrapper']]],
-  ['densematrix_5ft',['densematrix_t',['../structtype__densematrix_1_1densematrix__t.html',1,'type_densematrix']]],
-  ['densevector_5ft',['densevector_t',['../structtype__densevector_1_1densevector__t.html',1,'type_densevector']]],
-  ['dict_5ft',['dict_t',['../structtype__dict_1_1dict__t.html',1,'type_dict']]],
-  ['directsolver_5ft',['directsolver_t',['../structtype__directsolver_1_1directsolver__t.html',1,'type_directsolver']]],
-  ['dla_5fboundary_5faverage_5fadvective_5fflux_5ft',['dla_boundary_average_advective_flux_t',['../structdla__boundary__average__advective__flux_1_1dla__boundary__average__advective__flux__t.html',1,'dla_boundary_average_advective_flux']]],
-  ['dla_5flaxfriedrichs_5fflux_5ft',['dla_laxfriedrichs_flux_t',['../structdla__laxfriedrichs__flux_1_1dla__laxfriedrichs__flux__t.html',1,'dla_laxfriedrichs_flux']]],
-  ['dla_5fproperties_5ft',['dla_properties_t',['../structdla__properties_1_1dla__properties__t.html',1,'dla_properties']]],
-  ['dla_5fvolume_5fadvective_5fflux_5ft',['dla_volume_advective_flux_t',['../structdla__volume__advective__flux_1_1dla__volume__advective__flux__t.html',1,'dla_volume_advective_flux']]],
-  ['domaininfo_5ft',['domaininfo_t',['../structtype__domaininfo_1_1domaininfo__t.html',1,'type_domaininfo']]],
-  ['duallinearadvection_5fe',['duallinearadvection_e',['../structeqn__duallinearadvection_1_1duallinearadvection__e.html',1,'eqn_duallinearadvection']]]
+  ['chidg_5fdata_5ft',['chidg_data_t',['../structtype__chidg__data_1_1chidg__data__t.html',1,'type_chidg_data']]],
+  ['chidg_5ft',['chidg_t',['../structtype__chidg_1_1chidg__t.html',1,'type_chidg']]],
+  ['chidgmatrix_5ft',['chidgmatrix_t',['../structtype__chidgmatrix_1_1chidgmatrix__t.html',1,'type_chidgmatrix']]],
+  ['chidgvector_5ft',['chidgvector_t',['../structtype__chidgvector_1_1chidgvector__t.html',1,'type_chidgvector']]],
+  ['chimera_5fdonor_5ft',['chimera_donor_t',['../structtype__chimera__donor_1_1chimera__donor__t.html',1,'type_chimera_donor']]],
+  ['chimera_5freceiver_5fdata_5ft',['chimera_receiver_data_t',['../structtype__chimera__receiver__data_1_1chimera__receiver__data__t.html',1,'type_chimera_receiver_data']]],
+  ['chimera_5freceiver_5ft',['chimera_receiver_t',['../structtype__chimera__receiver_1_1chimera__receiver__t.html',1,'type_chimera_receiver']]],
+  ['chimera_5ft',['chimera_t',['../structtype__chimera_1_1chimera__t.html',1,'type_chimera']]],
+  ['compute_5fad',['compute_ad',['../interfaceatype__fluid_1_1compute__ad.html',1,'atype_fluid']]],
+  ['compute_5finterface',['compute_interface',['../interfacetype__function_1_1compute__interface.html',1,'type_function']]],
+  ['compute_5finterface',['compute_interface',['../interfacetype__bc_1_1compute__interface.html',1,'type_bc']]],
+  ['compute_5finterface',['compute_interface',['../interfaceatype__boundary__flux_1_1compute__interface.html',1,'atype_boundary_flux']]],
+  ['compute_5finterface',['compute_interface',['../interfaceatype__volume__flux_1_1compute__interface.html',1,'atype_volume_flux']]],
+  ['constant_5ff',['constant_f',['../structfcn__constant_1_1constant__f.html',1,'fcn_constant']]],
+  ['cylindricalduct_5feigenfunction_5ff',['cylindricalduct_eigenfunction_f',['../structfcn__cylindricalduct__eigenfunction_1_1cylindricalduct__eigenfunction__f.html',1,'fcn_cylindricalduct_eigenfunction']]]
 ];

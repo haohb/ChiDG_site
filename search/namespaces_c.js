@@ -21,7 +21,6 @@ var searchData=
   ['type_5fchimera_5fdonor',['type_chimera_donor',['../namespacetype__chimera__donor.html',1,'']]],
   ['type_5fchimera_5freceiver',['type_chimera_receiver',['../namespacetype__chimera__receiver.html',1,'']]],
   ['type_5fchimera_5freceiver_5fdata',['type_chimera_receiver_data',['../namespacetype__chimera__receiver__data.html',1,'']]],
-  ['type_5fdatawrapper',['type_datawrapper',['../namespacetype__datawrapper.html',1,'']]],
   ['type_5fdensematrix',['type_densematrix',['../namespacetype__densematrix.html',1,'']]],
   ['type_5fdensevector',['type_densevector',['../namespacetype__densevector.html',1,'']]],
   ['type_5fdict',['type_dict',['../namespacetype__dict.html',1,'']]],
@@ -65,6 +64,7 @@ var searchData=
   ['type_5ftime_5fscheme',['type_time_scheme',['../namespacetype__time__scheme.html',1,'']]],
   ['type_5ftimer',['type_timer',['../namespacetype__timer.html',1,'']]],
   ['type_5fvector',['type_vector',['../namespacetype__vector.html',1,'']]],
+  ['type_5fvector_5fdata',['type_vector_data',['../namespacetype__vector__data.html',1,'']]],
   ['type_5fvolume_5fflux_5fwrapper',['type_volume_flux_wrapper',['../namespacetype__volume__flux__wrapper.html',1,'']]],
   ['type_5fvolumequadrature',['type_volumequadrature',['../namespacetype__volumequadrature.html',1,'']]]
 ];

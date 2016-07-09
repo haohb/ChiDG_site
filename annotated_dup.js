@@ -80,6 +80,7 @@ var annotated_dup =
     [ "mock_bc", "namespacemock__bc.html", "namespacemock__bc" ],
     [ "mock_equationset", "namespacemock__equationset.html", "namespacemock__equationset" ],
     [ "mod_interpolate", "namespacemod__interpolate.html", "namespacemod__interpolate" ],
+    [ "mod_vector_return_data", "namespacemod__vector__return__data.html", "namespacemod__vector__return__data" ],
     [ "newton", "namespacenewton.html", "namespacenewton" ],
     [ "operator_block_mv", "namespaceoperator__block__mv.html", "namespaceoperator__block__mv" ],
     [ "operator_chidg_mv", "namespaceoperator__chidg__mv.html", "namespaceoperator__chidg__mv" ],
@@ -134,7 +135,6 @@ var annotated_dup =
     [ "type_chimera_donor", "namespacetype__chimera__donor.html", "namespacetype__chimera__donor" ],
     [ "type_chimera_receiver", "namespacetype__chimera__receiver.html", "namespacetype__chimera__receiver" ],
     [ "type_chimera_receiver_data", "namespacetype__chimera__receiver__data.html", "namespacetype__chimera__receiver__data" ],
-    [ "type_datawrapper", "namespacetype__datawrapper.html", "namespacetype__datawrapper" ],
     [ "type_densematrix", "namespacetype__densematrix.html", "namespacetype__densematrix" ],
     [ "type_densevector", "namespacetype__densevector.html", "namespacetype__densevector" ],
     [ "type_dict", "namespacetype__dict.html", "namespacetype__dict" ],
@@ -178,6 +178,7 @@ var annotated_dup =
     [ "type_time_scheme", "namespacetype__time__scheme.html", "namespacetype__time__scheme" ],
     [ "type_timer", "namespacetype__timer.html", "namespacetype__timer" ],
     [ "type_vector", "namespacetype__vector.html", "namespacetype__vector" ],
+    [ "type_vector_data", "namespacetype__vector__data.html", "namespacetype__vector__data" ],
     [ "type_volume_flux_wrapper", "namespacetype__volume__flux__wrapper.html", "namespacetype__volume__flux__wrapper" ],
     [ "type_volumequadrature", "namespacetype__volumequadrature.html", "namespacetype__volumequadrature" ],
     [ "euler_e", "structeuler__e.html", "structeuler__e" ]

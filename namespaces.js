@@ -145,6 +145,7 @@ var namespaces =
     [ "mod_testutils", "namespacemod__testutils.html", null ],
     [ "mod_time_scheme", "namespacemod__time__scheme.html", null ],
     [ "mod_timestep", "namespacemod__timestep.html", null ],
+    [ "mod_vector_return_data", "namespacemod__vector__return__data.html", null ],
     [ "mod_version", "namespacemod__version.html", null ],
     [ "newton", "namespacenewton.html", null ],
     [ "operator_block_dot", "namespaceoperator__block__dot.html", null ],
@@ -202,7 +203,6 @@ var namespaces =
     [ "type_chimera_donor", "namespacetype__chimera__donor.html", null ],
     [ "type_chimera_receiver", "namespacetype__chimera__receiver.html", null ],
     [ "type_chimera_receiver_data", "namespacetype__chimera__receiver__data.html", null ],
-    [ "type_datawrapper", "namespacetype__datawrapper.html", null ],
     [ "type_densematrix", "namespacetype__densematrix.html", null ],
     [ "type_densevector", "namespacetype__densevector.html", null ],
     [ "type_dict", "namespacetype__dict.html", null ],
@@ -246,6 +246,7 @@ var namespaces =
     [ "type_time_scheme", "namespacetype__time__scheme.html", null ],
     [ "type_timer", "namespacetype__timer.html", null ],
     [ "type_vector", "namespacetype__vector.html", null ],
+    [ "type_vector_data", "namespacetype__vector__data.html", null ],
     [ "type_volume_flux_wrapper", "namespacetype__volume__flux__wrapper.html", null ],
     [ "type_volumequadrature", "namespacetype__volumequadrature.html", null ]
 ];

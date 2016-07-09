@@ -4,8 +4,18 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.10"/>
-<title>ChiDG: type_vector::vector_t Type Reference</title>
+<title>ChiDG: Overview</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
+<!-- BEGIN Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-80530851-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- END Google Analytics -->
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
 <link href="navtree.css" rel="stylesheet" type="text/css"/>
@@ -117,6 +127,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:ac3d2e1870a0cb20ecb06343595f49f93"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a637a90e90f8928036d3ae8dd835f5594"><td class="memItemLeft" align="right" valign="top">procedure, public&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__vector_1_1vector__t.html#a637a90e90f8928036d3ae8dd835f5594">at</a></td></tr>
 <tr class="separator:a637a90e90f8928036d3ae8dd835f5594"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca1400ad77e1e24553deb87cf7ea6c5f"><td class="memItemLeft" align="right" valign="top">procedure, public&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__vector_1_1vector__t.html#aca1400ad77e1e24553deb87cf7ea6c5f">check_bounds</a></td></tr>
+<tr class="separator:aca1400ad77e1e24553deb87cf7ea6c5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -126,8 +138,8 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a3da949947d61a8a61d8c238c78021a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aee784e999d850f4e8ffd4a7e5c8c3466"><td class="memItemLeft" align="right" valign="top">integer(ik)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__vector_1_1vector__t.html#aee784e999d850f4e8ffd4a7e5c8c3466">buffer_</a> = 20</td></tr>
 <tr class="separator:aee784e999d850f4e8ffd4a7e5c8c3466"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65b0490d39b7031e116e563db1c2efcb"><td class="memItemLeft" align="right" valign="top">type(<a class="el" href="structtype__datawrapper_1_1datawrapper__t.html">datawrapper_t</a>), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__vector_1_1vector__t.html#a65b0490d39b7031e116e563db1c2efcb">data</a></td></tr>
-<tr class="separator:a65b0490d39b7031e116e563db1c2efcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47e3bd83995af17ad38ec45eb1583546"><td class="memItemLeft" align="right" valign="top">type(<a class="el" href="structtype__vector__data_1_1vector__data__t.html">vector_data_t</a>), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__vector_1_1vector__t.html#a47e3bd83995af17ad38ec45eb1583546">data</a></td></tr>
+<tr class="separator:a47e3bd83995af17ad38ec45eb1583546"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
@@ -154,6 +166,21 @@ Public Attributes</h2></td></tr>
       <table class="memname">
         <tr>
           <td class="memname">procedure, public type_vector::vector_t::capacity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aca1400ad77e1e24553deb87cf7ea6c5f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">procedure, public type_vector::vector_t::check_bounds </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -233,12 +260,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a65b0490d39b7031e116e563db1c2efcb"></a>
+<a class="anchor" id="a47e3bd83995af17ad38ec45eb1583546"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">type(<a class="el" href="structtype__datawrapper_1_1datawrapper__t.html">datawrapper_t</a>), dimension(:), allocatable type_vector::vector_t::data</td>
+          <td class="memname">type(<a class="el" href="structtype__vector__data_1_1vector__data__t.html">vector_data_t</a>), dimension(:), allocatable type_vector::vector_t::data</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -266,7 +293,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacetype__vector.html">type_vector</a></li><li class="navelem"><a class="el" href="structtype__vector_1_1vector__t.html">vector_t</a></li>
-    <li class="footer">Generated on Tue Jun 14 2016 15:19:32 for ChiDG by
+    <li class="footer">Generated on Sat Jul 9 2016 11:12:29 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

@@ -6,19 +6,19 @@
 !_TAG_PROGRAM_VERSION	5.8	//
 NAVTREE	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/navtreedata.js	/^var NAVTREE =$/;"	v
 NAVTREEINDEX	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/navtreedata.js	/^var NAVTREEINDEX =$/;"	v
-NAVTREEINDEX0._d_l_a___lax_friedrichs__flux_8f90.html	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/navtreeindex0.js	/^"_d_l_a___lax_friedrichs__flux_8f90.html":[9,0,2,7,1,1],$/;"	p
-NAVTREEINDEX1.dir_c295fb10b6bc28fafcc6b5fb92e6c6e3.html	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/navtreeindex1.js	/^"dir_c295fb10b6bc28fafcc6b5fb92e6c6e3.html":[9,0,2,21,0],$/;"	p
-NAVTREEINDEX10.structtype__face_1_1face__t.html#a0ce8ecf1abb0a8e7eea795c4b5e60e0c	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/navtreeindex10.js	/^"structtype__face_1_1face__t.html#a0ce8ecf1abb0a8e7eea795c4b5e60e0c":[8,0,147,0,1],$/;"	p
-NAVTREEINDEX11.structtype__seed_1_1seed__t.html	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/navtreeindex11.js	/^"structtype__seed_1_1seed__t.html":[8,0,172,0],$/;"	p
-NAVTREEINDEX12.type__function_8f90.html#a29fc4ce26a59e000b8306cc9fa10474d	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/navtreeindex12.js	/^"type__function_8f90.html#a29fc4ce26a59e000b8306cc9fa10474d":[9,0,2,8,9,3],$/;"	p
-NAVTREEINDEX2.interfacetype__blockvector_1_1operator_07_09_08.html	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/navtreeindex2.js	/^"interfacetype__blockvector_1_1operator_07_09_08.html":[8,0,124,2],$/;"	p
-NAVTREEINDEX3.mod__grid_8f90.html	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/navtreeindex3.js	/^"mod__grid_8f90.html":[9,0,2,9,1],$/;"	p
-NAVTREEINDEX4.mod__partitioners_8f90.html#ab87c579fc1aeb27ef7d943f1796a2a33	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/navtreeindex4.js	/^"mod__partitioners_8f90.html#ab87c579fc1aeb27ef7d943f1796a2a33":[9,0,2,16,0,1],$/;"	p
-NAVTREEINDEX5.mod__timestep_8f90.html	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/navtreeindex5.js	/^"mod__timestep_8f90.html":[9,0,2,7,2,8],$/;"	p
-NAVTREEINDEX6.namespacemod__dnad__tools.html	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/navtreeindex6.js	/^"namespacemod__dnad__tools.html":[7,0,98],$/;"	p
-NAVTREEINDEX7.namespacetype__volumequadrature.html	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/navtreeindex7.js	/^"namespacetype__volumequadrature.html":[8,0,179],$/;"	p
-NAVTREEINDEX8.structbc__primlineuleraxi__extrapolate_1_1primlineuleraxi__extrapolate__t.html#a5855db989aad1cb2f19d1e9ae3bdcb5c	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/navtreeindex8.js	/^"structbc__primlineuleraxi__extrapolate_1_1primlineuleraxi__extrapolate__t.html#a5855db989aad1cb2f19d1e9ae3bdcb5c":[8,0,29,0,1],$/;"	p
-NAVTREEINDEX9.structtype__bcproperty_1_1bcproperty__t.html#a2a78ce7efd22c067fba078e923a9952e	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/navtreeindex9.js	/^"structtype__bcproperty_1_1bcproperty__t.html#a2a78ce7efd22c067fba078e923a9952e":[8,0,116,0,5],$/;"	p
+NAVTREEINDEX0._d_l_a___lax_friedrichs__flux_8f90.html	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/navtreeindex0.js	/^"_d_l_a___lax_friedrichs__flux_8f90.html":[11,0,2,6,1,1],$/;"	p
+NAVTREEINDEX1.dir_c6dea63c827c48fbe6539654dd202529.html	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/navtreeindex1.js	/^"dir_c6dea63c827c48fbe6539654dd202529.html":[11,0,2,6,4],$/;"	p
+NAVTREEINDEX10.structtype__face_1_1face__t.html#ab6f8b014e0b3c347622a3b67d3778777	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/navtreeindex10.js	/^"structtype__face_1_1face__t.html#ab6f8b014e0b3c347622a3b67d3778777":[10,0,147,0,35],$/;"	p
+NAVTREEINDEX11.structtype__time__scheme_1_1time__scheme__t.html#a312868188fa3210b198754cc03d66201	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/navtreeindex11.js	/^"structtype__time__scheme_1_1time__scheme__t.html#a312868188fa3210b198754cc03d66201":[10,0,175,3,3],$/;"	p
+NAVTREEINDEX12.type__function__status_8f90.html#accb8d7f29b41601a7cb45a3cfe027653	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/navtreeindex12.js	/^"type__function__status_8f90.html#accb8d7f29b41601a7cb45a3cfe027653":[11,0,2,5,17,4],$/;"	p
+NAVTREEINDEX2.interfacetype__chidgvector_1_1operator_07-_08.html	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/navtreeindex2.js	/^"interfacetype__chidgvector_1_1operator_07-_08.html":[10,0,129,3],$/;"	p
+NAVTREEINDEX3.mod__grid__tools__two_8f90.html#a7114287cfc2bce433b33eee38f52a12e	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/navtreeindex3.js	/^"mod__grid__tools__two_8f90.html#a7114287cfc2bce433b33eee38f52a12e":[11,0,2,8,4,0],$/;"	p
+NAVTREEINDEX4.mod__primitive__linearized__euler_8f90.html#a0c1ca163f8f392c70bdb2638ee9465da	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/navtreeindex4.js	/^"mod__primitive__linearized__euler_8f90.html#a0c1ca163f8f392c70bdb2638ee9465da":[11,0,2,6,5,2,79],$/;"	p
+NAVTREEINDEX5.namespacebc__empty.html	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/navtreeindex5.js	/^"namespacebc__empty.html":[9,0,7],$/;"	p
+NAVTREEINDEX6.namespacemod__interpolation.html	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/navtreeindex6.js	/^"namespacemod__interpolation.html":[9,0,116],$/;"	p
+NAVTREEINDEX7.page_develop.html#s_testing_compile	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/navtreeindex7.js	/^"page_develop.html#s_testing_compile":[2,0,0],$/;"	p
+NAVTREEINDEX8.structdla__volume__advective__flux_1_1dla__volume__advective__flux__t.html	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/navtreeindex8.js	/^"structdla__volume__advective__flux_1_1dla__volume__advective__flux__t.html":[10,0,36,0],$/;"	p
+NAVTREEINDEX9.structtype__bcset_1_1bcset__t.html#a72066d9fdfe1240f95ccfa825d44160d	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/navtreeindex9.js	/^"structtype__bcset_1_1bcset__t.html#a72066d9fdfe1240f95ccfa825d44160d":[10,0,118,0,2],$/;"	p
 SYNCOFFMSG	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/navtreedata.js	/^var SYNCOFFMSG = 'click to enable panel synchronisation';/;"	v
 SYNCONMSG	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/navtreedata.js	/^var SYNCONMSG = 'click to disable panel synchronisation';$/;"	v
 SearchBox	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/search/search.js	/^function SearchBox(name, resultsPath, inFrame, label)$/;"	c
@@ -484,6 +484,7 @@ details	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/str
 details	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/structtype__timescheme_1_1timescheme__t.html	/^<a name="details" id="details"><\/a><h2 class="groupheader">Detailed Description<\/h2>$/;"	a
 details	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/structtype__vector_1_1vector__t.html	/^<a name="details" id="details"><\/a><h2 class="groupheader">Detailed Description<\/h2>$/;"	a
 details	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/structtype__volumequadrature_1_1volumequadrature__t.html	/^<a name="details" id="details"><\/a><h2 class="groupheader">Detailed Description<\/h2>$/;"	a
+dir_03ddbc5658c7b22a0f68c2141087279d	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_03ddbc5658c7b22a0f68c2141087279d.js	/^var dir_03ddbc5658c7b22a0f68c2141087279d =$/;"	v
 dir_0871b2301e4182edcd28a83c976fee7b	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_0871b2301e4182edcd28a83c976fee7b.js	/^var dir_0871b2301e4182edcd28a83c976fee7b =$/;"	v
 dir_0b10ba211cd9ec6b5f6496293b1f5556	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_0b10ba211cd9ec6b5f6496293b1f5556.js	/^var dir_0b10ba211cd9ec6b5f6496293b1f5556 =$/;"	v
 dir_0b61c55142250c0cc363383afd8075a4	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_0b61c55142250c0cc363383afd8075a4.js	/^var dir_0b61c55142250c0cc363383afd8075a4 =$/;"	v
@@ -503,11 +504,13 @@ dir_30a3a8ea66bed613851c6721a2020f37	/Users/nathanwukie/Documents/schooldocument
 dir_31b4388cdeb919ea2783a13f6c738b17	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_31b4388cdeb919ea2783a13f6c738b17.js	/^var dir_31b4388cdeb919ea2783a13f6c738b17 =$/;"	v
 dir_325c00b1a497b70ca4893d2251b3df66	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_325c00b1a497b70ca4893d2251b3df66.js	/^var dir_325c00b1a497b70ca4893d2251b3df66 =$/;"	v
 dir_35c063c51595aed048740f74a780093f	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_35c063c51595aed048740f74a780093f.js	/^var dir_35c063c51595aed048740f74a780093f =$/;"	v
+dir_367f9f5b8715f539d72494989a750986	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_367f9f5b8715f539d72494989a750986.js	/^var dir_367f9f5b8715f539d72494989a750986 =$/;"	v
 dir_375f6d8e3aebf5cb90ff076ffabeeebf	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_375f6d8e3aebf5cb90ff076ffabeeebf.js	/^var dir_375f6d8e3aebf5cb90ff076ffabeeebf =$/;"	v
 dir_392b745b3c4a751e4c416f1ff65fb531	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_392b745b3c4a751e4c416f1ff65fb531.js	/^var dir_392b745b3c4a751e4c416f1ff65fb531 =$/;"	v
 dir_39948b952efcf1c356cba98ae92f22bd	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_39948b952efcf1c356cba98ae92f22bd.js	/^var dir_39948b952efcf1c356cba98ae92f22bd =$/;"	v
 dir_3dc38de67b6dc19c6c3b165791f6f8d5	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_3dc38de67b6dc19c6c3b165791f6f8d5.js	/^var dir_3dc38de67b6dc19c6c3b165791f6f8d5 =$/;"	v
 dir_440c46b7085925c374d14107273aa3fb	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_440c46b7085925c374d14107273aa3fb.js	/^var dir_440c46b7085925c374d14107273aa3fb =$/;"	v
+dir_44d4f8ae08af6f1eeef34222804493fa	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_44d4f8ae08af6f1eeef34222804493fa.js	/^var dir_44d4f8ae08af6f1eeef34222804493fa =$/;"	v
 dir_4c9d42863aecef07c06fbc4d2736a8ea	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_4c9d42863aecef07c06fbc4d2736a8ea.js	/^var dir_4c9d42863aecef07c06fbc4d2736a8ea =$/;"	v
 dir_4f4a35546855f240d49885b6d2c25a96	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_4f4a35546855f240d49885b6d2c25a96.js	/^var dir_4f4a35546855f240d49885b6d2c25a96 =$/;"	v
 dir_53fe08e27cb91a295410bba9a95d40c9	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_53fe08e27cb91a295410bba9a95d40c9.js	/^var dir_53fe08e27cb91a295410bba9a95d40c9 =$/;"	v
@@ -524,6 +527,7 @@ dir_687bdf86e8e626c2168c3a2d1c125116	/Users/nathanwukie/Documents/schooldocument
 dir_6993b48177f4798e7c32b5b63ec2c631	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_6993b48177f4798e7c32b5b63ec2c631.js	/^var dir_6993b48177f4798e7c32b5b63ec2c631 =$/;"	v
 dir_69ad2b418a92b3f8cbdda32ecfce7a48	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_69ad2b418a92b3f8cbdda32ecfce7a48.js	/^var dir_69ad2b418a92b3f8cbdda32ecfce7a48 =$/;"	v
 dir_6c3c8d6be37dcb2bce456f88dcc301cd	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_6c3c8d6be37dcb2bce456f88dcc301cd.js	/^var dir_6c3c8d6be37dcb2bce456f88dcc301cd =$/;"	v
+dir_6dc0bd3d839ff36575beb190c522ff47	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_6dc0bd3d839ff36575beb190c522ff47.js	/^var dir_6dc0bd3d839ff36575beb190c522ff47 =$/;"	v
 dir_6e84900062b264f57696a412520b2138	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_6e84900062b264f57696a412520b2138.js	/^var dir_6e84900062b264f57696a412520b2138 =$/;"	v
 dir_72e4b9ab92c38b5fc4d516fa67f90fc6	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_72e4b9ab92c38b5fc4d516fa67f90fc6.js	/^var dir_72e4b9ab92c38b5fc4d516fa67f90fc6 =$/;"	v
 dir_79fa9b12a48436e6d1fb80a586e19af1	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_79fa9b12a48436e6d1fb80a586e19af1.js	/^var dir_79fa9b12a48436e6d1fb80a586e19af1 =$/;"	v
@@ -588,6 +592,7 @@ fcn__xsquared_8f90	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/Chi
 fcn__xyz_8f90	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/fcn__xyz_8f90.js	/^var fcn__xyz_8f90 =$/;"	v
 fcn__ysquared_8f90	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/fcn__ysquared_8f90.js	/^var fcn__ysquared_8f90 =$/;"	v
 fcn__zsquared_8f90	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/fcn__zsquared_8f90.js	/^var fcn__zsquared_8f90 =$/;"	v
+files	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_03ddbc5658c7b22a0f68c2141087279d.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"><\/a>$/;"	a
 files	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_0871b2301e4182edcd28a83c976fee7b.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"><\/a>$/;"	a
 files	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_0b10ba211cd9ec6b5f6496293b1f5556.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"><\/a>$/;"	a
 files	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_0b61c55142250c0cc363383afd8075a4.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"><\/a>$/;"	a
@@ -607,10 +612,12 @@ files	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_3
 files	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_31b4388cdeb919ea2783a13f6c738b17.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"><\/a>$/;"	a
 files	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_325c00b1a497b70ca4893d2251b3df66.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"><\/a>$/;"	a
 files	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_35c063c51595aed048740f74a780093f.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"><\/a>$/;"	a
+files	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_367f9f5b8715f539d72494989a750986.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"><\/a>$/;"	a
 files	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_375f6d8e3aebf5cb90ff076ffabeeebf.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"><\/a>$/;"	a
 files	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_392b745b3c4a751e4c416f1ff65fb531.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"><\/a>$/;"	a
 files	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_39948b952efcf1c356cba98ae92f22bd.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"><\/a>$/;"	a
 files	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_440c46b7085925c374d14107273aa3fb.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"><\/a>$/;"	a
+files	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_44d4f8ae08af6f1eeef34222804493fa.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"><\/a>$/;"	a
 files	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_4c9d42863aecef07c06fbc4d2736a8ea.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"><\/a>$/;"	a
 files	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_4f4a35546855f240d49885b6d2c25a96.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"><\/a>$/;"	a
 files	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_53fe08e27cb91a295410bba9a95d40c9.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"><\/a>$/;"	a
@@ -627,6 +634,7 @@ files	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_6
 files	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_6993b48177f4798e7c32b5b63ec2c631.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"><\/a>$/;"	a
 files	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_69ad2b418a92b3f8cbdda32ecfce7a48.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"><\/a>$/;"	a
 files	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_6c3c8d6be37dcb2bce456f88dcc301cd.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"><\/a>$/;"	a
+files	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_6dc0bd3d839ff36575beb190c522ff47.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"><\/a>$/;"	a
 files	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_6e84900062b264f57696a412520b2138.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"><\/a>$/;"	a
 files	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_72e4b9ab92c38b5fc4d516fa67f90fc6.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"><\/a>$/;"	a
 files	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/dir_80b12a04080342cac66dddc13ab3e1e7.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"><\/a>$/;"	a
@@ -1136,10 +1144,10 @@ indexSectionNames.6	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/Ch
 indexSectionsWithContent.0	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/search/searchdata.js	/^  0: "_abcdefghijklmnopqrstuvwxyz",$/;"	p
 indexSectionsWithContent.1	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/search/searchdata.js	/^  1: "bcdefgiklmnopqrstvxyz",$/;"	p
 indexSectionsWithContent.2	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/search/searchdata.js	/^  2: "abdeflmnopqst",$/;"	p
-indexSectionsWithContent.3	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/search/searchdata.js	/^  3: "abcdefghilmnopqrstuv",$/;"	p
+indexSectionsWithContent.3	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/search/searchdata.js	/^  3: "abcdefhilmnopqrstuv",$/;"	p
 indexSectionsWithContent.4	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/search/searchdata.js	/^  4: "_abcdefghijklmnprsuwxyz",$/;"	p
 indexSectionsWithContent.5	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/search/searchdata.js	/^  5: "abcdefghijlmnopqrstuvwxyz",$/;"	p
-indexSectionsWithContent.6	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/search/searchdata.js	/^  6: "acdegilmnorsu"$/;"	p
+indexSectionsWithContent.6	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/search/searchdata.js	/^  6: "acdeilmnorsu"$/;"	p
 inherited	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/structbc__empty_1_1bc__empty__t.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"><\/a>$/;"	a
 inherited	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/structbc__euler__extrapolate_1_1euler__extrapolate__t.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"><\/a>$/;"	a
 inherited	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/structbc__euler__pressureoutlet_1_1euler__pressureoutlet__t.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"><\/a>$/;"	a
@@ -3382,6 +3390,8 @@ var-members	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site
 var-members	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/namespacemod__time__scheme.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"><\/a>$/;"	a
 var-members	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/namespacemod__timescheme.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"><\/a>$/;"	a
 var-members	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/namespacemod__version.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"><\/a>$/;"	a
+var-members	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/namespacetype__element.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"><\/a>$/;"	a
+var-members	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/type__element_8f90.html	/^<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"><\/a>$/;"	a
 vas__imag__pml_8f90	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/vas__imag__pml_8f90.js	/^var vas__imag__pml_8f90 =$/;"	v
 vas__real__pml_8f90	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/vas__real__pml_8f90.js	/^var vas__real__pml_8f90 =$/;"	v
 writeCookie	/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG_site/resize.js	/^function writeCookie(cookie, val, expiration) $/;"	f

@@ -1,5 +1,6 @@
 var hierarchy =
 [
+    [ "mod_vector_return_data::assignment(=)", "interfacemod__vector__return__data_1_1assignment_07_0A_08.html", null ],
     [ "type_bc_coupling::bc_coupling_t", "structtype__bc__coupling_1_1bc__coupling__t.html", null ],
     [ "type_bc::bc_t", "structtype__bc_1_1bc__t.html", [
       [ "bc_empty::bc_empty_t", "structbc__empty_1_1bc__empty__t.html", null ],
@@ -55,7 +56,6 @@ var hierarchy =
     [ "atype_boundary_flux::compute_interface", "interfaceatype__boundary__flux_1_1compute__interface.html", null ],
     [ "type_nonlinear_solver::data_interface", "interfacetype__nonlinear__solver_1_1data__interface.html", null ],
     [ "type_time_scheme::data_interface", "interfacetype__time__scheme_1_1data__interface.html", null ],
-    [ "type_datawrapper::datawrapper_t", "structtype__datawrapper_1_1datawrapper__t.html", null ],
     [ "type_densematrix::densematrix_t", "structtype__densematrix_1_1densematrix__t.html", null ],
     [ "type_densevector::densevector_t", "structtype__densevector_1_1densevector__t.html", null ],
     [ "type_dict::dict_t", "structtype__dict_1_1dict__t.html", null ],
@@ -173,9 +173,9 @@ var hierarchy =
       [ "newton::newton_t", "structnewton_1_1newton__t.html", null ],
       [ "quasi_newton::quasi_newton_t", "structquasi__newton_1_1quasi__newton__t.html", null ]
     ] ],
-    [ "type_densevector::operator(*)", "interfacetype__densevector_1_1operator_07_5_08.html", null ],
     [ "operator_block_mv::operator(*)", "interfaceoperator__block__mv_1_1operator_07_5_08.html", null ],
     [ "operator_chidg_mv::operator(*)", "interfaceoperator__chidg__mv_1_1operator_07_5_08.html", null ],
+    [ "type_densevector::operator(*)", "interfacetype__densevector_1_1operator_07_5_08.html", null ],
     [ "type_blockvector::operator(*)", "interfacetype__blockvector_1_1operator_07_5_08.html", null ],
     [ "type_chidgvector::operator(*)", "interfacetype__chidgvector_1_1operator_07_5_08.html", null ],
     [ "type_chidgvector::operator(+)", "interfacetype__chidgvector_1_1operator_07_09_08.html", null ],
@@ -184,8 +184,8 @@ var hierarchy =
     [ "type_chidgvector::operator(-)", "interfacetype__chidgvector_1_1operator_07-_08.html", null ],
     [ "type_densevector::operator(-)", "interfacetype__densevector_1_1operator_07-_08.html", null ],
     [ "type_blockvector::operator(-)", "interfacetype__blockvector_1_1operator_07-_08.html", null ],
-    [ "type_blockvector::operator(/)", "interfacetype__blockvector_1_1operator_07_2_08.html", null ],
     [ "type_densevector::operator(/)", "interfacetype__densevector_1_1operator_07_2_08.html", null ],
+    [ "type_blockvector::operator(/)", "interfacetype__blockvector_1_1operator_07_2_08.html", null ],
     [ "type_chidgvector::operator(/)", "interfacetype__chidgvector_1_1operator_07_2_08.html", null ],
     [ "type_point::point_t", "structtype__point_1_1point__t.html", null ],
     [ "type_preconditioner::preconditioner_t", "structtype__preconditioner_1_1preconditioner__t.html", [
@@ -206,9 +206,9 @@ var hierarchy =
     [ "type_quadrature::quadrature_t", "structtype__quadrature_1_1quadrature__t.html", null ],
     [ "type_rvector::rvector_t", "structtype__rvector_1_1rvector__t.html", null ],
     [ "type_seed::seed_t", "structtype__seed_1_1seed__t.html", null ],
+    [ "type_nonlinear_solver::self_interface", "interfacetype__nonlinear__solver_1_1self__interface.html", null ],
     [ "type_equationset::self_interface", "interfacetype__equationset_1_1self__interface.html", null ],
     [ "type_time_scheme::self_interface", "interfacetype__time__scheme_1_1self__interface.html", null ],
-    [ "type_nonlinear_solver::self_interface", "interfacetype__nonlinear__solver_1_1self__interface.html", null ],
     [ "atype_solid::solid_t", "structatype__solid_1_1solid__t.html", null ],
     [ "type_linear_solver::solve_interface", "interfacetype__linear__solver_1_1solve__interface.html", null ],
     [ "type_solverdata::solverdata_t", "structtype__solverdata_1_1solverdata__t.html", null ],
@@ -216,6 +216,7 @@ var hierarchy =
       [ "steady::steady_t", "structsteady_1_1steady__t.html", null ]
     ] ],
     [ "type_timer::timer_t", "structtype__timer_1_1timer__t.html", null ],
+    [ "type_vector_data::vector_data_t", "structtype__vector__data_1_1vector__data__t.html", null ],
     [ "type_vector::vector_t", "structtype__vector_1_1vector__t.html", null ],
     [ "type_volume_flux_wrapper::volume_flux_wrapper_t", "structtype__volume__flux__wrapper_1_1volume__flux__wrapper__t.html", null ],
     [ "type_volumequadrature::volumequadrature_t", "structtype__volumequadrature_1_1volumequadrature__t.html", null ],

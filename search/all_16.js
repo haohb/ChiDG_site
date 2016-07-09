@@ -23,6 +23,7 @@ var searchData=
   ['vas_5freal_5fpml_2ef90',['vas_real_pml.f90',['../vas__real__pml_8f90.html',1,'']]],
   ['vbar',['vbar',['../namespacemod__linearized__euler.html#ad8ac2e339a17a711660c8935f9a4f642',1,'mod_linearized_euler::vbar()'],['../namespacemod__primitive__linearized__euler.html#a0255a97283693eb9c1a476a2a6c4c08c',1,'mod_primitive_linearized_euler::vbar()'],['../namespacemod__primitive__linearized__euler__axisymmetric.html#a5aa205c4fa7090d01d3d26e1e37a2825',1,'mod_primitive_linearized_euler_axisymmetric::vbar()']]],
   ['vec',['vec',['../structtype__densevector_1_1densevector__t.html#ab7910153dc3e76b950d550cfb80d2fa9',1,'type_densevector::densevector_t']]],
+  ['vector_5fdata_5ft',['vector_data_t',['../structtype__vector__data_1_1vector__data__t.html',1,'type_vector_data']]],
   ['vector_5ft',['vector_t',['../structtype__vector_1_1vector__t.html',1,'type_vector']]],
   ['vinf',['vinf',['../structfcn__isentropic__vortex_1_1isentropic__vortex__f.html#aa21f67734a0dcbb00cbfbf848addea93',1,'fcn_isentropic_vortex::isentropic_vortex_f']]],
   ['vol',['vol',['../structtype__element_1_1element__t.html#a155d9e77b56238c25e3482d7fca2c29f',1,'type_element::element_t::vol()'],['../structtype__quadrature_1_1quadrature__t.html#ac2094feeb1fe658a994adf4829162d1a',1,'type_quadrature::quadrature_t::vol()']]],
