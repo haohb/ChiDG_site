@@ -6,7 +6,6 @@ var dir_68267d1309a1af8e8297ef4c3efbcdba =
     [ "chimera", "dir_5b7d925392bc7c087db201f9f494eade.html", "dir_5b7d925392bc7c087db201f9f494eade" ],
     [ "constants", "dir_55ef98a57036556dcc9a226e6204f780.html", "dir_55ef98a57036556dcc9a226e6204f780" ],
     [ "containers", "dir_0b61c55142250c0cc363383afd8075a4.html", "dir_0b61c55142250c0cc363383afd8075a4" ],
-    [ "driver_configs", "dir_61a24fcec25d6211efc695c2689f4575.html", "dir_61a24fcec25d6211efc695c2689f4575" ],
     [ "equations", "dir_af77d71202468b39b914215cf58b2fd5.html", "dir_af77d71202468b39b914215cf58b2fd5" ],
     [ "functions", "dir_e823141bb13a34caac0c96ccd0d33fcf.html", "dir_e823141bb13a34caac0c96ccd0d33fcf" ],
     [ "grid", "dir_35c063c51595aed048740f74a780093f.html", "dir_35c063c51595aed048740f74a780093f" ],

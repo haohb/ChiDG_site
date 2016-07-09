@@ -15,5 +15,7 @@ var type__element_8f90 =
     [ "solution_point", "type__element_8f90.html#abda262a5ff19e07a4dcacc21d3a46745", null ],
     [ "x", "type__element_8f90.html#a4e265f5ecf991056d73a3e41a4b7fcb5", null ],
     [ "y", "type__element_8f90.html#acc9fb0d9fb91a3d79c8dac0bcf3948ca", null ],
-    [ "z", "type__element_8f90.html#aafdc50b38b9f9321bedd5eb887e2affc", null ]
+    [ "z", "type__element_8f90.html#aafdc50b38b9f9321bedd5eb887e2affc", null ],
+    [ "bye", "type__element_8f90.html#adfbeaafee3f1b8728b4d1313b91a5d45", null ],
+    [ "hi", "type__element_8f90.html#a4fdd8441827f7ee69df2db74bf62d4f1", null ]
 ];
