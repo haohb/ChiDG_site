@@ -111,21 +111,47 @@ $(document).ready(function(){initNavTree('subpage_smoothbump.html','');});
 <div class="title">Smooth Bump </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>Supporting files:</p>
-<p><a href="smoothbump_generator.f90" target="_blank"><b>smoothbump_generator.f90</b></a><br />
-<a href="smoothbump.h5" target="_blank"><b>smoothbump.h5</b></a></p>
+<div class="textblock"><h1><a class="anchor" id="s_smoothbump_background"></a>
+Background</h1>
+<p>A canonical problem for verifying high-order solvers is the Euler smooth bump test case. In this example, the geometry is defined as a channel with a small smooth bump profile on the lower wall, as shown here:</p>
 <div class="image">
-<img src="smoothbump_cp_contours.png" alt="smoothbump_cp_contours.png"/>
+<img src="smoothbump_geometry.png"  width="50%"/>
 </div>
- <div class="image">
-<img src="smoothbump_verification.png" alt="smoothbump_verification.png"/>
+<p>The Euler equations are solved on this geometry, which for subsonic flow are isentropic. However, in the numerical solution, some entropy is generated due to the discretization. This gives us a quantity that we can measure in the numerical solution by which we can gauge the accuracy of the numerical scheme. The measure of the entropy error is integrated over the volume of the domain and computed as:</p>
+<p>\( Entropy Error = \sqrt{ \frac{\int\Bigg( \frac{ \frac{p}{\rho^\gamma} - \frac{p_\infty}{\rho_\infty^\gamma} } { \frac{p_\infty}{\rho_\infty^\gamma} } \Bigg)^2 d\Omega} { \int d\Omega }} \)</p>
+<hr/>
+ <hr/>
+<h1><a class="anchor" id="s_smoothbump_setup"></a>
+Set-up</h1>
+<p><b> From scratch: </b></p>
+<p>A fortran code is attached that can be used to generate a Plot3D grid file for this case:</p>
+<p><a href="smoothbump_generator.f90" target="_blank"><b>smoothbump_generator.f90</b></a><br />
+ The process when using the Plot3D grid is:</p><ul>
+<li>Generate Plot3D grid</li>
+<li>Convert the grid to a ChiDG-format HDF file using the <code>chidg convert</code> action</li>
+<li>Impose boundary conditions using the <code>chidg edit</code> action</li>
+<li>Run the calculation</li>
+</ul>
+<p>See <a class="el" href="page_usage.html">Usage</a></p>
+<p><b> Already set-up: </b></p>
+<p>Alternatively, a ChiDG-formatted grid file is also provided with the boundary conditions already set:</p>
+<p><a href="smoothbump.h5" target="_blank"><b>smoothbump.h5</b></a></p>
+<hr/>
+ <hr/>
+<h1><a class="anchor" id="s_smoothbump_results"></a>
+Results</h1>
+<div class="image">
+<img src="smoothbump_cp_contours.png"  width="50%"/>
+</div>
+<div class="image">
+<img src="smoothbump_verification.png"  width="50%"/>
 </div>
  </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Jul 10 2016 13:47:11 for ChiDG by
+    <li class="footer">Generated on Sun Jul 10 2016 15:02:30 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

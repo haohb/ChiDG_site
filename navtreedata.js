@@ -30,7 +30,6 @@ var NAVTREE =
       [ "Setup", "page_runcalculation.html#s_setup", null ],
       [ "Run", "page_runcalculation.html#s_run", null ]
     ] ],
-    [ "Usage", "page_usage.html", "page_usage" ],
     [ "Modules", null, [
       [ "Modules List", "namespaces.html", "namespaces" ],
       [ "Module Members", "namespacemembers.html", [
@@ -73,7 +72,7 @@ var NAVTREEINDEX =
 "structtype__bcproperty__set_1_1bcproperty__set__t.html#a912b15ba0cde49cdc5dfda8757318722",
 "structtype__face_1_1face__t.html#a9503ac5f50f1ba59472ddc7205e9584d",
 "structtype__sor_1_1sor__t.html",
-"type__function__info_8f90.html"
+"type__function_8f90.html#ae1d3045c2837fdd5e9efee36eb0f51d6"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';
