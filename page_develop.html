@@ -38,7 +38,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/SVG"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="./MathJax/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -132,10 +132,10 @@ Compile pFUnit</h2>
 <div class="line">export MPIF90=mpifort</div>
 <div class="line">export MPIRUN=mpiexec</div>
 </div><!-- fragment --><p>Compile <code>pFUnit</code> with <code>MPI=YES</code> to enable a parallel version of the testing framework: </p><div class="fragment"><div class="line">make tests MPI=YES</div>
-</div><!-- fragment --><p>Once the build is complete, install <code>pFUnit</code> into a preferred directory: </p><div class="fragment"><div class="line">make install INSTALL_DIR=/usr/<a class="code" href="namespacemod__constants.html#a37a6d0bb5e01c17727f22da723a8c8d5">local</a>/pfunit/gnu</div>
+</div><!-- fragment --><p>Once the build is complete, install <code>pFUnit</code> into a preferred directory: </p><div class="fragment"><div class="line">make install INSTALL_DIR=/usr/local/pfunit/gnu</div>
 </div><!-- fragment --><h2><a class="anchor" id="s_testing_environment"></a>
 Set environment variables for pFUnit</h2>
-<p>Be sure to set the environment variable for <code>pfunit</code> </p><div class="fragment"><div class="line">export PFUNIT=/usr/<a class="code" href="namespacemod__constants.html#a37a6d0bb5e01c17727f22da723a8c8d5">local</a>/pfunit     </div>
+<p>Be sure to set the environment variable for <code>pfunit</code> </p><div class="fragment"><div class="line">export PFUNIT=/usr/local/pfunit     </div>
 </div><!-- fragment --><p><br />
 </p><hr/>
  <h2><a class="anchor" id="s_testing_creating"></a>
@@ -161,7 +161,7 @@ Adding test target</h3>
 <p>Second, the macro <code>add_test_target</code> accepts a target name(<code>target_name</code>), and the <code>cmake</code> variable corresponding for the sources list(<code>${target_name_source}</code>) that should have already been defined by the <code>add_test_sources</code> macro.</p>
 <div class="fragment"><div class="line">add_test_target(target_name target_type ${target_name_sources})    </div>
 </div><!-- fragment --><p> Here, <code>target_type</code> is either <code>unit</code> or <code>reg</code>, designating either a unit-test or a regression-test, respectively.</p>
-<p><b>Example:</b> </p><div class="fragment"><div class="line">add_test_target(containers <a class="code" href="namespacemessenger.html#ad92f00cd8e2d72420519747cba7066db">unit</a> ${containers_sources})  </div>
+<p><b>Example:</b> </p><div class="fragment"><div class="line">add_test_target(containers unit ${containers_sources})  </div>
 </div><!-- fragment --><p><br />
 <br />
 </p><hr/>
@@ -177,7 +177,7 @@ Contributing to ChiDG</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Jul 10 2016 15:02:30 for ChiDG by
+    <li class="footer">Generated on Mon Jul 18 2016 20:22:21 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

@@ -38,7 +38,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/SVG"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="./MathJax/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -107,36 +107,18 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </div>
 
 <div class="contents">
-<div class="textblock">Here is a list of all data types members with links to the data types they belong to:</div>
+<div class="textblock">Here is a list of all documented data types members with links to the data structure documentation for each member</div>
 
 <h3><a class="anchor" id="index_a"></a>- a -</h3><ul>
 <li>add()
 : <a class="el" href="structtype__bcproperty__set_1_1bcproperty__set__t.html#a613e457387a90b2edb4cffeb482a8ff2">type_bcproperty_set::bcproperty_set_t</a>
 , <a class="el" href="structtype__bcset_1_1bcset__t.html#a723bae07f4a5e064014203ee3802af14">type_bcset::bcset_t</a>
 </li>
-<li>add_bc()
-: <a class="el" href="structtype__chidg__data_1_1chidg__data__t.html#af88f5ee9c1b18011943ae89b1b0216b8">type_chidg_data::chidg_data_t</a>
-</li>
-<li>add_boundary_advective_flux()
-: <a class="el" href="structtype__equationset_1_1equationset__t.html#a950ba8c83e603e46b36b9c0c8fc8a52a">type_equationset::equationset_t</a>
-</li>
 <li>add_bv_bv()
 : <a class="el" href="interfacetype__blockvector_1_1operator_07_09_08.html#ae4b1cf9fee1f5cae9601d5e5992d3e69">type_blockvector::operator(+)</a>
 </li>
 <li>add_chidgvector_chidgvector()
 : <a class="el" href="interfacetype__chidgvector_1_1operator_07_09_08.html#a8405c57bbbbfe1908164c016d4949a6f">type_chidgvector::operator(+)</a>
-</li>
-<li>add_domain()
-: <a class="el" href="structtype__chidg__data_1_1chidg__data__t.html#a71265686ed53ef2bd469b22912e07951">type_chidg_data::chidg_data_t</a>
-</li>
-<li>add_dv_dv()
-: <a class="el" href="interfacetype__densevector_1_1operator_07_09_08.html#a7fc185718f2c4574a2d973477f6141ff">type_densevector::operator(+)</a>
-</li>
-<li>add_equation()
-: <a class="el" href="structtype__equationset_1_1equationset__t.html#a379d542333a3652c94f0c342ed318f23">type_equationset::equationset_t</a>
-</li>
-<li>add_fluid()
-: <a class="el" href="structtype__properties_1_1properties__t.html#ae9d6c911ce5382d8dda51d038384c09a">type_properties::properties_t</a>
 </li>
 <li>add_name()
 : <a class="el" href="structtype__function_1_1function__t.html#a805f9b7ae6af01c871ee8f6b16598cc9">type_function::function_t</a>
@@ -145,81 +127,21 @@ $(document).ready(function(){initNavTree('functions.html','');});
 : <a class="el" href="structtype__function_1_1function__t.html#adcb9f2c543cba967f34e30657ae848b5">type_function::function_t</a>
 </li>
 <li>add_options()
-: <a class="el" href="structbc__empty_1_1bc__empty__t.html#a4c03a2be7ab3b7d4faf0162e86681ee2">bc_empty::bc_empty_t</a>
-, <a class="el" href="structbc__euler__giles__inlet_1_1euler__giles__inlet__t.html#a3c9fdb0d3c263243f7e404bb1802fcdc">bc_euler_giles_inlet::euler_giles_inlet_t</a>
+: <a class="el" href="structbc__euler__giles__inlet_1_1euler__giles__inlet__t.html#a3c9fdb0d3c263243f7e404bb1802fcdc">bc_euler_giles_inlet::euler_giles_inlet_t</a>
 , <a class="el" href="structbc__euler__giles__outlet_1_1euler__giles__outlet__t.html#a381b2506c9247c9369743acdea5aa6c2">bc_euler_giles_outlet::euler_giles_outlet_t</a>
 , <a class="el" href="structbc__euler__giles__outlet__2d__a_1_1euler__giles__outlet__2d__a__t.html#a600147d9ee614099354a198706694e5e">bc_euler_giles_outlet_2d_a::euler_giles_outlet_2d_a_t</a>
 , <a class="el" href="structbc__euler__giles__outlet__2d__b_1_1euler__giles__outlet__2d__b__t.html#a2f5b2db33d1c803e1717508fd3f4a077">bc_euler_giles_outlet_2d_b::euler_giles_outlet_2d_b_t</a>
-, <a class="el" href="structbc__euler__pressureoutlet_1_1euler__pressureoutlet__t.html#a488818748c00a00eec13251411cab11a">bc_euler_pressureoutlet::euler_pressureoutlet_t</a>
-, <a class="el" href="structbc__euler__totalinlet_1_1euler__totalinlet__t.html#a703504e11292110eb5766afa0a85b3d8">bc_euler_totalinlet::euler_totalinlet_t</a>
-, <a class="el" href="structbc__euler__totalinlet__characteristic_1_1euler__totalinlet__characteristic__t.html#a90f49a26d190514986742dc430452b1d">bc_euler_totalinlet_characteristic::euler_totalinlet_characteristic_t</a>
-, <a class="el" href="structbc__euler__wall_1_1euler__wall__t.html#af92186be03f0098c4c6d8f3dcd5b90ad">bc_euler_wall::euler_wall_t</a>
-, <a class="el" href="structbc__kirchoff_1_1kirchoff__t.html#a7c57874a1b1636b167ebb5cff91294aa">bc_kirchoff::kirchoff_t</a>
-, <a class="el" href="structbc__linearadvection__extrapolate_1_1linearadvection__extrapolate__t.html#a7cccfb41e634e0c5658f79c14d1f7023">bc_linearadvection_extrapolate::linearadvection_extrapolate_t</a>
-, <a class="el" href="structbc__lineuler__extrapolate_1_1lineuler__extrapolate__t.html#a1539dd968214197abf7f3846af5d2d8c">bc_lineuler_extrapolate::lineuler_extrapolate_t</a>
-, <a class="el" href="structbc__lineuler__inlet_1_1lineuler__inlet__t.html#a64e30c6dcbed62afbb26c35cf952af2c">bc_lineuler_inlet::lineuler_inlet_t</a>
-, <a class="el" href="structbc__lineuler__outlet_1_1lineuler__outlet__t.html#aa953283b62c5ddb49f3ef019b64a044b">bc_lineuler_outlet::lineuler_outlet_t</a>
-, <a class="el" href="structbc__lineuler__wall_1_1lineuler__wall__t.html#a9121634cebc00e1fc267cd5ad7a55f57">bc_lineuler_wall::lineuler_wall_t</a>
-, <a class="el" href="structbc__periodic_1_1periodic__t.html#a609397c386a731fa822c4d5441e87946">bc_periodic::periodic_t</a>
-, <a class="el" href="structbc__primlineuler__extrapolate_1_1primlineuler__extrapolate__t.html#adb9b33124177ff3b4dc8e703f3c859c5">bc_primlineuler_extrapolate::primlineuler_extrapolate_t</a>
-, <a class="el" href="structbc__primlineuler__inlet_1_1primlineuler__inlet__t.html#ae7a5f552b3f591df43225e66f4e81394">bc_primlineuler_inlet::primlineuler_inlet_t</a>
-, <a class="el" href="structbc__primlineuler__outlet_1_1primlineuler__outlet__t.html#af27fad2b580bc5250987e242e065f739">bc_primlineuler_outlet::primlineuler_outlet_t</a>
-, <a class="el" href="structbc__primlineuler__wall_1_1primlineuler__wall__t.html#a2c68a4e1885ee4d61a200ca9ac1011c4">bc_primlineuler_wall::primlineuler_wall_t</a>
-, <a class="el" href="structbc__primlineuleraxi__axi_1_1primlineuleraxi__axi__t.html#a22f7d999c59bf9a12e597645ace49180">bc_primlineuleraxi_axi::primlineuleraxi_axi_t</a>
-, <a class="el" href="structbc__primlineuleraxi__extrapolate_1_1primlineuleraxi__extrapolate__t.html#a4b22970550e3e70a9d6d7af28c119ea2">bc_primlineuleraxi_extrapolate::primlineuleraxi_extrapolate_t</a>
-, <a class="el" href="structbc__primlineuleraxi__inlet_1_1primlineuleraxi__inlet__t.html#a022054112b7c26971549596afc2364da">bc_primlineuleraxi_inlet::primlineuleraxi_inlet_t</a>
-, <a class="el" href="structbc__primlineuleraxi__outlet_1_1primlineuleraxi__outlet__t.html#a60c07e15c92bf73235c1106305bbc026">bc_primlineuleraxi_outlet::primlineuleraxi_outlet_t</a>
-, <a class="el" href="structbc__primlineuleraxi__wall_1_1primlineuleraxi__wall__t.html#a9b9afd0108794766192f65e899670297">bc_primlineuleraxi_wall::primlineuleraxi_wall_t</a>
 , <a class="el" href="structtype__bc_1_1bc__t.html#a632076650e50defe79bb6f40dbbb72ee">type_bc::bc_t</a>
 </li>
-<li>add_properties()
-: <a class="el" href="structtype__equationset_1_1equationset__t.html#a8fb5f29f8b775ab684aff8237d3789b0">type_equationset::equationset_t</a>
-</li>
-<li>add_volume_advective_flux()
-: <a class="el" href="structtype__equationset_1_1equationset__t.html#a187d87d7f9aa3940f3ff74a4546fdcf2">type_equationset::equationset_t</a>
-</li>
-<li>add_x()
-: <a class="el" href="structtype__point_1_1point__t.html#a4915a8595d0cf579af21ae42644231f2">type_point::point_t</a>
-</li>
-<li>add_y()
-: <a class="el" href="structtype__point_1_1point__t.html#aaab527ecf0b821ea3512cd1b43ca479f">type_point::point_t</a>
-</li>
-<li>add_z()
-: <a class="el" href="structtype__point_1_1point__t.html#a4ed20d29d37aa8a9d70c5a2bd08cfc75">type_point::point_t</a>
-</li>
-<li>alpha
-: <a class="el" href="structbc__primlineuler__inlet_1_1primlineuler__inlet__t.html#a3143a51934634a0c701791eb2294ae67">bc_primlineuler_inlet::primlineuler_inlet_t</a>
-, <a class="el" href="structbc__primlineuleraxi__inlet_1_1primlineuleraxi__inlet__t.html#a88cc92d2b98110a3dc2b4371458b350b">bc_primlineuleraxi_inlet::primlineuleraxi_inlet_t</a>
-</li>
 <li>apply()
-: <a class="el" href="structprecon__identity_1_1precon__identity__t.html#aad03ed490dbaff5bc63ed53949dd1e30">precon_identity::precon_identity_t</a>
-, <a class="el" href="structprecon__ilu0_1_1precon__ilu0__t.html#ae5a00eba776046a85345977d4d2b41d5">precon_ilu0::precon_ilu0_t</a>
-, <a class="el" href="structprecon__jacobi_1_1precon__jacobi__t.html#add1572dca254e4784fd4cf3e8a468c22">precon_jacobi::precon_jacobi_t</a>
-, <a class="el" href="structtype__bc_1_1bc__t.html#a0bc45c233c3152718e0cd6ede66d2f49">type_bc::bc_t</a>
+: <a class="el" href="structtype__bc_1_1bc__t.html#a0bc45c233c3152718e0cd6ede66d2f49">type_bc::bc_t</a>
 , <a class="el" href="structtype__bcset_1_1bcset__t.html#ae53eabaef7ba3773ee40a5d6da82d585">type_bcset::bcset_t</a>
-, <a class="el" href="structtype__preconditioner_1_1preconditioner__t.html#af3cb691fbe49fdbaabaef01a1cbf72cc">type_preconditioner::preconditioner_t</a>
-</li>
-<li>assign_ik()
-: <a class="el" href="interfacemod__vector__return__data_1_1assignment_07_0A_08.html#a39bfea719cbce65668ba49498e7543a0">mod_vector_return_data::assignment(=)</a>
-</li>
-<li>assign_point()
-: <a class="el" href="interfacemod__vector__return__data_1_1assignment_07_0A_08.html#a8ea7534ca10f566e2d39afb457316175">mod_vector_return_data::assignment(=)</a>
-</li>
-<li>assign_quadrature()
-: <a class="el" href="structtype__element_1_1element__t.html#a31c55b678718f1e8678ba55645bd6e5b">type_element::element_t</a>
-</li>
-<li>assign_rk()
-: <a class="el" href="interfacemod__vector__return__data_1_1assignment_07_0A_08.html#a1823cac60fc7414af15c413616902dde">mod_vector_return_data::assignment(=)</a>
 </li>
 <li>at()
 : <a class="el" href="structtype__bcvector_1_1bcvector__t.html#a9e2555745494b2dc84d5ff3f85d52c80">type_bcvector::bcvector_t</a>
 , <a class="el" href="structtype__evector_1_1evector__t.html#a4ebd7db7f5588e15e416997691ce275a">type_evector::evector_t</a>
 , <a class="el" href="structtype__fcnvector_1_1fcnvector__t.html#a41b45e2d0ee916b1eb42b4a502698e4d">type_fcnvector::fcnvector_t</a>
 , <a class="el" href="structtype__ivector_1_1ivector__t.html#a4ed7849942b0b308b62f082f9e1ec4cd">type_ivector::ivector_t</a>
-, <a class="el" href="structtype__mvector_1_1mvector__t.html#a3bf0d547c4b31da446fd46ff9bbb2c7c">type_mvector::mvector_t</a>
-, <a class="el" href="structtype__pvector_1_1pvector__t.html#a151e05a8ccf82f47e02291f359d36d21">type_pvector::pvector_t</a>
-, <a class="el" href="structtype__rvector_1_1rvector__t.html#a107249e76388a687bd0b3779c4fcc976">type_rvector::rvector_t</a>
-, <a class="el" href="structtype__vector_1_1vector__t.html#a637a90e90f8928036d3ae8dd835f5594">type_vector::vector_t</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -227,7 +149,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Jul 10 2016 15:02:53 for ChiDG by
+    <li class="footer">Generated on Mon Jul 18 2016 20:22:42 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

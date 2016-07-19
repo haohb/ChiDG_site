@@ -38,7 +38,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/SVG"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="./MathJax/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -119,69 +119,29 @@ $(document).ready(function(){initNavTree('namespacemod__mpichi.html','');});
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
-<tr class="memitem:a543bf2bdd3c99da0124e907760d40a15"><td class="memItemLeft" align="right" valign="top">integer(ik)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__mpichi.html#a543bf2bdd3c99da0124e907760d40a15">irank</a></td></tr>
-<tr class="memdesc:a543bf2bdd3c99da0124e907760d40a15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rank of current process.  <a href="#a543bf2bdd3c99da0124e907760d40a15">More...</a><br /></td></tr>
+<tr class="memitem:a543bf2bdd3c99da0124e907760d40a15"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a543bf2bdd3c99da0124e907760d40a15"></a>
+integer(ik)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__mpichi.html#a543bf2bdd3c99da0124e907760d40a15">irank</a></td></tr>
+<tr class="memdesc:a543bf2bdd3c99da0124e907760d40a15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rank of current process. <br /></td></tr>
 <tr class="separator:a543bf2bdd3c99da0124e907760d40a15"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb26965d6a8064b09b5619da1c3bf43b"><td class="memItemLeft" align="right" valign="top">integer(ik)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__mpichi.html#afb26965d6a8064b09b5619da1c3bf43b">nrank</a></td></tr>
-<tr class="memdesc:afb26965d6a8064b09b5619da1c3bf43b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of global ranks.  <a href="#afb26965d6a8064b09b5619da1c3bf43b">More...</a><br /></td></tr>
+<tr class="memitem:afb26965d6a8064b09b5619da1c3bf43b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afb26965d6a8064b09b5619da1c3bf43b"></a>
+integer(ik)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__mpichi.html#afb26965d6a8064b09b5619da1c3bf43b">nrank</a></td></tr>
+<tr class="memdesc:afb26965d6a8064b09b5619da1c3bf43b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of global ranks. <br /></td></tr>
 <tr class="separator:afb26965d6a8064b09b5619da1c3bf43b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a0b18510691f2a568565457b8baf662"><td class="memItemLeft" align="right" valign="top">integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__mpichi.html#a8a0b18510691f2a568565457b8baf662">global_master</a> = 0</td></tr>
-<tr class="memdesc:a8a0b18510691f2a568565457b8baf662"><td class="mdescLeft">&#160;</td><td class="mdescRight">Master rank for all global processes.  <a href="#a8a0b18510691f2a568565457b8baf662">More...</a><br /></td></tr>
+<tr class="memitem:a8a0b18510691f2a568565457b8baf662"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8a0b18510691f2a568565457b8baf662"></a>
+integer, parameter&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__mpichi.html#a8a0b18510691f2a568565457b8baf662">global_master</a> = 0</td></tr>
+<tr class="memdesc:a8a0b18510691f2a568565457b8baf662"><td class="mdescLeft">&#160;</td><td class="mdescRight">Master rank for all global processes. <br /></td></tr>
 <tr class="separator:a8a0b18510691f2a568565457b8baf662"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Module for storing mpi-based data, such as current rank, number of global ranks and any other pertinent mpi datas. Maybe also some helpful routines for managing mpi data and communication. </p>
 <dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
-</div><h2 class="groupheader">Variable Documentation</h2>
-<a class="anchor" id="a8a0b18510691f2a568565457b8baf662"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">integer, parameter mod_mpichi::global_master = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Master rank for all global processes. </p>
-
-</div>
-</div>
-<a class="anchor" id="a543bf2bdd3c99da0124e907760d40a15"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">integer(ik) mod_mpichi::irank</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Rank of current process. </p>
-
-</div>
-</div>
-<a class="anchor" id="afb26965d6a8064b09b5619da1c3bf43b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">integer(ik) mod_mpichi::nrank</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Number of global ranks. </p>
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemod__mpichi.html">mod_mpichi</a></li>
-    <li class="footer">Generated on Sun Jul 10 2016 15:02:44 for ChiDG by
+    <li class="footer">Generated on Mon Jul 18 2016 20:22:34 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

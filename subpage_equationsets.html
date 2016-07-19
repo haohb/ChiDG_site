@@ -38,7 +38,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/SVG"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="./MathJax/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -152,7 +152,7 @@ ChiDG equation set</h1>
 <div class="line">    <span class="keyword">contains</span></div>
 <div class="line"></div>
 <div class="line"></div>
-<div class="line">        <span class="keywordtype">procedure</span>(self_interface),     <span class="keywordtype">deferred</span>     :: <a class="code" href="doc_2examples_2eqn__euler_8f90.html#ae16d6bfb266616ee0350508cbb1ebf42">init</a></div>
+<div class="line">        <span class="keywordtype">procedure</span>(self_interface),     <span class="keywordtype">deferred</span>     :: init</div>
 <div class="line">        <span class="keywordtype">procedure</span>                                   :: add_equation</div>
 <div class="line">        <span class="keywordtype">procedure</span>                                   :: add_volume_advective_flux</div>
 <div class="line">        <span class="keywordtype">procedure</span>                                   :: add_boundary_advective_flux</div>
@@ -169,7 +169,7 @@ Defining a new equation set</h1>
 <div class="line"></div>
 <div class="line">    <span class="keyword">contains</span></div>
 <div class="line"></div>
-<div class="line">        <span class="keywordtype">procedure</span>   :: <a class="code" href="doc_2examples_2eqn__euler_8f90.html#ae16d6bfb266616ee0350508cbb1ebf42">init</a></div>
+<div class="line">        <span class="keywordtype">procedure</span>   :: init</div>
 <div class="line"></div>
 <div class="line"><span class="keyword">    end type </span><a class="code" href="structeuler__e.html">euler_e</a></div>
 </div><!-- fragment --><p> Each equation set is required to implement the <code>init</code> routine, which is used to define the equation properties, equations, and flux components. The activities that one must implement here are</p><ul>
@@ -179,7 +179,7 @@ Defining a new equation set</h1>
 <li>Add flux components</li>
 </ul>
 <p>This is demonstrated here:</p>
-<div class="fragment"><div class="line"><span class="keyword">    subroutine </span><a class="code" href="doc_2examples_2eqn__euler_8f90.html#ae16d6bfb266616ee0350508cbb1ebf42">init</a>(self)</div>
+<div class="fragment"><div class="line"><span class="keyword">    subroutine </span>init(self)</div>
 <div class="line">        <span class="keywordtype">class</span>(<a class="code" href="structeuler__e.html">euler_e</a>), <span class="keywordtype">intent(inout)</span> :: self</div>
 <div class="line"></div>
 <div class="line">        <span class="keywordtype">type</span>(euler_volume_advective_flux_t)             :: volume_flux</div>
@@ -187,7 +187,7 @@ Defining a new equation set</h1>
 <div class="line">        <span class="keywordtype">type</span>(euler_roe_flux_t)                          :: roe</div>
 <div class="line">        <span class="keywordtype">type</span>(euler_properties_t)                        :: prop</div>
 <div class="line"></div>
-<div class="line">        <span class="keywordtype">type</span>(perfect_gas_t)                             :: <a class="code" href="namespaceperfect__gas.html">perfect_gas</a></div>
+<div class="line">        <span class="keywordtype">type</span>(perfect_gas_t)                             :: perfect_gas</div>
 <div class="line"></div>
 <div class="line"></div>
 <div class="line">        <span class="comment">!</span></div>
@@ -199,7 +199,7 @@ Defining a new equation set</h1>
 <div class="line">        <span class="comment">!</span></div>
 <div class="line">        <span class="comment">! Set up properties</span></div>
 <div class="line">        <span class="comment">!</span></div>
-<div class="line">        <span class="keyword">call </span>prop%add_fluid(<a class="code" href="namespaceperfect__gas.html">perfect_gas</a>)</div>
+<div class="line">        <span class="keyword">call </span>prop%add_fluid(perfect_gas)</div>
 <div class="line"></div>
 <div class="line"></div>
 <div class="line">        <span class="comment">!</span></div>
@@ -227,13 +227,13 @@ Defining a new equation set</h1>
 <div class="line"></div>
 <div class="line"></div>
 <div class="line"></div>
-<div class="line"><span class="keyword">    end subroutine </span><a class="code" href="doc_2examples_2eqn__euler_8f90.html#ae16d6bfb266616ee0350508cbb1ebf42">init</a></div>
+<div class="line"><span class="keyword">    end subroutine </span>init</div>
 </div><!-- fragment --></div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Jul 10 2016 15:02:30 for ChiDG by
+    <li class="footer">Generated on Mon Jul 18 2016 20:22:21 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

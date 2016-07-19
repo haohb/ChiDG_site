@@ -38,7 +38,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/SVG"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="./MathJax/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -125,103 +125,27 @@ Data Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions/Subroutines</h2></td></tr>
-<tr class="memitem:aacc1e01f3c8973f3983810e68f8fff7b"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__vector__return__data.html#aacc1e01f3c8973f3983810e68f8fff7b">assign_ik</a> (a, b)</td></tr>
+<tr class="memitem:aacc1e01f3c8973f3983810e68f8fff7b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aacc1e01f3c8973f3983810e68f8fff7b"></a>
+subroutine&#160;</td><td class="memItemRight" valign="bottom"><b>assign_ik</b> (a, b)</td></tr>
 <tr class="separator:aacc1e01f3c8973f3983810e68f8fff7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2be83ce30d88e732799af4926e22008c"><td class="memItemLeft" align="right" valign="top">subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__vector__return__data.html#a2be83ce30d88e732799af4926e22008c">assign_rk</a> (a, b)</td></tr>
+<tr class="memitem:a2be83ce30d88e732799af4926e22008c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2be83ce30d88e732799af4926e22008c"></a>
+subroutine&#160;</td><td class="memItemRight" valign="bottom"><b>assign_rk</b> (a, b)</td></tr>
 <tr class="separator:a2be83ce30d88e732799af4926e22008c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aced3621760ae994e7916824f25d17f49"><td class="memItemLeft" align="right" valign="top">recursive subroutine&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacemod__vector__return__data.html#aced3621760ae994e7916824f25d17f49">assign_point</a> (a, b)</td></tr>
+<tr class="memitem:aced3621760ae994e7916824f25d17f49"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aced3621760ae994e7916824f25d17f49"></a>
+recursive subroutine&#160;</td><td class="memItemRight" valign="bottom"><b>assign_point</b> (a, b)</td></tr>
 <tr class="separator:aced3621760ae994e7916824f25d17f49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This module isolates the assignment operator for returning polymorhpic types from the vector. In this way, a data type being store, (ex: point_t) can be used here, but it's definition doesn't get proliferate throughout the program when vector_t is used. </p>
 <dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>6/4/2016 </dd></dl>
-</div><h2 class="groupheader">Function/Subroutine Documentation</h2>
-<a class="anchor" id="aacc1e01f3c8973f3983810e68f8fff7b"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">subroutine mod_vector_return_data::assign_ik </td>
-          <td>(</td>
-          <td class="paramtype">integer(ik), intent(inout)&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">class(*), intent(in)&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="aced3621760ae994e7916824f25d17f49"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">recursive subroutine mod_vector_return_data::assign_point </td>
-          <td>(</td>
-          <td class="paramtype">type(<a class="el" href="structtype__point_1_1point__t.html">point_t</a>), intent(inout)&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">class(*), intent(in)&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a2be83ce30d88e732799af4926e22008c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">subroutine mod_vector_return_data::assign_rk </td>
-          <td>(</td>
-          <td class="paramtype">real(rk), intent(inout)&#160;</td>
-          <td class="paramname"><em>a</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">class(*), intent(in)&#160;</td>
-          <td class="paramname"><em>b</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-</div><!-- contents -->
+</div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespacemod__vector__return__data.html">mod_vector_return_data</a></li>
-    <li class="footer">Generated on Sun Jul 10 2016 15:02:44 for ChiDG by
+    <li class="footer">Generated on Mon Jul 18 2016 20:22:34 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

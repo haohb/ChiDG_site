@@ -38,7 +38,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/SVG"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="./MathJax/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -118,157 +118,52 @@ $(document).ready(function(){initNavTree('structtype__facequadrature_1_1facequad
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac93ea5fa4faf05b8cca9008c8380915d"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__facequadrature_1_1facequadrature__t.html#ac93ea5fa4faf05b8cca9008c8380915d">init</a></td></tr>
+<tr class="memitem:ac93ea5fa4faf05b8cca9008c8380915d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac93ea5fa4faf05b8cca9008c8380915d"></a>
+procedure&#160;</td><td class="memItemRight" valign="bottom"><b>init</b></td></tr>
 <tr class="separator:ac93ea5fa4faf05b8cca9008c8380915d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a449c283d9ee7c689fa93d2a6046377bc"><td class="memItemLeft" align="right" valign="top">integer(ik)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__facequadrature_1_1facequadrature__t.html#a449c283d9ee7c689fa93d2a6046377bc">nnodes</a></td></tr>
+<tr class="memitem:a449c283d9ee7c689fa93d2a6046377bc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a449c283d9ee7c689fa93d2a6046377bc"></a>
+integer(ik)&#160;</td><td class="memItemRight" valign="bottom"><b>nnodes</b></td></tr>
 <tr class="separator:a449c283d9ee7c689fa93d2a6046377bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a408c7580088dbe70b0446457f5c8f517"><td class="memItemLeft" align="right" valign="top">type(<a class="el" href="structtype__point_1_1point__t.html">point_t</a>), dimension(:,:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__facequadrature_1_1facequadrature__t.html#a408c7580088dbe70b0446457f5c8f517">nodes</a></td></tr>
-<tr class="memdesc:a408c7580088dbe70b0446457f5c8f517"><td class="mdescLeft">&#160;</td><td class="mdescRight">(:, iface)  <a href="#a408c7580088dbe70b0446457f5c8f517">More...</a><br /></td></tr>
+<tr class="memitem:a408c7580088dbe70b0446457f5c8f517"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a408c7580088dbe70b0446457f5c8f517"></a>
+type(<a class="el" href="structtype__point_1_1point__t.html">point_t</a>), dimension(:,:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__facequadrature_1_1facequadrature__t.html#a408c7580088dbe70b0446457f5c8f517">nodes</a></td></tr>
+<tr class="memdesc:a408c7580088dbe70b0446457f5c8f517"><td class="mdescLeft">&#160;</td><td class="mdescRight">(:, iface) <br /></td></tr>
 <tr class="separator:a408c7580088dbe70b0446457f5c8f517"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5424139005acb88cdafef8b612db42c9"><td class="memItemLeft" align="right" valign="top">real(rk), dimension(:,:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__facequadrature_1_1facequadrature__t.html#a5424139005acb88cdafef8b612db42c9">weights</a></td></tr>
-<tr class="memdesc:a5424139005acb88cdafef8b612db42c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">(:, iface)  <a href="#a5424139005acb88cdafef8b612db42c9">More...</a><br /></td></tr>
+<tr class="memitem:a5424139005acb88cdafef8b612db42c9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5424139005acb88cdafef8b612db42c9"></a>
+real(rk), dimension(:,:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__facequadrature_1_1facequadrature__t.html#a5424139005acb88cdafef8b612db42c9">weights</a></td></tr>
+<tr class="memdesc:a5424139005acb88cdafef8b612db42c9"><td class="mdescLeft">&#160;</td><td class="mdescRight">(:, iface) <br /></td></tr>
 <tr class="separator:a5424139005acb88cdafef8b612db42c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa787d895bfa7af1751b269abe3898a7c"><td class="memItemLeft" align="right" valign="top">real(rk), dimension(:,:,:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__facequadrature_1_1facequadrature__t.html#aa787d895bfa7af1751b269abe3898a7c">val</a></td></tr>
-<tr class="memdesc:aa787d895bfa7af1751b269abe3898a7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">(:,:,iface)  <a href="#aa787d895bfa7af1751b269abe3898a7c">More...</a><br /></td></tr>
+<tr class="memitem:aa787d895bfa7af1751b269abe3898a7c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa787d895bfa7af1751b269abe3898a7c"></a>
+real(rk), dimension(:,:,:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__facequadrature_1_1facequadrature__t.html#aa787d895bfa7af1751b269abe3898a7c">val</a></td></tr>
+<tr class="memdesc:aa787d895bfa7af1751b269abe3898a7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">(:,:,iface) <br /></td></tr>
 <tr class="separator:aa787d895bfa7af1751b269abe3898a7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a72aa09bdc5cdf2237f870fbd963d718e"><td class="memItemLeft" align="right" valign="top">real(rk), dimension(:,:,:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__facequadrature_1_1facequadrature__t.html#a72aa09bdc5cdf2237f870fbd963d718e">ddxi</a></td></tr>
-<tr class="memdesc:a72aa09bdc5cdf2237f870fbd963d718e"><td class="mdescLeft">&#160;</td><td class="mdescRight">''  <a href="#a72aa09bdc5cdf2237f870fbd963d718e">More...</a><br /></td></tr>
+<tr class="memitem:a72aa09bdc5cdf2237f870fbd963d718e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a72aa09bdc5cdf2237f870fbd963d718e"></a>
+real(rk), dimension(:,:,:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__facequadrature_1_1facequadrature__t.html#a72aa09bdc5cdf2237f870fbd963d718e">ddxi</a></td></tr>
+<tr class="memdesc:a72aa09bdc5cdf2237f870fbd963d718e"><td class="mdescLeft">&#160;</td><td class="mdescRight">'' <br /></td></tr>
 <tr class="separator:a72aa09bdc5cdf2237f870fbd963d718e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad675b453251281e93cf22ee61c6c0da7"><td class="memItemLeft" align="right" valign="top">real(rk), dimension(:,:,:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__facequadrature_1_1facequadrature__t.html#ad675b453251281e93cf22ee61c6c0da7">ddeta</a></td></tr>
-<tr class="memdesc:ad675b453251281e93cf22ee61c6c0da7"><td class="mdescLeft">&#160;</td><td class="mdescRight">''  <a href="#ad675b453251281e93cf22ee61c6c0da7">More...</a><br /></td></tr>
+<tr class="memitem:ad675b453251281e93cf22ee61c6c0da7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad675b453251281e93cf22ee61c6c0da7"></a>
+real(rk), dimension(:,:,:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__facequadrature_1_1facequadrature__t.html#ad675b453251281e93cf22ee61c6c0da7">ddeta</a></td></tr>
+<tr class="memdesc:ad675b453251281e93cf22ee61c6c0da7"><td class="mdescLeft">&#160;</td><td class="mdescRight">'' <br /></td></tr>
 <tr class="separator:ad675b453251281e93cf22ee61c6c0da7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aeb45e3a06aa3a16bc2b8a31858e92727"><td class="memItemLeft" align="right" valign="top">real(rk), dimension(:,:,:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__facequadrature_1_1facequadrature__t.html#aeb45e3a06aa3a16bc2b8a31858e92727">ddzeta</a></td></tr>
-<tr class="memdesc:aeb45e3a06aa3a16bc2b8a31858e92727"><td class="mdescLeft">&#160;</td><td class="mdescRight">''  <a href="#aeb45e3a06aa3a16bc2b8a31858e92727">More...</a><br /></td></tr>
+<tr class="memitem:aeb45e3a06aa3a16bc2b8a31858e92727"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aeb45e3a06aa3a16bc2b8a31858e92727"></a>
+real(rk), dimension(:,:,:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__facequadrature_1_1facequadrature__t.html#aeb45e3a06aa3a16bc2b8a31858e92727">ddzeta</a></td></tr>
+<tr class="memdesc:aeb45e3a06aa3a16bc2b8a31858e92727"><td class="mdescLeft">&#160;</td><td class="mdescRight">'' <br /></td></tr>
 <tr class="separator:aeb45e3a06aa3a16bc2b8a31858e92727"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
-</div><h2 class="groupheader">Member Function/Subroutine Documentation</h2>
-<a class="anchor" id="ac93ea5fa4faf05b8cca9008c8380915d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">procedure type_facequadrature::facequadrature_t::init </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="ad675b453251281e93cf22ee61c6c0da7"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">real(rk), dimension(:,:,:), allocatable type_facequadrature::facequadrature_t::ddeta</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>'' </p>
-
-</div>
-</div>
-<a class="anchor" id="a72aa09bdc5cdf2237f870fbd963d718e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">real(rk), dimension(:,:,:), allocatable type_facequadrature::facequadrature_t::ddxi</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>'' </p>
-
-</div>
-</div>
-<a class="anchor" id="aeb45e3a06aa3a16bc2b8a31858e92727"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">real(rk), dimension(:,:,:), allocatable type_facequadrature::facequadrature_t::ddzeta</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>'' </p>
-
-</div>
-</div>
-<a class="anchor" id="a449c283d9ee7c689fa93d2a6046377bc"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">integer(ik) type_facequadrature::facequadrature_t::nnodes</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a408c7580088dbe70b0446457f5c8f517"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">type(<a class="el" href="structtype__point_1_1point__t.html">point_t</a>), dimension(:,:), allocatable type_facequadrature::facequadrature_t::nodes</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>(:, iface) </p>
-
-</div>
-</div>
-<a class="anchor" id="aa787d895bfa7af1751b269abe3898a7c"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">real(rk), dimension(:,:,:), allocatable type_facequadrature::facequadrature_t::val</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>(:,:,iface) </p>
-
-</div>
-</div>
-<a class="anchor" id="a5424139005acb88cdafef8b612db42c9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">real(rk), dimension(:,:), allocatable type_facequadrature::facequadrature_t::weights</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>(:, iface) </p>
-
-</div>
-</div>
-<hr/>The documentation for this type was generated from the following file:<ul>
-<li>/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG/src/quadrature/<a class="el" href="type__face_quadrature_8f90.html">type_faceQuadrature.f90</a></li>
+</div><hr/>The documentation for this type was generated from the following file:<ul>
+<li>/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG/src/quadrature/type_faceQuadrature.f90</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespacetype__facequadrature.html">type_facequadrature</a></li><li class="navelem"><a class="el" href="structtype__facequadrature_1_1facequadrature__t.html">facequadrature_t</a></li>
-    <li class="footer">Generated on Sun Jul 10 2016 15:02:51 for ChiDG by
+    <li class="navelem"><b>type_facequadrature</b></li><li class="navelem"><a class="el" href="structtype__facequadrature_1_1facequadrature__t.html">facequadrature_t</a></li>
+    <li class="footer">Generated on Mon Jul 18 2016 20:22:40 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

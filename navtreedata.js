@@ -33,9 +33,9 @@ var NAVTREE =
     [ "Modules", null, [
       [ "Modules List", "namespaces.html", "namespaces" ],
       [ "Module Members", "namespacemembers.html", [
-        [ "All", "namespacemembers.html", "namespacemembers_dup" ],
-        [ "Functions/Subroutines", "namespacemembers_func.html", "namespacemembers_func" ],
-        [ "Variables", "namespacemembers_vars.html", "namespacemembers_vars" ]
+        [ "All", "namespacemembers.html", null ],
+        [ "Functions/Subroutines", "namespacemembers_func.html", null ],
+        [ "Variables", "namespacemembers_vars.html", null ]
       ] ]
     ] ],
     [ "Data Types List", "annotated.html", [
@@ -44,15 +44,8 @@ var NAVTREE =
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Data Fields", "functions.html", [
         [ "All", "functions.html", "functions_dup" ],
-        [ "Functions/Subroutines", "functions_func.html", "functions_func" ],
-        [ "Variables", "functions_vars.html", "functions_vars" ]
-      ] ]
-    ] ],
-    [ "Files", null, [
-      [ "File List", "files.html", "files" ],
-      [ "File Members", "globals.html", [
-        [ "All", "globals.html", null ],
-        [ "Functions/Subroutines", "globals_func.html", null ]
+        [ "Functions/Subroutines", "functions_func.html", null ],
+        [ "Variables", "functions_vars.html", null ]
       ] ]
     ] ]
   ] ]
@@ -60,19 +53,12 @@ var NAVTREE =
 
 var NAVTREEINDEX =
 [
-"_d_l_a___lax_friedrichs__flux_8f90.html",
-"dir_c6dea63c827c48fbe6539654dd202529.html",
-"interfacetype__blockvector_1_1operator_07_5_08.html#acd1ce75e36162141d1cfd06723fb3cd1",
-"mod__grid__tools_8f90.html",
-"mod__primitive__linearized__euler_8f90.html#a01a4576c52c15df242552c7b970aa275",
-"namespacebackward__euler.html",
-"namespacemod__hdfio.html",
-"page_codedetails.html",
-"structdla__boundary__average__advective__flux_1_1dla__boundary__average__advective__flux__t.html",
-"structtype__bcproperty__set_1_1bcproperty__set__t.html#a912b15ba0cde49cdc5dfda8757318722",
-"structtype__face_1_1face__t.html#a9503ac5f50f1ba59472ddc7205e9584d",
-"structtype__sor_1_1sor__t.html",
-"type__function_8f90.html#ae1d3045c2837fdd5e9efee36eb0f51d6"
+".html",
+"interfacetype__chidgvector_1_1operator_07_09_08.html#a8405c57bbbbfe1908164c016d4949a6f",
+"structeqn__primitive__linearized__euler__axisymmetric_1_1primitive__linearized__euler__axisymmetric__e.html",
+"structtype__bcvector_1_1bcvector__t.html#a9e2555745494b2dc84d5ff3f85d52c80",
+"structtype__face_1_1face__t.html#af040a249f60c85717e50e26d9775ec03",
+"structtype__time__scheme_1_1time__scheme__t.html#af6cec5d9973aff52580cb45194028857"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

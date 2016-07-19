@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['half',['half',['../namespacemod__constants.html#a83c197605b0207631487e8a1638dfc2a',1,'mod_constants']]],
-  ['hbar',['hbar',['../namespacemod__linearized__euler.html#af188aed3ca93cdd730ad94ef7990c0a9',1,'mod_linearized_euler']]],
-  ['hi',['hi',['../namespacetype__element.html#a4fdd8441827f7ee69df2db74bf62d4f1',1,'type_element']]]
+  ['jinv',['jinv',['../structtype__element_1_1element__t.html#a912586cc5cdbf1dbf547ab9df552bd48',1,'type_element::element_t::jinv()'],['../structtype__face_1_1face__t.html#aeb344c916c60d5a899e7fdcf019badf5',1,'type_face::face_t::jinv()']]]
 ];

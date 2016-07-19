@@ -38,7 +38,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/SVG"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="./MathJax/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -114,29 +114,11 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 : <a class="el" href="structtype__bcproperty__set_1_1bcproperty__set__t.html#a613e457387a90b2edb4cffeb482a8ff2">type_bcproperty_set::bcproperty_set_t</a>
 , <a class="el" href="structtype__bcset_1_1bcset__t.html#a723bae07f4a5e064014203ee3802af14">type_bcset::bcset_t</a>
 </li>
-<li>add_bc()
-: <a class="el" href="structtype__chidg__data_1_1chidg__data__t.html#af88f5ee9c1b18011943ae89b1b0216b8">type_chidg_data::chidg_data_t</a>
-</li>
-<li>add_boundary_advective_flux()
-: <a class="el" href="structtype__equationset_1_1equationset__t.html#a950ba8c83e603e46b36b9c0c8fc8a52a">type_equationset::equationset_t</a>
-</li>
 <li>add_bv_bv()
 : <a class="el" href="interfacetype__blockvector_1_1operator_07_09_08.html#ae4b1cf9fee1f5cae9601d5e5992d3e69">type_blockvector::operator(+)</a>
 </li>
 <li>add_chidgvector_chidgvector()
 : <a class="el" href="interfacetype__chidgvector_1_1operator_07_09_08.html#a8405c57bbbbfe1908164c016d4949a6f">type_chidgvector::operator(+)</a>
-</li>
-<li>add_domain()
-: <a class="el" href="structtype__chidg__data_1_1chidg__data__t.html#a71265686ed53ef2bd469b22912e07951">type_chidg_data::chidg_data_t</a>
-</li>
-<li>add_dv_dv()
-: <a class="el" href="interfacetype__densevector_1_1operator_07_09_08.html#a7fc185718f2c4574a2d973477f6141ff">type_densevector::operator(+)</a>
-</li>
-<li>add_equation()
-: <a class="el" href="structtype__equationset_1_1equationset__t.html#a379d542333a3652c94f0c342ed318f23">type_equationset::equationset_t</a>
-</li>
-<li>add_fluid()
-: <a class="el" href="structtype__properties_1_1properties__t.html#ae9d6c911ce5382d8dda51d038384c09a">type_properties::properties_t</a>
 </li>
 <li>add_name()
 : <a class="el" href="structtype__function_1_1function__t.html#a805f9b7ae6af01c871ee8f6b16598cc9">type_function::function_t</a>
@@ -145,77 +127,380 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 : <a class="el" href="structtype__function_1_1function__t.html#adcb9f2c543cba967f34e30657ae848b5">type_function::function_t</a>
 </li>
 <li>add_options()
-: <a class="el" href="structbc__empty_1_1bc__empty__t.html#a4c03a2be7ab3b7d4faf0162e86681ee2">bc_empty::bc_empty_t</a>
-, <a class="el" href="structbc__euler__giles__inlet_1_1euler__giles__inlet__t.html#a3c9fdb0d3c263243f7e404bb1802fcdc">bc_euler_giles_inlet::euler_giles_inlet_t</a>
+: <a class="el" href="structbc__euler__giles__inlet_1_1euler__giles__inlet__t.html#a3c9fdb0d3c263243f7e404bb1802fcdc">bc_euler_giles_inlet::euler_giles_inlet_t</a>
 , <a class="el" href="structbc__euler__giles__outlet_1_1euler__giles__outlet__t.html#a381b2506c9247c9369743acdea5aa6c2">bc_euler_giles_outlet::euler_giles_outlet_t</a>
 , <a class="el" href="structbc__euler__giles__outlet__2d__a_1_1euler__giles__outlet__2d__a__t.html#a600147d9ee614099354a198706694e5e">bc_euler_giles_outlet_2d_a::euler_giles_outlet_2d_a_t</a>
 , <a class="el" href="structbc__euler__giles__outlet__2d__b_1_1euler__giles__outlet__2d__b__t.html#a2f5b2db33d1c803e1717508fd3f4a077">bc_euler_giles_outlet_2d_b::euler_giles_outlet_2d_b_t</a>
-, <a class="el" href="structbc__euler__pressureoutlet_1_1euler__pressureoutlet__t.html#a488818748c00a00eec13251411cab11a">bc_euler_pressureoutlet::euler_pressureoutlet_t</a>
-, <a class="el" href="structbc__euler__totalinlet_1_1euler__totalinlet__t.html#a703504e11292110eb5766afa0a85b3d8">bc_euler_totalinlet::euler_totalinlet_t</a>
-, <a class="el" href="structbc__euler__totalinlet__characteristic_1_1euler__totalinlet__characteristic__t.html#a90f49a26d190514986742dc430452b1d">bc_euler_totalinlet_characteristic::euler_totalinlet_characteristic_t</a>
-, <a class="el" href="structbc__euler__wall_1_1euler__wall__t.html#af92186be03f0098c4c6d8f3dcd5b90ad">bc_euler_wall::euler_wall_t</a>
-, <a class="el" href="structbc__kirchoff_1_1kirchoff__t.html#a7c57874a1b1636b167ebb5cff91294aa">bc_kirchoff::kirchoff_t</a>
-, <a class="el" href="structbc__linearadvection__extrapolate_1_1linearadvection__extrapolate__t.html#a7cccfb41e634e0c5658f79c14d1f7023">bc_linearadvection_extrapolate::linearadvection_extrapolate_t</a>
-, <a class="el" href="structbc__lineuler__extrapolate_1_1lineuler__extrapolate__t.html#a1539dd968214197abf7f3846af5d2d8c">bc_lineuler_extrapolate::lineuler_extrapolate_t</a>
-, <a class="el" href="structbc__lineuler__inlet_1_1lineuler__inlet__t.html#a64e30c6dcbed62afbb26c35cf952af2c">bc_lineuler_inlet::lineuler_inlet_t</a>
-, <a class="el" href="structbc__lineuler__outlet_1_1lineuler__outlet__t.html#aa953283b62c5ddb49f3ef019b64a044b">bc_lineuler_outlet::lineuler_outlet_t</a>
-, <a class="el" href="structbc__lineuler__wall_1_1lineuler__wall__t.html#a9121634cebc00e1fc267cd5ad7a55f57">bc_lineuler_wall::lineuler_wall_t</a>
-, <a class="el" href="structbc__periodic_1_1periodic__t.html#a609397c386a731fa822c4d5441e87946">bc_periodic::periodic_t</a>
-, <a class="el" href="structbc__primlineuler__extrapolate_1_1primlineuler__extrapolate__t.html#adb9b33124177ff3b4dc8e703f3c859c5">bc_primlineuler_extrapolate::primlineuler_extrapolate_t</a>
-, <a class="el" href="structbc__primlineuler__inlet_1_1primlineuler__inlet__t.html#ae7a5f552b3f591df43225e66f4e81394">bc_primlineuler_inlet::primlineuler_inlet_t</a>
-, <a class="el" href="structbc__primlineuler__outlet_1_1primlineuler__outlet__t.html#af27fad2b580bc5250987e242e065f739">bc_primlineuler_outlet::primlineuler_outlet_t</a>
-, <a class="el" href="structbc__primlineuler__wall_1_1primlineuler__wall__t.html#a2c68a4e1885ee4d61a200ca9ac1011c4">bc_primlineuler_wall::primlineuler_wall_t</a>
-, <a class="el" href="structbc__primlineuleraxi__axi_1_1primlineuleraxi__axi__t.html#a22f7d999c59bf9a12e597645ace49180">bc_primlineuleraxi_axi::primlineuleraxi_axi_t</a>
-, <a class="el" href="structbc__primlineuleraxi__extrapolate_1_1primlineuleraxi__extrapolate__t.html#a4b22970550e3e70a9d6d7af28c119ea2">bc_primlineuleraxi_extrapolate::primlineuleraxi_extrapolate_t</a>
-, <a class="el" href="structbc__primlineuleraxi__inlet_1_1primlineuleraxi__inlet__t.html#a022054112b7c26971549596afc2364da">bc_primlineuleraxi_inlet::primlineuleraxi_inlet_t</a>
-, <a class="el" href="structbc__primlineuleraxi__outlet_1_1primlineuleraxi__outlet__t.html#a60c07e15c92bf73235c1106305bbc026">bc_primlineuleraxi_outlet::primlineuleraxi_outlet_t</a>
-, <a class="el" href="structbc__primlineuleraxi__wall_1_1primlineuleraxi__wall__t.html#a9b9afd0108794766192f65e899670297">bc_primlineuleraxi_wall::primlineuleraxi_wall_t</a>
 , <a class="el" href="structtype__bc_1_1bc__t.html#a632076650e50defe79bb6f40dbbb72ee">type_bc::bc_t</a>
 </li>
-<li>add_properties()
-: <a class="el" href="structtype__equationset_1_1equationset__t.html#a8fb5f29f8b775ab684aff8237d3789b0">type_equationset::equationset_t</a>
-</li>
-<li>add_volume_advective_flux()
-: <a class="el" href="structtype__equationset_1_1equationset__t.html#a187d87d7f9aa3940f3ff74a4546fdcf2">type_equationset::equationset_t</a>
-</li>
-<li>add_x()
-: <a class="el" href="structtype__point_1_1point__t.html#a4915a8595d0cf579af21ae42644231f2">type_point::point_t</a>
-</li>
-<li>add_y()
-: <a class="el" href="structtype__point_1_1point__t.html#aaab527ecf0b821ea3512cd1b43ca479f">type_point::point_t</a>
-</li>
-<li>add_z()
-: <a class="el" href="structtype__point_1_1point__t.html#a4ed20d29d37aa8a9d70c5a2bd08cfc75">type_point::point_t</a>
-</li>
 <li>apply()
-: <a class="el" href="structprecon__identity_1_1precon__identity__t.html#aad03ed490dbaff5bc63ed53949dd1e30">precon_identity::precon_identity_t</a>
-, <a class="el" href="structprecon__ilu0_1_1precon__ilu0__t.html#ae5a00eba776046a85345977d4d2b41d5">precon_ilu0::precon_ilu0_t</a>
-, <a class="el" href="structprecon__jacobi_1_1precon__jacobi__t.html#add1572dca254e4784fd4cf3e8a468c22">precon_jacobi::precon_jacobi_t</a>
-, <a class="el" href="structtype__bc_1_1bc__t.html#a0bc45c233c3152718e0cd6ede66d2f49">type_bc::bc_t</a>
+: <a class="el" href="structtype__bc_1_1bc__t.html#a0bc45c233c3152718e0cd6ede66d2f49">type_bc::bc_t</a>
 , <a class="el" href="structtype__bcset_1_1bcset__t.html#ae53eabaef7ba3773ee40a5d6da82d585">type_bcset::bcset_t</a>
-, <a class="el" href="structtype__preconditioner_1_1preconditioner__t.html#af3cb691fbe49fdbaabaef01a1cbf72cc">type_preconditioner::preconditioner_t</a>
-</li>
-<li>assign_ik()
-: <a class="el" href="interfacemod__vector__return__data_1_1assignment_07_0A_08.html#a39bfea719cbce65668ba49498e7543a0">mod_vector_return_data::assignment(=)</a>
-</li>
-<li>assign_point()
-: <a class="el" href="interfacemod__vector__return__data_1_1assignment_07_0A_08.html#a8ea7534ca10f566e2d39afb457316175">mod_vector_return_data::assignment(=)</a>
-</li>
-<li>assign_quadrature()
-: <a class="el" href="structtype__element_1_1element__t.html#a31c55b678718f1e8678ba55645bd6e5b">type_element::element_t</a>
-</li>
-<li>assign_rk()
-: <a class="el" href="interfacemod__vector__return__data_1_1assignment_07_0A_08.html#a1823cac60fc7414af15c413616902dde">mod_vector_return_data::assignment(=)</a>
 </li>
 <li>at()
 : <a class="el" href="structtype__bcvector_1_1bcvector__t.html#a9e2555745494b2dc84d5ff3f85d52c80">type_bcvector::bcvector_t</a>
 , <a class="el" href="structtype__evector_1_1evector__t.html#a4ebd7db7f5588e15e416997691ce275a">type_evector::evector_t</a>
 , <a class="el" href="structtype__fcnvector_1_1fcnvector__t.html#a41b45e2d0ee916b1eb42b4a502698e4d">type_fcnvector::fcnvector_t</a>
 , <a class="el" href="structtype__ivector_1_1ivector__t.html#a4ed7849942b0b308b62f082f9e1ec4cd">type_ivector::ivector_t</a>
-, <a class="el" href="structtype__mvector_1_1mvector__t.html#a3bf0d547c4b31da446fd46ff9bbb2c7c">type_mvector::mvector_t</a>
-, <a class="el" href="structtype__pvector_1_1pvector__t.html#a151e05a8ccf82f47e02291f359d36d21">type_pvector::pvector_t</a>
-, <a class="el" href="structtype__rvector_1_1rvector__t.html#a107249e76388a687bd0b3779c4fcc976">type_rvector::rvector_t</a>
-, <a class="el" href="structtype__vector_1_1vector__t.html#a637a90e90f8928036d3ae8dd835f5594">type_vector::vector_t</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_c"></a>- c -</h3><ul>
+<li>capacity()
+: <a class="el" href="structtype__ivector_1_1ivector__t.html#a328b8ccb6136965c604d634cbeef3595">type_ivector::ivector_t</a>
+, <a class="el" href="structtype__mvector_1_1mvector__t.html#ac6c4e7d6eb70609a615562a325f6841e">type_mvector::mvector_t</a>
+, <a class="el" href="structtype__pvector_1_1pvector__t.html#a224c162be3ef6457983f3182e6be24d3">type_pvector::pvector_t</a>
+, <a class="el" href="structtype__rvector_1_1rvector__t.html#a274b8d14a5c20a5746f2107ccb29c146">type_rvector::rvector_t</a>
+</li>
+<li>check_key_exists()
+: <a class="el" href="structtype__function_1_1function__t.html#ae2fdfce19ac8571938fffb39e998ff29">type_function::function_t</a>
+</li>
+<li>clear()
+: <a class="el" href="structtype__blockmatrix_1_1blockmatrix__t.html#a546a387b2ca5dcc30e28f2af8df794a4">type_blockmatrix::blockmatrix_t</a>
+, <a class="el" href="structtype__blockvector_1_1blockvector__t.html#ad5d1af3fbbe5029e230c5852822c8223">type_blockvector::blockvector_t</a>
+, <a class="el" href="structtype__chidgmatrix_1_1chidgmatrix__t.html#a894e17a807e45f6b9c14331fdb6a611c">type_chidgmatrix::chidgmatrix_t</a>
+, <a class="el" href="structtype__function__status_1_1function__status__t.html#aa1862b5035dc3f4112c5f6d221c5ad38">type_function_status::function_status_t</a>
+, <a class="el" href="structtype__function__status__data_1_1function__status__data__t.html#af802fe49a5d6e42ca05e48fe438cd1a9">type_function_status_data::function_status_data_t</a>
+</li>
+<li>compute()
+: <a class="el" href="structbc__euler__giles__inlet_1_1euler__giles__inlet__t.html#a45dca4d06f8c2eef3936a43d5e200af8">bc_euler_giles_inlet::euler_giles_inlet_t</a>
+, <a class="el" href="structbc__euler__giles__outlet_1_1euler__giles__outlet__t.html#a1c8e2afb0679d82689d317b884ea9ef0">bc_euler_giles_outlet::euler_giles_outlet_t</a>
+, <a class="el" href="structbc__euler__giles__outlet__2d__a_1_1euler__giles__outlet__2d__a__t.html#a0749fc94198ae991cd4e59c38ec50e9f">bc_euler_giles_outlet_2d_a::euler_giles_outlet_2d_a_t</a>
+, <a class="el" href="structbc__euler__giles__outlet__2d__b_1_1euler__giles__outlet__2d__b__t.html#afcaab33dc62ce57b468d4afff05d5999">bc_euler_giles_outlet_2d_b::euler_giles_outlet_2d_b_t</a>
+, <a class="el" href="structtype__bc_1_1bc__t.html#a84a9e8b1fb790e14449518c84bf5446e">type_bc::bc_t</a>
+, <a class="el" href="structtype__bcproperty__set_1_1bcproperty__set__t.html#adb1adbaf8ffef8aabaf68e2f2c15ee62">type_bcproperty_set::bcproperty_set_t</a>
+, <a class="el" href="structtype__function_1_1function__t.html#a4f5bfa2a6e41834692dcfc6ceba0688a">type_function::function_t</a>
+</li>
+<li>compute_function()
+: <a class="el" href="structtype__function__status_1_1function__status__t.html#ac5dadf505d94cf60b8712dba25ff371b">type_function_status::function_status_t</a>
+</li>
+<li>compute_function_equation()
+: <a class="el" href="structtype__function__status_1_1function__status__t.html#a6b3bab60b30366099b37186ae362f514">type_function_status::function_status_t</a>
+</li>
+<li>compute_gradients_cartesian()
+: <a class="el" href="structtype__face_1_1face__t.html#ad3f6f6f672a80b814fce9fe4742b309a">type_face::face_t</a>
+</li>
+<li>compute_quadrature_coords()
+: <a class="el" href="structtype__face_1_1face__t.html#a0ce8ecf1abb0a8e7eea795c4b5e60e0c">type_face::face_t</a>
+</li>
+<li>compute_quadrature_metrics()
+: <a class="el" href="structtype__face_1_1face__t.html#a45bfebcf95a9fcf67b051a2d9758fd43">type_face::face_t</a>
+</li>
+<li>compute_quadrature_normals()
+: <a class="el" href="structtype__face_1_1face__t.html#a733cb07036f79331cb05d15c3cd354f2">type_face::face_t</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_d"></a>- d -</h3><ul>
+<li>data()
+: <a class="el" href="structtype__ivector_1_1ivector__t.html#a0632d6c9295fe088b2f07b2cd1c39906">type_ivector::ivector_t</a>
+</li>
+<li>distribute()
+: <a class="el" href="structtype__blockvector_1_1blockvector__t.html#a89a0e4dda5e2276002d00f597f9daeea">type_blockvector::blockvector_t</a>
+</li>
+<li>div_bv_real()
+: <a class="el" href="interfacetype__blockvector_1_1operator_07_2_08.html#ad027bcb1b4b8aa95f0d682c5f4709cdf">type_blockvector::operator(/)</a>
+</li>
+<li>div_chidgvector_real()
+: <a class="el" href="interfacetype__chidgvector_1_1operator_07_2_08.html#a4d330b1733cc7876d8cf94374f1bda22">type_chidgvector::operator(/)</a>
+</li>
+<li>div_real_bv()
+: <a class="el" href="interfacetype__blockvector_1_1operator_07_2_08.html#ae0e5d8fcc705084eb51f6c5186190e57">type_blockvector::operator(/)</a>
+</li>
+<li>div_real_chidgvector()
+: <a class="el" href="interfacetype__chidgvector_1_1operator_07_2_08.html#afb71bcf116d13ec5ff83e6866025a1d1">type_chidgvector::operator(/)</a>
+</li>
+<li>dparent()
+: <a class="el" href="structtype__densematrix_1_1densematrix__t.html#ab9d597c4679fdc90d79f2e7eccbc7de3">type_densematrix::densematrix_t</a>
+</li>
+<li>dump()
+: <a class="el" href="structtype__densematrix_1_1densematrix__t.html#a55a8f6c0780f253152915732ea79a05a">type_densematrix::densematrix_t</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_e"></a>- e -</h3><ul>
+<li>elapsed()
+: <a class="el" href="structtype__timer_1_1timer__t.html#afe50cc6c2e071a7e6ae9b15f1f07917b">type_timer::timer_t</a>
+</li>
+<li>eparent()
+: <a class="el" href="structtype__densematrix_1_1densematrix__t.html#a8eec49703731d422ab5e8732fe730bac">type_densematrix::densematrix_t</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_g"></a>- g -</h3><ul>
+<li>get()
+: <a class="el" href="structtype__bcproperty_1_1bcproperty__t.html#a8c815f926c2ab1a55600bfd3177aec96">type_bcproperty::bcproperty_t</a>
+</li>
+<li>get_domain_index()
+: <a class="el" href="structtype__chidg__data_1_1chidg__data__t.html#a093309e3d1c8174da125abf97dbb11cf">type_chidg_data::chidg_data_t</a>
+</li>
+<li>get_key_index()
+: <a class="el" href="structtype__function_1_1function__t.html#a8f1bb55e1a5694d780a4921fa8ae001e">type_function::function_t</a>
+</li>
+<li>get_name()
+: <a class="el" href="structtype__bc_1_1bc__t.html#aa524542c4cbff30f0813ca5316b06e5d">type_bc::bc_t</a>
+, <a class="el" href="structtype__bcproperty_1_1bcproperty__t.html#a0681583bd16b132648d655c5b672efb4">type_bcproperty::bcproperty_t</a>
+, <a class="el" href="structtype__function_1_1function__t.html#aacec38fb9dea174eaab745b132cb4139">type_function::function_t</a>
+</li>
+<li>get_ncoupled_elems()
+: <a class="el" href="structtype__bc_1_1bc__t.html#a15dc63206a879eb711ab6c931fccbbd2">type_bc::bc_t</a>
+</li>
+<li>get_neighbor_element()
+: <a class="el" href="structtype__face_1_1face__t.html#af53e50e7fcdbe5e830e810af59f68257">type_face::face_t</a>
+</li>
+<li>get_neighbor_face()
+: <a class="el" href="structtype__face_1_1face__t.html#afbfc79b9929eead3cade90a849426708">type_face::face_t</a>
+</li>
+<li>get_noptions()
+: <a class="el" href="structtype__bc_1_1bc__t.html#a4533d8f3591fda9e711e33b1876561d1">type_bc::bc_t</a>
+, <a class="el" href="structtype__bcproperty_1_1bcproperty__t.html#a67e68b0d206ec4a9d3520d2fe748bb51">type_bcproperty::bcproperty_t</a>
+, <a class="el" href="structtype__function_1_1function__t.html#acd78a32993be983f7cc839cf9aad499d">type_function::function_t</a>
+</li>
+<li>get_nproperties()
+: <a class="el" href="structtype__bc_1_1bc__t.html#afb929c5e1c7e84f2232f57d833248775">type_bc::bc_t</a>
+, <a class="el" href="structtype__bcproperty__set_1_1bcproperty__set__t.html#a0f81fb7813e217677da65a92dcb97aef">type_bcproperty_set::bcproperty_set_t</a>
+</li>
+<li>get_option_key()
+: <a class="el" href="structtype__bc_1_1bc__t.html#a61f3d2288e9e986deac019a6cbe0eb3c">type_bc::bc_t</a>
+, <a class="el" href="structtype__bcproperty_1_1bcproperty__t.html#a08c51e08b02b77d6de0f0b0ba3cac979">type_bcproperty::bcproperty_t</a>
+, <a class="el" href="structtype__function_1_1function__t.html#a6af6d4110933f1342de491dcf1b8dd5d">type_function::function_t</a>
+</li>
+<li>get_option_value()
+: <a class="el" href="structtype__bc_1_1bc__t.html#a963eab148e6a5cfa1c72985f0b818235">type_bc::bc_t</a>
+, <a class="el" href="structtype__bcproperty_1_1bcproperty__t.html#a102ba4f9e63965c0c0b1be3ed78a111d">type_bcproperty::bcproperty_t</a>
+, <a class="el" href="structtype__function_1_1function__t.html#a613a6bf513dfd44d6e720f7d1d31cf0c">type_function::function_t</a>
+</li>
+<li>get_property_index()
+: <a class="el" href="structtype__bcproperty__set_1_1bcproperty__set__t.html#a2a788eca26e9f7ac81a488560d787784">type_bcproperty_set::bcproperty_set_t</a>
+</li>
+<li>get_property_name()
+: <a class="el" href="structtype__bc_1_1bc__t.html#aad353f994789a597ccba7438d3e91f72">type_bc::bc_t</a>
+, <a class="el" href="structtype__bcproperty__set_1_1bcproperty__set__t.html#a756e01ac316e4907f5077f77ef72e4ab">type_bcproperty_set::bcproperty_set_t</a>
+</li>
+<li>grid_point()
+: <a class="el" href="structtype__element_1_1element__t.html#aa1a4a9010f8330944aa1e565b56caae2">type_element::element_t</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_i"></a>- i -</h3><ul>
+<li>idim()
+: <a class="el" href="structtype__densematrix_1_1densematrix__t.html#aa0483e9ddb622aa28e086a250bdc484f">type_densematrix::densematrix_t</a>
+</li>
+<li>index_by_name()
+: <a class="el" href="structtype__bcvector_1_1bcvector__t.html#a68d45fa3c7b2145c8001c8bcbca40463">type_bcvector::bcvector_t</a>
+, <a class="el" href="structtype__evector_1_1evector__t.html#ac23acb0819e329d7c38d75fa2beb4d44">type_evector::evector_t</a>
+, <a class="el" href="structtype__fcnvector_1_1fcnvector__t.html#ace9fb1475400397cf7b60a91f578788b">type_fcnvector::fcnvector_t</a>
+</li>
+<li>init()
+: <a class="el" href="structtype__bc_1_1bc__t.html#a3d500d655259458e3c0b5f5667396e5e">type_bc::bc_t</a>
+, <a class="el" href="structtype__blockmatrix_1_1blockmatrix__t.html#a71b989da4e0baf66dd43fe94d1405ef5">type_blockmatrix::blockmatrix_t</a>
+, <a class="el" href="structtype__blockvector_1_1blockvector__t.html#acb7a1d5f493f68e8da232be79446c2b4">type_blockvector::blockvector_t</a>
+, <a class="el" href="structtype__function_1_1function__t.html#a60fdeb78aab630555ea006a53e3db0fb">type_function::function_t</a>
+, <a class="el" href="structtype__function__status__data_1_1function__status__data__t.html#ae8a65482aa2523152b5af0da1b7f506e">type_function_status_data::function_status_data_t</a>
+, <a class="el" href="structtype__time__scheme_1_1time__scheme__t.html#a9e9bb61080dc002f8609a084eb58381d">type_time_scheme::time_scheme_t</a>
+</li>
+<li>init_boundary_coupling()
+: <a class="el" href="structbc__euler__giles__inlet_1_1euler__giles__inlet__t.html#aa6a87df1887d885b76d40f4487b0aa0a">bc_euler_giles_inlet::euler_giles_inlet_t</a>
+, <a class="el" href="structbc__euler__giles__outlet_1_1euler__giles__outlet__t.html#a8b3ffdeca7270a64c462f18f2e938e28">bc_euler_giles_outlet::euler_giles_outlet_t</a>
+, <a class="el" href="structbc__euler__giles__outlet__2d__a_1_1euler__giles__outlet__2d__a__t.html#ad97f50e7d395918bc9acea715b5df2be">bc_euler_giles_outlet_2d_a::euler_giles_outlet_2d_a_t</a>
+, <a class="el" href="structbc__euler__giles__outlet__2d__b_1_1euler__giles__outlet__2d__b__t.html#ad56a1093e7bf7a746da981c62d7e5947">bc_euler_giles_outlet_2d_b::euler_giles_outlet_2d_b_t</a>
+, <a class="el" href="structtype__bc_1_1bc__t.html#a7e185fd8b4f90eacf7e8f595cc5acaa5">type_bc::bc_t</a>
+</li>
+<li>init_spec()
+: <a class="el" href="structbc__euler__giles__inlet_1_1euler__giles__inlet__t.html#ae5e0164e00005d4235b6d5235a58e0d0">bc_euler_giles_inlet::euler_giles_inlet_t</a>
+, <a class="el" href="structbc__euler__giles__outlet_1_1euler__giles__outlet__t.html#ac6994fe2f80d80ff7f3b117a1c862ff2">bc_euler_giles_outlet::euler_giles_outlet_t</a>
+, <a class="el" href="structbc__euler__giles__outlet__2d__a_1_1euler__giles__outlet__2d__a__t.html#a75a52266226c08d9930405597c36e70d">bc_euler_giles_outlet_2d_a::euler_giles_outlet_2d_a_t</a>
+, <a class="el" href="structbc__euler__giles__outlet__2d__b_1_1euler__giles__outlet__2d__b__t.html#acc38b96c9084f8194887f35cc4e492fa">bc_euler_giles_outlet_2d_b::euler_giles_outlet_2d_b_t</a>
+, <a class="el" href="structtype__bc_1_1bc__t.html#afb92b1d1119432fdfcb63d6116ec6efc">type_bc::bc_t</a>
+, <a class="el" href="structtype__time__scheme_1_1time__scheme__t.html#a7ccc5395fb52759a9e85bec3c107e133">type_time_scheme::time_scheme_t</a>
+</li>
+<li>interpolate_boundary_autodiff()
+: <a class="el" href="interfacemod__interpolate_1_1interpolate__boundary.html#a91c8f1f7bec6438a5520323792b3592e">mod_interpolate::interpolate_boundary</a>
+</li>
+<li>interpolate_element_autodiff()
+: <a class="el" href="interfacemod__interpolate_1_1interpolate__element.html#a374159e35d2159132015c8097efd6fab">mod_interpolate::interpolate_element</a>
+</li>
+<li>interpolate_element_standard()
+: <a class="el" href="interfacemod__interpolate_1_1interpolate__element.html#a45bce0926bcd3933a65a67073baf18fe">mod_interpolate::interpolate_element</a>
+</li>
+<li>interpolate_face_autodiff()
+: <a class="el" href="interfacemod__interpolate_1_1interpolate__face.html#a8481aac8cde58ead57cbc221bee15787">mod_interpolate::interpolate_face</a>
+</li>
+<li>interpolate_face_standard()
+: <a class="el" href="interfacemod__interpolate_1_1interpolate__face.html#a9e6feae6a93c0dc642081f919c317f8b">mod_interpolate::interpolate_face</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_j"></a>- j -</h3><ul>
+<li>jdim()
+: <a class="el" href="structtype__densematrix_1_1densematrix__t.html#a5fadc64b14c1c1cef74a6dcd06800983">type_densematrix::densematrix_t</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_l"></a>- l -</h3><ul>
+<li>linearize_function()
+: <a class="el" href="structtype__function__status_1_1function__status__t.html#afd05fe658f04392ef079178703da703e">type_function_status::function_status_t</a>
+</li>
+<li>linearize_function_equation()
+: <a class="el" href="structtype__function__status_1_1function__status__t.html#a95898125dba2c80857a4e15c9131c7f1">type_function_status::function_status_t</a>
+</li>
+<li>loc()
+: <a class="el" href="structtype__ivector_1_1ivector__t.html#a22fd559be8a85d8b35b339152bdb8e49">type_ivector::ivector_t</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_m"></a>- m -</h3><ul>
+<li>metric_point()
+: <a class="el" href="structtype__element_1_1element__t.html#a924b4bb319806c2300ce9d23c2ce7506">type_element::element_t</a>
+</li>
+<li>mult_blockmatrix_blockvector()
+: <a class="el" href="interfaceoperator__block__mv_1_1operator_07_5_08.html#a3b59ed3677fa77f099fa9ec33c6380cc">operator_block_mv::operator(*)</a>
+</li>
+<li>mult_bv_real()
+: <a class="el" href="interfacetype__blockvector_1_1operator_07_5_08.html#acd1ce75e36162141d1cfd06723fb3cd1">type_blockvector::operator(*)</a>
+</li>
+<li>mult_chidgmatrix_chidgvector()
+: <a class="el" href="interfaceoperator__chidg__mv_1_1operator_07_5_08.html#a7fc1c7124fbb60c563f15f9f5286f570">operator_chidg_mv::operator(*)</a>
+</li>
+<li>mult_chidgvector_real()
+: <a class="el" href="interfacetype__chidgvector_1_1operator_07_5_08.html#a71c252e54fc6b1367051447465715a4c">type_chidgvector::operator(*)</a>
+</li>
+<li>mult_real_bv()
+: <a class="el" href="interfacetype__blockvector_1_1operator_07_5_08.html#af777b30a433dd40af2616f24a2a84eea">type_blockvector::operator(*)</a>
+</li>
+<li>mult_real_chidgvector()
+: <a class="el" href="interfacetype__chidgvector_1_1operator_07_5_08.html#ab08bb3f7ecd4adb59653fa6c886c4ef7">type_chidgvector::operator(*)</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_n"></a>- n -</h3><ul>
+<li>ndomains()
+: <a class="el" href="structtype__chidg__data_1_1chidg__data__t.html#a2426292fa70c06e9f41b1ecab583f11d">type_chidg_data::chidg_data_t</a>
+</li>
+<li>nentries()
+: <a class="el" href="structtype__densematrix_1_1densematrix__t.html#ad45f96fd126ac316477baa44d69de75b">type_densematrix::densematrix_t</a>
+, <a class="el" href="structtype__densevector_1_1densevector__t.html#aa729e0164f3f179421a17c2bf237a721">type_densevector::densevector_t</a>
+</li>
+<li>nterms()
+: <a class="el" href="structtype__densevector_1_1densevector__t.html#a1c27ef69ab3f8fe0f12ca6e3ae04e44d">type_densevector::densevector_t</a>
+</li>
+<li>nvars()
+: <a class="el" href="structtype__densevector_1_1densevector__t.html#a7f418870298cac82a5d7d5d1c26a3114">type_densevector::densevector_t</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_p"></a>- p -</h3><ul>
+<li>parent()
+: <a class="el" href="structtype__densevector_1_1densevector__t.html#a0b69fbbe6b5c2424ea507e4b3a68ea6b">type_densevector::densevector_t</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
+<li>register_function_computed()
+: <a class="el" href="structtype__function__status_1_1function__status__t.html#a2f3eb11f246086fbd1d196ae14c92c29">type_function_status::function_status_t</a>
+</li>
+<li>register_function_linearized()
+: <a class="el" href="structtype__function__status_1_1function__status__t.html#a2b91e56ad7b3c915d11589671272fa27">type_function_status::function_status_t</a>
+</li>
+<li>reparent()
+: <a class="el" href="structtype__densematrix_1_1densematrix__t.html#a88308e62e0a1303b2608c21b97ad5a08">type_densematrix::densematrix_t</a>
+, <a class="el" href="structtype__densevector_1_1densevector__t.html#a2824433ebeba35940257135ed7398444">type_densevector::densevector_t</a>
+</li>
+<li>report()
+: <a class="el" href="structtype__timer_1_1timer__t.html#a72b8195ff1a28b35b163a1687f727422">type_timer::timer_t</a>
+</li>
+<li>reset()
+: <a class="el" href="structtype__timer_1_1timer__t.html#a21e403f2bd311efb3e23651390b0f8a5">type_timer::timer_t</a>
+</li>
+<li>resize()
+: <a class="el" href="structtype__densematrix_1_1densematrix__t.html#a2f1cfd4a8069006073e412d34a421507">type_densematrix::densematrix_t</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_s"></a>- s -</h3><ul>
+<li>set()
+: <a class="el" href="structtype__bcproperty_1_1bcproperty__t.html#a2a78ce7efd22c067fba078e923a9952e">type_bcproperty::bcproperty_t</a>
+, <a class="el" href="structtype__time__scheme_1_1time__scheme__t.html#a1af812bdeae035f98f1609aa286eb8a2">type_time_scheme::time_scheme_t</a>
+</li>
+<li>set_fcn()
+: <a class="el" href="structtype__bc_1_1bc__t.html#a5589cc5b9e9d4021ebc2a3bf5828e0a3">type_bc::bc_t</a>
+, <a class="el" href="structtype__bcproperty__set_1_1bcproperty__set__t.html#a912b15ba0cde49cdc5dfda8757318722">type_bcproperty_set::bcproperty_set_t</a>
+</li>
+<li>set_fcn_option()
+: <a class="el" href="structtype__bc_1_1bc__t.html#a780f8e77a17beb2ae210a083695ca9d1">type_bc::bc_t</a>
+, <a class="el" href="structtype__bcproperty__set_1_1bcproperty__set__t.html#aa8b69cad817c752f19664d30ee1f61af">type_bcproperty_set::bcproperty_set_t</a>
+</li>
+<li>set_name()
+: <a class="el" href="structtype__bc_1_1bc__t.html#a2f3b5aa5ef76a477a1ea847f14aafacb">type_bc::bc_t</a>
+</li>
+<li>set_option()
+: <a class="el" href="structtype__function_1_1function__t.html#abae8569421deb294c96658d28efce301">type_function::function_t</a>
+</li>
+<li>size()
+: <a class="el" href="structtype__ivector_1_1ivector__t.html#a57d3064f48667b899e2ec47b481fceb8">type_ivector::ivector_t</a>
+</li>
+<li>solution_point()
+: <a class="el" href="structtype__element_1_1element__t.html#afc5f41b955c70d304833ede322e8a17c">type_element::element_t</a>
+</li>
+<li>start()
+: <a class="el" href="structtype__timer_1_1timer__t.html#a9c24600c156c254fe5865a5a674b9579">type_timer::timer_t</a>
+</li>
+<li>status()
+: <a class="el" href="structtype__bcproperty_1_1bcproperty__t.html#a981052c86e8b9fe21b96d7fba64042c0">type_bcproperty::bcproperty_t</a>
+</li>
+<li>stop()
+: <a class="el" href="structtype__timer_1_1timer__t.html#afe9223a921dfed8ce4a6939244f95f16">type_timer::timer_t</a>
+</li>
+<li>store()
+: <a class="el" href="structtype__blockmatrix_1_1blockmatrix__t.html#a63b53704f920bd250f0ea38a00c9e1b7">type_blockmatrix::blockmatrix_t</a>
+, <a class="el" href="structtype__chidgmatrix_1_1chidgmatrix__t.html#afcb8b8681406c2e22c8ed1a7fab4229f">type_chidgmatrix::chidgmatrix_t</a>
+</li>
+<li>store_bc()
+: <a class="el" href="structtype__blockmatrix_1_1blockmatrix__t.html#a551e6affb00516af48f150ac4484adf1">type_blockmatrix::blockmatrix_t</a>
+, <a class="el" href="structtype__chidgmatrix_1_1chidgmatrix__t.html#adf03621736f8f3213787070acd3847f6">type_chidgmatrix::chidgmatrix_t</a>
+</li>
+<li>store_chimera()
+: <a class="el" href="structtype__blockmatrix_1_1blockmatrix__t.html#a9a4d4227ed0fb0bdff99afe63a46ed9c">type_blockmatrix::blockmatrix_t</a>
+, <a class="el" href="structtype__chidgmatrix_1_1chidgmatrix__t.html#a8d002b0f73dab833606c25f4afcf06eb">type_chidgmatrix::chidgmatrix_t</a>
+</li>
+<li>sub_bv_bv()
+: <a class="el" href="interfacetype__blockvector_1_1operator_07-_08.html#a23539430d32ffdcf4cf693ba0eb3af95">type_blockvector::operator(-)</a>
+</li>
+<li>sub_chidgvector_chidgvector()
+: <a class="el" href="interfacetype__chidgvector_1_1operator_07-_08.html#a7f2274c02bdac6772115016ed10d8c8f">type_chidgvector::operator(-)</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_x"></a>- x -</h3><ul>
+<li>x()
+: <a class="el" href="structtype__element_1_1element__t.html#a258ecb6e57bbafd19f9d05cd8cd52f6a">type_element::element_t</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_y"></a>- y -</h3><ul>
+<li>y()
+: <a class="el" href="structtype__element_1_1element__t.html#abf72e5a37563417abcd4ed9025bfa37d">type_element::element_t</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_z"></a>- z -</h3><ul>
+<li>z()
+: <a class="el" href="structtype__element_1_1element__t.html#af84ae0f1c4a17419ce831ab70c1efa86">type_element::element_t</a>
 </li>
 </ul>
 </div><!-- contents -->
@@ -223,7 +508,7 @@ $(document).ready(function(){initNavTree('functions_func.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Jul 10 2016 15:02:53 for ChiDG by
+    <li class="footer">Generated on Mon Jul 18 2016 20:22:42 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

@@ -1,8 +1,5 @@
 var searchData=
 [
-  ['half',['half',['../namespacemod__constants.html#a83c197605b0207631487e8a1638dfc2a',1,'mod_constants']]],
-  ['hbar',['hbar',['../namespacemod__linearized__euler.html#af188aed3ca93cdd730ad94ef7990c0a9',1,'mod_linearized_euler']]],
-  ['hdf5totec',['hdf5totec',['../_h_d_f5to_t_e_c_8f90.html#adcc45682e69eb11c88aea3b0b0a46ba1',1,'HDF5toTEC.f90']]],
-  ['hdf5totec_2ef90',['HDF5toTEC.f90',['../_h_d_f5to_t_e_c_8f90.html',1,'']]],
-  ['hi',['hi',['../namespacetype__element.html#a4fdd8441827f7ee69df2db74bf62d4f1',1,'type_element']]]
+  ['jdim',['jdim',['../structtype__densematrix_1_1densematrix__t.html#a5fadc64b14c1c1cef74a6dcd06800983',1,'type_densematrix::densematrix_t']]],
+  ['jinv',['jinv',['../structtype__element_1_1element__t.html#a912586cc5cdbf1dbf547ab9df552bd48',1,'type_element::element_t::jinv()'],['../structtype__face_1_1face__t.html#aeb344c916c60d5a899e7fdcf019badf5',1,'type_face::face_t::jinv()']]]
 ];

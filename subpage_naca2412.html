@@ -38,7 +38,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/SVG"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="./MathJax/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -111,15 +111,32 @@ $(document).ready(function(){initNavTree('subpage_naca2412.html','');});
 <div class="title">NACA 2412 </div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><div class="image">
-<img src="naca2412_example.png" alt="naca2412_example.png"/>
+<div class="textblock"><hr/>
+ <hr/>
+<h1><a class="anchor" id="s_naca2412_setup"></a>
+Set-up</h1>
+<p>Two configurations(0.0 and 4.0 degree angle of attack) were run for the NACA 2412 airfoil.</p>
+<p><b> Grid files: </b></p>
+<p>Grid files for both configurations are included here. If access to the grid generation software Pointwise is available, the ".pw" files used to create the grids are included here. Additionally, the Plot3D-format(.x) grids for both configurations are also included. These may be converted to the ChiDG-format HDF5 file using the <code>chidg convert</code> action.</p>
+<p><a href="naca2412_farfield_A0p0_straight.x" target="_blank"><b>naca2412_farfield_A0p0_straight.x</b></a><br />
+ <a href="naca2412_farfield_A0p0_straight.pw" target="_blank"><b>naca2412_farfield_A0p0_straight.pw</b></a><br />
+ <a href="naca2412_farfield_A4p0_straight.x" target="_blank"><b>naca2412_farfield_A4p0_straight.x</b></a><br />
+ <a href="naca2412_farfield_A4p0_straight.pw" target="_blank"><b>naca2412_farfield_A4p0_straight.pw</b></a><br />
+</p>
+<p>See <a class="el" href="page_usage.html">Usage</a></p>
+<hr/>
+ <hr/>
+<h1><a class="anchor" id="s_naca2412_results"></a>
+Results</h1>
+<div class="image">
+<img src="naca2412_example.png"  width="50%"/>
 </div>
  </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Jul 10 2016 15:02:30 for ChiDG by
+    <li class="footer">Generated on Mon Jul 18 2016 20:22:21 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

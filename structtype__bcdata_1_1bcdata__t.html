@@ -38,7 +38,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/SVG"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="./MathJax/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -120,73 +120,33 @@ $(document).ready(function(){initNavTree('structtype__bcdata_1_1bcdata__t.html',
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:adbbfb20d00345e2320ee1648c0c41396"><td class="memItemLeft" align="right" valign="top">character(len=:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__bcdata_1_1bcdata__t.html#adbbfb20d00345e2320ee1648c0c41396">domain_</a></td></tr>
-<tr class="memdesc:adbbfb20d00345e2320ee1648c0c41396"><td class="mdescLeft">&#160;</td><td class="mdescRight">Domain name the bcdata is associated with.  <a href="#adbbfb20d00345e2320ee1648c0c41396">More...</a><br /></td></tr>
+<tr class="memitem:adbbfb20d00345e2320ee1648c0c41396"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adbbfb20d00345e2320ee1648c0c41396"></a>
+character(len=:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__bcdata_1_1bcdata__t.html#adbbfb20d00345e2320ee1648c0c41396">domain_</a></td></tr>
+<tr class="memdesc:adbbfb20d00345e2320ee1648c0c41396"><td class="mdescLeft">&#160;</td><td class="mdescRight">Domain name the bcdata is associated with. <br /></td></tr>
 <tr class="separator:adbbfb20d00345e2320ee1648c0c41396"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a40539cf302a07dc090441f62b001596a"><td class="memItemLeft" align="right" valign="top">type(<a class="el" href="structtype__bcwrapper_1_1bcwrapper__t.html">bcwrapper_t</a>), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__bcdata_1_1bcdata__t.html#a40539cf302a07dc090441f62b001596a">bcs</a></td></tr>
-<tr class="memdesc:a40539cf302a07dc090441f62b001596a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array of boundary conditions for each face.  <a href="#a40539cf302a07dc090441f62b001596a">More...</a><br /></td></tr>
+<tr class="memitem:a40539cf302a07dc090441f62b001596a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a40539cf302a07dc090441f62b001596a"></a>
+type(<a class="el" href="structtype__bcwrapper_1_1bcwrapper__t.html">bcwrapper_t</a>), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__bcdata_1_1bcdata__t.html#a40539cf302a07dc090441f62b001596a">bcs</a></td></tr>
+<tr class="memdesc:a40539cf302a07dc090441f62b001596a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array of boundary conditions for each face. <br /></td></tr>
 <tr class="separator:a40539cf302a07dc090441f62b001596a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4941b327749789a28a7dfcadc6ea07c1"><td class="memItemLeft" align="right" valign="top">integer(ik), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__bcdata_1_1bcdata__t.html#a4941b327749789a28a7dfcadc6ea07c1">bcface</a></td></tr>
-<tr class="memdesc:a4941b327749789a28a7dfcadc6ea07c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">bc face index. XI_MIN, XI_MAX, ETA_MIN, etc.  <a href="#a4941b327749789a28a7dfcadc6ea07c1">More...</a><br /></td></tr>
+<tr class="memitem:a4941b327749789a28a7dfcadc6ea07c1"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4941b327749789a28a7dfcadc6ea07c1"></a>
+integer(ik), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__bcdata_1_1bcdata__t.html#a4941b327749789a28a7dfcadc6ea07c1">bcface</a></td></tr>
+<tr class="memdesc:a4941b327749789a28a7dfcadc6ea07c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">bc face index. XI_MIN, XI_MAX, ETA_MIN, etc. <br /></td></tr>
 <tr class="separator:a4941b327749789a28a7dfcadc6ea07c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>This container is used to load information from a grid file and pass that back to ChiDG so it can be initialized. </p>
 <dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>2/5/2016 </dd></dl>
-</div><h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a4941b327749789a28a7dfcadc6ea07c1"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">integer(ik), dimension(:), allocatable type_bcdata::bcdata_t::bcface</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>bc face index. XI_MIN, XI_MAX, ETA_MIN, etc. </p>
-
-</div>
-</div>
-<a class="anchor" id="a40539cf302a07dc090441f62b001596a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">type(<a class="el" href="structtype__bcwrapper_1_1bcwrapper__t.html">bcwrapper_t</a>), dimension(:), allocatable type_bcdata::bcdata_t::bcs</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Array of boundary conditions for each face. </p>
-
-</div>
-</div>
-<a class="anchor" id="adbbfb20d00345e2320ee1648c0c41396"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">character(len=:), allocatable type_bcdata::bcdata_t::domain_</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Domain name the bcdata is associated with. </p>
-
-</div>
-</div>
-<hr/>The documentation for this type was generated from the following file:<ul>
-<li>/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG/src/boundary_conditions/<a class="el" href="type__bcdata_8f90.html">type_bcdata.f90</a></li>
+</div><hr/>The documentation for this type was generated from the following file:<ul>
+<li>/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG/src/boundary_conditions/type_bcdata.f90</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespacetype__bcdata.html">type_bcdata</a></li><li class="navelem"><a class="el" href="structtype__bcdata_1_1bcdata__t.html">bcdata_t</a></li>
-    <li class="footer">Generated on Sun Jul 10 2016 15:02:50 for ChiDG by
+    <li class="navelem"><b>type_bcdata</b></li><li class="navelem"><a class="el" href="structtype__bcdata_1_1bcdata__t.html">bcdata_t</a></li>
+    <li class="footer">Generated on Mon Jul 18 2016 20:22:40 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

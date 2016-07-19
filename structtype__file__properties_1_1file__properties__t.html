@@ -38,7 +38,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/SVG"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="./MathJax/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -118,203 +118,63 @@ $(document).ready(function(){initNavTree('structtype__file__properties_1_1file__
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:acc48d2a71dbed0dbb16505d9e332f250"><td class="memItemLeft" align="right" valign="top">procedure&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__file__properties_1_1file__properties__t.html#acc48d2a71dbed0dbb16505d9e332f250">set_ndomains</a></td></tr>
+<tr class="memitem:acc48d2a71dbed0dbb16505d9e332f250"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acc48d2a71dbed0dbb16505d9e332f250"></a>
+procedure&#160;</td><td class="memItemRight" valign="bottom"><b>set_ndomains</b></td></tr>
 <tr class="separator:acc48d2a71dbed0dbb16505d9e332f250"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a038f327855cfeae629639a7c87c0201e"><td class="memItemLeft" align="right" valign="top">logical&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__file__properties_1_1file__properties__t.html#a038f327855cfeae629639a7c87c0201e">contains_grid</a> = .false.</td></tr>
+<tr class="memitem:a038f327855cfeae629639a7c87c0201e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a038f327855cfeae629639a7c87c0201e"></a>
+logical&#160;</td><td class="memItemRight" valign="bottom"><b>contains_grid</b> = .false.</td></tr>
 <tr class="separator:a038f327855cfeae629639a7c87c0201e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a398924e2c9727eb78b1c9421a0c45bfc"><td class="memItemLeft" align="right" valign="top">logical&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__file__properties_1_1file__properties__t.html#a398924e2c9727eb78b1c9421a0c45bfc">contains_solution</a> = .false.</td></tr>
+<tr class="memitem:a398924e2c9727eb78b1c9421a0c45bfc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a398924e2c9727eb78b1c9421a0c45bfc"></a>
+logical&#160;</td><td class="memItemRight" valign="bottom"><b>contains_solution</b> = .false.</td></tr>
 <tr class="separator:a398924e2c9727eb78b1c9421a0c45bfc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf63040e1d86ae8bd352ae94191079b4"><td class="memItemLeft" align="right" valign="top">integer(ik)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__file__properties_1_1file__properties__t.html#acf63040e1d86ae8bd352ae94191079b4">ndomains</a> = 0</td></tr>
-<tr class="memdesc:acf63040e1d86ae8bd352ae94191079b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of domains in the file.  <a href="#acf63040e1d86ae8bd352ae94191079b4">More...</a><br /></td></tr>
+<tr class="memitem:acf63040e1d86ae8bd352ae94191079b4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acf63040e1d86ae8bd352ae94191079b4"></a>
+integer(ik)&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__file__properties_1_1file__properties__t.html#acf63040e1d86ae8bd352ae94191079b4">ndomains</a> = 0</td></tr>
+<tr class="memdesc:acf63040e1d86ae8bd352ae94191079b4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of domains in the file. <br /></td></tr>
 <tr class="separator:acf63040e1d86ae8bd352ae94191079b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab165ed90766f20c60a97c0bf5b4eca7a"><td class="memItemLeft" align="right" valign="top">character(len=1024), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__file__properties_1_1file__properties__t.html#ab165ed90766f20c60a97c0bf5b4eca7a">domain_names</a></td></tr>
+<tr class="memitem:ab165ed90766f20c60a97c0bf5b4eca7a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab165ed90766f20c60a97c0bf5b4eca7a"></a>
+character(len=1024), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><b>domain_names</b></td></tr>
 <tr class="separator:ab165ed90766f20c60a97c0bf5b4eca7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f9f23907c07caf3804cbe6aefe522d9"><td class="memItemLeft" align="right" valign="top">integer(ik), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__file__properties_1_1file__properties__t.html#a3f9f23907c07caf3804cbe6aefe522d9">order_c</a></td></tr>
-<tr class="memdesc:a3f9f23907c07caf3804cbe6aefe522d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coordinate order ( 1st, 2nd, 3rd, etc. )  <a href="#a3f9f23907c07caf3804cbe6aefe522d9">More...</a><br /></td></tr>
+<tr class="memitem:a3f9f23907c07caf3804cbe6aefe522d9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3f9f23907c07caf3804cbe6aefe522d9"></a>
+integer(ik), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__file__properties_1_1file__properties__t.html#a3f9f23907c07caf3804cbe6aefe522d9">order_c</a></td></tr>
+<tr class="memdesc:a3f9f23907c07caf3804cbe6aefe522d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coordinate order ( 1st, 2nd, 3rd, etc. ) <br /></td></tr>
 <tr class="separator:a3f9f23907c07caf3804cbe6aefe522d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5b685c46c7abad03fe5a6ccf4a0236d"><td class="memItemLeft" align="right" valign="top">integer(ik), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__file__properties_1_1file__properties__t.html#af5b685c46c7abad03fe5a6ccf4a0236d">order_s</a></td></tr>
-<tr class="memdesc:af5b685c46c7abad03fe5a6ccf4a0236d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solution order ( 1st, 2nd, 3rd, etc. )  <a href="#af5b685c46c7abad03fe5a6ccf4a0236d">More...</a><br /></td></tr>
+<tr class="memitem:af5b685c46c7abad03fe5a6ccf4a0236d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af5b685c46c7abad03fe5a6ccf4a0236d"></a>
+integer(ik), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__file__properties_1_1file__properties__t.html#af5b685c46c7abad03fe5a6ccf4a0236d">order_s</a></td></tr>
+<tr class="memdesc:af5b685c46c7abad03fe5a6ccf4a0236d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Solution order ( 1st, 2nd, 3rd, etc. ) <br /></td></tr>
 <tr class="separator:af5b685c46c7abad03fe5a6ccf4a0236d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78a8e413388356fc2f074eb9fb68c174"><td class="memItemLeft" align="right" valign="top">integer(ik), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__file__properties_1_1file__properties__t.html#a78a8e413388356fc2f074eb9fb68c174">nterms_c</a></td></tr>
-<tr class="memdesc:a78a8e413388356fc2f074eb9fb68c174"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of terms in the coordinate expansion.  <a href="#a78a8e413388356fc2f074eb9fb68c174">More...</a><br /></td></tr>
+<tr class="memitem:a78a8e413388356fc2f074eb9fb68c174"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a78a8e413388356fc2f074eb9fb68c174"></a>
+integer(ik), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__file__properties_1_1file__properties__t.html#a78a8e413388356fc2f074eb9fb68c174">nterms_c</a></td></tr>
+<tr class="memdesc:a78a8e413388356fc2f074eb9fb68c174"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of terms in the coordinate expansion. <br /></td></tr>
 <tr class="separator:a78a8e413388356fc2f074eb9fb68c174"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a492fa070c0175f216d63e5c9972743c4"><td class="memItemLeft" align="right" valign="top">integer(ik), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__file__properties_1_1file__properties__t.html#a492fa070c0175f216d63e5c9972743c4">nterms_s</a></td></tr>
-<tr class="memdesc:a492fa070c0175f216d63e5c9972743c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of terms in the solution expansion.  <a href="#a492fa070c0175f216d63e5c9972743c4">More...</a><br /></td></tr>
+<tr class="memitem:a492fa070c0175f216d63e5c9972743c4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a492fa070c0175f216d63e5c9972743c4"></a>
+integer(ik), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__file__properties_1_1file__properties__t.html#a492fa070c0175f216d63e5c9972743c4">nterms_s</a></td></tr>
+<tr class="memdesc:a492fa070c0175f216d63e5c9972743c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of terms in the solution expansion. <br /></td></tr>
 <tr class="separator:a492fa070c0175f216d63e5c9972743c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8788f5421be8688a79253d700712a97"><td class="memItemLeft" align="right" valign="top">integer(ik), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__file__properties_1_1file__properties__t.html#ac8788f5421be8688a79253d700712a97">spacedim</a></td></tr>
-<tr class="memdesc:ac8788f5421be8688a79253d700712a97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of spatial dimensions.  <a href="#ac8788f5421be8688a79253d700712a97">More...</a><br /></td></tr>
+<tr class="memitem:ac8788f5421be8688a79253d700712a97"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac8788f5421be8688a79253d700712a97"></a>
+integer(ik), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__file__properties_1_1file__properties__t.html#ac8788f5421be8688a79253d700712a97">spacedim</a></td></tr>
+<tr class="memdesc:ac8788f5421be8688a79253d700712a97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of spatial dimensions. <br /></td></tr>
 <tr class="separator:ac8788f5421be8688a79253d700712a97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a335407c6a2630c5f3758261074e608ed"><td class="memItemLeft" align="right" valign="top">character(len=1024), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__file__properties_1_1file__properties__t.html#a335407c6a2630c5f3758261074e608ed">eqnset</a></td></tr>
-<tr class="memdesc:a335407c6a2630c5f3758261074e608ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equation set specified in the file.  <a href="#a335407c6a2630c5f3758261074e608ed">More...</a><br /></td></tr>
+<tr class="memitem:a335407c6a2630c5f3758261074e608ed"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a335407c6a2630c5f3758261074e608ed"></a>
+character(len=1024), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__file__properties_1_1file__properties__t.html#a335407c6a2630c5f3758261074e608ed">eqnset</a></td></tr>
+<tr class="memdesc:a335407c6a2630c5f3758261074e608ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equation set specified in the file. <br /></td></tr>
 <tr class="separator:a335407c6a2630c5f3758261074e608ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>2/3/2016 </dd></dl>
-</div><h2 class="groupheader">Member Function/Subroutine Documentation</h2>
-<a class="anchor" id="acc48d2a71dbed0dbb16505d9e332f250"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">procedure type_file_properties::file_properties_t::set_ndomains </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a038f327855cfeae629639a7c87c0201e"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">logical type_file_properties::file_properties_t::contains_grid = .false.</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a398924e2c9727eb78b1c9421a0c45bfc"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">logical type_file_properties::file_properties_t::contains_solution = .false.</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="ab165ed90766f20c60a97c0bf5b4eca7a"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">character(len=1024), dimension(:), allocatable type_file_properties::file_properties_t::domain_names</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a class="anchor" id="a335407c6a2630c5f3758261074e608ed"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">character(len=1024), dimension(:), allocatable type_file_properties::file_properties_t::eqnset</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Equation set specified in the file. </p>
-
-</div>
-</div>
-<a class="anchor" id="acf63040e1d86ae8bd352ae94191079b4"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">integer(ik) type_file_properties::file_properties_t::ndomains = 0</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Number of domains in the file. </p>
-
-</div>
-</div>
-<a class="anchor" id="a78a8e413388356fc2f074eb9fb68c174"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">integer(ik), dimension(:), allocatable type_file_properties::file_properties_t::nterms_c</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Number of terms in the coordinate expansion. </p>
-
-</div>
-</div>
-<a class="anchor" id="a492fa070c0175f216d63e5c9972743c4"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">integer(ik), dimension(:), allocatable type_file_properties::file_properties_t::nterms_s</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Number of terms in the solution expansion. </p>
-
-</div>
-</div>
-<a class="anchor" id="a3f9f23907c07caf3804cbe6aefe522d9"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">integer(ik), dimension(:), allocatable type_file_properties::file_properties_t::order_c</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Coordinate order ( 1st, 2nd, 3rd, etc. ) </p>
-
-</div>
-</div>
-<a class="anchor" id="af5b685c46c7abad03fe5a6ccf4a0236d"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">integer(ik), dimension(:), allocatable type_file_properties::file_properties_t::order_s</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Solution order ( 1st, 2nd, 3rd, etc. ) </p>
-
-</div>
-</div>
-<a class="anchor" id="ac8788f5421be8688a79253d700712a97"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">integer(ik), dimension(:), allocatable type_file_properties::file_properties_t::spacedim</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Number of spatial dimensions. </p>
-
-</div>
-</div>
-<hr/>The documentation for this type was generated from the following file:<ul>
-<li>/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG/src/io/<a class="el" href="type__file__properties_8f90.html">type_file_properties.f90</a></li>
+</div><hr/>The documentation for this type was generated from the following file:<ul>
+<li>/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG/src/io/type_file_properties.f90</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespacetype__file__properties.html">type_file_properties</a></li><li class="navelem"><a class="el" href="structtype__file__properties_1_1file__properties__t.html">file_properties_t</a></li>
-    <li class="footer">Generated on Sun Jul 10 2016 15:02:51 for ChiDG by
+    <li class="navelem"><b>type_file_properties</b></li><li class="navelem"><a class="el" href="structtype__file__properties_1_1file__properties__t.html">file_properties_t</a></li>
+    <li class="footer">Generated on Mon Jul 18 2016 20:22:40 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

@@ -38,7 +38,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/SVG"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="./MathJax/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -120,56 +120,29 @@ $(document).ready(function(){initNavTree('structtype__bc__coupling_1_1bc__coupli
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a591b6af4b9f6d9157d7276eeb392a0af"><td class="memItemLeft" align="right" valign="top">integer(ik), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__bc__coupling_1_1bc__coupling__t.html#a591b6af4b9f6d9157d7276eeb392a0af">elems</a></td></tr>
-<tr class="memdesc:a591b6af4b9f6d9157d7276eeb392a0af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array of element indices associated with the boundary condition.  <a href="#a591b6af4b9f6d9157d7276eeb392a0af">More...</a><br /></td></tr>
+<tr class="memitem:a591b6af4b9f6d9157d7276eeb392a0af"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a591b6af4b9f6d9157d7276eeb392a0af"></a>
+integer(ik), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__bc__coupling_1_1bc__coupling__t.html#a591b6af4b9f6d9157d7276eeb392a0af">elems</a></td></tr>
+<tr class="memdesc:a591b6af4b9f6d9157d7276eeb392a0af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Array of element indices associated with the boundary condition. <br /></td></tr>
 <tr class="separator:a591b6af4b9f6d9157d7276eeb392a0af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b2c2d4b5317d93358cd4d92bc0d5e68"><td class="memItemLeft" align="right" valign="top">type(<a class="el" href="structtype__ivector_1_1ivector__t.html">ivector_t</a>), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__bc__coupling_1_1bc__coupling__t.html#a1b2c2d4b5317d93358cd4d92bc0d5e68">coupled_elems</a></td></tr>
-<tr class="memdesc:a1b2c2d4b5317d93358cd4d92bc0d5e68"><td class="mdescLeft">&#160;</td><td class="mdescRight">For each element in selfelems(:), a vector of coupled elements.  <a href="#a1b2c2d4b5317d93358cd4d92bc0d5e68">More...</a><br /></td></tr>
+<tr class="memitem:a1b2c2d4b5317d93358cd4d92bc0d5e68"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1b2c2d4b5317d93358cd4d92bc0d5e68"></a>
+type(<a class="el" href="structtype__ivector_1_1ivector__t.html">ivector_t</a>), dimension(:), allocatable&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtype__bc__coupling_1_1bc__coupling__t.html#a1b2c2d4b5317d93358cd4d92bc0d5e68">coupled_elems</a></td></tr>
+<tr class="memdesc:a1b2c2d4b5317d93358cd4d92bc0d5e68"><td class="mdescLeft">&#160;</td><td class="mdescRight">For each element in selfelems(:), a vector of coupled elements. <br /></td></tr>
 <tr class="separator:a1b2c2d4b5317d93358cd4d92bc0d5e68"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Container for holding coupling information for a boundary condition. </p>
 <dl class="section author"><dt>Author</dt><dd>Nathan A. Wukie </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>2/16/2016 </dd></dl>
-</div><h2 class="groupheader">Member Data Documentation</h2>
-<a class="anchor" id="a1b2c2d4b5317d93358cd4d92bc0d5e68"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">type(<a class="el" href="structtype__ivector_1_1ivector__t.html">ivector_t</a>), dimension(:), allocatable type_bc_coupling::bc_coupling_t::coupled_elems</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>For each element in selfelems(:), a vector of coupled elements. </p>
-
-</div>
-</div>
-<a class="anchor" id="a591b6af4b9f6d9157d7276eeb392a0af"></a>
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">integer(ik), dimension(:), allocatable type_bc_coupling::bc_coupling_t::elems</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Array of element indices associated with the boundary condition. </p>
-
-</div>
-</div>
-<hr/>The documentation for this type was generated from the following file:<ul>
-<li>/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG/src/boundary_conditions/<a class="el" href="type__bc__coupling_8f90.html">type_bc_coupling.f90</a></li>
+</div><hr/>The documentation for this type was generated from the following file:<ul>
+<li>/Users/nathanwukie/Documents/schooldocuments/graduate/phd/ChiDG/src/boundary_conditions/type_bc_coupling.f90</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="namespacetype__bc__coupling.html">type_bc_coupling</a></li><li class="navelem"><a class="el" href="structtype__bc__coupling_1_1bc__coupling__t.html">bc_coupling_t</a></li>
-    <li class="footer">Generated on Sun Jul 10 2016 15:02:50 for ChiDG by
+    <li class="navelem"><b>type_bc_coupling</b></li><li class="navelem"><a class="el" href="structtype__bc__coupling_1_1bc__coupling__t.html">bc_coupling_t</a></li>
+    <li class="footer">Generated on Mon Jul 18 2016 20:22:40 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>

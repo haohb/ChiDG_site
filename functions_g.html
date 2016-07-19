@@ -38,7 +38,7 @@
     extensions: ["tex2jax.js"],
     jax: ["input/TeX","output/SVG"],
 });
-</script><script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js"></script>
+</script><script src="./MathJax/MathJax.js"></script>
 <link href="doxygen.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
@@ -107,30 +107,17 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
 </div>
 
 <div class="contents">
-<div class="textblock">Here is a list of all data types members with links to the data types they belong to:</div>
+<div class="textblock">Here is a list of all documented data types members with links to the data structure documentation for each member</div>
 
 <h3><a class="anchor" id="index_g"></a>- g -</h3><ul>
-<li>gam
-: <a class="el" href="structfcn__isentropic__vortex_1_1isentropic__vortex__f.html#a2d8ca90dfd7f744ab1b9007ffebc6a2e">fcn_isentropic_vortex::isentropic_vortex_f</a>
-, <a class="el" href="structfcn__sod__shock__tube_1_1sod__shock__tube__f.html#ae4af780f5ad81401d35b34590e54d568">fcn_sod_shock_tube::sod_shock_tube_f</a>
-</li>
 <li>geominitialized
-: <a class="el" href="structtype__element_1_1element__t.html#a4dae9bdddef116bafa2053c9bcf23637">type_element::element_t</a>
-, <a class="el" href="structtype__face_1_1face__t.html#a3c6c621b7c5720b852d3a75cceaa8e3a">type_face::face_t</a>
-, <a class="el" href="structtype__mesh_1_1mesh__t.html#a181a4305290943baf969d4d7f49b334d">type_mesh::mesh_t</a>
+: <a class="el" href="structtype__mesh_1_1mesh__t.html#a181a4305290943baf969d4d7f49b334d">type_mesh::mesh_t</a>
 </li>
 <li>get()
 : <a class="el" href="structtype__bcproperty_1_1bcproperty__t.html#a8c815f926c2ab1a55600bfd3177aec96">type_bcproperty::bcproperty_t</a>
-, <a class="el" href="structtype__dict_1_1dict__t.html#a3bf2b7e084274da9dbb2116f6752b618">type_dict::dict_t</a>
-</li>
-<li>get_bcset_coupling()
-: <a class="el" href="structtype__bcset_1_1bcset__t.html#ae6b497ce3f27dc3d25629edfd81bbd86">type_bcset::bcset_t</a>
 </li>
 <li>get_domain_index()
 : <a class="el" href="structtype__chidg__data_1_1chidg__data__t.html#a093309e3d1c8174da125abf97dbb11cf">type_chidg_data::chidg_data_t</a>
-</li>
-<li>get_eqn_index()
-: <a class="el" href="structtype__properties_1_1properties__t.html#af71b7a0a51eb33a3df4e87e74482614b">type_properties::properties_t</a>
 </li>
 <li>get_key_index()
 : <a class="el" href="structtype__function_1_1function__t.html#a8f1bb55e1a5694d780a4921fa8ae001e">type_function::function_t</a>
@@ -138,7 +125,6 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
 <li>get_name()
 : <a class="el" href="structtype__bc_1_1bc__t.html#aa524542c4cbff30f0813ca5316b06e5d">type_bc::bc_t</a>
 , <a class="el" href="structtype__bcproperty_1_1bcproperty__t.html#a0681583bd16b132648d655c5b672efb4">type_bcproperty::bcproperty_t</a>
-, <a class="el" href="structtype__equationset_1_1equationset__t.html#aade63947341137b348b1cbb976cbfbdf">type_equationset::equationset_t</a>
 , <a class="el" href="structtype__function_1_1function__t.html#aacec38fb9dea174eaab745b132cb4139">type_function::function_t</a>
 </li>
 <li>get_ncoupled_elems()
@@ -176,12 +162,6 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
 : <a class="el" href="structtype__bc_1_1bc__t.html#aad353f994789a597ccba7438d3e91f72">type_bc::bc_t</a>
 , <a class="el" href="structtype__bcproperty__set_1_1bcproperty__set__t.html#a756e01ac316e4907f5077f77ef72e4ab">type_bcproperty_set::bcproperty_set_t</a>
 </li>
-<li>getterm()
-: <a class="el" href="structtype__densevector_1_1densevector__t.html#ac65439d87c6e3ca9e1034ef2bb2ca2bb">type_densevector::densevector_t</a>
-</li>
-<li>getvar()
-: <a class="el" href="structtype__densevector_1_1densevector__t.html#af0cc281c145a5868a1ea6160c3b33aff">type_densevector::densevector_t</a>
-</li>
 <li>gq
 : <a class="el" href="structtype__element_1_1element__t.html#af82a58566d07c0e026fa0bc5c469a548">type_element::element_t</a>
 , <a class="el" href="structtype__face_1_1face__t.html#ad30763005752570b9a6aca97c5998c41">type_face::face_t</a>
@@ -199,7 +179,7 @@ $(document).ready(function(){initNavTree('functions_g.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Sun Jul 10 2016 15:02:53 for ChiDG by
+    <li class="footer">Generated on Mon Jul 18 2016 20:22:42 for ChiDG by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.10 </li>
   </ul>
