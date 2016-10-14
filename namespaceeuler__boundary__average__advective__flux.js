@@ -1,4 +1,0 @@
-var namespaceeuler__boundary__average__advective__flux =
-[
-    [ "euler_boundary_average_advective_flux_t", "structeuler__boundary__average__advective__flux_1_1euler__boundary__average__advective__flux__t.html", "structeuler__boundary__average__advective__flux_1_1euler__boundary__average__advective__flux__t" ]
-];

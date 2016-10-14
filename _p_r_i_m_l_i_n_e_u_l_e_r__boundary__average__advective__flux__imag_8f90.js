@@ -1,5 +1,0 @@
-var _p_r_i_m_l_i_n_e_u_l_e_r__boundary__average__advective__flux__imag_8f90 =
-[
-    [ "primlineuler_boundary_average_advective_flux_imag_t", "structprimlineuler__boundary__average__advective__flux__imag_1_1primlineuler__boundary__average__advective__flux__imag__t.html", "structprimlineuler__boundary__average__advective__flux__imag_1_1primlineuler__boundary__average__advective__flux__imag__t" ],
-    [ "compute", "_p_r_i_m_l_i_n_e_u_l_e_r__boundary__average__advective__flux__imag_8f90.html#ad2fc6128e8d60be7ed3ab5c1c2eb4d28", null ]
-];

@@ -1,4 +1,0 @@
-var structprimlineuleraxi__laxfriedrichs__flux__real_1_1primlineuleraxi__laxfriedrichs__flux__real__t =
-[
-    [ "compute", "structprimlineuleraxi__laxfriedrichs__flux__real_1_1primlineuleraxi__laxfriedrichs__flux__real__t.html#aac5f28c6ae11371a3858f8b050ff9bca", null ]
-];

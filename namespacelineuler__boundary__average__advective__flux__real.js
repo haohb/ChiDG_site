@@ -1,4 +1,0 @@
-var namespacelineuler__boundary__average__advective__flux__real =
-[
-    [ "lineuler_boundary_average_advective_flux_real_t", "structlineuler__boundary__average__advective__flux__real_1_1lineuler__boundary__average__advective__flux__real__t.html", "structlineuler__boundary__average__advective__flux__real_1_1lineuler__boundary__average__advective__flux__real__t" ]
-];

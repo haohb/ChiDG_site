@@ -1,5 +1,0 @@
-var structprimlineuleraxi__volume__advective__source__imag_1_1primlineuleraxi__volume__advective__source__imag__t =
-[
-    [ "compute", "structprimlineuleraxi__volume__advective__source__imag_1_1primlineuleraxi__volume__advective__source__imag__t.html#a0e6d235a77ba5348e472d35c88b1f022", null ],
-    [ "compute", "structprimlineuleraxi__volume__advective__source__imag_1_1primlineuleraxi__volume__advective__source__imag__t.html#a0e6d235a77ba5348e472d35c88b1f022", null ]
-];

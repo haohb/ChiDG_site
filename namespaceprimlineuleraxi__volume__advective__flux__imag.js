@@ -1,4 +1,0 @@
-var namespaceprimlineuleraxi__volume__advective__flux__imag =
-[
-    [ "primlineuleraxi_volume_advective_flux_imag_t", "structprimlineuleraxi__volume__advective__flux__imag_1_1primlineuleraxi__volume__advective__flux__imag__t.html", "structprimlineuleraxi__volume__advective__flux__imag_1_1primlineuleraxi__volume__advective__flux__imag__t" ]
-];

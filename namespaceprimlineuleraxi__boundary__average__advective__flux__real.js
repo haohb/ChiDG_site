@@ -1,4 +1,0 @@
-var namespaceprimlineuleraxi__boundary__average__advective__flux__real =
-[
-    [ "primlineuleraxi_boundary_average_advective_flux_real_t", "structprimlineuleraxi__boundary__average__advective__flux__real_1_1primlineuleraxi__boundary__average__advective__flux__real__t.html", "structprimlineuleraxi__boundary__average__advective__flux__real_1_1primlineuleraxi__boundary__average__advective__flux__real__t" ]
-];

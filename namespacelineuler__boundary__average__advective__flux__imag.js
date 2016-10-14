@@ -1,4 +1,0 @@
-var namespacelineuler__boundary__average__advective__flux__imag =
-[
-    [ "lineuler_boundary_average_advective_flux_imag_t", "structlineuler__boundary__average__advective__flux__imag_1_1lineuler__boundary__average__advective__flux__imag__t.html", "structlineuler__boundary__average__advective__flux__imag_1_1lineuler__boundary__average__advective__flux__imag__t" ]
-];

@@ -1,4 +1,0 @@
-var namespaceprimlineuler__volume__advective__source__imag =
-[
-    [ "primlineuler_volume_advective_source_imag_t", "structprimlineuler__volume__advective__source__imag_1_1primlineuler__volume__advective__source__imag__t.html", "structprimlineuler__volume__advective__source__imag_1_1primlineuler__volume__advective__source__imag__t" ]
-];

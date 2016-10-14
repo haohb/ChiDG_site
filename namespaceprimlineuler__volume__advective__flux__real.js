@@ -1,4 +1,0 @@
-var namespaceprimlineuler__volume__advective__flux__real =
-[
-    [ "primlineuler_volume_advective_flux_real_t", "structprimlineuler__volume__advective__flux__real_1_1primlineuler__volume__advective__flux__real__t.html", "structprimlineuler__volume__advective__flux__real_1_1primlineuler__volume__advective__flux__real__t" ]
-];

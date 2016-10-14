@@ -1,5 +1,0 @@
-var _p_r_i_m_l_i_n_e_u_l_e_r_a_x_i__volume__advective__source__imag_8f90 =
-[
-    [ "primlineuleraxi_volume_advective_source_imag_t", "structprimlineuleraxi__volume__advective__source__imag_1_1primlineuleraxi__volume__advective__source__imag__t.html", "structprimlineuleraxi__volume__advective__source__imag_1_1primlineuleraxi__volume__advective__source__imag__t" ],
-    [ "compute", "_p_r_i_m_l_i_n_e_u_l_e_r_a_x_i__volume__advective__source__imag_8f90.html#a4c0dd4ae697539751ac0c8ad2808c815", null ]
-];

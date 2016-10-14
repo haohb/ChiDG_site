@@ -1,5 +1,0 @@
-var _p_r_i_m_l_i_n_e_u_l_e_r_a_x_i__volume__advective__sourceterms__real_8f90 =
-[
-    [ "primlineuleraxi_volume_advective_sourceterms_real_t", "structprimlineuleraxi__volume__advective__sourceterms__real_1_1primlineuleraxi__volume__advective__sourceterms__real__t.html", "structprimlineuleraxi__volume__advective__sourceterms__real_1_1primlineuleraxi__volume__advective__sourceterms__real__t" ],
-    [ "compute", "_p_r_i_m_l_i_n_e_u_l_e_r_a_x_i__volume__advective__sourceterms__real_8f90.html#a1591b579bf6715f0572973a67a74458a", null ]
-];

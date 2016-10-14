@@ -1,4 +1,0 @@
-var namespaceprimlineuler__boundary__average__advective__flux__imag =
-[
-    [ "primlineuler_boundary_average_advective_flux_imag_t", "structprimlineuler__boundary__average__advective__flux__imag_1_1primlineuler__boundary__average__advective__flux__imag__t.html", "structprimlineuler__boundary__average__advective__flux__imag_1_1primlineuler__boundary__average__advective__flux__imag__t" ]
-];

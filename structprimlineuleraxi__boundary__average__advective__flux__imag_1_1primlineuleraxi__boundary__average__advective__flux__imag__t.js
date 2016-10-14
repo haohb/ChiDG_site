@@ -1,4 +1,0 @@
-var structprimlineuleraxi__boundary__average__advective__flux__imag_1_1primlineuleraxi__boundary__average__advective__flux__imag__t =
-[
-    [ "compute", "structprimlineuleraxi__boundary__average__advective__flux__imag_1_1primlineuleraxi__boundary__average__advective__flux__imag__t.html#a4450e97619489d5d2ffcf1aa1aad022c", null ]
-];

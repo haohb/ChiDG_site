@@ -1,4 +1,0 @@
-var namespacebc__euler__totalinlet__characteristic =
-[
-    [ "euler_totalinlet_characteristic_t", "structbc__euler__totalinlet__characteristic_1_1euler__totalinlet__characteristic__t.html", "structbc__euler__totalinlet__characteristic_1_1euler__totalinlet__characteristic__t" ]
-];

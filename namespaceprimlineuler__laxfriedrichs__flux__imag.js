@@ -1,4 +1,0 @@
-var namespaceprimlineuler__laxfriedrichs__flux__imag =
-[
-    [ "primlineuler_laxfriedrichs_flux_imag_t", "structprimlineuler__laxfriedrichs__flux__imag_1_1primlineuler__laxfriedrichs__flux__imag__t.html", "structprimlineuler__laxfriedrichs__flux__imag_1_1primlineuler__laxfriedrichs__flux__imag__t" ]
-];

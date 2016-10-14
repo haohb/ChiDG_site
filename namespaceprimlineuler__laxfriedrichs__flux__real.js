@@ -1,4 +1,0 @@
-var namespaceprimlineuler__laxfriedrichs__flux__real =
-[
-    [ "primlineuler_laxfriedrichs_flux_real_t", "structprimlineuler__laxfriedrichs__flux__real_1_1primlineuler__laxfriedrichs__flux__real__t.html", "structprimlineuler__laxfriedrichs__flux__real_1_1primlineuler__laxfriedrichs__flux__real__t" ]
-];

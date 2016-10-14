@@ -1,4 +1,0 @@
-var structprimlineuler__volume__advective__source__real_1_1primlineuler__volume__advective__source__real__t =
-[
-    [ "compute", "structprimlineuler__volume__advective__source__real_1_1primlineuler__volume__advective__source__real__t.html#adbb3e50e4dde14d59eb734723b39d1f6", null ]
-];

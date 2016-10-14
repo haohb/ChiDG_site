@@ -1,4 +1,0 @@
-var namespacelineuler__volume__advective__sourceterms__real =
-[
-    [ "lineuler_volume_advective_sourceterms_real_t", "structlineuler__volume__advective__sourceterms__real_1_1lineuler__volume__advective__sourceterms__real__t.html", "structlineuler__volume__advective__sourceterms__real_1_1lineuler__volume__advective__sourceterms__real__t" ]
-];
